@@ -11,12 +11,19 @@
 VLM_output_judge/*
 VLM_output/*
 MIQA_extracted_score/*
+logs/*
+!VLM_output_judge/.gitkeep
+!VLM_output/.gitkeep
+!MIQA_extracted_score/.gitkeep
+!VLM_output_/.gitkeep
 
 # 忽略 data/results 目录下的所有文件（但不忽略目录本身）
 data/results/*
+!data/results/.gitkeep
 
 # 忽略 data/tsv 目录下的所有文件（但不忽略目录本身）
 data/tsv/*
+!data/tsv/.gitkeep
 
 # 忽略 Python 编译文件和虚拟环境
 __pycache__/
