@@ -8,9 +8,9 @@
 *.env
 
 # 忽略特定目录及其内容
-VLM_output_judge/
-VLM_output/
-MIQA_extracted_score/
+VLM_output_judge/*
+VLM_output/*
+MIQA_extracted_score/*
 
 # 忽略 data/results 目录下的所有文件（但不忽略目录本身）
 data/results/*
