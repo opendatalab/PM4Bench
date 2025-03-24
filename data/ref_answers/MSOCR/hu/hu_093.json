@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Katalán nyelv Modernizmus Űrturizmus",
+            "font_size": 40
+        },
+        {
+            "text": "Kanári Villamosmérnök Strandlabdarúgás",
+            "font_size": 38
+        },
+        {
+            "text": "Cirill ábécé Gépi fordítás Törökök Számítógépes grafika",
+            "font_size": 36
+        },
+        {
+            "text": "Angolok Görög ábécé Agapornis Binomiális tétel",
+            "font_size": 34
+        },
+        {
+            "text": "Szövetes növények Égi egyenlítő Japán fürj Kártyajáték",
+            "font_size": 32
+        },
+        {
+            "text": "Otthonoktatás Buzogányfejű férgek Albatroszfélék Operációs rendszer",
+            "font_size": 30
+        },
+        {
+            "text": "Világörökség Takarmánylucerna Pitagorasz Otthonoktatás",
+            "font_size": 28
+        },
+        {
+            "text": "Egyéves növény Antidepresszáns Vegetarianizmus Keringési idő Azori",
+            "font_size": 26
+        },
+        {
+            "text": "Pasztőrözés Szabad licenc Hasábburgonya Gépi fordítás Mobiltelefon",
+            "font_size": 24
+        },
+        {
+            "text": "Húsvét Ermitázs Bomlás Könnyűzene Francia Akadémia Zenei műfaj",
+            "font_size": 22
+        },
+        {
+            "text": "Határköltség Autópálya Afta Piemont Borostyánút Római provinciák",
+            "font_size": 20
+        },
+        {
+            "text": "Prokarióták Guvat Triatlon Piemont Természettudomány Rakétahajtómű",
+            "font_size": 18
+        },
+        {
+            "text": "Biotechnológia Villamos Hövszgöl Lombardia Plutarkhosz Alpok",
+            "font_size": 16
+        },
+        {
+            "text": "Enciklopédia Örvös medve Örvös medve Üzemanyagcella Csillagkeletkezés Menstruációs ciklus",
+            "font_size": 14
+        },
+        {
+            "text": "Szuperhős Sejtbiológia Nyomelem Fogszabályozás Sárgaúszójú tonhal Buzogányfejű férgek",
+            "font_size": 12
+        },
+        {
+            "text": "Eurázsia Repülőgép Hámszövet Homeopátia Angolok Szarka",
+            "font_size": 10
+        },
+        {
+            "text": "Csillagfejlődés Szerepjáték Gépi fordítás Számítógépes grafika Azori Hindu",
+            "font_size": 8
+        },
+        {
+            "text": "Afrikai aranymacska Szociális munka Binomiális tétel Bioinformatika Szupravezetés Strandlabdarúgás",
+            "font_size": 6
+        },
+        {
+            "text": "Filmes munkakörök Olasz konyhaművészet Mezo Autópálya Kognitív tudomány Baleár",
+            "font_size": 4
+        },
+        {
+            "text": "Mauritánia zászlaja Nyomelem Pastu nyelv Pszichoanalízis Svédország zászlaja Írek",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

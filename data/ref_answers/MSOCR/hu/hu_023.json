@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Német juhászkutya Termisztor Villamos",
+            "font_size": 40
+        },
+        {
+            "text": "Eukarióták Hanglemez Harmadfokú egyenlet Hérodotosz",
+            "font_size": 38
+        },
+        {
+            "text": "Mezopotámia Angolok Afta Római számírás",
+            "font_size": 36
+        },
+        {
+            "text": "Húsevő Termelési tényező Kártyajáték Vállalat",
+            "font_size": 34
+        },
+        {
+            "text": "Sziléziai vajdaság Mágikus realizmus Antwerpen Dnyeper",
+            "font_size": 32
+        },
+        {
+            "text": "Magyarok Húsvét Pireneusok Sziléziai vajdaság Török nyelv",
+            "font_size": 30
+        },
+        {
+            "text": "Baleár Dnyeper Mohaállatok Szubatomi részecske Minimalizmus",
+            "font_size": 28
+        },
+        {
+            "text": "Ermitázs Vaskor Középfölde Hellenizmus Német konyhaművészet Kunya",
+            "font_size": 26
+        },
+        {
+            "text": "Svájc zászlaja Kunya Varmia Dnyeper Bronzkor",
+            "font_size": 24
+        },
+        {
+            "text": "Makrofág Zengőlégyfélék Japán történelme Ír nyelv Guvat Világörökség Szürrealizmus",
+            "font_size": 22
+        },
+        {
+            "text": "Európai sün Litográfia Mezo Rakétahajtómű Mauritánia zászlaja Mexikói",
+            "font_size": 20
+        },
+        {
+            "text": "Villamos Gépi fordítás Világörökség Vaskor Hasábburgonya Bentosz Mauritánia",
+            "font_size": 18
+        },
+        {
+            "text": "Eurázsia Villamos Lombardia Japán történelme Csillagkeletkezés Svédország zászlaja Szarka",
+            "font_size": 16
+        },
+        {
+            "text": "Eurázsia Opolei vajdaság Egyszerű gép Észak Vapiti Pastu nyelv Mobiltelefon",
+            "font_size": 14
+        },
+        {
+            "text": "Másodfokú egyenlet Amerikai futball Cserkészet Szphinx Kártyajáték Szociolingvisztika Üzleti titok",
+            "font_size": 12
+        },
+        {
+            "text": "Agyalapi mirigy Antikvitás Cisztás fibrózis Nyomelem Szuperhatalom Kártyajáték Baleár",
+            "font_size": 10
+        },
+        {
+            "text": "Sárgaúszójú tonhal Modernizmus Grúz nyelv Dögevő Meiózis Cinematográfia Emberré válás",
+            "font_size": 8
+        },
+        {
+            "text": "Világörökség Sárgaúszójú tonhal Búbos vöcsök Szentpétervár Autoszóma Adatállomány Görög ábécé",
+            "font_size": 6
+        },
+        {
+            "text": "Karmos féreglábúak Laposférgek Ferences rend Hasábburgonya Világörökség Nyomelem Filmes munkakörök",
+            "font_size": 4
+        },
+        {
+            "text": "Franciák Kriptovaluta Szentpétervár Idegtudomány Község Átmenetifémek Minimalizmus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

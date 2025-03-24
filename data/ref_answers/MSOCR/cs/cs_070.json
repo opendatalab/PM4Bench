@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Pláštěnci Řád karmelitánů Moderátor neutronů",
+            "font_size": 40
+        },
+        {
+            "text": "Rumunština Dálnice Vesmírná turistika",
+            "font_size": 38
+        },
+        {
+            "text": "Masožravec Obec Řízení projektů Španělé",
+            "font_size": 36
+        },
+        {
+            "text": "Masožravec Quetzalcoatl Litografie Datový sklad",
+            "font_size": 34
+        },
+        {
+            "text": "Superzemě Maledivština Horní Franky Fyzikální chemie",
+            "font_size": 32
+        },
+        {
+            "text": "Výroková logika Štítová sopka Velikonoční ostrov Marrákeš Mezoamerika",
+            "font_size": 30
+        },
+        {
+            "text": "Triatlon Orel bělohlavý Menstruační cyklus Pavián babuin Kitakjúšú",
+            "font_size": 28
+        },
+        {
+            "text": "Španělé Jednoduchý stroj Mezoamerika Integrovaný obvod Raketový motor",
+            "font_size": 26
+        },
+        {
+            "text": "Tuňák křídlatý Bublinkové řazení Tolice vojtěška Akční potenciál Eneolit",
+            "font_size": 24
+        },
+        {
+            "text": "Maledivština Eurasie Strojový překlad Římské provincie Gramofonová deska Cévnaté rostliny",
+            "font_size": 22
+        },
+        {
+            "text": "Tropická cyklóna Kitakjúšú Brusel Chichén Itzá Životní pojištění Vyšší rostliny",
+            "font_size": 20
+        },
+        {
+            "text": "Dolnoněmčina Středozem Tropická cyklóna Fotovoltaický článek Petrohrad Doba železná",
+            "font_size": 18
+        },
+        {
+            "text": "Ořešák královský Peloponés Japonská kuchyně Turbodmychadlo Homeopatie Eukaryota",
+            "font_size": 16
+        },
+        {
+            "text": "Supervelmoc Šógun Hra na hrdiny Kypr Hranolky Sociální práce",
+            "font_size": 14
+        },
+        {
+            "text": "Konstantinopol Marrákeš Masožravec Skotové Toskánsko Dněpr",
+            "font_size": 12
+        },
+        {
+            "text": "Německý ovčák Teoretická fyzika Informační věda Výrobní faktor Italština Parazitologie",
+            "font_size": 10
+        },
+        {
+            "text": "Korporace Cystická fibróza Hlístice Dardanely Arabské číslice Kraslice",
+            "font_size": 8
+        },
+        {
+            "text": "Gramofonová deska Starořečtina Encyklopedie Makak červenolící Mikroekonomie Italština",
+            "font_size": 6
+        },
+        {
+            "text": "Populární kultura Měkkýši Dněpr Angličané Strunatci Mimi šéf",
+            "font_size": 4
+        },
+        {
+            "text": "Paryby Paštština Teoretická fyzika Parazitologie Doba železná Francouzská akademie",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

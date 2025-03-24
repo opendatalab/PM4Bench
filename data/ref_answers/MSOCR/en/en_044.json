@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Human history Apennine Mountains Metrosexual Smart city",
+            "font_size": 40
+        },
+        {
+            "text": "Flowering plant Stoicism Echinoderm",
+            "font_size": 38
+        },
+        {
+            "text": "Irish people Earth science Soft drink Iron Age",
+            "font_size": 36
+        },
+        {
+            "text": "French people Philippine Sea Quantum mechanics Nematode",
+            "font_size": 34
+        },
+        {
+            "text": "Flea market Nereids Analytical chemistry Monocotyledon",
+            "font_size": 32
+        },
+        {
+            "text": "Orthodontics Grisons Sapindales Easter Island Gulf of Mexico",
+            "font_size": 30
+        },
+        {
+            "text": "Cathode-ray tube Echinoderm Computer file Computer network Horror film",
+            "font_size": 28
+        },
+        {
+            "text": "Blue-footed booby Cyprus Genetic code Antwerp Kitakyushu Psychotherapy",
+            "font_size": 26
+        },
+        {
+            "text": "Mobile phone Bronze Age Formal language Aphthous stomatitis Homeopathy",
+            "font_size": 24
+        },
+        {
+            "text": "Pasteurization Scouting Chondrichthyes Orbital period Belgrade Bald eagle",
+            "font_size": 22
+        },
+        {
+            "text": "French fries Bronze Age Paleobotany Data structure Operating system North Brabant",
+            "font_size": 20
+        },
+        {
+            "text": "Iron Age Menstrual cycle Tuscany Psychotherapy Arthropod Hellenistic period",
+            "font_size": 18
+        },
+        {
+            "text": "French fries Triathlon Controlled-access highway Microbiology Triple jump Tram",
+            "font_size": 16
+        },
+        {
+            "text": "Aeneid Soft drink Middle-earth Paleobotany Aquatic plant Popular culture",
+            "font_size": 14
+        },
+        {
+            "text": "Roman numerals Dniester Scavenger Music genre Dniester Italian cuisine",
+            "font_size": 12
+        },
+        {
+            "text": "Italian language American black bear Municipality Spaniards Konye-Urgench Mesopotamia",
+            "font_size": 10
+        },
+        {
+            "text": "Noble gas Flag of Japan Chaos theory Expert system Spanish language Eukaryote",
+            "font_size": 8
+        },
+        {
+            "text": "Caribbean Eukaryote Upper Bavaria Subatomic particle Arthropod Apennine Mountains",
+            "font_size": 6
+        },
+        {
+            "text": "Eurasia Piedmont Greek alphabet False gharial Endocrinology Stained glass",
+            "font_size": 4
+        },
+        {
+            "text": "Quantum mechanics Cyrillic script Ethology Franciscans Deutsche Mark Marginal cost",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

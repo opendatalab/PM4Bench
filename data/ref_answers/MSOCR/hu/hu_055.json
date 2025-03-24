@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Biotechnológia Természetfilozófia Mobiltelefon",
+            "font_size": 40
+        },
+        {
+            "text": "Villamos Szociális munka Gömbvillám",
+            "font_size": 38
+        },
+        {
+            "text": "Napelem Antwerpen Afta Japán fürj",
+            "font_size": 36
+        },
+        {
+            "text": "Eurázsia Kunya Világörökség Hörghurut",
+            "font_size": 34
+        },
+        {
+            "text": "Bronzkor Francia Akadémia Elméleti fizika Nephropidae",
+            "font_size": 32
+        },
+        {
+            "text": "Hasábburgonya Ógörög nyelv Akromegália Olaszország zászlaja",
+            "font_size": 30
+        },
+        {
+            "text": "Popkultúra Űrturizmus Üvegfestés Angolok Kardvirág",
+            "font_size": 28
+        },
+        {
+            "text": "Ferences rend Újlatin nyelvek Fonálférgek Pacifizmus Társadalmi norma",
+            "font_size": 26
+        },
+        {
+            "text": "Autoszóma Gépi fordítás Antikvitás Hanglemez Kormos varjú Adatállomány",
+            "font_size": 24
+        },
+        {
+            "text": "Szunda Szabad licenc Norvégia zászlaja Olasz nyelv Kéklábú szula Szamothraké",
+            "font_size": 22
+        },
+        {
+            "text": "Ítéletlogika Antikvitás Zenei műfaj Trópusi ciklon Hövszgöl Planetológia",
+            "font_size": 20
+        },
+        {
+            "text": "Faktorizáció Imaginárius egység Húsvét Páncélos ostorosok Rjúkjú Modernizmus",
+            "font_size": 18
+        },
+        {
+            "text": "Zenei műfaj Elméleti fizika Szerepjáték Eurázsia Karmeliták Peloponnészosz",
+            "font_size": 16
+        },
+        {
+            "text": "Medveállatkák Buborékrendezés Horrorfilm Szabad licenc Autópálya Nagybőgő",
+            "font_size": 14
+        },
+        {
+            "text": "Dnyeszter Skótok Radiális sebesség Japán makákó Spanyolok Gépi fordítás",
+            "font_size": 12
+        },
+        {
+            "text": "Villamos Héphaisztosz Görögország címere Pasztőrözés Ír nyelv Zenei műfaj",
+            "font_size": 10
+        },
+        {
+            "text": "Mezo Analitikai kémia Hanglemez Planetológia Karintia Alpok",
+            "font_size": 8
+        },
+        {
+            "text": "Karmos féreglábúak Szamothraké Tüskésbőrűek Kőrézkor Észak Anatóliai nyelvek",
+            "font_size": 6
+        },
+        {
+            "text": "Gólyatöcs Montréal Filmgyártás Klasszikus zene Dnyeper Csinghua Egyetem",
+            "font_size": 4
+        },
+        {
+            "text": "Sárgás babuin Okság Szuperhatalom Albatroszfélék Idegszövet Rétegvulkán",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

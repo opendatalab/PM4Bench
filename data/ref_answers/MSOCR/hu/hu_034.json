@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Világörökség Szerves kémia Román nyelv",
+            "font_size": 40
+        },
+        {
+            "text": "Középfölde Hullámos papagáj Tengelyferdeség",
+            "font_size": 38
+        },
+        {
+            "text": "Vállalat Karmeliták Nagy kárókatona Disznódelfinfélék Spanyolok",
+            "font_size": 36
+        },
+        {
+            "text": "Zárvatermők Litográfia Palettás doktorhal Antikvitás",
+            "font_size": 34
+        },
+        {
+            "text": "Bolhapiac Adatállomány Cinematográfia Pitagorasz",
+            "font_size": 32
+        },
+        {
+            "text": "Portugál nyelv Karib Antikvitás Héphaisztosz Főherceg",
+            "font_size": 30
+        },
+        {
+            "text": "Katalán nyelv Sziléziai vajdaság Kőrézkor Számítógép",
+            "font_size": 28
+        },
+        {
+            "text": "Expresszionizmus Modernizmus Sárgás babuin Bengaluru Hanglemez Trópusi ciklon",
+            "font_size": 26
+        },
+        {
+            "text": "Integrált áramkör Zengőlégyfélék Természettudomány Mozaik Ingerület Toszkána",
+            "font_size": 24
+        },
+        {
+            "text": "Középfölde Mészszivacsok Természettudomány Parancsnok Agorafóbia Csinghua Egyetem",
+            "font_size": 22
+        },
+        {
+            "text": "Vaskor Trópusi ciklon Afrikai aranymacska Hörghurut Számítógépes kémia Meiózis",
+            "font_size": 20
+        },
+        {
+            "text": "Graubünden kanton Francia Akadémia Ógörög nyelv Nagybőgő Karmeliták Áramlástan",
+            "font_size": 18
+        },
+        {
+            "text": "Elektromos autó Borostyánút Élelmiszer Alsó Antikvitás Mauritánia zászlaja",
+            "font_size": 16
+        },
+        {
+            "text": "Ősnövénytan Elefántfóka Homeopátia Olasz nyelv Mezo Hullámvasút",
+            "font_size": 14
+        },
+        {
+            "text": "Társadalmi norma Anglia zászlaja Dögevő Kötőszövet Belgrád Étkezési rostok",
+            "font_size": 12
+        },
+        {
+            "text": "Turbófeltöltő Áramlástan Okság Homeopátia Triatlon Szociolingvisztika",
+            "font_size": 10
+        },
+        {
+            "text": "Geokémia Német konyhaművészet Kitakjúsú Keringési idő Jylland Meiózis",
+            "font_size": 8
+        },
+        {
+            "text": "Német juhászkutya Szókratész Spirálgalaxis Reguláris kifejezés Etológia Popkultúra",
+            "font_size": 6
+        },
+        {
+            "text": "Maldív nyelv Szubatomi részecske Termelési tényező Napelem Kék pingvin Hindu",
+            "font_size": 4
+        },
+        {
+            "text": "Maláj szigetvilág Asztúriai nyelvtan Község Bolhapiac Reneszánsz Autópálya",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

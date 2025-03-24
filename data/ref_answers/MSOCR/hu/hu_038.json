@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szabad licenc Nagybőgő Okság Szphinx",
+            "font_size": 40
+        },
+        {
+            "text": "Walesiek Skótok Ajakoshalfélék Hanglemez",
+            "font_size": 38
+        },
+        {
+            "text": "Előgerinchúrosok Projektmenedzsment Török nyelv",
+            "font_size": 36
+        },
+        {
+            "text": "Kémiai reakció Cirill ábécé Ceyloni fahéjfa Ábécé Kitakjúsú",
+            "font_size": 34
+        },
+        {
+            "text": "Integrált áramkör Mentális egészség Szociolingvisztika",
+            "font_size": 32
+        },
+        {
+            "text": "Amerikai futball Pinjin Turbófeltöltő Baleár",
+            "font_size": 30
+        },
+        {
+            "text": "Középfölde Modernizmus Japán makákó Község Genetikai kód Üvegfestés",
+            "font_size": 28
+        },
+        {
+            "text": "Eurázsia Ábécé Havasi varjú Afta Etológia Mauritánia",
+            "font_size": 26
+        },
+        {
+            "text": "Magyarok Plutarkhosz Üzleti titok Húsvét Elméleti fizika Filmgyártás",
+            "font_size": 24
+        },
+        {
+            "text": "Kémiai reakció Pireneusok Peloponnészosz Marquises Otthonoktatás Aeneis",
+            "font_size": 22
+        },
+        {
+            "text": "Német márka Cserkészet Sárgaúszójú tonhal Filmgyártás Kvantummechanika Kék pingvin",
+            "font_size": 20
+        },
+        {
+            "text": "Hövszgöl Okos város Ősnövénytan Asztrofizika Bengaluru Rekreáció",
+            "font_size": 18
+        },
+        {
+            "text": "Hasábburgonya Menstruációs ciklus Mikrobiológia Adatállomány Önkéntes munka Sokúszós csukafélék",
+            "font_size": 16
+        },
+        {
+            "text": "Ingerület Másodfokú egyenlet Repülőgép Protiszták Hámszövet Cinematográfia",
+            "font_size": 14
+        },
+        {
+            "text": "Modernizmus Élelmiszer Anglia zászlaja Szabad akarat Pastu nyelv Ázsiai gepárd",
+            "font_size": 12
+        },
+        {
+            "text": "Geofizika Hasábburgonya Számítógépes grafika Faktorizáció Szürrealizmus Erdély",
+            "font_size": 10
+        },
+        {
+            "text": "Integrált áramkör Számítógép Tengelyferdeség Hidroponika Antwerpen Kibertér",
+            "font_size": 8
+        },
+        {
+            "text": "Termisztor Ázsiai gepárd Hindu Villamos Villamosmérnök Tengelyferdeség",
+            "font_size": 6
+        },
+        {
+            "text": "Ketzalkóatl Autópálya Újlatin nyelvek Eurázsia Rjúkjú Napelem",
+            "font_size": 4
+        },
+        {
+            "text": "Mitózis Akadémizmus Mikroökonómia Vízi növényzet Fonálférgek Fejlődéstan",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

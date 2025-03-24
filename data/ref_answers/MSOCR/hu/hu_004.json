@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Villamos Andoki kondor Operációs rendszer",
+            "font_size": 40
+        },
+        {
+            "text": "Prokarióták Ógörög nyelv Bentosz Szentpétervár",
+            "font_size": 38
+        },
+        {
+            "text": "Grönlandi fóka Hőszabályozás Számítógép",
+            "font_size": 36
+        },
+        {
+            "text": "Sárkányok háza Gyűrűsfarkú maki Allelopátia Afta",
+            "font_size": 34
+        },
+        {
+            "text": "Kamjanszke Telepátia Makrofág Chichén Itzá Románia zászlaja",
+            "font_size": 32
+        },
+        {
+            "text": "Okság Litván nyelv Csehszlovákia Meiózis Fekete",
+            "font_size": 30
+        },
+        {
+            "text": "Projektmenedzsment Planetológia Vegetarianizmus Sejtbiológia",
+            "font_size": 28
+        },
+        {
+            "text": "Lágy szárú növény Természettudomány Plutarkhosz Rjúkjú Projektmenedzsment Írek",
+            "font_size": 26
+        },
+        {
+            "text": "Antwerpen Középfölde Görögország címere Etológia Anatóliai nyelvek Dnyeper",
+            "font_size": 24
+        },
+        {
+            "text": "Telepátia Sárgaúszójú tonhal Modernizmus Jelölőnyelv Amerikai alkörmös Integrált áramkör",
+            "font_size": 22
+        },
+        {
+            "text": "Kék pingvin Indokína Német juhászkutya Sejtbiológia Indiai antilop Parazitológia",
+            "font_size": 20
+        },
+        {
+            "text": "Hasábburgonya Dunkerque Binomiális tétel Litvánia zászlaja Élelmiszer Rakétahajtómű",
+            "font_size": 18
+        },
+        {
+            "text": "Ősnövénytan Hellenizmus Ukrajna címere Roborovszkij Kognitív tudomány Világörökség",
+            "font_size": 16
+        },
+        {
+            "text": "Hottentották Üvegfestés Dánia zászlaja Római provinciák Okság Anglia történelme",
+            "font_size": 14
+        },
+        {
+            "text": "Villamos Szubatomi részecske Litván nyelv Hasábburgonya Ítéletlogika Magfizika",
+            "font_size": 12
+        },
+        {
+            "text": "Asztrofizika Számítógép Hajszálcsövesség Elméleti fizika Európai borz Másodfokú egyenlet",
+            "font_size": 10
+        },
+        {
+            "text": "Rakétahajtómű Asztúriai nyelvtan Azori Szphinx Szövetes növények Horrorfilm",
+            "font_size": 8
+        },
+        {
+            "text": "Antikvitás Montenegrói nyelv Maldív nyelv Európai sün Gépipar Olaszország zászlaja",
+            "font_size": 6
+        },
+        {
+            "text": "Hasábburgonya Bajorország Nagybőgő Reneszánsz Kvantummechanika Középfölde",
+            "font_size": 4
+        },
+        {
+            "text": "Klasszikus zene Disznódelfinfélék Középfölde Elektronikus zene Bronzkor Szabad licenc",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

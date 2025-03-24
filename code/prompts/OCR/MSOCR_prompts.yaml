@@ -1,0 +1,52 @@
+languages:
+  EN:
+    cot:
+      vision: "The image contains 20 lines of text. Please recognize and output the text in the image from top to bottom and left to right, separating the content of each line with a line break. You should output the text in the image at the end of your response. You should place the text in the image between the <start> and <end> marks."
+    direct:
+      vision: "The image contains 20 lines of text. Please recognize and output the text in the image from top to bottom and left to right, separating the content of each line with a line break. Do not output any content other than the text in the image."
+  ZH:
+    cot:
+      vision: "图像包含20行文本。请按从上到下、从左到右的顺序识别并输出图像中的文本，每行内容用换行符分隔。请在响应末尾提取图像中的文本，并将其放置在 <start> 和 <end> 标记之间。"
+    direct:
+      vision: "图片内有20行文字，请从上到下，从左到右依次识别并输出图中的文字，每行文字内容用换行符分隔。不要输出除图片中文字外的任何其他内容。"
+  HU:
+    cot: 
+      vision: "A kép 20 sor szöveget tartalmaz. Kérjük, ismerje fel és adja ki a képen lévő szöveget felülről lefelé és balról jobbra haladva, a sorok tartalmát sortöréssel elválasztva. A kép szövegét a válasz végén, a <start> és <end> jelzők között kell elhelyezni."
+    direct:
+      vision: "A kép 20 sornyi szöveget tartalmaz. Kérjük, ismerje fel és adja ki a képen látható szöveget felülről lefelé és balról jobbra, sortöréssel elválasztva az egyes sorok tartalmát. Ne adjon ki más tartalmat a képen látható szövegen kívül."
+  RU:
+    cot:
+      vision: "Изображение содержит 20 строк текста. Распознайте и выведите текст на изображении сверху вниз и слева направо, разделяя содержимое каждой строки переносом строки. Текст изображения должен быть выведен в конце ответа между метками <start> и <end>."
+    direct:
+      vision: "Изображение содержит 20 строк текста. Распознайте и выведите текст на изображении сверху вниз и слева направо, разделяя содержимое каждой строки переносом строки. Не выводите никакого другого содержимого, кроме текста на изображении."
+  AR:
+    cot:
+      vision: "تحتوي الصورة على 20 سطرًا من النص. يرجى التعرف على النص في الصورة من أعلى إلى أسفل ومن اليسار إلى اليمين، وفصل محتوى كل سطر بفاصل أسطر. يجب إخراج النص في الصورة في نهاية الرد، ووضعه بين علامتي <start> و <end>."
+    direct:
+      vision: "تحتوي الصورة على 20 سطرًا من النص. يرجى التعرف على النص الموجود في الصورة وإخراجه من الأعلى إلى الأسفل ومن اليسار إلى اليمين، مع فصل محتوى كل سطر بفاصل سطر. لا تقم بإخراج أي محتوى آخر غير النص الموجود في الصورة."
+  CS:
+    cot:
+      vision: "Obrázek obsahuje 20 řádků textu. Prosím rozpoznejte a vypište text v obrázku shora dolů a zleva doprava, oddělujte obsah každého řádku zalomením řádku. Text z obrázku by měl být uveden na konci odpovědi mezi značkami <start> a <end>."
+    direct:
+      vision: "Obrázek obsahuje 20 řádků textu. Rozpoznejte a vytiskněte text na obrázku shora dolů a zleva doprava, přičemž obsah každého řádku oddělte zalomením řádku. Nevydávejte žádný jiný obsah než text v obrázku."
+  VI:
+    cot:
+      vision: "Hình ảnh chứa 20 dòng văn bản. Vui lòng nhận dạng và xuất văn bản trong hình ảnh từ trên xuống dưới và từ trái sang phải, phân tách nội dung mỗi dòng bằng dấu ngắt dòng. Bạn nên xuất văn bản trong hình ảnh ở cuối phản hồi và đặt giữa các dấu <start> và <end>."
+    direct:
+      vision: "Hình ảnh chứa 20 dòng văn bản. Vui lòng nhận dạng và xuất văn bản trong hình ảnh từ trên xuống dưới và từ trái sang phải, phân tách nội dung của mỗi dòng bằng dấu ngắt dòng. Không xuất bất kỳ nội dung nào khác ngoài văn bản trong hình ảnh."
+  KO:
+    cot:
+      vision: "이미지에는 20줄의 텍스트가 포함되어 있습니다. 이미지의 텍스트를 위에서 아래로, 왼쪽에서 오른쪽으로 인식하고 각 줄의 내용을 줄 바꿈으로 구분하여 출력하십시오. 이미지의 텍스트는 응답의 끝에 <start>와 <end> 표시 사이에 배치해야 합니다."
+    direct:
+      vision: "이미지에는 20줄의 텍스트가 들어 있습니다. 이미지의 텍스트를 위에서 아래로, 왼쪽에서 오른쪽으로 인식하고 출력하고, 각 줄의 내용을 줄 바꿈으로 구분하세요. 이미지의 텍스트 외에 다른 내용은 출력하지 마세요."
+  TH:
+    cot:
+      vision: "ภาพประกอบด้วยข้อความ 20 บรรทัด โปรดจดจำและแสดงข้อความในภาพจากบนลงล่างและซ้ายไปขวา แยกเนื้อหาของแต่ละบรรทัดด้วยการขึ้นบรรทัดใหม่ ควรแสดงข้อความในภาพที่ท้ายคำตอบ โดยวางไว้ระหว่างเครื่องหมาย <start> และ <end>"
+    direct:
+      vision: "รูปภาพประกอบด้วยข้อความ 20 บรรทัด โปรดจดจำและพิมพ์ข้อความในรูปภาพจากบนลงล่างและจากซ้ายไปขวา โดยคั่นเนื้อหาของแต่ละบรรทัดด้วยการแบ่งบรรทัด อย่าพิมพ์เนื้อหาอื่นใดนอกเหนือจากข้อความในรูปภาพ"
+  SR:
+    cot:
+      vision: "Слика садржи 20 редова текста. Препознајте и испишите текст на слици одозгора надоле и с лева на десно, раздвајајући садржај сваког реда преласком у нови ред. Текст са слике треба да се налази на крају одговора између ознака <start> и <end>."
+    direct:
+      vision: "Слика садржи 20 редова текста. Препознајте и испишите текст на слици од врха до дна и с лева на десно, одвајајући садржај сваког реда преломом реда. Не емитујте никакав садржај осим текста на слици."
+

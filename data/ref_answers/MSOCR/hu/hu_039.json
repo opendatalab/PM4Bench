@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Számítógépes kémia Ősnövénytan Földtudomány",
+            "font_size": 40
+        },
+        {
+            "text": "Páncélos ostorosok Operációs rendszer Belgrád",
+            "font_size": 38
+        },
+        {
+            "text": "Héphaisztosz Középfölde Etológia Neutronmoderátor",
+            "font_size": 36
+        },
+        {
+            "text": "Szerepjáték Római számírás Ausztria zászlaja Ingerület",
+            "font_size": 34
+        },
+        {
+            "text": "Amilóz Közönséges makákó Mentális egészség Japán makákó",
+            "font_size": 32
+        },
+        {
+            "text": "Csehszlovákia Parancsnok Török nyelv Idegszövet",
+            "font_size": 30
+        },
+        {
+            "text": "Okság Arábiai Ír nyelv Etológia Buzogányfejű férgek Vállalat",
+            "font_size": 28
+        },
+        {
+            "text": "Keringési idő Csontritkulás Vízi növényzet Amerikai futball Dnyeszter",
+            "font_size": 26
+        },
+        {
+            "text": "Spanyolok Mexikói Homeopátia Expresszionizmus Észak Faktorizáció",
+            "font_size": 24
+        },
+        {
+            "text": "Kognitív tudomány Írek Integrált áramkör Katalán nyelv Páncélos ostorosok Rakétahajtómű",
+            "font_size": 22
+        },
+        {
+            "text": "Eurázsiai Otthonoktatás Szphinx Kártyajáték Fekete harkály Ír nyelv",
+            "font_size": 20
+        },
+        {
+            "text": "Mauritánia Mohaállatok Gyorsrendezés Reneszánsz Népszámlálás Szlovének",
+            "font_size": 18
+        },
+        {
+            "text": "Opolei vajdaság Mezo Zárvatermők Fonálférgek Noradrenalin Kognitív tudomány",
+            "font_size": 16
+        },
+        {
+            "text": "Analitikai kémia Arisztotelész Olasz konyhaművészet Ingerület Walesiek Anatólia",
+            "font_size": 14
+        },
+        {
+            "text": "Aligátorfélék Mobiltelefon Lágy szárú növény Európa történelme Bentosz Csillagfejlődés",
+            "font_size": 12
+        },
+        {
+            "text": "Binomiális tétel Antikvitás Ciprusi Köztársaság Antwerpen Nagybőgő Roborovszkij",
+            "font_size": 10
+        },
+        {
+            "text": "Mikroökonómia Japán makákó Páncélos ostorosok Kártyajáték Múzeum Mentális egészség",
+            "font_size": 8
+        },
+        {
+            "text": "Kémiai reakció Ermitázs Homeopátia Páncélos ostorosok Zenei műfaj Biotechnológia",
+            "font_size": 6
+        },
+        {
+            "text": "Zárvatermők Ír nyelv Olaszország címere Nyomelem Hövszgöl Klasszikus zene",
+            "font_size": 4
+        },
+        {
+            "text": "Modernizmus Italikus nyelvek Másodfokú egyenlet Reguláris kifejezés Ciprusi Köztársaság Lazac",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

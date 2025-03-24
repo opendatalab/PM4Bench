@@ -1,0 +1,51 @@
+languages:
+  EN:
+    cot:
+      vision: "Given an image, please output the text in the image at the end of your output. Please place the text in the image between <start> and <end> marks."
+    direct:
+      vision: "Given an image, please output the text in the image between <start> and <end> marks. Do not output anything else."
+  ZH:
+    cot:
+      vision: "给定一张图像，请在输出末尾提取图像中的文本，并将其放置在 <start> 和 <end> 标记之间。"
+    direct:
+      vision: "给定一张图片，请输出图片中的文本，并将其放在 <start> 和 <end> 标记之间。不要输出其他任何内容。"
+  AR:
+    cot:
+      vision: "بالنظر إلى صورة، يرجى إخراج النص الموجود فيها في نهاية الناتج. ضع النص بين علامتي <start> و <end>."
+    direct:
+      vision: "بالنسبة لصورة معينة، يرجى إخراج النص في الصورة بين علامتي <start> و <end>. لا تخرج أي شيء آخر."
+  CS:
+    cot:
+      vision: "Vzhledem k obrázku prosím na konci výstupu uveďte text z obrázku. Umístěte text mezi značky <start> a <end>."
+    direct:
+      vision: "Pro zadaný obrázek prosím vypište text na obrázku mezi značky <start> a <end>. Nic jiného nevypisujte."
+  HU:
+    cot:
+      vision: "Adott kép esetén kérjük, a kimenet végén adja meg a képen található szöveget. Helyezze a szöveget a <start> és <end> jelzők közé."
+    direct:
+      vision: "Adott kép esetén kérjük, adja ki a képben található szöveget a <start> és <end> jelölések között. Ne adjon ki semmi mást."
+  KO:
+    cot:
+      vision: "주어진 이미지에 대해 출력의 끝에 이미지 속 텍스트를 표시하십시오. 텍스트를 <start>와 <end> 표시 사이에 넣어주세요."
+    direct:
+      vision: "주어진 이미지에서 이미지 속 텍스트를 <start>와 <end> 표시 사이에 출력하세요. 다른 내용은 출력하지 마세요."
+  RU:
+    cot:
+      vision: "Для данного изображения выведите текст в конце вашего ответа. Разместите текст изображения между метками <start> и <end>."
+    direct:
+      vision: "Для данного изображения, пожалуйста, выведите текст на изображении между метками <start> и <end>. Не выводите ничего другого."
+  SR:
+    cot:
+      vision: "За дату слику, на крају излаза прикажите текст са слике. Поставите текст између ознака <start> и <end>."
+    direct:
+      vision: "За дату слику, молимо вас да испишете текст на слици између ознака <start> и <end>. Не исписујте ништа друго."
+  TH:
+    cot:
+      vision: "เมื่อได้รับภาพ โปรดแสดงข้อความในภาพที่ท้ายผลลัพธ์ของคุณ โดยวางข้อความระหว่างเครื่องหมาย <start> และ <end>"
+    direct:
+      vision: "สำหรับรูปภาพที่กำหนด โปรดแสดงข้อความในรูปภาพระหว่างเครื่องหมาย <start> และ <end> อย่าแสดงสิ่งอื่นใด"
+  VI:
+    cot:
+      vision: "Cho một hình ảnh, vui lòng xuất văn bản trong hình ảnh ở cuối đầu ra. Đặt văn bản giữa các dấu <start> và <end>."
+    direct:
+      vision: "Đối với một hình ảnh được cung cấp, vui lòng xuất văn bản trong hình ảnh giữa các dấu <start> và <end>. Không xuất bất kỳ nội dung nào khác."

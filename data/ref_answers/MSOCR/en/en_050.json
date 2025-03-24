@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Academic art Parasitology Mobile phone",
+            "font_size": 40
+        },
+        {
+            "text": "Gravitational lens Macrophage Machine translation",
+            "font_size": 38
+        },
+        {
+            "text": "Astrophysics Autosome Pythagorean theorem Azores",
+            "font_size": 36
+        },
+        {
+            "text": "Easter Island Causality Piedmont Social work",
+            "font_size": 34
+        },
+        {
+            "text": "Bangalore Bangalore Kitakyushu Cnidaria Epithelium",
+            "font_size": 32
+        },
+        {
+            "text": "Ryukyu Islands Gulf of Mexico Tram Dnieper Franciscans",
+            "font_size": 30
+        },
+        {
+            "text": "City of Brussels Computer network Piedmont Ukrainian language Roman numerals",
+            "font_size": 28
+        },
+        {
+            "text": "Arabian Plate Psychotherapy Population density Pythagorean theorem",
+            "font_size": 26
+        },
+        {
+            "text": "Turkish language Bubble sort Magic realism Axial tilt Psychiatry",
+            "font_size": 24
+        },
+        {
+            "text": "Buttonquail Eukaryote Aerodynamics Binomial theorem Computer network Theoretical physics",
+            "font_size": 22
+        },
+        {
+            "text": "Carnivore Radial velocity Canary Islands Antidepressant Georgian language Fluid mechanics",
+            "font_size": 20
+        },
+        {
+            "text": "English people Axial tilt Low German Telepathy German cuisine Cognitive science",
+            "font_size": 18
+        },
+        {
+            "text": "Scouting Expert system American black bear Paleobotany Flag of England Azores",
+            "font_size": 16
+        },
+        {
+            "text": "European badger Scottish people Biotechnology Chaos theory Stained glass Vampire bat",
+            "font_size": 14
+        },
+        {
+            "text": "Role-playing game Pythagorean theorem Amber Road Khoekhoe European hedgehog Dardanelles",
+            "font_size": 12
+        },
+        {
+            "text": "Classical music False gharial Anatolian languages Volunteering Protist Easter Island",
+            "font_size": 10
+        },
+        {
+            "text": "Image scanner Eukaryote Silesian Voivodeship Econometrics Chemical reaction Tsinghua University",
+            "font_size": 8
+        },
+        {
+            "text": "Drosophila melanogaster Galilean moons Konye-Urgench Deutsche Mark Aphthous stomatitis Cognitive science",
+            "font_size": 6
+        },
+        {
+            "text": "Extremophile Spiral galaxy Tyrrhenian Sea Human history Upper Palatinate Menstrual cycle",
+            "font_size": 4
+        },
+        {
+            "text": "Czechoslovakia Samothrace Horror film Cyprus Grisons Film director",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

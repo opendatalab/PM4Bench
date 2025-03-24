@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Vaskor Disznódelfinfélék Eurázsia Német márka",
+            "font_size": 40
+        },
+        {
+            "text": "Európai sün Piemont Moszkvai idő",
+            "font_size": 38
+        },
+        {
+            "text": "Sziléziai vajdaság Mexikói Naptömeg",
+            "font_size": 36
+        },
+        {
+            "text": "Gyűrűsfarkú maki Hullámvasút Aeneis Mitózis Franciák",
+            "font_size": 34
+        },
+        {
+            "text": "Zajszennyezés Pitagorasz Fogszabályozás Agyalapi mirigy",
+            "font_size": 32
+        },
+        {
+            "text": "Örvös medve Újlatin nyelvek Amilóz Karmeliták Római Díj",
+            "font_size": 30
+        },
+        {
+            "text": "Ingerület Élelmiszer Olimpiai himnusz Japán történelme",
+            "font_size": 28
+        },
+        {
+            "text": "Ábécé Biomechanika Aeneis Aligátorfélék Fonálférgek Faktorizáció",
+            "font_size": 26
+        },
+        {
+            "text": "Kémiai reakció Olasz nyelv Sokúszós csukafélék Kitakjúsú Borostyánút Afrikai aranymacska",
+            "font_size": 24
+        },
+        {
+            "text": "Írek Cserkészet Sörényes hangyász Disznódelfinfélék Karib Könnyűzene",
+            "font_size": 22
+        },
+        {
+            "text": "Ceyloni fahéjfa Olaszország zászlaja Minimalizmus Hottentották Átmenetifémek Endokrinológia",
+            "font_size": 20
+        },
+        {
+            "text": "Villamosmérnök Írek Bolhapiac Sárgaúszójú tonhal Afta Angolok",
+            "font_size": 18
+        },
+        {
+            "text": "Litván nyelv Karib Villamos Egyszikűek Számítógép Pastu nyelv",
+            "font_size": 16
+        },
+        {
+            "text": "Étkezési rostok Francia Akadémia Laposférgek Mobiltárca Antwerpen Puhatestűek",
+            "font_size": 14
+        },
+        {
+            "text": "Olaszország címere Fonálférgek Kvantummechanika Elektronikus zene Középfölde Kémiai reakció",
+            "font_size": 12
+        },
+        {
+            "text": "Kognitív tudomány Űrturizmus Cinematográfia Walesiek Ferences rend Nagybőgő",
+            "font_size": 10
+        },
+        {
+            "text": "Szupravezetés Asztrofizika Német márka Biotechnológia Akromegália Homeopátia",
+            "font_size": 8
+        },
+        {
+            "text": "Kis ámbráscet Mikroökonómia Aeneis Menstruációs ciklus Jylland Nagybőgő",
+            "font_size": 6
+        },
+        {
+            "text": "Szerves kémia Antikvitás Lombardia Zárvatermők Számi nyelvek Írek",
+            "font_size": 4
+        },
+        {
+            "text": "Bioinformatika Litvánia zászlaja Bronzkor Bomlás Visztula Villamosmérnök",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

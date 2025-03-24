@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Stained glass Socrates Flag of Italy Geophysics",
+            "font_size": 40
+        },
+        {
+            "text": "Aphthous stomatitis Macrophage Juglans regia Antidepressant",
+            "font_size": 38
+        },
+        {
+            "text": "Low German Neutron moderator Silesian Voivodeship",
+            "font_size": 36
+        },
+        {
+            "text": "Ethology Cubic equation Computer graphics Meiosis Elk",
+            "font_size": 34
+        },
+        {
+            "text": "Tram Eukaryote Axial tilt Sievierodonetsk",
+            "font_size": 32
+        },
+        {
+            "text": "Axial tilt Asiatic cheetah Ptolemaic dynasty Operating system",
+            "font_size": 30
+        },
+        {
+            "text": "Allelopathy Filmmaking Protist Screwdriver Social norm",
+            "font_size": 28
+        },
+        {
+            "text": "Carnivore Event horizon Low German Catalan language Homeopathy",
+            "font_size": 26
+        },
+        {
+            "text": "Image scanner Japanese quail Corporation Radial velocity Contact lens",
+            "font_size": 24
+        },
+        {
+            "text": "Welsh language Chaos theory Theoretical physics Gravitational lens Natural science",
+            "font_size": 22
+        },
+        {
+            "text": "Psychotherapy Psychotherapy Fuel cell Succulent plant Bangalore",
+            "font_size": 20
+        },
+        {
+            "text": "Succulent plant Acanthocephala Multiverse Lake Khövsgöl Neutron moderator",
+            "font_size": 18
+        },
+        {
+            "text": "Spaniards Project management Sunflower oil Middle-earth Kalidasa",
+            "font_size": 16
+        },
+        {
+            "text": "Romance languages Astrophysics Noble gas Planetary science Herbaceous plant",
+            "font_size": 14
+        },
+        {
+            "text": "Middle-earth Telepathy Axial tilt Tuscany Mobile phone",
+            "font_size": 12
+        },
+        {
+            "text": "Mesopotamia Scottish people Scouting History of Europe Irish people",
+            "font_size": 10
+        },
+        {
+            "text": "Homeopathy Low German Homeopathy Pythagorean theorem European eel",
+            "font_size": 8
+        },
+        {
+            "text": "European badger Nervous tissue Carmelites Academic art Computer network",
+            "font_size": 6
+        },
+        {
+            "text": "Carnivore Middle-earth Classical antiquity Telepathy Scouting",
+            "font_size": 4
+        },
+        {
+            "text": "Municipality Electrical engineering Popular culture Irish language English people",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

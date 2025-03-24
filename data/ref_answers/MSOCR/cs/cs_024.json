@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Recidivující afty Kypr Přírodní vědy",
+            "font_size": 40
+        },
+        {
+            "text": "Operační systém Paleobotanika Teoretická fyzika",
+            "font_size": 38
+        },
+        {
+            "text": "Psychiatrie Japonská kuchyně Filmový režisér Obec",
+            "font_size": 36
+        },
+        {
+            "text": "Tramvaj Rjúkjú Bavorsko Hypofýza Římské provincie",
+            "font_size": 34
+        },
+        {
+            "text": "Maďaři Dějiny lidstva Tuňák žlutoploutvý Filmový režisér",
+            "font_size": 32
+        },
+        {
+            "text": "Klasická hudba Kraslice Kinematografie Bleší trh Wapiti",
+            "font_size": 30
+        },
+        {
+            "text": "Alpy Raketový motor Supravodivost Stratovulkán Univerzita Čching",
+            "font_size": 28
+        },
+        {
+            "text": "Eneolit Pchin Bioinformatika Telepatie Dějiny Evropy",
+            "font_size": 26
+        },
+        {
+            "text": "Bentos Doba oběhu Integrovaný obvod Doba oběhu Počítačová síť Jezevec lesní",
+            "font_size": 24
+        },
+        {
+            "text": "Biotechnologie Pyskounovití Řád karmelitánů Starořečtina Angličané Chemická reakce Dodekany",
+            "font_size": 22
+        },
+        {
+            "text": "Kulturní šok Triatlon Tropická cyklóna Vestavěný systém Varmijsko Letadlová loď Hudební žánr",
+            "font_size": 20
+        },
+        {
+            "text": "Masožravec Bleší trh Karpaty Imaginární jednotka Psychiatrie Mýdelníkotvaré Homeopatie",
+            "font_size": 18
+        },
+        {
+            "text": "Operační systém Kypr Moderna Bengalúr Irové Československo Ořešák královský",
+            "font_size": 16
+        },
+        {
+            "text": "Dálnice Obrněnky Octomilka obecná Mimi šéf Kognitivní věda Španělština Kontrabas",
+            "font_size": 14
+        },
+        {
+            "text": "Baleáry Kognitivní věda Hlaváčovití Horní Falc Ostnokožci Kuňja Irština",
+            "font_size": 12
+        },
+        {
+            "text": "Autozom Jezevec lesní Filmová produkce Ermitáž Strojírenství Dějiny Japonska Domácí vzdělávání",
+            "font_size": 10
+        },
+        {
+            "text": "Operační systém Tučňák nejmenší Dánský průliv Ermitáž Velikonoční ostrov Japonismus Katalánština",
+            "font_size": 8
+        },
+        {
+            "text": "Ramenonožci Jednoduchý stroj Homeopatie Tramvaj Palivový článek Skotové Kočka zlatá",
+            "font_size": 6
+        },
+        {
+            "text": "Kauzalita Terej modronohý Španělé Pasterace Piemont Španělé Mobilní peněženka",
+            "font_size": 4
+        },
+        {
+            "text": "Prokaryota Španělština Hérodotos Agáve Kormorán velký Triatlon Homeopatie",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

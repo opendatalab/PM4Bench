@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Gépipar Káoszelmélet Kéklábú szula",
+            "font_size": 40
+        },
+        {
+            "text": "Biogeográfia Hottentották Római provinciák Prokarióták",
+            "font_size": 38
+        },
+        {
+            "text": "Kerekesférgek Okos város Szuperhatalom Héphaisztosz",
+            "font_size": 36
+        },
+        {
+            "text": "Ciprusi Köztársaság Triatlon Etológia Adatszerkezet",
+            "font_size": 34
+        },
+        {
+            "text": "Berber makákó Osztrákok Anglia történelme Római számírás",
+            "font_size": 32
+        },
+        {
+            "text": "Baleár Kriptovaluta Napelem Mauritánia Élelmiszer",
+            "font_size": 30
+        },
+        {
+            "text": "Helgoland Kvantummechanika Egyéves növény Szuperhős Nyitvatermők Öszkemen",
+            "font_size": 28
+        },
+        {
+            "text": "Havasszépe Biotechnológia Zenei műfaj Hellenizmus Chichén Itzá Geofizika",
+            "font_size": 26
+        },
+        {
+            "text": "Sárgaúszójú tonhal Antikvitás Élelmiszer Klasszikus zene Hövszgöl Szívciklus",
+            "font_size": 24
+        },
+        {
+            "text": "Szövetes növények Kínai tobzoska Karintia Kafferbivaly Napelem Gébfélék Pinjin",
+            "font_size": 22
+        },
+        {
+            "text": "Menstruációs ciklus Heterotrófia Buborékrendezés Metroszexualitás Számítógépes grafika Reneszánsz",
+            "font_size": 20
+        },
+        {
+            "text": "Porcos halak Szupravezetés Hindu Baleár Középfölde Disznódelfinfélék Elektromos autó",
+            "font_size": 18
+        },
+        {
+            "text": "Popkultúra Üzemanyagcella Napelem Adattárház Csillagkeletkezés Szubatomi részecske Triatlon",
+            "font_size": 16
+        },
+        {
+            "text": "Helgoland Község Multiverzum Kormos varjú Kognitív tudomány Világörökség Neutronmoderátor",
+            "font_size": 14
+        },
+        {
+            "text": "Űrturizmus Integrált áramkör Geokémia Népsűrűség Endokrinológia Mobiltelefon Nyitvatermők",
+            "font_size": 12
+        },
+        {
+            "text": "Hámszövet Szlovének Etológia Dögevő Nílusi varánusz Operációs rendszer Expresszionizmus",
+            "font_size": 10
+        },
+        {
+            "text": "Homeopátia Anatólia Veganizmus Afta Filmes munkakörök Klasszikus zene Idődilatáció",
+            "font_size": 8
+        },
+        {
+            "text": "Repülőgép Hidroponika Vállalat Operációs rendszer Űrturizmus Takarmánylucerna Trópusi ciklon",
+            "font_size": 6
+        },
+        {
+            "text": "Tüskésbőrűek Hellenizmus Filmgyártás Földtudomány Otthonoktatás Szabad licenc Filmrendező",
+            "font_size": 4
+        },
+        {
+            "text": "Italikus nyelvek Baleár Fejlődéstan Nyestcápafélék Hasábburgonya Húsvét Középfölde",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

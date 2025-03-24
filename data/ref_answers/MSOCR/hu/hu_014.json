@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Dnyeszter Kontaktlencse Hámszövet Afta",
+            "font_size": 40
+        },
+        {
+            "text": "Dánia zászlaja Gépi fordítás Makrofág",
+            "font_size": 38
+        },
+        {
+            "text": "Európa történelme Húsvét Homeopátia Kerekesférgek",
+            "font_size": 36
+        },
+        {
+            "text": "Világörökség Szakértői rendszer Felső",
+            "font_size": 34
+        },
+        {
+            "text": "Elméleti fizika Filmrendező Antikvitás Homeopátia",
+            "font_size": 32
+        },
+        {
+            "text": "Eseményhorizont Imaginárius egység Szívciklus Ciprusi Köztársaság Etológia",
+            "font_size": 30
+        },
+        {
+            "text": "Bronzkor Vapiti Rendszerbiológia Beágyazott rendszer Vapiti",
+            "font_size": 28
+        },
+        {
+            "text": "Számi nyelvek Pinjin Kémiai reakció Enciklopédia Népsűrűség",
+            "font_size": 26
+        },
+        {
+            "text": "Ógörög nyelv Mobiltárca Sztoikus filozófia Szjevjerodoneck Katalán nyelv",
+            "font_size": 24
+        },
+        {
+            "text": "Spanyolok Porcos halak Középfölde Kitakjúsú Ciprusi Köztársaság Hellenizmus Számítógépes grafika",
+            "font_size": 22
+        },
+        {
+            "text": "Angolok Európai borz Peloponnészosz Homeopátia Bengaluru Káoszelmélet Nagybőgő",
+            "font_size": 20
+        },
+        {
+            "text": "Kvantummechanika Sógun Projektmenedzsment Homeopátia Olasz nyelv Hámszövet Emberré válás",
+            "font_size": 18
+        },
+        {
+            "text": "Kvantummechanika Másodfokú egyenlet Nephropidae Nyitvatermők Sejtbiológia Egyszikűek Homeopátia",
+            "font_size": 16
+        },
+        {
+            "text": "Aerodinamika Italikus nyelvek Olimpiai himnusz Karintia Antikvitás Peloponnészosz Otthonoktatás",
+            "font_size": 14
+        },
+        {
+            "text": "Középfölde Allelopátia Rétegvulkán Rjúkjú Csehszlovákia Cirill ábécé Akromegália",
+            "font_size": 12
+        },
+        {
+            "text": "Pireneusok Plutarkhosz Fekete Szupravezetés Kettős torzok Csillagkeletkezés Trópusi ciklon",
+            "font_size": 10
+        },
+        {
+            "text": "Hajszálcsövesség Kormos varjú Kártyajáték Káoszelmélet Kémiai reakció Klasszikus zene Pszichoterápia",
+            "font_size": 8
+        },
+        {
+            "text": "Számítógépes kémia Villamos Elektronikus zene Olaszország zászlaja Kunya Nemesgázok Kvantummechanika",
+            "font_size": 6
+        },
+        {
+            "text": "Ermitázs Világörökség Könnyűzene Triatlon Kettős torzok Szjevjerodoneck Szamothraké",
+            "font_size": 4
+        },
+        {
+            "text": "Páncélos ostorosok Formális nyelv Okos város Hellenizmus Románia zászlaja Autópálya Spirálgalaxis",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

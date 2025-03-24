@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Antwerpen Önkéntes munka Átmenetifémek Középfölde",
+            "font_size": 40
+        },
+        {
+            "text": "Nemesgázok Otthonoktatás Elektronikus zene",
+            "font_size": 38
+        },
+        {
+            "text": "Ábécé Földtudomány Hellenizmus Visztula Ciprusi Köztársaság",
+            "font_size": 36
+        },
+        {
+            "text": "Etológia Fejlődéstan Áramlástan",
+            "font_size": 34
+        },
+        {
+            "text": "Világtörténelem Hindu Szerepjáték Bioinformatika",
+            "font_size": 32
+        },
+        {
+            "text": "Villamosmérnök Fogszabályozás Okság Zenei műfaj",
+            "font_size": 30
+        },
+        {
+            "text": "Olasz konyhaművészet Faktorizáció Eukarióták Telepátia Napelem",
+            "font_size": 28
+        },
+        {
+            "text": "Helgoland Gerinchúrosok Litográfia Skótok Húsvét Német juhászkutya",
+            "font_size": 26
+        },
+        {
+            "text": "Japán konyhaművészet Peloponnészosz Alsó Világörökség Karib Hésziodosz",
+            "font_size": 24
+        },
+        {
+            "text": "Európai borz Trópusi ciklon Románia zászlaja Római provinciák Szentpétervár Karmos féreglábúak Mobiltárca",
+            "font_size": 22
+        },
+        {
+            "text": "Török nyelv Zárvatermők Telepátia Katódsugárcső Antidepresszáns Kőrézkor",
+            "font_size": 20
+        },
+        {
+            "text": "Pastu nyelv Varmia Aerodinamika Kémiai reakció Termelési tényező Integrált áramkör Puhatestűek",
+            "font_size": 18
+        },
+        {
+            "text": "Albatroszfélék Bajorország Antidepresszáns Etológia Napraforgóolaj Fehérfejű rétisas Cirill ábécé",
+            "font_size": 16
+        },
+        {
+            "text": "Ferences rend Turbófeltöltő Metroszexualitás Világörökség Walesiek Természetfilozófia Nemesgázok",
+            "font_size": 14
+        },
+        {
+            "text": "Európa történelme Meiózis Skótok Ferences rend Rekreáció Eurázsia Mobiltelefon",
+            "font_size": 12
+        },
+        {
+            "text": "Kamjanszke Zengőlégyfélék Maldív nyelv Eukarióták Integrált áramkör Szociális munka Ukrán nyelv",
+            "font_size": 10
+        },
+        {
+            "text": "Szabad akarat Európa történelme Neutronmoderátor Pitagorasz Antikvitás Egyszerű gép Nyomelem",
+            "font_size": 8
+        },
+        {
+            "text": "Német juhászkutya Alsó Török nyelv Afta Kémiai reakció Középfölde Népszámlálás",
+            "font_size": 6
+        },
+        {
+            "text": "Kéklábú szula Nephropidae Meiózis Autoszóma Római számírás Hindu Ír nyelv",
+            "font_size": 4
+        },
+        {
+            "text": "Villamosmérnök Projektmenedzsment Telepátia Hasábburgonya Takarmánylucerna Karmos féreglábúak Szerepjáték",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

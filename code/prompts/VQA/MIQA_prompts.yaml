@@ -1,0 +1,61 @@
+languages:
+  EN:
+    cot:
+      vision: "Please think step by step and answer the question in the image. Place your answer between <Start of Answer> and <End of Answer>. The final response format should be as follows: <Start of Answer>This is your answer<End of Answer>."
+      traditional: "Please think step by step and answer the question in the image. Place your answer between <Start of Answer> and <End of Answer>. The final response format should be as follows: <Start of Answer>This is your answer<End of Answer>. Question: "
+    direct:
+      vision: "Please answer the question in the image based on the given picture content."
+  ZH:
+    cot:
+      vision: "请你逐步思考，回答图片当中的问题，并把答案放在<Start of Answer>和<End of Answer>之间，最终回答格式应该如下: <Start of Answer>这是你的回答<End of Answer>。"
+      traditional: "请你逐步思考，回答下面的问题，并把答案放在<Start of Answer>和<End of Answer>之间，最终回答格式应该如下: <Start of Answer>这是你的回答<End of Answer>。问题: "
+    direct:
+      vision: "请你根据给定的图片内容，回答图片当中的问题。"
+  AR:
+    cot:
+      vision: "يرجى التفكير خطوة بخطوة والإجابة على السؤال في الصورة. ضع إجابتك بين <Start of Answer> و <End of Answer>. يجب أن يكون تنسيق الإجابة النهائية كما يلي: <Start of Answer>هذه هي إجابتك<End of Answer>."
+      traditional: "يرجى التفكير خطوة بخطوة والإجابة على السؤال في الصورة. ضع إجابتك بين <Start of Answer> و <End of Answer>. يجب أن يكون تنسيق الإجابة النهائية كما يلي: <Start of Answer>هذه هي إجابتك<End of Answer>. السؤال: "
+    direct:
+      vision: "يرجى الإجابة على السؤال في الصورة بناءً على محتوى الصورة المقدم"
+  CS:
+    cot:
+      vision: "Postupujte krok za krokem a odpovězte na otázku na obrázku. Umístěte svou odpověď mezi <Start of Answer> a <End of Answer>. Konečný formát odpovědi by měl vypadat takto: <Start of Answer>Toto je vaše odpověď<End of Answer>."
+      traditional: "Postupujte krok za krokem a odpovězte na otázku na obrázku. Umístěte svou odpověď mezi <Start of Answer> a <End of Answer>. Konečný formát odpovědi by měl vypadat takto: <Start of Answer>Toto je vaše odpověď<End of Answer>. Otázka: "
+    direct:
+      vision: "Prosím, odpovězte na otázku na obrázku na základě daného obsahu obrázku."
+  HU:
+    cot:
+      vision: "Kérjük, gondolkozzon lépésről lépésre, és válaszoljon a képen szereplő kérdésre. Helyezze a választ a <Start of Answer> és a <End of Answer> közé. A végső válaszformátumnak így kell kinéznie: <Start of Answer>Ez a válaszod<End of Answer>."
+      traditional: "Kérjük, gondolkozzon lépésről lépésre, és válaszoljon a képen szereplő kérdésre. Helyezze a választ a <Start of Answer> és a <End of Answer> közé. A végső válaszformátumnak így kell kinéznie: <Start of Answer>Ez a válaszod<End of Answer>. Kérdés: "
+    direct:
+      vision: "Kérjük, válaszolja a képen szereplő kérdést a megadott kép tartalma alapján."
+  KO:
+    cot:
+      vision: "단계적으로 생각하여 이미지 속 질문에 답하세요. 답변을 <Start of Answer>와 <End of Answer> 사이에 넣으세요. 최종 답변 형식은 다음과 같아야 합니다: <Start of Answer>이것이 당신의 답변입니다<End of Answer>."
+      traditional: "단계적으로 생각하여 이미지 속 질문에 답하세요. 답변을 <Start of Answer>와 <End of Answer> 사이에 넣으세요. 최종 답변 형식은 다음과 같아야 합니다: <Start of Answer>이것이 당신의 답변입니다<End of Answer>. 질문: "
+    direct:
+      vision: "주어진 그림 내용을 바탕으로 그림 속 질문에 답해 주세요."
+  RU:
+    cot:
+      vision: "Пожалуйста, подумайте шаг за шагом и ответьте на вопрос на изображении. Поместите свой ответ между <Start of Answer> и <End of Answer>. Окончательный формат ответа должен выглядеть следующим образом: <Start of Answer>Это ваш ответ<End of Answer>."
+      traditional: "Пожалуйста, подумайте шаг за шагом и ответьте на вопрос на изображении. Поместите свой ответ между <Start of Answer> и <End of Answer>. Окончательный формат ответа должен выглядеть следующим образом: <Start of Answer>Это ваш ответ<End of Answer>. Вопрос: "
+    direct:
+      vision: "Пожалуйста, ответьте на вопрос на изображении, основываясь на предоставленном содержании изображения."
+  SR:
+    cot:
+      vision: "Молимо вас да размишљате корак по корак и одговорите на питање на слици. Ставите ваш одговор између <Start of Answer> и <End of Answer>. Коначни формат одговора треба да изгледа овако: <Start of Answer>Ово је ваш одговор<End of Answer>."
+      traditional: "Молимо вас да размишљате корак по корак и одговорите на питање на слици. Ставите ваш одговор између <Start of Answer> и <End of Answer>. Коначни формат одговора треба да изгледа овако: <Start of Answer>Ово је ваш одговор<End of Answer>. Питање: "
+    direct:
+      vision: "Молимо вас да одговорите на питање на слици на основу датог садржаја слике."
+  TH:
+    cot:
+      vision: "โปรดคิดทีละขั้นตอนและตอบคำถามในภาพ โดยวางคำตอบของคุณระหว่าง <Start of Answer> และ <End of Answer> รูปแบบคำตอบสุดท้ายควรเป็นดังนี้: <Start of Answer>นี่คือคำตอบของคุณ<End of Answer>."
+      traditional: "โปรดคิดทีละขั้นตอนและตอบคำถามในภาพ โดยวางคำตอบของคุณระหว่าง <Start of Answer> และ <End of Answer> รูปแบบคำตอบสุดท้ายควรเป็นดังนี้: <Start of Answer>นี่คือคำตอบของคุณ<End of Answer>. คำถาม: "
+    direct:
+      vision: "โปรดตอบคำถามในภาพตามเนื้อหาของภาพที่กำหนด"
+  VI:
+    cot:
+      vision: "Hãy suy nghĩ từng bước và trả lời câu hỏi trong hình. Đặt câu trả lời của bạn giữa <Start of Answer> và <End of Answer>. Định dạng câu trả lời cuối cùng phải như sau: <Start of Answer>Đây là câu trả lời của bạn<End of Answer>."
+      traditional: "Hãy suy nghĩ từng bước và trả lời câu hỏi trong hình. Đặt câu trả lời của bạn giữa <Start of Answer> và <End of Answer>. Định dạng câu trả lời cuối cùng phải như sau: <Start of Answer>Đây là câu trả lời của bạn<End of Answer>. Câu hỏi: "
+    direct:
+      vision: "Vui lòng trả lời câu hỏi trong hình dựa trên nội dung hình ảnh được cung cấp."

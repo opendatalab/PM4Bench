@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Svobodná vůle Dolní Bavorsko Velšané",
+            "font_size": 40
+        },
+        {
+            "text": "Mexický záliv Moderna Kuňja",
+            "font_size": 38
+        },
+        {
+            "text": "Varmijsko Kroužkovci Rjúkjú Dánský průliv",
+            "font_size": 36
+        },
+        {
+            "text": "Cyrilice Epitelová tkáň Hra na hrdiny Ukrajinština",
+            "font_size": 34
+        },
+        {
+            "text": "Arabské číslice Formální jazyk Palivový článek Severodoněck",
+            "font_size": 32
+        },
+        {
+            "text": "Hudební žánr Vestavěný systém Baleáry Vagharšapat",
+            "font_size": 30
+        },
+        {
+            "text": "Turbodmychadlo Lombardie Počítačová síť Vegetariánství Meióza",
+            "font_size": 28
+        },
+        {
+            "text": "Gramofonová deska Astrofyzika Litevština Arabská deska Německý ovčák",
+            "font_size": 26
+        },
+        {
+            "text": "Eukaryota Ostnokožci Recidivující afty Strojírenství Helénismus Šakal obecný",
+            "font_size": 24
+        },
+        {
+            "text": "Imaginární jednotka Ptolemaiovci Japonská kuchyně Samothraké Pasterace Fyzik Ermitáž",
+            "font_size": 22
+        },
+        {
+            "text": "Karibik Kypr Francouzská akademie Minimalismus Přírodní vědy Mezopotámie Jednoděložné",
+            "font_size": 20
+        },
+        {
+            "text": "Vesmírná turistika Tropická cyklóna Česká vlajka Počítačová grafika Japonská vlajka Akademismus Šógun",
+            "font_size": 18
+        },
+        {
+            "text": "Kontrabas Měkkýši Pacifismus Peloponés Středozem Sukulent Irština",
+            "font_size": 16
+        },
+        {
+            "text": "Menstruační cyklus Gruzínština Kontrabas Antverpy Vegetariánství Protisté Amharština",
+            "font_size": 14
+        },
+        {
+            "text": "Rjúkjú Systémová biologie Dějiny lidstva Angličané Mezoamerika Kanárské ostrovy Františkáni",
+            "font_size": 12
+        },
+        {
+            "text": "Značkovací jazyk Formální jazyk Černohorština Kauzalita Astrofyzika Ježek západní Meióza",
+            "font_size": 10
+        },
+        {
+            "text": "Andulka vlnkovaná Kavče červenozobé Orel bělohlavý Anatolské jazyky Vznik hvězdy Fotovoltaický článek Meióza",
+            "font_size": 8
+        },
+        {
+            "text": "Vagharšapat Francouzi Mobilní telefon Renesance Spirální galaxie Masožravec Mobilní telefon",
+            "font_size": 6
+        },
+        {
+            "text": "Kontrabas Filmový režisér Velikonoční ostrov Gramofonová deska Asturština Akční potenciál Karetní hra",
+            "font_size": 4
+        },
+        {
+            "text": "Medvěd baribal Bichirovití Malá Asie Jantarová stezka Faktorizace Maledivština Dodekany",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

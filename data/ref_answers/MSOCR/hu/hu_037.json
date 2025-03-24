@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Információtudomány Fogszabályozás Repülőgép Homeopátia",
+            "font_size": 40
+        },
+        {
+            "text": "Eukarióták Önkéntes munka Francia Akadémia",
+            "font_size": 38
+        },
+        {
+            "text": "Elméleti fizika Bentosz Sejtbiológia Villamos",
+            "font_size": 36
+        },
+        {
+            "text": "Egyszikűek Mezopotámia Szerves kémia Római számírás",
+            "font_size": 34
+        },
+        {
+            "text": "Lombardia Dnyeszter Baleár Áramlástan Önkéntes munka",
+            "font_size": 32
+        },
+        {
+            "text": "Trópusi ciklon Határköltség Repülőgép Agorafóbia",
+            "font_size": 30
+        },
+        {
+            "text": "Norvégia zászlaja Belgrád Protiszták Elefántfóka Norvégia zászlaja Kamjanszke",
+            "font_size": 28
+        },
+        {
+            "text": "Meiózis Csehország zászlaja Dögevő Közép Szociolingvisztika",
+            "font_size": 26
+        },
+        {
+            "text": "Társadalmi norma Fekete Villamos Fejlődéstan Anglia történelme",
+            "font_size": 24
+        },
+        {
+            "text": "Azori Angolok Villamos Otthonoktatás Fekete medve Filmrendező Lombardia Mezopotámia",
+            "font_size": 22
+        },
+        {
+            "text": "Pireneusok Hámszövet Vaskor Meiózis Kártyajáték Húsvét Pszichoanalízis Anglia zászlaja",
+            "font_size": 20
+        },
+        {
+            "text": "Törökök Marrákes Binomiális tétel Hajszálcsövesség Napelem Karmeliták Üdítőital Földtudomány",
+            "font_size": 18
+        },
+        {
+            "text": "Fejlődéstan Turbófeltöltő Középfölde Rekreáció Eseményhorizont Endokrinológia Szjevjerodoneck Csád zászlaja",
+            "font_size": 16
+        },
+        {
+            "text": "Karib Szerepjáték Francia Akadémia Zengőlégyfélék Zenei műfaj Pireneusok Litográfia Pajzsvulkán",
+            "font_size": 14
+        },
+        {
+            "text": "Integrált áramkör Bentosz Felső Belgrád Varmia Üzemanyagcella Filmgyártás Török nyelv",
+            "font_size": 12
+        },
+        {
+            "text": "Sárgaúszójú tonhal Takarmánylucerna Skótok Beágyazott rendszer Zárvatermők Elektronikus zene Szuperhős Számítógép",
+            "font_size": 10
+        },
+        {
+            "text": "Egyszikűek Ír nyelv Otthonoktatás Guvat Pitagorasz Hanglemez Szerepjáték Üzemanyagcella",
+            "font_size": 8
+        },
+        {
+            "text": "Tengelyferdeség Jenyiszej Triatlon Peloponnészosz Japán konyhaművészet Nagybőgő Villamos Zenei műfaj",
+            "font_size": 6
+        },
+        {
+            "text": "Szlovének Mauritánia zászlaja Török nyelv Olasz konyhaművészet Középfölde Homeopátia Fehérfejű rétisas Zengőlégyfélék",
+            "font_size": 4
+        },
+        {
+            "text": "Projektmenedzsment Eurázsia Újlatin nyelvek Információtudomány Zajszennyezés Walesi nyelv Tengelyferdeség Albatroszfélék",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

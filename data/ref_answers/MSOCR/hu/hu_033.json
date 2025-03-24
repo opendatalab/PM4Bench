@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Napelem Kőrézkor Afta Alpok",
+            "font_size": 40
+        },
+        {
+            "text": "Húsvéti tojás Agapornis Binomiális tétel Agorafóbia",
+            "font_size": 38
+        },
+        {
+            "text": "Keringési idő Szívciklus Európai borz Olimpiai himnusz",
+            "font_size": 36
+        },
+        {
+            "text": "Grönlandi fóka Borneói vörösmacska Magyar nyelv",
+            "font_size": 34
+        },
+        {
+            "text": "Hanglemez Természettudomány Német juhászkutya Vállalat",
+            "font_size": 32
+        },
+        {
+            "text": "Neutronmoderátor Szuperhatalom Vaskor Vízi növényzet",
+            "font_size": 30
+        },
+        {
+            "text": "Alsó Homeopátia Egyszikűek Mérgessiklófélék Telepátia",
+            "font_size": 28
+        },
+        {
+            "text": "Medveállatkák Guvatfürjfélék Belgrád Telepátia Maláj szigetvilág Mauritánia",
+            "font_size": 26
+        },
+        {
+            "text": "Szövetes növények Gravitációs lencse Bentosz Antikvitás Szociális munka",
+            "font_size": 24
+        },
+        {
+            "text": "Napelem Szupravezetés Puhatestűek Varmia Ciprusi Köztársaság Ábécé Ősnövénytan",
+            "font_size": 22
+        },
+        {
+            "text": "Okság Antikvitás Meiózis Csehszlovákia Galilei Formális nyelv Középfölde",
+            "font_size": 20
+        },
+        {
+            "text": "Könnyűzene Kvantummechanika Italikus nyelvek Népszámlálás Kitakjúsú Észak Berber makákó",
+            "font_size": 18
+        },
+        {
+            "text": "Lapolvasó Hármasugrás Szuperhatalom Sárgaúszójú tonhal Mobiltelefon Pitagorasz Menstruációs ciklus",
+            "font_size": 16
+        },
+        {
+            "text": "Takarmánylucerna Kanári Kafferbivaly Ógörög nyelv Cserkészet Alsó Sárgaúszójú tonhal",
+            "font_size": 14
+        },
+        {
+            "text": "Disznódelfinfélék Turbófeltöltő Telepátia Segédprogram Autópálya Bentosz Buzogányfejű férgek",
+            "font_size": 12
+        },
+        {
+            "text": "Guvat Rakétahajtómű Mérgessiklófélék Akadémizmus Pajzsvulkán Biotechnológia Francia Akadémia",
+            "font_size": 10
+        },
+        {
+            "text": "Skótok Cserkészet Homeopátia Filmgyártás Repülőgép Triatlon Maldív nyelv",
+            "font_size": 8
+        },
+        {
+            "text": "Helgoland Felső Akromegália Antidepresszáns Villamos Alsó Európa történelme",
+            "font_size": 6
+        },
+        {
+            "text": "Gépi fordítás Hottentották Bajorország Telepátia Mikroökonómia Meiózis Andoki kondor",
+            "font_size": 4
+        },
+        {
+            "text": "Eukarióták Üzemanyagcella Mikroökonómia Olasz konyhaművészet Jylland Szerepjáték Hidroponika",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

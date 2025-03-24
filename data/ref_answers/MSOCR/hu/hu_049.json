@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Indiai antilop Belgrád Alnémet nyelv",
+            "font_size": 40
+        },
+        {
+            "text": "Gráfok színezése Marrákes Szürrealizmus Pszichoanalízis",
+            "font_size": 38
+        },
+        {
+            "text": "Ítéletlogika Észak Dunkerque",
+            "font_size": 36
+        },
+        {
+            "text": "Portugál nyelv Villamos Korinthoszi Olaszország címere",
+            "font_size": 34
+        },
+        {
+            "text": "Szuperhatalom Anatóliai nyelvek Számítógép Jelölőnyelv",
+            "font_size": 32
+        },
+        {
+            "text": "Ciprusi Köztársaság Aligátorfélék Rakétahajtómű Középfölde",
+            "font_size": 30
+        },
+        {
+            "text": "Kettős torzok Dardanellák Szappanfavirágúak Bengaluru Vaskor",
+            "font_size": 28
+        },
+        {
+            "text": "Csehország zászlaja Villamosmérnök Reneszánsz Szappanfavirágúak Üzemanyagcella",
+            "font_size": 26
+        },
+        {
+            "text": "Villamosmérnök Filmrendező Húsvét Szphinx Katódsugárcső Község",
+            "font_size": 24
+        },
+        {
+            "text": "Szürrealizmus Mobiltárca Antikvitás Parancsnok Fonálférgek Klasszikus zene",
+            "font_size": 22
+        },
+        {
+            "text": "Ír nyelv Cserkészet Karmos féreglábúak Üvegfestés Nyestcápafélék Franciák",
+            "font_size": 20
+        },
+        {
+            "text": "Prokarióták Nephropidae Endokrinológia Genetikai kód Walesi nyelv Természettudomány",
+            "font_size": 18
+        },
+        {
+            "text": "Eukarióták Etológia Világtörténelem Török nyelv Elektronikus zene Filmgyártás",
+            "font_size": 16
+        },
+        {
+            "text": "Kettős torzok Maldív nyelv Pitagorasz Hottentották Európai borz Pitagorasz",
+            "font_size": 14
+        },
+        {
+            "text": "Vízi növényzet Eukarióták Japán konyhaművészet Kvantummechanika Idegtudomány Telepátia",
+            "font_size": 12
+        },
+        {
+            "text": "Pitagorasz Kínai tobzoska Vízi növényzet Mezo Telepátia Opolei vajdaság",
+            "font_size": 10
+        },
+        {
+            "text": "Hérodotosz Karmeliták Klasszikus zene Kémiai reakció Kémiai reakció Filmgyártás",
+            "font_size": 8
+        },
+        {
+            "text": "Mauritánia Eurázsiai Elektromos autó Pszichoanalízis Meiózis Kvantummechanika",
+            "font_size": 6
+        },
+        {
+            "text": "Törökök Menstruációs ciklus Szphinx Sarkantyús teknős Telepátia Szociális munka",
+            "font_size": 4
+        },
+        {
+            "text": "Hőszabályozás Agyalapi mirigy Konstantinápoly Litván nyelv Villamosmérnök Szürrealizmus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

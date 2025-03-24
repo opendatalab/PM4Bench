@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Laposférgek Mezo Gépi fordítás Ábécé",
+            "font_size": 40
+        },
+        {
+            "text": "Káoszelmélet Kőrézkor Előgerinchúrosok",
+            "font_size": 38
+        },
+        {
+            "text": "Egyszikűek Autoszóma Páncélos ostorosok",
+            "font_size": 36
+        },
+        {
+            "text": "Zengőlégyfélék Könnyűzene Hasábburgonya Egyszerű gép",
+            "font_size": 34
+        },
+        {
+            "text": "Zengőlégyfélék Bomlás Magfizika Zárvatermők",
+            "font_size": 32
+        },
+        {
+            "text": "Örvös medve Homeopátia Gömbvillám Porcos halak",
+            "font_size": 30
+        },
+        {
+            "text": "Egyszikűek Szunda Etológia Modernizmus Mezo",
+            "font_size": 28
+        },
+        {
+            "text": "Enciklopédia Világtörténelem Európai sün Autoszóma Világtörténelem",
+            "font_size": 26
+        },
+        {
+            "text": "Község Napelem Egyszerű gép Kamjanszke Kémiai reakció Telepátia",
+            "font_size": 24
+        },
+        {
+            "text": "Ősnövénytan Rendszerbiológia Extremofil Olasz nyelv Maldív nyelv A mindenség elmélete",
+            "font_size": 22
+        },
+        {
+            "text": "Nagybőgő Csukcs Filmgyártás Zenei műfaj Bioinformatika Strandlabdarúgás",
+            "font_size": 20
+        },
+        {
+            "text": "Vízi növényzet Fogszabályozás Homeopátia Számi nyelvek Könnyűzene Hasábburgonya",
+            "font_size": 18
+        },
+        {
+            "text": "Kognitív tudomány Szövőmadárfélék Hajszálcsövesség Fekete harkály Beágyazott rendszer Turbófeltöltő",
+            "font_size": 16
+        },
+        {
+            "text": "Ciprusi Köztársaság Üzemanyagcella Visztula Hasábburgonya Hanglemez Pireneusok",
+            "font_size": 14
+        },
+        {
+            "text": "Számítógép Meiózis Nagybőgő Fekete Öszkemen Autópálya",
+            "font_size": 12
+        },
+        {
+            "text": "Mikroökonómia Olaszország zászlaja Egyéves növény Élelmiszer Akromegália Ermitázs",
+            "font_size": 10
+        },
+        {
+            "text": "Ingerület Dnyeper Nyitvatermők Káoszelmélet Trópusi ciklon Élelmiszer",
+            "font_size": 8
+        },
+        {
+            "text": "Dardanellák Radiális sebesség Káoszelmélet Amhara nyelv Gráfok színezése Pireneusok",
+            "font_size": 6
+        },
+        {
+            "text": "Község Szerepjáték Allelopátia Kártyajáték Antikvitás Csád zászlaja",
+            "font_size": 4
+        },
+        {
+            "text": "Kémiai reakció Lombardia Marrákes Porcos halak Formális nyelv Karintia",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

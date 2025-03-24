@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Papoušík Kauzalita Fotovoltaický článek Pyreneje",
+            "font_size": 40
+        },
+        {
+            "text": "Binomická věta Tomistoma úzkohlavá Dějiny Anglie",
+            "font_size": 38
+        },
+        {
+            "text": "Formální jazyk Románské jazyky Tuňák křídlatý",
+            "font_size": 36
+        },
+        {
+            "text": "Mezoamerika Sociolingvistika Bleší trh Populární kultura",
+            "font_size": 34
+        },
+        {
+            "text": "Lubušské vojvodství Antidepresivum Arabské číslice Ramenonožci",
+            "font_size": 32
+        },
+        {
+            "text": "Klasická hudba Obec Mobilní telefon Akční potenciál",
+            "font_size": 30
+        },
+        {
+            "text": "Karibské moře Vznik hvězdy Německá kuchyně Noradrenalin",
+            "font_size": 28
+        },
+        {
+            "text": "Expresionismus Faktorizace Maďarština Švýcarská vlajka Homeopatie",
+            "font_size": 26
+        },
+        {
+            "text": "Vrtejši Fyzikální chemie Duševní zdraví Orel bělohlavý Formální jazyk Helénismus",
+            "font_size": 24
+        },
+        {
+            "text": "Karpaty Homeopatie Letadlová loď Alelopatie Kryptoměna Hlukové znečištění Extrémofil",
+            "font_size": 22
+        },
+        {
+            "text": "Strojový překlad Tramvaj Irové Datový sklad Galileiho měsíce Obratník Raka Mitóza",
+            "font_size": 20
+        },
+        {
+            "text": "Mexický záliv Světové dědictví Sociální práce Turbodmychadlo Mobilní telefon Eurasie Korálovcovití",
+            "font_size": 18
+        },
+        {
+            "text": "Břichobrvky Datel černý Eurasie Římské provincie Rjúkjú Populární kultura Fotovoltaický článek",
+            "font_size": 16
+        },
+        {
+            "text": "Psychoterapie Nebeská mechanika Výroková logika Horizont událostí Maledivština Elektrotechnika Protisté",
+            "font_size": 14
+        },
+        {
+            "text": "Menstruační cyklus Epitelová tkáň Skener Počítačová síť Agáve Františkáni Cyrilice",
+            "font_size": 12
+        },
+        {
+            "text": "Mikroekonomie Homeopatie Olympijská hymna Mezní náklady Teorie chaosu Dunkerk Eurasie",
+            "font_size": 10
+        },
+        {
+            "text": "Astrofyzika Binomická věta Hydroponie Psychoanalýza Kitakjúšú Strojový překlad Astrofyzika",
+            "font_size": 8
+        },
+        {
+            "text": "Antverpy Skauting Trojskok Angličané Kulturní šok Světové dědictví Filmový režisér",
+            "font_size": 6
+        },
+        {
+            "text": "Turbodmychadlo Visla Menstruační cyklus Italština Radiální rychlost Řecké písmo Mrchožrout",
+            "font_size": 4
+        },
+        {
+            "text": "Mezoamerika Magický realismus Řazení vkládáním Bioinformatika Rjúkjú Románské jazyky Limonáda",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Helgoland Bảo tàng Ermitazh Sieverodonetsk Mauritanie",
+            "font_size": 40
+        },
+        {
+            "text": "Điện thế hoạt động Nhạc cổ điển Hiện thực huyền ảo",
+            "font_size": 38
+        },
+        {
+            "text": "Sankt Xe điện mặt đất Nhạc đại chúng Hóa học tính toán",
+            "font_size": 36
+        },
+        {
+            "text": "Cỏ linh lăng Tập tin Beograd Cổ đại Hy Họ Âu thạch nam",
+            "font_size": 34
+        },
+        {
+            "text": "Dodekanisa Quần đảo Canaria Lục địa Á Đảo Phục Sinh Họ Ruồi giả ong",
+            "font_size": 32
+        },
+        {
+            "text": "Quần đảo Komandorski Tập tin Sự hình thành sao Ô nhiễm tiếng ồn",
+            "font_size": 30
+        },
+        {
+            "text": "Nước ngọt có ga Ký sinh trùng học Đại bàng đầu trắng Tiếng Catalunya",
+            "font_size": 28
+        },
+        {
+            "text": "Người Scotland Mạng máy tính Định lý Pythagoras Tiến hóa sao Chủ nghĩa hiện đại",
+            "font_size": 26
+        },
+        {
+            "text": "Thực vật có mạch Nai sừng xám Mạng máy tính Plutarchus Nguyên tố vi lượng Điện thoại di động",
+            "font_size": 24
+        },
+        {
+            "text": "Trường phái hàn lâm Thuyết vạn vật Anpơ Đảo Phục Sinh Trò chơi nhập vai Khoa học nhận thức Quản lý dự án",
+            "font_size": 22
+        },
+        {
+            "text": "Khoa học Trái Đất Hóa phân tích Hóa phân tích Sinh vật nhân thực Bộ tăng áp động cơ Chi Đỗ quyên Quan hệ nhân quả",
+            "font_size": 20
+        },
+        {
+            "text": "Tình nguyện Động vật ăn xác thối Dnister Hệ điều hành Democritos Cốc đế Cổ thực vật học",
+            "font_size": 18
+        },
+        {
+            "text": "Hồ Khovsgol Thực vật có mạch Họ Cun cút Trung Bộ châu Mỹ Vật lý thiên văn Thực vật một lá mầm Chó rừng lông vàng",
+            "font_size": 16
+        },
+        {
+            "text": "Tàu lượn siêu tốc Kunya Cà kheo cánh đen Tiếng Ukraina Giun dẹp Quetzalcoatl Động cơ tên lửa",
+            "font_size": 14
+        },
+        {
+            "text": "Người Slovenia Quần đảo Nansei Bayern Động vật hình rêu Cỏ linh lăng Tiếng Ukraina Cá cửu sừng",
+            "font_size": 12
+        },
+        {
+            "text": "Sự hình thành sao Hệ điều hành Kho dữ liệu Viện hàn lâm Pháp Kim loại chuyển tiếp Dnister Đoàn làm phim",
+            "font_size": 10
+        },
+        {
+            "text": "Thanh trùng Plutarchus Dòng Cát Minh Thượng Bayern Tỉnh của La Mã Cá ngừ vây vàng Thực vật mọng nước",
+            "font_size": 8
+        },
+        {
+            "text": "Hướng đạo Tàu sân bay Cảm nhiễm qua lại Thánh ca Thụy Sĩ Ẩm thực Nhật Bản Quá trình làm phim Chủ nghĩa siêu thực",
+            "font_size": 6
+        },
+        {
+            "text": "Hóa học tính toán Tiếng Wales Mảng Á Nhóm ngôn ngữ Sami Người Anh Cộng hòa Síp Tập tính học",
+            "font_size": 4
+        },
+        {
+            "text": "Thực vật hạt trần Điện thoại di động Sắp xếp nổi bọt Xoáy thuận nhiệt đới Nội dung tự do Dunkerque Tâm lý trị liệu",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

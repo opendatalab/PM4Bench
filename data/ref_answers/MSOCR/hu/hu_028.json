@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Múzeum Kanári Mezo",
+            "font_size": 40
+        },
+        {
+            "text": "Jelölőnyelv Népszámlálás Etológia Sárgás babuin",
+            "font_size": 38
+        },
+        {
+            "text": "Spirálgalaxis Faktorizáció Filmrendező Biogeográfia",
+            "font_size": 36
+        },
+        {
+            "text": "Reneszánsz Kunya Mobiltelefon Enciklopédia Fogszabályozás",
+            "font_size": 34
+        },
+        {
+            "text": "Mezo Karib Természettudomány Európai sün",
+            "font_size": 32
+        },
+        {
+            "text": "Beágyazott rendszer Expresszionizmus Ógörög nyelv Japán fürj",
+            "font_size": 30
+        },
+        {
+            "text": "Norvégia zászlaja Alnémet nyelv Erdei elefánt Triatlon Etológia",
+            "font_size": 28
+        },
+        {
+            "text": "Mexikói Csillagkeletkezés Fekete medve Belgrád Bentosz",
+            "font_size": 26
+        },
+        {
+            "text": "Emberré válás Észak Lágy szárú növény Okos város Brüsszel",
+            "font_size": 24
+        },
+        {
+            "text": "Meiózis Szociolingvisztika Királypingvin Fizikai kémia Harmadfokú egyenlet",
+            "font_size": 22
+        },
+        {
+            "text": "Búbos vöcsök Hidroponika Aerodinamika Sokúszós csukafélék Mauritánia zászlaja",
+            "font_size": 20
+        },
+        {
+            "text": "Fekete Csillagfejlődés Bengaluru Borneói vörösmacska Hámszövet",
+            "font_size": 18
+        },
+        {
+            "text": "Popkultúra Belgrád Idődilatáció Kártyajáték Fehérfejű rétisas",
+            "font_size": 16
+        },
+        {
+            "text": "Karmeliták Maldív nyelv Mezo Pajzsvulkán Áramlástan",
+            "font_size": 14
+        },
+        {
+            "text": "Takarmánylucerna Ökonometria Szlovének Bengaluru Kitakjúsú",
+            "font_size": 12
+        },
+        {
+            "text": "Mobiltelefon Páncélos ostorosok Etológia Biotechnológia Mikroökonómia",
+            "font_size": 10
+        },
+        {
+            "text": "Üzemanyagcella Egyszikűek Bioinformatika Homeopátia Rendszerbiológia",
+            "font_size": 8
+        },
+        {
+            "text": "Agyalapi mirigy Csavarhúzó Angolok Csillagkeletkezés Könnyűzene",
+            "font_size": 6
+        },
+        {
+            "text": "Repülőgép Kafferbivaly Karmos féreglábúak Szerepjáték Afrikai aranymacska",
+            "font_size": 4
+        },
+        {
+            "text": "Telepátia Spirálgalaxis Dnyeper Szphinx Cirill ábécé",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

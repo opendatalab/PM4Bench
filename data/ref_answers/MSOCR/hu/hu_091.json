@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Eurázsia Szlovének Eukarióták Homeopátia",
+            "font_size": 40
+        },
+        {
+            "text": "Hövszgöl Afta Kőkorszak Ceyloni fahéjfa",
+            "font_size": 38
+        },
+        {
+            "text": "Protiszták Sárkányok háza Kvantummechanika Középfölde",
+            "font_size": 36
+        },
+        {
+            "text": "Filmgyártás Grúz nyelv Szerepjáték Csehszlovákia",
+            "font_size": 34
+        },
+        {
+            "text": "Fehérfejű rétisas Napelem Villamos Mobiltelefon Hanglemez",
+            "font_size": 32
+        },
+        {
+            "text": "Egyszerű gép Tüskésbőrűek Kőkorszak Kunya Pacifizmus",
+            "font_size": 30
+        },
+        {
+            "text": "Vaskor Eseményhorizont Kognitív tudomány Aerodinamika Római számírás",
+            "font_size": 28
+        },
+        {
+            "text": "Élelmiszer Középfölde Antidepresszáns Pszichiátria Búbos vöcsök",
+            "font_size": 26
+        },
+        {
+            "text": "Jenyiszej Húsvét Karintia Ír nyelv Szakértői rendszer Mauritánia",
+            "font_size": 24
+        },
+        {
+            "text": "Ír nyelv Kék pingvin Kognitív tudomány Angolok Mezopotámia Klasszikus zene",
+            "font_size": 22
+        },
+        {
+            "text": "Világörökség Egyszikűek Sztoikus filozófia Appenninek Előgerinchúrosok Laposférgek",
+            "font_size": 20
+        },
+        {
+            "text": "Szürrealizmus Filmrendező Üdítőital Grönlandi fóka Világörökség Magyar nyelv",
+            "font_size": 18
+        },
+        {
+            "text": "Természetfilozófia Káoszelmélet Kötőszövet Görögország címere Sárgás babuin Litográfia",
+            "font_size": 16
+        },
+        {
+            "text": "Csehszlovákia Karib Karmeliták Számítógépes grafika Ferences rend Alnémet nyelv",
+            "font_size": 14
+        },
+        {
+            "text": "Menstruációs ciklus Afta Fehérfejű rétisas Üvegfestés Kontaktlencse Homeopátia",
+            "font_size": 12
+        },
+        {
+            "text": "Mobiltelefon Asztrofizika Buborékrendezés Arábiai Rekreáció Csinghua Egyetem",
+            "font_size": 10
+        },
+        {
+            "text": "Fizikai kémia Vaskor Ábécé Karmeliták Zengőlégyfélék Popkultúra",
+            "font_size": 8
+        },
+        {
+            "text": "Katódsugárcső Akromegália Enciklopédia Trópusi ciklon Kanári Svájc zászlaja",
+            "font_size": 6
+        },
+        {
+            "text": "Antwerpen Szakértői rendszer Biogeográfia Vízi növényzet Imaginárius egység Faktorizáció",
+            "font_size": 4
+        },
+        {
+            "text": "Adattárház Operációs rendszer Áramlástan Opolei vajdaság Homeopátia Villamos",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

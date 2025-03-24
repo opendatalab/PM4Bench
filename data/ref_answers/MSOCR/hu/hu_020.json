@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Minimalizmus Rendszerbiológia Olasz nyelv",
+            "font_size": 40
+        },
+        {
+            "text": "Görög ábécé Antikvitás Mobiltárca",
+            "font_size": 38
+        },
+        {
+            "text": "Spanyolok Újlatin nyelvek Adatállomány Integrált áramkör",
+            "font_size": 36
+        },
+        {
+            "text": "Sárgaúszójú tonhal Antikvitás Menstruációs ciklus",
+            "font_size": 34
+        },
+        {
+            "text": "Etológia Népszámlálás Szabad licenc Analitikai kémia",
+            "font_size": 32
+        },
+        {
+            "text": "Világörökség Analitikai kémia Jelölőnyelv Mauritánia zászlaja",
+            "font_size": 30
+        },
+        {
+            "text": "Nagy kárókatona Sztoikus filozófia Filmgyártás Meiózis Porcos halak Alsó",
+            "font_size": 28
+        },
+        {
+            "text": "Villamos Német juhászkutya Nyestcápafélék Előgerinchúrosok Étkezési rostok Cinematográfia",
+            "font_size": 26
+        },
+        {
+            "text": "Pastu nyelv Katabolizmus Szövetes növények Kriptovaluta Hullámvasút Olasz konyhaművészet",
+            "font_size": 24
+        },
+        {
+            "text": "Noradrenalin Számítógép Határköltség Étkezési rostok Makrofág Szociolingvisztika",
+            "font_size": 22
+        },
+        {
+            "text": "Grönlandi fóka Szabad licenc Allelopátia Homeopátia Appenninek Mobiltelefon",
+            "font_size": 20
+        },
+        {
+            "text": "Aranysakál Kriptovaluta Kanári Páncélos ostorosok Szociolingvisztika Dendritikus sejt",
+            "font_size": 18
+        },
+        {
+            "text": "Beágyazott rendszer Hindu Hellenizmus Szabad licenc Eurázsia Vörös tűzhal",
+            "font_size": 16
+        },
+        {
+            "text": "Húsevő Csillagkeletkezés Fekete medve Hérodotosz Karintia Szabad licenc",
+            "font_size": 14
+        },
+        {
+            "text": "Projektmenedzsment Kőkorszak Olasz konyhaművészet Amerikai futball Sógun Rakétahajtómű",
+            "font_size": 12
+        },
+        {
+            "text": "Egyszikűek Nyestcápafélék Planetológia Német juhászkutya Német juhászkutya Cserkészet",
+            "font_size": 10
+        },
+        {
+            "text": "Trópusi ciklon Hindu Könnyűzene Antikvitás Szociális munka Dravida nyelvcsalád",
+            "font_size": 8
+        },
+        {
+            "text": "Lipari Égi mechanika Középfölde Mobiltelefon Aeneis Népsűrűség",
+            "font_size": 6
+        },
+        {
+            "text": "Beszúrásos rendezés Örvös medve Olimpiai himnusz Német márka Lapolvasó Analitikai kémia",
+            "font_size": 4
+        },
+        {
+            "text": "Szuperhatalom Sógun Autópálya Észak Biotechnológia Integrált áramkör",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

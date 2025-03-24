@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Villamosmérnök Húsevő Kognitív tudomány Napelem",
+            "font_size": 40
+        },
+        {
+            "text": "Örvös medve Belgrád Hellenizmus",
+            "font_size": 38
+        },
+        {
+            "text": "Katabolizmus Spanyolok Világörökség Reguláris kifejezés",
+            "font_size": 36
+        },
+        {
+            "text": "Gépipar Szamothraké Német juhászkutya Csillagfejlődés",
+            "font_size": 34
+        },
+        {
+            "text": "Bolhapiac Modernizmus Hullámos papagáj Karmeliták",
+            "font_size": 32
+        },
+        {
+            "text": "Hidroponika Allelopátia Csontritkulás Graubünden kanton Mikroökonómia",
+            "font_size": 30
+        },
+        {
+            "text": "Autópálya Antidepresszáns Planetológia Strandröplabda",
+            "font_size": 28
+        },
+        {
+            "text": "Autoszóma Sztoikus filozófia Számítógép Svájc himnusza Hottentották Húsvét",
+            "font_size": 26
+        },
+        {
+            "text": "Elektronikus zene Zengőlégyfélék Nyomelem Ausztrália zászlaja Ír nyelv Asztrofizika",
+            "font_size": 24
+        },
+        {
+            "text": "Bentosz Villamos Pszichoterápia Bentosz Lombardia Szövetes növények Rjúkjú",
+            "font_size": 22
+        },
+        {
+            "text": "Karmeliták Fogszabályozás Afrikai aranymacska Angolok Európai sün Világörökség Idődilatáció",
+            "font_size": 20
+        },
+        {
+            "text": "Filmgyártás Angolok Ferences rend Korinthoszi Villamos Pszichiátria Pacifizmus",
+            "font_size": 18
+        },
+        {
+            "text": "Asztrofizika Bajorország Ábécé Felső Prokarióták Analitikai kémia Anatólia",
+            "font_size": 16
+        },
+        {
+            "text": "Antwerpen Hullámvasút Határköltség Vagarsapat Ír nyelv Fizikai kémia Hellenizmus",
+            "font_size": 14
+        },
+        {
+            "text": "Írek Alsó Fekete Villamos Mobiltelefon Chichén Itzá Homeopátia",
+            "font_size": 12
+        },
+        {
+            "text": "Rekreáció Község Mobiltelefon Laposférgek Dánia zászlaja Ukrán nyelv Harmadfokú egyenlet",
+            "font_size": 10
+        },
+        {
+            "text": "Belgrád Mauritánia Hármasugrás Ábécé Egyéves növény Jelölőnyelv Csukcs",
+            "font_size": 8
+        },
+        {
+            "text": "Extremofil Laposférgek Havasszépe Francia Akadémia Mobiltelefon Eurázsia Amerikai futball",
+            "font_size": 6
+        },
+        {
+            "text": "Katalán nyelv Plutarkhosz Német márka Hanglemez Reguláris kifejezés Rjúkjú Középfölde",
+            "font_size": 4
+        },
+        {
+            "text": "Üzemanyagcella Asztúriai nyelvtan Európa történelme Ferences rend Telepátia Gyűrűsfarkú maki Eurázsia",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Hanglemez Csinghua Egyetem Harmadfokú egyenlet",
+            "font_size": 40
+        },
+        {
+            "text": "Bronzkor Hövszgöl Pireneusok Albatroszfélék",
+            "font_size": 38
+        },
+        {
+            "text": "Török nyelv Gépi fordítás Jenyiszej Strandlabdarúgás",
+            "font_size": 36
+        },
+        {
+            "text": "Mobiltárca Hasábburgonya Plutarkhosz Rjúkjú",
+            "font_size": 34
+        },
+        {
+            "text": "Gyorsrendezés Dnyeper Ázsiai gepárd Telepátia Galilei",
+            "font_size": 32
+        },
+        {
+            "text": "Üzemanyagcella Számítógépes grafika Sztoikus filozófia Karib",
+            "font_size": 30
+        },
+        {
+            "text": "Világtörténelem Hámszövet Amerikai futball Szupravezetés Szerepjáték",
+            "font_size": 28
+        },
+        {
+            "text": "Svájc himnusza Középfölde Hámszövet Üzemanyagcella Község Dodekanészosz",
+            "font_size": 26
+        },
+        {
+            "text": "Kanári Grönlandi fóka Hullámvasút Káoszelmélet Ízeltlábúak",
+            "font_size": 24
+        },
+        {
+            "text": "Szupravezetés Buborékrendezés Brüsszel Integrált áramkör Pireneusok Szentpétervár Prokarióták",
+            "font_size": 22
+        },
+        {
+            "text": "Ír nyelv Eukarióták Húsvét Hellenizmus Trópusi ciklon Belgrád Berber makákó",
+            "font_size": 20
+        },
+        {
+            "text": "Olaszország zászlaja Ferences rend Biotechnológia Franciák Olasz nyelv Csillagfejlődés Elméleti fizika",
+            "font_size": 18
+        },
+        {
+            "text": "Imaginárius egység Disznódelfinfélék Pireneusok Ábécé Homeopátia Ingerület Moszkvai idő",
+            "font_size": 16
+        },
+        {
+            "text": "Planetológia Azori Pitagorasz Kötőszövet Telepátia Szarka Középfölde",
+            "font_size": 14
+        },
+        {
+            "text": "Nephropidae Egyszikűek Üvegfestés Újlatin nyelvek Franciák Etológia Mikroökonómia",
+            "font_size": 12
+        },
+        {
+            "text": "Porcos halak Anatólia Egyszerű gép Hámszövet Mezopotámia Vapiti Japonizmus",
+            "font_size": 10
+        },
+        {
+            "text": "Antwerpen Ítéletlogika Idegtudomány Meiózis Kulturális sokk Skótok Fehérfejű rétisas",
+            "font_size": 8
+        },
+        {
+            "text": "Belgrád Kőrézkor Észak Peloponnészosz Anatólia Egyszikűek Szerepjáték",
+            "font_size": 6
+        },
+        {
+            "text": "Meiózis Telepátia Borneói vörösmacska Spirálgalaxis Rétegvulkán Sziléziai vajdaság Afta",
+            "font_size": 4
+        },
+        {
+            "text": "Beágyazott rendszer Pszichoanalízis Zengőlégyfélék Francia Akadémia Hanglemez Kontaktlencse Japán konyhaművészet",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

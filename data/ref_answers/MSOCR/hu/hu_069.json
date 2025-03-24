@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Ciprusi Köztársaság Skótok Pireneusok",
+            "font_size": 40
+        },
+        {
+            "text": "Tirrén Üdítőital Szentpétervár",
+            "font_size": 38
+        },
+        {
+            "text": "Idődilatáció Szociális munka Nagybőgő Angolok",
+            "font_size": 36
+        },
+        {
+            "text": "Égi mechanika Olasz nyelv Zenei műfaj Homeopátia",
+            "font_size": 34
+        },
+        {
+            "text": "Montenegrói nyelv Hanglemez Popkultúra Havasszépe",
+            "font_size": 32
+        },
+        {
+            "text": "Ciprusi Köztársaság Világörökség Biotechnológia Turbófeltöltő",
+            "font_size": 30
+        },
+        {
+            "text": "Sárkányok háza Világörökség Újlatin nyelvek Antikvitás Bentosz",
+            "font_size": 28
+        },
+        {
+            "text": "Fogszabályozás Újlatin nyelvek Protiszták Hasábburgonya Adatállomány Bentosz",
+            "font_size": 26
+        },
+        {
+            "text": "Olaszország zászlaja Pinjin Telepátia Lágy szárú növény Szabad licenc Multiverzum",
+            "font_size": 24
+        },
+        {
+            "text": "Tengelyferdeség Meiózis Kártyajáték Karmos féreglábúak Homeopátia Hövszgöl Bajorország",
+            "font_size": 22
+        },
+        {
+            "text": "Turbófeltöltő Sztoikus filozófia Okság Rakétahajtómű Autópálya Popkultúra Község",
+            "font_size": 20
+        },
+        {
+            "text": "Hanglemez Plutarkhosz Hasábburgonya Graubünden kanton Guvat Számítógépes grafika Japán széró",
+            "font_size": 18
+        },
+        {
+            "text": "Skótok Francia Akadémia Dodekanészosz Görögország címere Szamothraké Karmos féreglábúak Égi mechanika",
+            "font_size": 16
+        },
+        {
+            "text": "Asztrofizika Medveállatkák Természettudomány Fogszabályozás Bengaluru Mitózis Szuperföld",
+            "font_size": 14
+        },
+        {
+            "text": "Bengaluru Kémiai reakció Ábécé Ázsiai gepárd Japán történelme Autoszóma Emberré válás",
+            "font_size": 12
+        },
+        {
+            "text": "Horrorfilm Berber makákó Sejtbiológia Palettás doktorhal Mexikói Buborékrendezés Idegtudomány",
+            "font_size": 10
+        },
+        {
+            "text": "Bomlás Csillagfejlődés Fehérfejű rétisas Kártyajáték Sárgás babuin Zajszennyezés Vasbeton",
+            "font_size": 8
+        },
+        {
+            "text": "Mauritánia Rendszerbiológia Rjúkjú Pszichoterápia Felső Csillagfejlődés Hámszövet",
+            "font_size": 6
+        },
+        {
+            "text": "Pacifizmus Vegetarianizmus Mauritánia zászlaja Mexikói Középfölde Áramlástan Hindu",
+            "font_size": 4
+        },
+        {
+            "text": "Hámszövet Azori Középfölde Visztula Ökonometria Alnémet nyelv Fekete harkály",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

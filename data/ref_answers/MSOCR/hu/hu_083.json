@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Húsvét Japán zászlaja Szerepjáték",
+            "font_size": 40
+        },
+        {
+            "text": "Szlovének Cserkészet Antikvitás Görögország címere",
+            "font_size": 38
+        },
+        {
+            "text": "Kőkorszak Szupravezetés Felső Albatroszfélék",
+            "font_size": 36
+        },
+        {
+            "text": "Adattárház Adatállomány Bengaluru Ferences rend Japán széró",
+            "font_size": 34
+        },
+        {
+            "text": "Klasszikus zene Amerikai futball Bronzkor",
+            "font_size": 32
+        },
+        {
+            "text": "Pszichoanalízis Angolok Ősnövénytan Kognitív tudomány Menstruációs ciklus",
+            "font_size": 30
+        },
+        {
+            "text": "Középfölde Bengaluru Noradrenalin Karélia Kognitív tudomány",
+            "font_size": 28
+        },
+        {
+            "text": "Fekete harkály Berber makákó Binomiális tétel Kémiai reakció Walesiek",
+            "font_size": 26
+        },
+        {
+            "text": "Beágyazott rendszer Roborovszkij Mezopotámia Gyűrűsférgek Vapiti Gyűrűsfarkú maki",
+            "font_size": 24
+        },
+        {
+            "text": "Buzogányfejű férgek Gráfok színezése Harmadfokú egyenlet Eukarióták Üvegfestés Hellenizmus",
+            "font_size": 22
+        },
+        {
+            "text": "Zenei műfaj Közönséges dió Litvánia zászlaja Biotechnológia Nyitvatermők Japán zászlaja",
+            "font_size": 20
+        },
+        {
+            "text": "Elefántfóka Csillagkeletkezés Projektmenedzsment Ermitázs Multiverzum Plutarkhosz",
+            "font_size": 18
+        },
+        {
+            "text": "Nílusi varánusz Reguláris kifejezés Okos város Csinghua Egyetem Sztoikus filozófia Mohó algoritmus",
+            "font_size": 16
+        },
+        {
+            "text": "Mobiltelefon Planetológia Kibertér Olaszország zászlaja Közép Kanári",
+            "font_size": 14
+        },
+        {
+            "text": "Etológia Hasábburgonya Rjúkjú Számítógépes kémia Európai sün Fizikai kémia",
+            "font_size": 12
+        },
+        {
+            "text": "Társadalmi norma Dögevő Mohó algoritmus Filmgyártás Német juhászkutya Zengőlégyfélék",
+            "font_size": 10
+        },
+        {
+            "text": "Szubatomi részecske Búbos vöcsök Villamosmérnök Formális nyelv Villamosmérnök Mentális egészség",
+            "font_size": 8
+        },
+        {
+            "text": "Segédprogram Litvánia zászlaja Csehszlovákia Japán fürj Mobiltelefon Reneszánsz",
+            "font_size": 6
+        },
+        {
+            "text": "Bentosz Középfölde Étkezési rostok Japán makákó Ingerület Szövetes növények",
+            "font_size": 4
+        },
+        {
+            "text": "Asztrofizika Afta Szabad licenc Mobiltárca Autópálya Hámszövet",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Ostrov muzeí Kanárské ostrovy Mezoamerika",
+            "font_size": 40
+        },
+        {
+            "text": "Značkovací jazyk Sčítání lidu Etologie Pavián babuin",
+            "font_size": 38
+        },
+        {
+            "text": "Spirální galaxie Faktorizace Filmový režisér Biogeografie",
+            "font_size": 36
+        },
+        {
+            "text": "Renesance Kuňja Mobilní telefon Encyklopedie Ortodoncie",
+            "font_size": 34
+        },
+        {
+            "text": "Mezoamerika Karibik Přírodní vědy Ježek západní",
+            "font_size": 32
+        },
+        {
+            "text": "Vestavěný systém Expresionismus Starořečtina Křepelka japonská",
+            "font_size": 30
+        },
+        {
+            "text": "Norská vlajka Dolnoněmčina Slon pralesní Triatlon Etologie",
+            "font_size": 28
+        },
+        {
+            "text": "Mexický záliv Vznik hvězdy Medvěd baribal Bělehrad Bentos",
+            "font_size": 26
+        },
+        {
+            "text": "Evoluce člověka Severní Holandsko Bylina Chytré město Brusel",
+            "font_size": 24
+        },
+        {
+            "text": "Meióza Sociolingvistika Tučňák patagonský Fyzikální chemie Kubická rovnice",
+            "font_size": 22
+        },
+        {
+            "text": "Potápka roháč Hydroponie Aerodynamika Bichirovití Mauritánská vlajka",
+            "font_size": 20
+        },
+        {
+            "text": "Subsaharská Afrika Vývoj hvězd Bengalúr Kočka bornejská Epitelová tkáň",
+            "font_size": 18
+        },
+        {
+            "text": "Populární kultura Bělehrad Dilatace času Karetní hra Orel bělohlavý",
+            "font_size": 16
+        },
+        {
+            "text": "Řád karmelitánů Maledivština Mezoamerika Štítová sopka Mechanika tekutin",
+            "font_size": 14
+        },
+        {
+            "text": "Tolice vojtěška Ekonometrie Slovinci Bengalúr Kitakjúšú",
+            "font_size": 12
+        },
+        {
+            "text": "Mobilní telefon Obrněnky Etologie Biotechnologie Mikroekonomie",
+            "font_size": 10
+        },
+        {
+            "text": "Palivový článek Jednoděložné Bioinformatika Homeopatie Systémová biologie",
+            "font_size": 8
+        },
+        {
+            "text": "Hypofýza Šroubovák Angličané Vznik hvězdy Populární hudba",
+            "font_size": 6
+        },
+        {
+            "text": "Letadlová loď Buvol africký Drápkovci Hra na hrdiny Kočka zlatá",
+            "font_size": 4
+        },
+        {
+            "text": "Telepatie Spirální galaxie Dněpr Sfinx Cyrilice",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

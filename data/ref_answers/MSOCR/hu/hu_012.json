@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Török nyelv Heterotrófia Japán zászlaja",
+            "font_size": 40
+        },
+        {
+            "text": "Kék pingvin Kardvirág Indokína Zenei műfaj",
+            "font_size": 38
+        },
+        {
+            "text": "Mobiltelefon Karmeliták Borneói vörösmacska Mauritánia",
+            "font_size": 36
+        },
+        {
+            "text": "Ferences rend Plutarkhosz Akadémizmus Gyűrűsférgek",
+            "font_size": 34
+        },
+        {
+            "text": "Napraforgóolaj Chichén Itzá Embriós növények Német juhászkutya",
+            "font_size": 32
+        },
+        {
+            "text": "Klasszikus zene Gerinchúrosok Laposférgek Ízeltlábúak Közönséges makákó",
+            "font_size": 30
+        },
+        {
+            "text": "Élelmiszer Káoszelmélet Akromegália Antwerpen Tengelyferdeség",
+            "font_size": 28
+        },
+        {
+            "text": "Planetológia Kék pingvin Karmeliták Horrorfilm Menstruációs ciklus",
+            "font_size": 26
+        },
+        {
+            "text": "Autoszóma Római provinciák Hanglemez Azori Villamos Popkultúra",
+            "font_size": 24
+        },
+        {
+            "text": "Biotechnológia Hajszálcsövesség Ferences rend Hövszgöl Szerepjáték Zengőlégyfélék",
+            "font_size": 22
+        },
+        {
+            "text": "Etológia Angolok Kunya Planetológia Hindu Vállalat",
+            "font_size": 20
+        },
+        {
+            "text": "Öszkemen Alsó Nyomelem Katalán nyelv Adatállomány Számi nyelvek",
+            "font_size": 18
+        },
+        {
+            "text": "Villamos Olasz konyhaművészet Idegszövet Biogeográfia Római számírás Mobiltárca",
+            "font_size": 16
+        },
+        {
+            "text": "Gravitációs lencse Öszkemen Ír nyelv Áramlástan Etológia Rakétahajtómű",
+            "font_size": 14
+        },
+        {
+            "text": "Számítógép Berber makákó Húsvét Bentosz Hámszövet Fogszabályozás",
+            "font_size": 12
+        },
+        {
+            "text": "Ketzalkóatl Indiai antilop Mezopotámia Sejtbiológia Fehérfejű rétisas Német juhászkutya",
+            "font_size": 10
+        },
+        {
+            "text": "Expresszionizmus Európai sün Kártyajáték Rendszerbiológia Hámszövet Kvantummechanika",
+            "font_size": 8
+        },
+        {
+            "text": "Kitakjúsú Pajzsvulkán Kriptovaluta Aeneis Biotechnológia Integrált áramkör",
+            "font_size": 6
+        },
+        {
+            "text": "Geofizika Hidroponika Trópusi ciklon Európai sün Sárgaúszójú tonhal Élelmiszer",
+            "font_size": 4
+        },
+        {
+            "text": "Hérodotosz Lágy szárú növény Meiózis Ázsiai gepárd Fogszabályozás Pastu nyelv",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Beágyazott rendszer Libanon címere Pszichoanalízis",
+            "font_size": 40
+        },
+        {
+            "text": "Gerinchúrosok Porcos halak Agyalapi mirigy Menstruációs ciklus",
+            "font_size": 38
+        },
+        {
+            "text": "Szakértői rendszer Anglia történelme Japán történelme Ábécé",
+            "font_size": 36
+        },
+        {
+            "text": "Sarkantyús teknős Homeopátia Európai sün",
+            "font_size": 34
+        },
+        {
+            "text": "Elektronikus zene Dánia zászlaja Karmeliták Villamos",
+            "font_size": 32
+        },
+        {
+            "text": "Kitakjúsú Integrált áramkör Olasz nyelv Elektronikus zene",
+            "font_size": 30
+        },
+        {
+            "text": "Integrált áramkör Lombardia Baleár Nílusi varánusz Litván nyelv",
+            "font_size": 28
+        },
+        {
+            "text": "Magyar nyelv Fizikai kémia Szuperföld Akadémizmus Nephropidae Faktorizáció",
+            "font_size": 26
+        },
+        {
+            "text": "Ukrán nyelv Belgrád Laposférgek Nyomelem Roborovszkij",
+            "font_size": 24
+        },
+        {
+            "text": "Villamosmérnök Görög ábécé Dnyeper Áramlástan Otthonoktatás Fejlődéstan",
+            "font_size": 22
+        },
+        {
+            "text": "Eurázsia Azori Község Biotechnológia Üzleti titok Svájc himnusza",
+            "font_size": 20
+        },
+        {
+            "text": "Amhara nyelv Dögevő Lapolvasó Húsvéti tojás Prokarióták Világtörténelem",
+            "font_size": 18
+        },
+        {
+            "text": "Francia Akadémia Galilei Buzogányfejű férgek Alsó Felső Plutarkhosz",
+            "font_size": 16
+        },
+        {
+            "text": "Fogszabályozás Alsó Japán konyhaművészet Adatállomány Tüskésbőrűek Rakétahajtómű",
+            "font_size": 14
+        },
+        {
+            "text": "Elektronikus zene Geofizika Alluviális síkság Projektmenedzsment Pszichoterápia Lombardia",
+            "font_size": 12
+        },
+        {
+            "text": "Adatállomány Napelem Homeopátia Rendszerbiológia Község Beszúrásos rendezés",
+            "font_size": 10
+        },
+        {
+            "text": "Projektmenedzsment Cserkészet Atomfizika Pszichoanalízis Menstruációs ciklus Menstruációs ciklus",
+            "font_size": 8
+        },
+        {
+            "text": "Átmenetifémek Klasszikus zene Strukturalizmus Rjúkjú Svájc zászlaja Grúz nyelv",
+            "font_size": 6
+        },
+        {
+            "text": "Bengaluru Reguláris kifejezés Szókratész Adatszerkezet Középfölde Belgrád",
+            "font_size": 4
+        },
+        {
+            "text": "Repülőgép Egyszikűek Másodfokú egyenlet Aranysakál Szürrealizmus Szuperhős",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

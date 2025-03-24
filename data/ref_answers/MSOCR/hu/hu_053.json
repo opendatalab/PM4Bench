@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Sejtbiológia Puhatestűek Kártyajáték Középfölde",
+            "font_size": 40
+        },
+        {
+            "text": "Noradrenalin Német márka Amhara nyelv Karib",
+            "font_size": 38
+        },
+        {
+            "text": "Pszichoanalízis Kibertér Szamothraké Franciák Angolok",
+            "font_size": 36
+        },
+        {
+            "text": "Ősnövénytan Dodekanészosz Rjúkjú Homeopátia Olaszország zászlaja",
+            "font_size": 34
+        },
+        {
+            "text": "Sejtbiológia Thunnus alalunga Cinematográfia Eurázsia Rekreáció",
+            "font_size": 32
+        },
+        {
+            "text": "Kulturális sokk Puhatestűek Modernizmus Fizikai kémia Mexikói",
+            "font_size": 30
+        },
+        {
+            "text": "Határköltség Ingerület Telepátia Csinghua Egyetem",
+            "font_size": 28
+        },
+        {
+            "text": "Kanári Idegszövet Konstantinápoly Agyalapi mirigy Szuperföld Káoszelmélet",
+            "font_size": 26
+        },
+        {
+            "text": "Kártyajáték Egyszikűek Svájc zászlaja Marrákes Ptolemaida Gráfok színezése",
+            "font_size": 24
+        },
+        {
+            "text": "Számítógépes grafika Néreiszek Kék pingvin Község Peloponnészosz Számítógép Villamos",
+            "font_size": 22
+        },
+        {
+            "text": "Zengőlégyfélék Ferences rend Okság Görög ábécé Svédország zászlaja Ír nyelv Nyestcápafélék",
+            "font_size": 20
+        },
+        {
+            "text": "Naptömeg Pacifizmus Karib Operációs rendszer Közép Menstruációs ciklus Keringési idő",
+            "font_size": 18
+        },
+        {
+            "text": "Puhatestűek Kognitív tudomány Villamosmérnök Vaskor Aerodinamika Nílusi varánusz Appenninek",
+            "font_size": 16
+        },
+        {
+            "text": "Ecetmuslica Zengőlégyfélék Hidroponika Európai sün Ingerület Cisztás fibrózis Hidroponika",
+            "font_size": 14
+        },
+        {
+            "text": "Chichén Itzá Előgerinchúrosok Binomiális tétel Okság Jylland Dánia zászlaja Varmia",
+            "font_size": 12
+        },
+        {
+            "text": "Planetológia Sejtbiológia Karmeliták Páncélos ostorosok Klasszikus zene Telepátia Horrorfilm",
+            "font_size": 10
+        },
+        {
+            "text": "Mohó algoritmus Keringési idő Fekete Otthonoktatás Európai borz Cirill ábécé Biotechnológia",
+            "font_size": 8
+        },
+        {
+            "text": "Keringési idő Páncélos ostorosok Albatroszfélék Természettudomány Világtörténelem Mohaállatok Jenyiszej",
+            "font_size": 6
+        },
+        {
+            "text": "Hasábburgonya Szókratész Telepátia Napelem Mezopotámia Olaszország zászlaja Vaskor",
+            "font_size": 4
+        },
+        {
+            "text": "Telepátia Toszkána Mexikói Hámszövet Népsűrűség Rekreáció Bentosz",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

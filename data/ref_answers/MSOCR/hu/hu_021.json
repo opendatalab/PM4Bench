@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Heterotrófia Okság Gépipar",
+            "font_size": 40
+        },
+        {
+            "text": "Afta Örvös medve",
+            "font_size": 38
+        },
+        {
+            "text": "Lombardia Filmgyártás Okos város Franciák",
+            "font_size": 36
+        },
+        {
+            "text": "Húsevő Emberré válás Japonizmus Walesi nyelv",
+            "font_size": 34
+        },
+        {
+            "text": "Asztúriai nyelvtan Káoszelmélet Nyitvatermők Fehérfejű rétisas",
+            "font_size": 32
+        },
+        {
+            "text": "Harmadfokú egyenlet Francia Akadémia Sztoikus filozófia Villamos",
+            "font_size": 30
+        },
+        {
+            "text": "Zengőlégyfélék Kormos varjú Karib Fonálférgek Mozaik Közönséges dió",
+            "font_size": 28
+        },
+        {
+            "text": "Hellenizmus Ítéletlogika Kitakjúsú Triatlon Filmgyártás",
+            "font_size": 26
+        },
+        {
+            "text": "Kémiai reakció Villamos Hidroponika Filmgyártás Húsvét Áramlástan",
+            "font_size": 24
+        },
+        {
+            "text": "Autoszóma Operációs rendszer Autópálya Égi mechanika Kémiai reakció Eseményhorizont",
+            "font_size": 22
+        },
+        {
+            "text": "Neutronmoderátor Triatlon Élelmiszer Egyszikűek Örvös medve Pastu nyelv",
+            "font_size": 20
+        },
+        {
+            "text": "Önkéntes munka Nyestcápafélék Rjúkjú Üvegfestés Ciprusi Köztársaság Gyűrűsférgek",
+            "font_size": 18
+        },
+        {
+            "text": "Skótok Homeopátia Telepátia Üdítőital Svédország zászlaja Olaszok",
+            "font_size": 16
+        },
+        {
+            "text": "Aligátorfélék Spanyol nyelv Plutarkhosz Asztrofizika Adatszerkezet Üdítőital",
+            "font_size": 14
+        },
+        {
+            "text": "Homeopátia Triatlon Élelmiszer Eukarióták Napelem Asztrofizika",
+            "font_size": 12
+        },
+        {
+            "text": "Villamos Mészszivacsok Strandlabdarúgás Fogszabályozás Trópusi ciklon Csillagkeletkezés",
+            "font_size": 10
+        },
+        {
+            "text": "Középfölde Világtörténelem Agapornis Hullámvasút Cirill ábécé Rakétahajtómű",
+            "font_size": 8
+        },
+        {
+            "text": "Ógörög nyelv Bioinformatika Antidepresszáns Kontaktlencse Fonálférgek Húsvét",
+            "font_size": 6
+        },
+        {
+            "text": "Telepátia Cinematográfia Fekete medve Kitakjúsú Eurázsiai Német márka",
+            "font_size": 4
+        },
+        {
+            "text": "Opolei vajdaság Binomiális tétel Pitagorasz Ökonometria Reneszánsz Számítógép",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

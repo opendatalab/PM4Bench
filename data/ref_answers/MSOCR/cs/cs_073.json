@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Orel bělohlavý Čadská vlajka Akční potenciál",
+            "font_size": 40
+        },
+        {
+            "text": "Kauzalita Františkáni Termoregulace",
+            "font_size": 38
+        },
+        {
+            "text": "Mitóza Hydrofyty Stopový prvek Filmový horor",
+            "font_size": 36
+        },
+        {
+            "text": "Železobeton Angličané Tramvaj Světové dědictví",
+            "font_size": 34
+        },
+        {
+            "text": "Bleší trh Sčítání lidu Andulka vlnkovaná",
+            "font_size": 32
+        },
+        {
+            "text": "Hydrofyty Sókratés Středozem Osteoporóza Cyrilice Mauritánie",
+            "font_size": 30
+        },
+        {
+            "text": "Genetický kód Šakal obecný Héfaistos Elektronická hudba Hra na hrdiny",
+            "font_size": 28
+        },
+        {
+            "text": "Petrohrad Filipínské moře Hudební žánr Liparské ostrovy Dějiny lidstva",
+            "font_size": 26
+        },
+        {
+            "text": "Geofyzika Mezopotámie Šakal obecný Palivový článek Biogeografie Ekonometrie",
+            "font_size": 24
+        },
+        {
+            "text": "Vznik hvězdy Helénismus Italská kuchyně Elektronická hudba Nervová tkáň Paryby",
+            "font_size": 22
+        },
+        {
+            "text": "Psychiatrie Elektrotechnika Katabolismus Triatlon Luskoun krátkoocasý Superzemě",
+            "font_size": 20
+        },
+        {
+            "text": "Hranolky Ploštěnci Katalánština Domácí vzdělávání Světové dědictví Tučňák patagonský",
+            "font_size": 18
+        },
+        {
+            "text": "Italská kuchyně Pasterace Filmová produkce Andulka vlnkovaná Triatlon Švédská vlajka",
+            "font_size": 16
+        },
+        {
+            "text": "Skener Italština Eurasie Astrofyzika Psychoanalýza Muzikoterapie",
+            "font_size": 14
+        },
+        {
+            "text": "Komandorské ostrovy Letadlová loď Italská vlajka Pyreneje Helénismus Antidepresivum",
+            "font_size": 12
+        },
+        {
+            "text": "Dějiny Evropy Horizont událostí Karetní hra Tuňák křídlatý Telepatie Kubická rovnice",
+            "font_size": 10
+        },
+        {
+            "text": "Potápka roháč Eurasie Sociolingvistika Domácí vzdělávání Antika Kitakjúšú",
+            "font_size": 8
+        },
+        {
+            "text": "Doba bronzová Datel černý Sukulent Limonáda Středozem Helgoland",
+            "font_size": 6
+        },
+        {
+            "text": "Sluneční hmotnost Mnohovesmír Sklon rotační osy Elektronická hudba Palivový článek Karibik",
+            "font_size": 4
+        },
+        {
+            "text": "Ostnokožci Římské provincie Epitelová tkáň Mobilní telefon Doba kamenná Vestavěný systém",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Německý ovčák Termistor Tramvaj",
+            "font_size": 40
+        },
+        {
+            "text": "Eukaryota Gramofonová deska Kubická rovnice Hérodotos",
+            "font_size": 38
+        },
+        {
+            "text": "Mezopotámie Angličané Recidivující afty Římské číslice",
+            "font_size": 36
+        },
+        {
+            "text": "Masožravec Výrobní faktor Karetní hra Korporace",
+            "font_size": 34
+        },
+        {
+            "text": "Slezské vojvodství Magický realismus Antverpy Dněpr",
+            "font_size": 32
+        },
+        {
+            "text": "Maďaři Velikonoční ostrov Pyreneje Slezské vojvodství Turečtina",
+            "font_size": 30
+        },
+        {
+            "text": "Baleáry Dněpr Mechovci Subatomární částice Minimalismus",
+            "font_size": 28
+        },
+        {
+            "text": "Ermitáž Doba železná Středozem Helénismus Německá kuchyně Kuňja",
+            "font_size": 26
+        },
+        {
+            "text": "Švýcarská vlajka Kuňja Varmijsko Dněpr Doba bronzová",
+            "font_size": 24
+        },
+        {
+            "text": "Makrofág Pestřenky Dějiny Japonska Irština Chřástal vodní Světové dědictví Surrealismus",
+            "font_size": 22
+        },
+        {
+            "text": "Ježek západní Litografie Mezoamerika Raketový motor Mauritánská vlajka Mexický záliv",
+            "font_size": 20
+        },
+        {
+            "text": "Tramvaj Strojový překlad Světové dědictví Doba železná Hranolky Bentos Mauritánie",
+            "font_size": 18
+        },
+        {
+            "text": "Eurasie Tramvaj Lombardie Dějiny Japonska Vznik hvězdy Švédská vlajka Straka obecná",
+            "font_size": 16
+        },
+        {
+            "text": "Eurasie Opolské vojvodství Jednoduchý stroj Severní Brabantsko Wapiti Paštština Mobilní telefon",
+            "font_size": 14
+        },
+        {
+            "text": "Kvadratická rovnice Americký fotbal Skauting Sfinx Karetní hra Sociolingvistika Obchodní tajemství",
+            "font_size": 12
+        },
+        {
+            "text": "Hypofýza Antika Cystická fibróza Stopový prvek Supervelmoc Karetní hra Baleáry",
+            "font_size": 10
+        },
+        {
+            "text": "Tuňák žlutoploutvý Moderna Gruzínština Mrchožrout Meióza Kinematografie Evoluce člověka",
+            "font_size": 8
+        },
+        {
+            "text": "Světové dědictví Tuňák žlutoploutvý Potápka roháč Petrohrad Autozom Soubor Řecké písmo",
+            "font_size": 6
+        },
+        {
+            "text": "Drápkovci Ploštěnci Františkáni Hranolky Světové dědictví Stopový prvek Filmový štáb",
+            "font_size": 4
+        },
+        {
+            "text": "Francouzi Kryptoměna Petrohrad Neurověda Obec Přechodné kovy Minimalismus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Ecetmuslica Bengaluru Etológia Formális nyelv",
+            "font_size": 40
+        },
+        {
+            "text": "Japán fürj Kvantummechanika Autoszóma Angolok",
+            "font_size": 38
+        },
+        {
+            "text": "Társadalmi norma Bolhapiac Hasábburgonya",
+            "font_size": 36
+        },
+        {
+            "text": "Újlatin nyelvek Villamos Hámszövet Kínai tobzoska",
+            "font_size": 34
+        },
+        {
+            "text": "Biotechnológia Bentosz Imaginárius egység Varmia",
+            "font_size": 32
+        },
+        {
+            "text": "Sárgás babuin Pszichiátria Sejtbiológia Örvös medve Napelem",
+            "font_size": 30
+        },
+        {
+            "text": "Jelölőnyelv Walesi nyelv Szókratész Szupravezetés Mohó algoritmus",
+            "font_size": 28
+        },
+        {
+            "text": "Örvös medve Nyestcápafélék Világtörténelem Eurázsiai",
+            "font_size": 26
+        },
+        {
+            "text": "Ír nyelv Villamos Rakétahajtómű Skótok Trópusi ciklon Allelopátia",
+            "font_size": 24
+        },
+        {
+            "text": "Román nyelv Termelési tényező Mezo Mezo Kőrézkor Rétegvulkán",
+            "font_size": 22
+        },
+        {
+            "text": "Rakétahajtómű Szuperhős Meiózis Beágyazott rendszer Amhara nyelv Villamos",
+            "font_size": 20
+        },
+        {
+            "text": "Vízi növényzet Bronzkor Akromegália Reneszánsz Pitagorasz Alnémet nyelv",
+            "font_size": 18
+        },
+        {
+            "text": "Spirálgalaxis Baleár Határköltség Triatlon Strandröplabda Nephropidae",
+            "font_size": 16
+        },
+        {
+            "text": "Kártyajáték Reguláris kifejezés Mészszivacsok Homeopátia Szarka Mohó algoritmus",
+            "font_size": 14
+        },
+        {
+            "text": "Újlatin nyelvek Menstruációs ciklus Kitakjúsú Német konyhaművészet Ingerület Homeopátia",
+            "font_size": 12
+        },
+        {
+            "text": "Örvös medve Szerepjáték Hullámvasút Fonálférgek Mexikói Walesi nyelv",
+            "font_size": 10
+        },
+        {
+            "text": "Kártyajáték Ízeltlábúak Kvantummechanika Rendszerbiológia Mauritánia Világörökség",
+            "font_size": 8
+        },
+        {
+            "text": "Idegszövet Filmgyártás Bronzkor Homeopátia Mauritánia Étkezési rostok",
+            "font_size": 6
+        },
+        {
+            "text": "Anatóliai nyelvek Sziléziai vajdaság Nyomelem Társadalmi norma Integrált áramkör Graubünden kanton",
+            "font_size": 4
+        },
+        {
+            "text": "Aeneis Biotechnológia Hindu Katalán nyelv Egyszikűek Filmgyártás",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

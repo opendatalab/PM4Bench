@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Előgerinchúrosok Karmeliták Neutronmoderátor",
+            "font_size": 40
+        },
+        {
+            "text": "Román nyelv Autópálya Űrturizmus",
+            "font_size": 38
+        },
+        {
+            "text": "Húsevő Község Projektmenedzsment Spanyolok",
+            "font_size": 36
+        },
+        {
+            "text": "Húsevő Ketzalkóatl Litográfia Adattárház",
+            "font_size": 34
+        },
+        {
+            "text": "Szuperföld Maldív nyelv Felső Fizikai kémia",
+            "font_size": 32
+        },
+        {
+            "text": "Ítéletlogika Pajzsvulkán Húsvét Marrákes Mezo",
+            "font_size": 30
+        },
+        {
+            "text": "Triatlon Fehérfejű rétisas Menstruációs ciklus Sárgás babuin Kitakjúsú",
+            "font_size": 28
+        },
+        {
+            "text": "Spanyolok Egyszerű gép Mezo Integrált áramkör Rakétahajtómű",
+            "font_size": 26
+        },
+        {
+            "text": "Thunnus alalunga Buborékrendezés Takarmánylucerna Ingerület Kőrézkor",
+            "font_size": 24
+        },
+        {
+            "text": "Maldív nyelv Eurázsia Gépi fordítás Római provinciák Hanglemez Szövetes növények",
+            "font_size": 22
+        },
+        {
+            "text": "Trópusi ciklon Kitakjúsú Brüsszel Chichén Itzá Életbiztosítás Embriós növények",
+            "font_size": 20
+        },
+        {
+            "text": "Alnémet nyelv Középfölde Trópusi ciklon Napelem Szentpétervár Vaskor",
+            "font_size": 18
+        },
+        {
+            "text": "Közönséges dió Peloponnészosz Japán konyhaművészet Turbófeltöltő Homeopátia Eukarióták",
+            "font_size": 16
+        },
+        {
+            "text": "Szuperhatalom Sógun Szerepjáték Ciprusi Köztársaság Hasábburgonya Szociális munka",
+            "font_size": 14
+        },
+        {
+            "text": "Konstantinápoly Marrákes Húsevő Skótok Toszkána Dnyeper",
+            "font_size": 12
+        },
+        {
+            "text": "Német juhászkutya Elméleti fizika Információtudomány Termelési tényező Olasz nyelv Parazitológia",
+            "font_size": 10
+        },
+        {
+            "text": "Vállalat Cisztás fibrózis Fonálférgek Dardanellák Hindu Húsvéti tojás",
+            "font_size": 8
+        },
+        {
+            "text": "Hanglemez Ógörög nyelv Enciklopédia Japán makákó Mikroökonómia Olasz nyelv",
+            "font_size": 6
+        },
+        {
+            "text": "Popkultúra Puhatestűek Dnyeper Angolok Gerinchúrosok Bébi úr",
+            "font_size": 4
+        },
+        {
+            "text": "Porcos halak Pastu nyelv Elméleti fizika Parazitológia Vaskor Francia Akadémia",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

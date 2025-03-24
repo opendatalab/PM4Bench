@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Középfölde Sárgaúszójú tonhal Antidepresszáns",
+            "font_size": 40
+        },
+        {
+            "text": "Cserkészet Extremofil Nagybőgő",
+            "font_size": 38
+        },
+        {
+            "text": "Kognitív tudomány Szentpétervár Cirill ábécé Meiózis Ír nyelv",
+            "font_size": 36
+        },
+        {
+            "text": "Imaginárius egység Hajszálcsövesség Ízeltlábúak Menstruációs ciklus",
+            "font_size": 34
+        },
+        {
+            "text": "Homeopátia Idődilatáció Dardanellák Varmia",
+            "font_size": 32
+        },
+        {
+            "text": "Anatólia Magfizika Hanglemez Triatlon Operációs rendszer",
+            "font_size": 30
+        },
+        {
+            "text": "Sokúszós csukafélék Reneszánsz Kis ámbráscet Karib Ausztrália zászlaja",
+            "font_size": 28
+        },
+        {
+            "text": "Szürrealizmus Kriptovaluta Bioinformatika Napelem Ecetmuslica Szentpétervár",
+            "font_size": 26
+        },
+        {
+            "text": "Sárgás babuin Antikvitás Napelem Integrált áramkör Világörökség Azori Napelem",
+            "font_size": 24
+        },
+        {
+            "text": "Japán konyhaművészet Vapiti Analitikai kémia Napelem Svájc himnusza Enciklopédia Homeopátia",
+            "font_size": 22
+        },
+        {
+            "text": "Pacifizmus Egyszikűek Magyarok Mezo Alsó Projektmenedzsment Otthonoktatás",
+            "font_size": 20
+        },
+        {
+            "text": "Franciák Japán makákó Ukrán nyelv Világörökség Strandlabdarúgás Dnyeszter Szentpétervár",
+            "font_size": 18
+        },
+        {
+            "text": "Adatállomány Reguláris kifejezés Önkéntes munka Ingerület Alpok Eseményhorizont Eurázsia",
+            "font_size": 16
+        },
+        {
+            "text": "Népszámlálás Belgrád Üdítőital Olaszország zászlaja Maldív nyelv Porcos halak Húsvét",
+            "font_size": 14
+        },
+        {
+            "text": "Mezo Újlatin nyelvek Menstruációs ciklus Sógun Integrált áramkör Graubünden kanton Strandröplabda",
+            "font_size": 12
+        },
+        {
+            "text": "Ferences rend Telepátia Amerikai alkörmös Azori Reguláris kifejezés Filmgyártás Graubünden kanton",
+            "font_size": 10
+        },
+        {
+            "text": "Cserkészet Kvantummechanika Európa történelme Projektmenedzsment Okság Páncélos ostorosok Pacifizmus",
+            "font_size": 8
+        },
+        {
+            "text": "Kötőszövet Dnyeper Villamos Porcos halak Csillagkeletkezés Bentosz Lubusi vajdaság",
+            "font_size": 6
+        },
+        {
+            "text": "Szerepjáték Csontritkulás Mikroökonómia Kunya Analitikai kémia Üvegfestés Opolei vajdaság",
+            "font_size": 4
+        },
+        {
+            "text": "Pastu nyelv Medveállatkák Bentosz Egyszikűek Maldív nyelv Földtudomány Vállalat",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

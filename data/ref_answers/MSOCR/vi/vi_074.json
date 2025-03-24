@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Dòng Phan Sinh Nhím gai châu Âu Bảo tàng Ermitazh",
+            "font_size": 40
+        },
+        {
+            "text": "Đa vũ trụ Quần đảo Baleares Thực vật thủy sinh",
+            "font_size": 38
+        },
+        {
+            "text": "Quần đảo Baleares Tiếng Dhivehi Tiếng Ý",
+            "font_size": 36
+        },
+        {
+            "text": "Cảm nhiễm qua lại Công nghệ sinh học Nhạc điện tử Trung Bộ châu Mỹ",
+            "font_size": 34
+        },
+        {
+            "text": "Tiếng Pashtun Bài hát Thế vận hội Phân tâm học Khoikhoi",
+            "font_size": 32
+        },
+        {
+            "text": "Hải cẩu Greenland Sông Dnepr Lịch sử châu Á Đại thực bào Beograd",
+            "font_size": 30
+        },
+        {
+            "text": "Triakidae Lịch sử Nhật Bản Cổ thực vật học Bính âm Hán ngữ Ẩm thực Ý Bảng chữ cái",
+            "font_size": 28
+        },
+        {
+            "text": "Đảo Phục Sinh Anpơ Âm nhạc trị liệu Điều hòa thân nhiệt Dị hóa Ẩm thực Ý",
+            "font_size": 26
+        },
+        {
+            "text": "Vi lượng đồng căn Trung Địa Biểu mô Điện thế hoạt động Thượng Pfalz",
+            "font_size": 24
+        },
+        {
+            "text": "Tiếng Hy Lạp cổ đại Wisła Quốc kỳ Tchad Tiếng Ireland Khoa học thần kinh Giáo dục tại gia Tiếng Ireland",
+            "font_size": 22
+        },
+        {
+            "text": "Vật lý lý thuyết Thần giao cách cảm Sông Dnepr Tâm lý trị liệu Lý thuyết hỗn loạn Phần mềm tiện ích Quốc kỳ Mauritanie",
+            "font_size": 20
+        },
+        {
+            "text": "Giảm phân Tiếng Hy Lạp cổ đại Cá bắp nẻ xanh Quần đảo Canaria Phản ứng hóa học Đường cao tốc Cổ đại Hy",
+            "font_size": 18
+        },
+        {
+            "text": "Kunya Vi mạch Đại học Thanh Hoa Kỹ thuật cơ khí Khỉ đuôi dài Biểu mô Chu kỳ quỹ đạo",
+            "font_size": 16
+        },
+        {
+            "text": "Văn hóa đại chúng Loãng xương Lý thuyết hỗn loạn Thực vật có mạch Chữ Kirin Khoa học hành tinh Ngành Giun tròn",
+            "font_size": 14
+        },
+        {
+            "text": "Vật lý thiên văn Samothraki Tô màu đồ thị Chó chăn cừu Đức Khoa học tự nhiên Bảo tàng Ermitazh Trò chơi bài",
+            "font_size": 12
+        },
+        {
+            "text": "Yếu tố sản xuất Khu tự quản Lý thuyết hỗn loạn Tuyến yên Máy cơ đơn giản Kinh tế học vi mô Tiếng Catalunya",
+            "font_size": 10
+        },
+        {
+            "text": "Thời kỳ Hy Lạp hóa Dãy núi Karpat Quốc kỳ România Mác Đức Phần mềm tiện ích Dodekanisa Xoáy thuận nhiệt đới",
+            "font_size": 8
+        },
+        {
+            "text": "Chuẩn mực xã hội Tiếng Pashtun Hóa phân tích Sinh học phát triển Trò chơi bài Họ Tôm hùm càng Hướng đạo",
+            "font_size": 6
+        },
+        {
+            "text": "Hóa phân tích Cổ đại Hy Bán đảo Đông Dương Anpơ Hải cẩu Greenland Cá hồi Đại Tây Dương Quốc kỳ Thụy Điển",
+            "font_size": 4
+        },
+        {
+            "text": "Warmińsko Biểu mô Chủ nghĩa hòa bình Chợ trời Trứng Phục sinh Dnister Giun nhung",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

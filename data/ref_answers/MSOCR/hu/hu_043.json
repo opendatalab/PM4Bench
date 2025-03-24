@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Ír nyelv Üdítőital Gerinchúrosok",
+            "font_size": 40
+        },
+        {
+            "text": "Bengaluru Autópálya Kafferbivaly",
+            "font_size": 38
+        },
+        {
+            "text": "Varmia Szubatomi részecske Kulturális sokk",
+            "font_size": 36
+        },
+        {
+            "text": "Porcos halak Antidepresszáns Havasszépe Dodekanészosz",
+            "font_size": 34
+        },
+        {
+            "text": "Maldív nyelv Vapiti Filmrendező Turbófeltöltő",
+            "font_size": 32
+        },
+        {
+            "text": "Tengelyferdeség Szívciklus Kék pingvin Sokúszós csukafélék Franciák",
+            "font_size": 30
+        },
+        {
+            "text": "Japán történelme Graubünden kanton Grúz nyelv Csillagkeletkezés Pszichoterápia",
+            "font_size": 28
+        },
+        {
+            "text": "Vegetarianizmus Vapiti Számítógépes kémia Napraforgóolaj Zenei műfaj",
+            "font_size": 26
+        },
+        {
+            "text": "Dnyeper Hésziodosz Bengaluru Pastu nyelv Élelmiszer Cirill ábécé Pireneusok",
+            "font_size": 24
+        },
+        {
+            "text": "Hövszgöl Japonizmus Írek Karélia Csillagfejlődés Agorafóbia Anglia zászlaja",
+            "font_size": 22
+        },
+        {
+            "text": "Kafferbivaly Litván nyelv Ciprusi Köztársaság Római számírás Hindu Írek Afta",
+            "font_size": 20
+        },
+        {
+            "text": "Adattárház Számítógép Gerinchúrosok Popkultúra Világörökség Japán makákó Gerinchúrosok",
+            "font_size": 18
+        },
+        {
+            "text": "Mobiltelefon Filmgyártás Spirálgalaxis Varmia Szentpétervár Ausztrália zászlaja Gépi fordítás",
+            "font_size": 16
+        },
+        {
+            "text": "Azori Francia Akadémia Szövetes növények Újlatin nyelvek Tüskésbőrűek Üzemanyagcella Planetológia",
+            "font_size": 14
+        },
+        {
+            "text": "Sarkantyús teknős Vapiti Kanári Csinghua Egyetem Alpok Sárgaúszójú tonhal Eurázsia",
+            "font_size": 12
+        },
+        {
+            "text": "Antikvitás Mobiltelefon Mezopotámia Világörökség Adattárház Planetológia Reneszánsz",
+            "font_size": 10
+        },
+        {
+            "text": "Kémiai reakció Kék pingvin Elektromos autó Litográfia Afta Világörökség Hörghurut",
+            "font_size": 8
+        },
+        {
+            "text": "Italikus nyelvek Filippínó Napelem Pszichoterápia Fizikus Villamosmérnök Okos város",
+            "font_size": 6
+        },
+        {
+            "text": "Planetológia Világörökség Kognitív tudomány Maldív nyelv Grúz nyelv Telepátia Könnyűzene",
+            "font_size": 4
+        },
+        {
+            "text": "Dunkerque Geofizika Szociális munka Kőkorszak Eukarióták Prokarióták Pinjin",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Chalcolithic Cyprus Lobster Roman numerals",
+            "font_size": 40
+        },
+        {
+            "text": "Little penguin Operating system Balearic Islands",
+            "font_size": 38
+        },
+        {
+            "text": "Eukaryote Telepathy Bronze Age",
+            "font_size": 36
+        },
+        {
+            "text": "Academic art Causality Spaniards",
+            "font_size": 34
+        },
+        {
+            "text": "Bangalore Neuroscience Vascular plant Dietary fiber",
+            "font_size": 32
+        },
+        {
+            "text": "Star formation Solar cell Gladiolus Integrated circuit",
+            "font_size": 30
+        },
+        {
+            "text": "Embryophyte Belgrade Cell biology Homeschooling Saint Petersburg",
+            "font_size": 28
+        },
+        {
+            "text": "Planetary science Mobile phone Binomial theorem Film director Alphabet",
+            "font_size": 26
+        },
+        {
+            "text": "World Heritage Site Plutarch Tunicate Gulf of Mexico Mesoamerica",
+            "font_size": 24
+        },
+        {
+            "text": "Integrated circuit Corporation Canary Islands Popular culture Annelid",
+            "font_size": 22
+        },
+        {
+            "text": "Autosome Eurasia Imaginary unit Machine translation Mauritania",
+            "font_size": 20
+        },
+        {
+            "text": "Azores Lake Khövsgöl Dniester Mesoamerica Fuel cell",
+            "font_size": 18
+        },
+        {
+            "text": "Carinthia Capillary action Data structure Filmmaking Stone Age",
+            "font_size": 16
+        },
+        {
+            "text": "World Heritage Site Systems biology Phonograph record Contact lens Developmental biology",
+            "font_size": 14
+        },
+        {
+            "text": "Electrical engineering Regular expression Star formation Saint Petersburg Sub-Saharan Africa",
+            "font_size": 12
+        },
+        {
+            "text": "Balearic Islands Protist Imaginary unit Expert system Computer graphics",
+            "font_size": 10
+        },
+        {
+            "text": "Bangalore Mauritania Thermistor Magic realism Mauritania",
+            "font_size": 8
+        },
+        {
+            "text": "Electrical engineering Hellenistic period Galilean moons Computer graphics City of Brussels",
+            "font_size": 6
+        },
+        {
+            "text": "Flag of Denmark Tram Biotechnology Houndshark Ethology",
+            "font_size": 4
+        },
+        {
+            "text": "Italian cuisine Emblem of Italy Causality Peloponnese Roller coaster",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

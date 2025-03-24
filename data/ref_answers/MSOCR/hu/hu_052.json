@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Számítógép Skótok Mobiltárca",
+            "font_size": 40
+        },
+        {
+            "text": "Asztúriai nyelvtan Kőrézkor Kafferbivaly",
+            "font_size": 38
+        },
+        {
+            "text": "Mezo Nyestcápafélék Filmrendező Projektmenedzsment",
+            "font_size": 36
+        },
+        {
+            "text": "Kamjanszke Könnyűzene Popkultúra Adatállomány",
+            "font_size": 34
+        },
+        {
+            "text": "Guvat Cserkészet Peloponnészosz Gyűrűsférgek",
+            "font_size": 32
+        },
+        {
+            "text": "Hámszövet Mexikói Rakétahajtómű Menstruációs ciklus",
+            "font_size": 30
+        },
+        {
+            "text": "Japán történelme Franciák Bentosz Popkultúra Ferences rend Angolok",
+            "font_size": 28
+        },
+        {
+            "text": "Kúposfejű delfin Mobiltelefon Csontritkulás Erdély Hérodotosz",
+            "font_size": 26
+        },
+        {
+            "text": "Hajszálcsövesség Eseményhorizont Olaszok Disznódelfinfélék Ciprusi Köztársaság Német juhászkutya",
+            "font_size": 24
+        },
+        {
+            "text": "Hanglemez Kártyajáték Újlatin nyelvek Karintia Szamothraké Adatállomány Pacifizmus Metroszexualitás",
+            "font_size": 22
+        },
+        {
+            "text": "Okos város Meiózis Pastu nyelv Biogeográfia Dögevő Európa történelme Magfizika",
+            "font_size": 20
+        },
+        {
+            "text": "Káoszelmélet Sokúszós csukafélék Roborovszkij Égi egyenlítő Szentpétervár Középfölde Spanyol nyelv Hérodotosz",
+            "font_size": 18
+        },
+        {
+            "text": "Mauritánia Üdítőital Belgrád Pitagorasz Angolok Idődilatáció Mobiltelefon Dánia",
+            "font_size": 16
+        },
+        {
+            "text": "Protiszták Filmgyártás Expresszionizmus Karintia Asztrofizika Villamos Hámszövet Cserkészet",
+            "font_size": 14
+        },
+        {
+            "text": "Mikrobiológia Dendritikus sejt Mezo Adatállomány Üdítőital Villamos Középfölde Török nyelv",
+            "font_size": 12
+        },
+        {
+            "text": "Örvös medve Karib Sejtbiológia Cinematográfia Katalán nyelv Kontaktlencse Mobiltelefon Visztula",
+            "font_size": 10
+        },
+        {
+            "text": "Analitikai kémia Bioinformatika Csehszlovákia Szociális munka Pajzsvulkán Francia Akadémia Karintia Hottentották",
+            "font_size": 8
+        },
+        {
+            "text": "Mauritánia Dardanellák Italikus nyelvek Heterotrófia Mobiltelefon Jylland Mauritánia zászlaja Pitagorasz",
+            "font_size": 6
+        },
+        {
+            "text": "Szociális munka Kontaktlencse Nagybőgő Gépipar Anglia zászlaja Adattárház Sokúszós csukafélék Örvös medve",
+            "font_size": 4
+        },
+        {
+            "text": "Filippínó Gyorsrendezés Szívciklus Helgoland Meiózis Karib Hellenizmus Fogszabályozás",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

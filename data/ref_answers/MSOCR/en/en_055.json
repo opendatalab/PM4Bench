@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Biotechnology Natural philosophy Mobile phone",
+            "font_size": 40
+        },
+        {
+            "text": "Tram Social work Ball lightning",
+            "font_size": 38
+        },
+        {
+            "text": "Solar cell Antwerp Aphthous stomatitis Japanese quail",
+            "font_size": 36
+        },
+        {
+            "text": "Eurasia Konye-Urgench World Heritage Site Bronchitis",
+            "font_size": 34
+        },
+        {
+            "text": "Bronze Age Académie Française Theoretical physics Lobster",
+            "font_size": 32
+        },
+        {
+            "text": "French fries Ancient Greek Acromegaly Flag of Italy",
+            "font_size": 30
+        },
+        {
+            "text": "Popular culture Space tourism Stained glass English people Gladiolus",
+            "font_size": 28
+        },
+        {
+            "text": "Franciscans Romance languages Nematode Pacifism Social norm",
+            "font_size": 26
+        },
+        {
+            "text": "Autosome Machine translation Classical antiquity Phonograph record Carrion crow Computer file",
+            "font_size": 24
+        },
+        {
+            "text": "False gharial Free content Flag of Norway Italian language Blue-footed booby Samothrace",
+            "font_size": 22
+        },
+        {
+            "text": "Propositional calculus Classical antiquity Music genre Tropical cyclone Lake Khövsgöl Planetary science",
+            "font_size": 20
+        },
+        {
+            "text": "Factorization Imaginary unit Easter Island Dinoflagellate Ryukyu Islands Modernism",
+            "font_size": 18
+        },
+        {
+            "text": "Music genre Theoretical physics Role-playing game Eurasia Carmelites Peloponnese",
+            "font_size": 16
+        },
+        {
+            "text": "Tardigrade Bubble sort Horror film Free content Controlled-access highway Double bass",
+            "font_size": 14
+        },
+        {
+            "text": "Dniester Scottish people Radial velocity Japanese macaque Spaniards Machine translation",
+            "font_size": 12
+        },
+        {
+            "text": "Tram Hephaestus Coat of arms of Greece Pasteurization Irish language Music genre",
+            "font_size": 10
+        },
+        {
+            "text": "Mesoamerica Analytical chemistry Phonograph record Planetary science Carinthia Alps",
+            "font_size": 8
+        },
+        {
+            "text": "Onychophora Samothrace Echinoderm Chalcolithic North Holland Anatolian languages",
+            "font_size": 6
+        },
+        {
+            "text": "Black-winged stilt Montreal Filmmaking Classical music Dnieper Tsinghua University",
+            "font_size": 4
+        },
+        {
+            "text": "Yellow baboon Causality Superpower Albatross Nervous tissue Stratovolcano",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

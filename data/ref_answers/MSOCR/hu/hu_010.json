@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szabad akarat Gráfok színezése Húsevő",
+            "font_size": 40
+        },
+        {
+            "text": "Nyomelem Kálidásza Sarkantyús teknős",
+            "font_size": 38
+        },
+        {
+            "text": "Rakétahajtómű Popkultúra Rétegvulkán",
+            "font_size": 36
+        },
+        {
+            "text": "Üzemanyagcella Graubünden kanton Kémiai reakció Ír nyelv",
+            "font_size": 34
+        },
+        {
+            "text": "Etológia Peloponnészosz Termisztor Számítógép Angolok",
+            "font_size": 32
+        },
+        {
+            "text": "Gráfok színezése Aligátorfélék Jenyiszej Számítógépes kémia Reneszánsz",
+            "font_size": 30
+        },
+        {
+            "text": "Zengőlégyfélék Szuperföld Európa történelme Akadémizmus Mozaik Meiózis",
+            "font_size": 28
+        },
+        {
+            "text": "Aranysakál Afta Felső Idődilatáció Kínai tobzoska",
+            "font_size": 26
+        },
+        {
+            "text": "Varmia Katalán nyelv Rakétahajtómű Szakértői rendszer Világörökség",
+            "font_size": 24
+        },
+        {
+            "text": "Szabad licenc Vállalat Felső Mobiltárca Svájc zászlaja Spanyolok",
+            "font_size": 22
+        },
+        {
+            "text": "Húsvét Autópálya Gyorsrendezés Nagybőgő Reneszánsz Mezo",
+            "font_size": 20
+        },
+        {
+            "text": "Szuperföld Etológia Újlatin nyelvek Mauritánia Német juhászkutya Trópusi ciklon",
+            "font_size": 18
+        },
+        {
+            "text": "Hellenizmus Napelem Idődilatáció Észak Német juhászkutya Népszámlálás",
+            "font_size": 16
+        },
+        {
+            "text": "Homeopátia Középfölde Roborovszkij Napelem Kanári Kőrézkor",
+            "font_size": 14
+        },
+        {
+            "text": "Filmrendező Trópusi ciklon Angolok Mauritánia zászlaja Okos város Önkéntes munka",
+            "font_size": 12
+        },
+        {
+            "text": "Eurázsia Románia zászlaja Nyomelem Ázsiai gepárd Marrákes Olasz nyelv",
+            "font_size": 10
+        },
+        {
+            "text": "Jylland Szerepjáték Otthonoktatás Visztula Villamosmérnök Jelölőnyelv",
+            "font_size": 8
+        },
+        {
+            "text": "Japán makákó Turbófeltöltő Binomiális tétel Vízi növényzet Francia Akadémia Neutronmoderátor",
+            "font_size": 6
+        },
+        {
+            "text": "Expresszionizmus Hámszövet Önkéntes munka Hellenizmus Világörökség Hasábburgonya",
+            "font_size": 4
+        },
+        {
+            "text": "Tüskésbőrűek Kvantummechanika Harmadfokú egyenlet Ferences rend Maldív nyelv Kőrézkor",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

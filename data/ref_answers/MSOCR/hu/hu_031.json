@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Termelési tényező Csillagkeletkezés",
+            "font_size": 40
+        },
+        {
+            "text": "Imaginárius egység Elektronikus zene Extremofil",
+            "font_size": 38
+        },
+        {
+            "text": "Számi nyelvek Maldív nyelv Villamos",
+            "font_size": 36
+        },
+        {
+            "text": "Szövetes növények Opolei vajdaság Sziléziai vajdaság",
+            "font_size": 34
+        },
+        {
+            "text": "Szociolingvisztika Aerodinamika Mérgessiklófélék Újlatin nyelvek",
+            "font_size": 32
+        },
+        {
+            "text": "Japán konyhaművészet Hámszövet Írek Ázsia történelme Medveállatkák",
+            "font_size": 30
+        },
+        {
+            "text": "Küklópszok Másodfokú egyenlet Arisztotelész Pszichoterápia Metroszexualitás",
+            "font_size": 28
+        },
+        {
+            "text": "Gascogne Ceyloni fahéjfa Autoszóma Litográfia Biotechnológia Menstruációs ciklus",
+            "font_size": 26
+        },
+        {
+            "text": "Adattárház Pastu nyelv Mexikói Kamjanszke Gépipar Menstruációs ciklus",
+            "font_size": 24
+        },
+        {
+            "text": "Aranysakál Katódsugárcső Naptömeg Görög ábécé Karélia Biomechanika",
+            "font_size": 22
+        },
+        {
+            "text": "Grúz nyelv Japán fürj Walesiek Sokúszós csukafélék Üzemanyagcella Kőrézkor",
+            "font_size": 20
+        },
+        {
+            "text": "Villamos Olaszország zászlaja Okság Cirill ábécé Csukcs Spanyol nyelv",
+            "font_size": 18
+        },
+        {
+            "text": "Olimpiai himnusz Ír nyelv Akadémizmus Minimalizmus Telepátia Klasszikus zene",
+            "font_size": 16
+        },
+        {
+            "text": "Japán konyhaművészet Szuperhős Katabolizmus Popkultúra Rakétahajtómű Minimalizmus",
+            "font_size": 14
+        },
+        {
+            "text": "Rakétahajtómű Szókratész Cinematográfia Mikroökonómia Románia zászlaja Gravitációs lencse",
+            "font_size": 12
+        },
+        {
+            "text": "Neutronmoderátor Porcos halak Angolok Analitikai kémia Szjevjerodoneck Gascogne",
+            "font_size": 10
+        },
+        {
+            "text": "Franciák Dögevő Etológia Hanglemez Buzogányfejű férgek Bioinformatika",
+            "font_size": 8
+        },
+        {
+            "text": "Lubusi vajdaság Helgoland Amhara nyelv Olaszország zászlaja Lombardia Hasábburgonya",
+            "font_size": 6
+        },
+        {
+            "text": "Kafferbivaly Rétegvulkán Világörökség Középfölde Számi nyelvek Pinjin",
+            "font_size": 4
+        },
+        {
+            "text": "Ferences rend Formális nyelv Kamjanszke Áramlástan Népsűrűség Fonálférgek",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

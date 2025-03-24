@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szociális munka Reguláris kifejezés",
+            "font_size": 40
+        },
+        {
+            "text": "Keringési idő Csehszlovákia Világörökség",
+            "font_size": 38
+        },
+        {
+            "text": "Dnyeszter Gravitációs lencse Üzemanyagcella",
+            "font_size": 36
+        },
+        {
+            "text": "Rakétahajtómű Társadalmi norma Fehérfejű rétisas Belgrád",
+            "font_size": 34
+        },
+        {
+            "text": "Fonálférgek Elektronikus zene Francia Akadémia Ősnövénytan",
+            "font_size": 32
+        },
+        {
+            "text": "Pastu nyelv Húsvét Katódsugárcső Antikvitás Középfölde",
+            "font_size": 30
+        },
+        {
+            "text": "Skótok Karélia Szövőmadárfélék Cirill ábécé Vagarsapat Skótok",
+            "font_size": 28
+        },
+        {
+            "text": "Olasz nyelv Svédország zászlaja Turbófeltöltő Meiózis Szociális munka Szerepjáték",
+            "font_size": 26
+        },
+        {
+            "text": "Moszkvai idő Fehérfejű rétisas Fizikai kémia Hanglemez Dnyeszter Enciklopédia",
+            "font_size": 24
+        },
+        {
+            "text": "Nemesgázok Sztoikus filozófia Ítéletlogika Pinjin Üvegfestés Rjúkjú Szövetes növények",
+            "font_size": 22
+        },
+        {
+            "text": "Katódsugárcső Vízi növényzet Villamos Japán konyhaművészet Villamos Popkultúra Harmadfokú egyenlet",
+            "font_size": 20
+        },
+        {
+            "text": "Sárgaúszójú tonhal Kéklábú szula Hanglemez Húsevő Filmrendező Telepátia Mezopotámia",
+            "font_size": 18
+        },
+        {
+            "text": "Fekete medve Aerodinamika Grúz nyelv Elméleti fizika Filmgyártás Thunnus alalunga Guvat",
+            "font_size": 16
+        },
+        {
+            "text": "Írek Vízi növényzet Sejtbiológia Sárgás babuin Villamosmérnök Takarmánylucerna Szókratész",
+            "font_size": 14
+        },
+        {
+            "text": "Fehérfejű rétisas Káoszelmélet Földtudomány Franciák Húsvét Menstruációs ciklus Kínai tobzoska",
+            "font_size": 12
+        },
+        {
+            "text": "Görögország címere Hindu Telepátia Menstruációs ciklus Baleár Kontaktlencse Pszichoterápia",
+            "font_size": 10
+        },
+        {
+            "text": "Kanári Mikroökonómia Agapornis Szürrealizmus Hanglemez Segédprogram Határköltség",
+            "font_size": 8
+        },
+        {
+            "text": "Popkultúra Török nyelv Villamosmérnök Világörökség Prokarióták Skótok Maláj szigetvilág",
+            "font_size": 6
+        },
+        {
+            "text": "Maldív nyelv Kitakjúsú Szubatomi részecske Írek Horrorfilm Kitakjúsú Eurázsia",
+            "font_size": 4
+        },
+        {
+            "text": "Természettudomány Újlatin nyelvek Villamos Kvantummechanika Szuperhatalom Lipari Popkultúra",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

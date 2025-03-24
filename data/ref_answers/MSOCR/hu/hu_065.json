@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Dravida nyelvcsalád Erdei elefánt Prokarióták",
+            "font_size": 40
+        },
+        {
+            "text": "Filmgyártás Filmgyártás Bentosz",
+            "font_size": 38
+        },
+        {
+            "text": "Vízi növényzet Katalán nyelv Önkéntes munka",
+            "font_size": 36
+        },
+        {
+            "text": "Egyszerű gép Formális nyelv Alsó",
+            "font_size": 34
+        },
+        {
+            "text": "Takarmánylucerna Társadalmi norma Szentpétervár Anatólia",
+            "font_size": 32
+        },
+        {
+            "text": "Geofizika Karmeliták Filmgyártás Egyszerű gép Asztrofizika",
+            "font_size": 30
+        },
+        {
+            "text": "Szerepjáték Turbófeltöltő Anglia zászlaja Bolhapiac Reakciókinetika",
+            "font_size": 28
+        },
+        {
+            "text": "Áramlástan Integrált áramkör Alpok Kémiai reakció Filmrendező Ermitázs",
+            "font_size": 26
+        },
+        {
+            "text": "Alnémet nyelv Adatszerkezet Zárvatermők Maldív nyelv",
+            "font_size": 24
+        },
+        {
+            "text": "Kis ámbráscet Telepátia Sztoikus filozófia Adattárház Adattárház Villamos",
+            "font_size": 22
+        },
+        {
+            "text": "Mentális egészség Vaskor Szabad licenc Rekreáció Hullámvasút Walesi nyelv",
+            "font_size": 20
+        },
+        {
+            "text": "Számítógépes grafika Fejlődéstan Európai sün Felső Trópusi ciklon Termelési tényező",
+            "font_size": 18
+        },
+        {
+            "text": "Újlatin nyelvek Űrturizmus Grúz nyelv Eurázsiai Mezo Afta",
+            "font_size": 16
+        },
+        {
+            "text": "Szubatomi részecske Adatállomány Ingerület Napelem Villamos Fekete medve",
+            "font_size": 14
+        },
+        {
+            "text": "Közönséges makákó Adatszerkezet Magfizika Visztula Csinghua Egyetem Horrorfilm",
+            "font_size": 12
+        },
+        {
+            "text": "Mauritánia Ázsia történelme Mobiltelefon Eurázsia Görögország címere Ír nyelv",
+            "font_size": 10
+        },
+        {
+            "text": "Maláj szigetvilág Adatszerkezet Mezo Kőkorszak Puhatestűek Kémiai reakció",
+            "font_size": 8
+        },
+        {
+            "text": "Harmadfokú egyenlet Pireneusok Dánia zászlaja Havasszépe Gólyatöcs Homeopátia",
+            "font_size": 6
+        },
+        {
+            "text": "Gyűrűsfarkú maki Sárgaúszójú tonhal Pszichiátria Rekreáció Autoszóma Dravida nyelvcsalád",
+            "font_size": 4
+        },
+        {
+            "text": "Radiális sebesség Hámszövet Nagybőgő Számítógépes grafika Karmos féreglábúak Fekete medve",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

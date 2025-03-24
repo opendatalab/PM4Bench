@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Varmia Alnémet nyelv Páncélos ostorosok",
+            "font_size": 40
+        },
+        {
+            "text": "Egyszerű gép Puhatestűek Cserkészet",
+            "font_size": 38
+        },
+        {
+            "text": "Felső Cirill ábécé Egyszerű gép Villamos",
+            "font_size": 36
+        },
+        {
+            "text": "Pitagorasz Filmgyártás Káoszelmélet Bronzkor",
+            "font_size": 34
+        },
+        {
+            "text": "Szuperhős Vaskor Jelölőnyelv Jelölőnyelv",
+            "font_size": 32
+        },
+        {
+            "text": "Zenei műfaj Hámszövet Mauritánia Szuperhős Sztoikus filozófia",
+            "font_size": 30
+        },
+        {
+            "text": "Szphinx Katódsugárcső Multiverzum Indokína Áramlástan",
+            "font_size": 28
+        },
+        {
+            "text": "Katalán nyelv Szappanfavirágúak Bolhapiac Égi mechanika Német konyhaművészet",
+            "font_size": 26
+        },
+        {
+            "text": "Faktorizáció Örvös medve Pitagorasz Szerepjáték Hindu Heterotrófia",
+            "font_size": 24
+        },
+        {
+            "text": "Integrált áramkör Búbos vöcsök Adattárház Guvatfürjfélék Görögország címere Fekete medve",
+            "font_size": 22
+        },
+        {
+            "text": "Kanári Fizikus Ajakoshalfélék Telepátia Gépipar Lipari",
+            "font_size": 20
+        },
+        {
+            "text": "Etológia Popkultúra Királypingvin Heterotrófia Dögevő Karmeliták",
+            "font_size": 18
+        },
+        {
+            "text": "Belgrád Vállalat Újlatin nyelvek Biotechnológia Küklópszok Villamos",
+            "font_size": 16
+        },
+        {
+            "text": "Gyűrűsfarkú maki Szerves kémia Bengaluru Reneszánsz Fekete Kártyajáték",
+            "font_size": 14
+        },
+        {
+            "text": "Kémiai reakció Alnémet nyelv Olasz konyhaművészet Integrált áramkör Ábécé Segédprogram",
+            "font_size": 12
+        },
+        {
+            "text": "Kék pingvin Amilóz Üvegfestés Bentosz Ausztrália zászlaja Bronzkor",
+            "font_size": 10
+        },
+        {
+            "text": "Számítógépes grafika Kvantummechanika Kriptovaluta Üzleti titok Község Idegszövet",
+            "font_size": 8
+        },
+        {
+            "text": "Pszichoanalízis Sejtbiológia Világörökség Zenei műfaj Elméleti fizika Planetológia",
+            "font_size": 6
+        },
+        {
+            "text": "Spirálgalaxis Hullámvasút Montenegrói nyelv Lazac Üzemanyagcella Pitagorasz",
+            "font_size": 4
+        },
+        {
+            "text": "Kvantummechanika Porcos halak Agapornis Húsevő Karmeliták Veganizmus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

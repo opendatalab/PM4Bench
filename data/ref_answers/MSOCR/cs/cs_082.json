@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Filmový režisér Kormorán velký Filipínské moře",
+            "font_size": 40
+        },
+        {
+            "text": "Italové Karetní hra Homeopatie Integrovaný obvod",
+            "font_size": 38
+        },
+        {
+            "text": "Psychoterapie Počítačová síť Svobodný obsah",
+            "font_size": 36
+        },
+        {
+            "text": "Fotovoltaický článek Korporace Sedmihradsko Francouzská akademie",
+            "font_size": 34
+        },
+        {
+            "text": "Filmová produkce Dunkerk Elektronická hudba Kognitivní věda",
+            "font_size": 32
+        },
+        {
+            "text": "Limonáda Orel bělohlavý Rakušané Cyrilice Železobeton",
+            "font_size": 30
+        },
+        {
+            "text": "Soubor Telepatie Akromegalie Klasická hudba Ježek západní",
+            "font_size": 28
+        },
+        {
+            "text": "Piemont Kypr Rjúkjú Malá Asie Plútarchos Pláštěnci Sfinx",
+            "font_size": 26
+        },
+        {
+            "text": "Elektrotechnika Turci Šakal obecný Ploštěnci Homeopatie Kontrabas",
+            "font_size": 24
+        },
+        {
+            "text": "Héfaistos Menstruační cyklus Hudební žánr Kubická rovnice Cyrilice Agáve Nervová tkáň",
+            "font_size": 22
+        },
+        {
+            "text": "Upíři Kognitivní věda Rekreace Klasická hudba Kubická rovnice Petrohrad Kitakjúšú",
+            "font_size": 20
+        },
+        {
+            "text": "Psychoterapie Epitelová tkáň Velšané Hydroponie Sókratés Tuleň grónský Jednoletá rostlina",
+            "font_size": 18
+        },
+        {
+            "text": "Slovinci Chemická reakce Turbodmychadlo Ermitáž Akademismus Medvěd ušatý Dodekany",
+            "font_size": 16
+        },
+        {
+            "text": "Obec Římské číslice Sviňuchovití Kypr Mechanika tekutin Mýdelníkotvaré Astrofyzika",
+            "font_size": 14
+        },
+        {
+            "text": "Kauzalita Severní Holandsko Počítačová síť Italština Mobilní telefon Irština Kypr",
+            "font_size": 12
+        },
+        {
+            "text": "Gramofonová deska Mechanika tekutin Mobilní peněženka Buněčná biologie Etologie Ramenonožci Imaginární jednotka",
+            "font_size": 10
+        },
+        {
+            "text": "Mezopotámie Obchodní tajemství Varan nilský Římské provincie Vrána černá Bublinkové řazení Mimi šéf",
+            "font_size": 8
+        },
+        {
+            "text": "Katalánština Graubünden Angličané Recidivující afty Hranolky Cévnaté rostliny Řád karmelitánů",
+            "font_size": 6
+        },
+        {
+            "text": "Expresionismus Encyklopedie Malá Asie Obec Baleáry Kontrabas Italština",
+            "font_size": 4
+        },
+        {
+            "text": "Hérodotos Elektrotechnika Želvušky Mobilní telefon Superhrdina Visla Epitelová tkáň",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

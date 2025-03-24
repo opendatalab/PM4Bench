@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Cserkészet Pszichoanalízis Antikvitás",
+            "font_size": 40
+        },
+        {
+            "text": "Szuperhős Ázsia történelme Ausztrália zászlaja Ábécé Kitakjúsú",
+            "font_size": 38
+        },
+        {
+            "text": "Előgerinchúrosok Ausztria zászlaja Középfölde Baleár",
+            "font_size": 36
+        },
+        {
+            "text": "Laposférgek Homeopátia Thunnus alalunga Vagarsapat",
+            "font_size": 34
+        },
+        {
+            "text": "Kriptovaluta Átmenetifémek Adattárház Repülőgép",
+            "font_size": 32
+        },
+        {
+            "text": "Aranysakál Piemont Ciprusi Köztársaság Makrofág",
+            "font_size": 30
+        },
+        {
+            "text": "Ferences rend Üzemanyagcella Szunda Idődilatáció",
+            "font_size": 28
+        },
+        {
+            "text": "Aranysakál Etológia Szentpétervár Baleár Gráfok színezése",
+            "font_size": 26
+        },
+        {
+            "text": "Fogszabályozás Brüsszel Bronzkor Horrorfilm Etológia Mészszivacsok Nagybőgő",
+            "font_size": 24
+        },
+        {
+            "text": "Pastu nyelv Ceyloni fahéjfa Olasz konyhaművészet Napelem Tirrén Idegtudomány Másodfokú egyenlet",
+            "font_size": 22
+        },
+        {
+            "text": "Menstruációs ciklus Jelölőnyelv Palettás doktorhal Római Díj Üvegfestés Jelölőnyelv Eurázsia",
+            "font_size": 20
+        },
+        {
+            "text": "Világörökség Számítógépes kémia Piemont Marrákes Hámszövet Asztúriai nyelvtan Sztoikus filozófia",
+            "font_size": 18
+        },
+        {
+            "text": "Üzleti titok Fejlődéstan Elektromos autó Eurázsiai Korinthoszi Aligátorfélék Erdély",
+            "font_size": 16
+        },
+        {
+            "text": "Lombardia Japán makákó Számítógép Karmos féreglábúak Magyar nyelv Üzemanyagcella Középfölde",
+            "font_size": 14
+        },
+        {
+            "text": "Aerodinamika Dodekanészosz Bronzkor Szentpétervár Anglia történelme Egyszikűek Hámszövet",
+            "font_size": 12
+        },
+        {
+            "text": "Pszichoanalízis Integrált áramkör Csillagkeletkezés Olaszország zászlaja Vagarsapat Menstruációs ciklus Ázsiai gepárd",
+            "font_size": 10
+        },
+        {
+            "text": "Európa történelme Otthonoktatás Japán zászlaja Telepátia Húsvéti tojás Német konyhaművészet Autópálya",
+            "font_size": 8
+        },
+        {
+            "text": "Laposférgek Keringési idő Triatlon Dögevő Üzleti titok Pastu nyelv Amhara nyelv",
+            "font_size": 6
+        },
+        {
+            "text": "Pinjin Akadémizmus Üvegfestés Szamothraké Nyomelem Sárgaúszójú tonhal Indokínai tigris",
+            "font_size": 4
+        },
+        {
+            "text": "Mauritánia zászlaja Mezopotámia Chichén Itzá Erdei elefánt Olaszország zászlaja Hellenizmus Telepátia",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

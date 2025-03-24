@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Phonograph record Tsinghua University Cubic equation",
+            "font_size": 40
+        },
+        {
+            "text": "Bronze Age Lake Khövsgöl Pyrenees Albatross",
+            "font_size": 38
+        },
+        {
+            "text": "Turkish language Machine translation Yenisey Beach soccer",
+            "font_size": 36
+        },
+        {
+            "text": "Digital wallet French fries Plutarch Ryukyu Islands",
+            "font_size": 34
+        },
+        {
+            "text": "Quicksort Dnieper Asiatic cheetah Telepathy Galilean moons",
+            "font_size": 32
+        },
+        {
+            "text": "Fuel cell Computer graphics Stoicism Caribbean Sea",
+            "font_size": 30
+        },
+        {
+            "text": "Human history Epithelium American football Superconductivity Role-playing game",
+            "font_size": 28
+        },
+        {
+            "text": "Swiss Psalm Middle-earth Epithelium Fuel cell Municipality Dodecanese",
+            "font_size": 26
+        },
+        {
+            "text": "Canary Islands Harp seal Roller coaster Chaos theory Arthropod",
+            "font_size": 24
+        },
+        {
+            "text": "Superconductivity Bubble sort City of Brussels Integrated circuit Pyrenees Saint Petersburg Prokaryote",
+            "font_size": 22
+        },
+        {
+            "text": "Irish language Eukaryote Easter Island Hellenistic period Tropical cyclone Belgrade Barbary macaque",
+            "font_size": 20
+        },
+        {
+            "text": "Flag of Italy Franciscans Biotechnology French people Italian language Stellar evolution Theoretical physics",
+            "font_size": 18
+        },
+        {
+            "text": "Imaginary unit Porpoise Pyrenees Alphabet Homeopathy Action potential Moscow Time",
+            "font_size": 16
+        },
+        {
+            "text": "Planetary science Azores Pythagorean theorem Connective tissue Telepathy Eurasian magpie Middle-earth",
+            "font_size": 14
+        },
+        {
+            "text": "Lobster Monocotyledon Stained glass Romance languages French people Ethology Microeconomics",
+            "font_size": 12
+        },
+        {
+            "text": "Chondrichthyes Anatolia Simple machine Epithelium Mesopotamia Elk Japonisme",
+            "font_size": 10
+        },
+        {
+            "text": "Antwerp Propositional calculus Neuroscience Meiosis Culture shock Scottish people Bald eagle",
+            "font_size": 8
+        },
+        {
+            "text": "Belgrade Chalcolithic North Holland Peloponnese Anatolia Monocotyledon Role-playing game",
+            "font_size": 6
+        },
+        {
+            "text": "Meiosis Telepathy Bay cat Spiral galaxy Stratovolcano Silesian Voivodeship Aphthous stomatitis",
+            "font_size": 4
+        },
+        {
+            "text": "Embedded system Psychoanalysis Hoverfly Académie Française Phonograph record Contact lens Japanese cuisine",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

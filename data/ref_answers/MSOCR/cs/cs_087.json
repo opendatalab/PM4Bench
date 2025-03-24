@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Šakal obecný Dněpr Maledivština",
+            "font_size": 40
+        },
+        {
+            "text": "Veganství Bioinformatika Mezopotámie Psychoanalýza",
+            "font_size": 38
+        },
+        {
+            "text": "Pythagorova věta Antika Komandorské ostrovy Malá Asie",
+            "font_size": 36
+        },
+        {
+            "text": "Veganství Státní znak Itálie Italština Malá Asie Středozem",
+            "font_size": 34
+        },
+        {
+            "text": "Akční potenciál Irové Srdeční cyklus Angličané",
+            "font_size": 32
+        },
+        {
+            "text": "Kuňja Železobeton Francouzský buldoček Kognitivní věda Peloponés",
+            "font_size": 30
+        },
+        {
+            "text": "Arabské číslice Letadlová loď Dněpr Hudební žánr Magot bezocasý Telepatie",
+            "font_size": 28
+        },
+        {
+            "text": "Prokaryota Velikonoční ostrov Sociální norma Autozom Recidivující afty",
+            "font_size": 26
+        },
+        {
+            "text": "Tropická cyklóna Mezopotámie Sklon rotační osy Svobodný obsah Jednoděložné",
+            "font_size": 24
+        },
+        {
+            "text": "Litevská vlajka Hérodotos Československo Homeopatie Litevština Vzácné plyny Datový sklad",
+            "font_size": 22
+        },
+        {
+            "text": "Italská kuchyně Mitóza Epitelová tkáň Italština Paleobotanika Kognitivní věda Kubická rovnice",
+            "font_size": 20
+        },
+        {
+            "text": "Mexický záliv Doba oběhu Jenisej Elektrotechnika Ježek západní Dánský průliv Korporace",
+            "font_size": 18
+        },
+        {
+            "text": "Cyrilice Svobodná vůle Soubor Dodekany Vědy o Zemi Horizont událostí Bengalúr",
+            "font_size": 16
+        },
+        {
+            "text": "Upíři Paštština Dodekany Štítová sopka Ortodoncie Hydrofyty Paryby",
+            "font_size": 14
+        },
+        {
+            "text": "Vědy o Zemi Limonáda Soubor Světové dědictví Bentos Hranolky Minimalismus",
+            "font_size": 12
+        },
+        {
+            "text": "Kanárské ostrovy Japonismus Sociální práce Obrněnky Domácí vzdělávání Hra na hrdiny Mobilní telefon",
+            "font_size": 10
+        },
+        {
+            "text": "Kinematografie Jenisej Menstruační cyklus Maledivština Františkáni Strunatci Arcivévoda",
+            "font_size": 8
+        },
+        {
+            "text": "Tramvaj Tropická cyklóna Domácí vzdělávání Kraslice Irština Amharština Románské jazyky",
+            "font_size": 6
+        },
+        {
+            "text": "Tropická cyklóna Gravitační čočka Vyšší rostliny Světové dědictví Vláknina Dendritická buňka Varmijsko",
+            "font_size": 4
+        },
+        {
+            "text": "Teorie chaosu Cévnaté rostliny Antika Středozem Univerzita Čching Kypr Antika",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

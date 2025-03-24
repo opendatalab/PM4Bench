@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Világtörténelem Appenninek Metroszexualitás Okos város",
+            "font_size": 40
+        },
+        {
+            "text": "Zárvatermők Sztoikus filozófia Tüskésbőrűek",
+            "font_size": 38
+        },
+        {
+            "text": "Írek Földtudomány Üdítőital Vaskor",
+            "font_size": 36
+        },
+        {
+            "text": "Franciák Filippínó Kvantummechanika Fonálférgek",
+            "font_size": 34
+        },
+        {
+            "text": "Bolhapiac Néreiszek Analitikai kémia Egyszikűek",
+            "font_size": 32
+        },
+        {
+            "text": "Fogszabályozás Graubünden kanton Szappanfavirágúak Húsvét Mexikói",
+            "font_size": 30
+        },
+        {
+            "text": "Katódsugárcső Tüskésbőrűek Adatállomány Számítógép Horrorfilm",
+            "font_size": 28
+        },
+        {
+            "text": "Kéklábú szula Ciprusi Köztársaság Genetikai kód Antwerpen Kitakjúsú Pszichoterápia",
+            "font_size": 26
+        },
+        {
+            "text": "Mobiltelefon Bronzkor Formális nyelv Afta Homeopátia",
+            "font_size": 24
+        },
+        {
+            "text": "Pasztőrözés Cserkészet Porcos halak Keringési idő Belgrád Fehérfejű rétisas",
+            "font_size": 22
+        },
+        {
+            "text": "Hasábburgonya Bronzkor Ősnövénytan Adatszerkezet Operációs rendszer Észak",
+            "font_size": 20
+        },
+        {
+            "text": "Vaskor Menstruációs ciklus Toszkána Pszichoterápia Ízeltlábúak Hellenizmus",
+            "font_size": 18
+        },
+        {
+            "text": "Hasábburgonya Triatlon Autópálya Mikrobiológia Hármasugrás Villamos",
+            "font_size": 16
+        },
+        {
+            "text": "Aeneis Üdítőital Középfölde Ősnövénytan Vízi növényzet Popkultúra",
+            "font_size": 14
+        },
+        {
+            "text": "Római számírás Dnyeszter Dögevő Zenei műfaj Dnyeszter Olasz konyhaművészet",
+            "font_size": 12
+        },
+        {
+            "text": "Olasz nyelv Fekete medve Község Spanyolok Kunya Mezopotámia",
+            "font_size": 10
+        },
+        {
+            "text": "Nemesgázok Japán zászlaja Káoszelmélet Szakértői rendszer Spanyol nyelv Eukarióták",
+            "font_size": 8
+        },
+        {
+            "text": "Karib Eukarióták Felső Szubatomi részecske Ízeltlábúak Appenninek",
+            "font_size": 6
+        },
+        {
+            "text": "Eurázsia Piemont Görög ábécé Szunda Endokrinológia Üvegfestés",
+            "font_size": 4
+        },
+        {
+            "text": "Kvantummechanika Cirill ábécé Etológia Ferences rend Német márka Határköltség",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

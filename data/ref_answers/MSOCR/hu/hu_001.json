@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Spanyolok Marrákes Spanyolok",
+            "font_size": 40
+        },
+        {
+            "text": "Cinematográfia Szövetes növények Ír nyelv",
+            "font_size": 38
+        },
+        {
+            "text": "Afta Pszichoterápia Menstruációs ciklus Csillagkeletkezés",
+            "font_size": 36
+        },
+        {
+            "text": "Agorafóbia Község Korinthoszi Zenei műfaj",
+            "font_size": 34
+        },
+        {
+            "text": "Sarkantyús teknős Reneszánsz Berber makákó Akadémizmus",
+            "font_size": 32
+        },
+        {
+            "text": "Autópálya Szövetes növények Számítógép Mobiltelefon",
+            "font_size": 30
+        },
+        {
+            "text": "Ciprusi Köztársaság Antikvitás Bronzkor Nyitvatermők Római számírás",
+            "font_size": 28
+        },
+        {
+            "text": "Egyszikűek Pszichoanalízis Osztrákok Mozaik Biogeográfia Nyomelem",
+            "font_size": 26
+        },
+        {
+            "text": "Galilei Alsó Ábécé Német márka Okság Község",
+            "font_size": 24
+        },
+        {
+            "text": "Operációs rendszer Karmeliták Prokarióták Középfölde Hanglemez Bronzkor Dodekanészosz",
+            "font_size": 22
+        },
+        {
+            "text": "Segédprogram Üzleti titok Varmia Pinjin Neutronmoderátor Fizikai kémia Hullámvasút",
+            "font_size": 20
+        },
+        {
+            "text": "Kártyajáték Angolok Ír nyelv Ízeltlábúak Olasz nyelv Italikus nyelvek Asztrofizika",
+            "font_size": 18
+        },
+        {
+            "text": "Sokúszós csukafélék Üzleti titok Homeopátia Porcos halak Szociális munka Középfölde Földtudomány",
+            "font_size": 16
+        },
+        {
+            "text": "Ingerület Hellenizmus Szabad licenc Vaskor Európai sün Andoki kondor Berber makákó",
+            "font_size": 14
+        },
+        {
+            "text": "Hindu Hérodotosz Angolok Otthonoktatás Pszichoanalízis Ábécé Marrákes",
+            "font_size": 12
+        },
+        {
+            "text": "Számítógépes kémia Adattárház Akadémizmus Filmgyártás Filmgyártás Maldív nyelv Fogszabályozás",
+            "font_size": 10
+        },
+        {
+            "text": "Kitakjúsú Alpok Ciprusi Köztársaság Ír nyelv Integrált áramkör Havasszépe Triatlon",
+            "font_size": 8
+        },
+        {
+            "text": "Strukturalizmus Szerepjáték Villamos Kibertér Villamosmérnök Homeopátia Eseményhorizont",
+            "font_size": 6
+        },
+        {
+            "text": "Prokarióták Ferences rend Nyomelem Roborovszkij Középfölde Csillagfejlődés Újlatin nyelvek",
+            "font_size": 4
+        },
+        {
+            "text": "Pastu nyelv Felső Ázsiai gepárd Román nyelv Operációs rendszer Hellenizmus Pszichoanalízis",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

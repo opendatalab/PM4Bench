@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Akadémizmus Parazitológia Mobiltelefon",
+            "font_size": 40
+        },
+        {
+            "text": "Gravitációs lencse Makrofág Gépi fordítás",
+            "font_size": 38
+        },
+        {
+            "text": "Asztrofizika Autoszóma Pitagorasz Azori",
+            "font_size": 36
+        },
+        {
+            "text": "Húsvét Okság Piemont Szociális munka",
+            "font_size": 34
+        },
+        {
+            "text": "Bengaluru Bengaluru Kitakjúsú Csalánozók Hámszövet",
+            "font_size": 32
+        },
+        {
+            "text": "Rjúkjú Mexikói Villamos Dnyeper Ferences rend",
+            "font_size": 30
+        },
+        {
+            "text": "Brüsszel Számítógép Piemont Ukrán nyelv Római számírás",
+            "font_size": 28
+        },
+        {
+            "text": "Arábiai Pszichoterápia Népsűrűség Pitagorasz",
+            "font_size": 26
+        },
+        {
+            "text": "Török nyelv Buborékrendezés Mágikus realizmus Tengelyferdeség Pszichiátria",
+            "font_size": 24
+        },
+        {
+            "text": "Guvatfürjfélék Eukarióták Aerodinamika Binomiális tétel Számítógép Elméleti fizika",
+            "font_size": 22
+        },
+        {
+            "text": "Húsevő Radiális sebesség Kanári Antidepresszáns Grúz nyelv Áramlástan",
+            "font_size": 20
+        },
+        {
+            "text": "Angolok Tengelyferdeség Alnémet nyelv Telepátia Német konyhaművészet Kognitív tudomány",
+            "font_size": 18
+        },
+        {
+            "text": "Cserkészet Szakértői rendszer Fekete medve Ősnövénytan Anglia zászlaja Azori",
+            "font_size": 16
+        },
+        {
+            "text": "Európai borz Skótok Biotechnológia Káoszelmélet Üvegfestés Vérszopó denevérek",
+            "font_size": 14
+        },
+        {
+            "text": "Szerepjáték Pitagorasz Borostyánút Hottentották Európai sün Dardanellák",
+            "font_size": 12
+        },
+        {
+            "text": "Klasszikus zene Szunda Anatóliai nyelvek Önkéntes munka Protiszták Húsvét",
+            "font_size": 10
+        },
+        {
+            "text": "Lapolvasó Eukarióták Sziléziai vajdaság Ökonometria Kémiai reakció Csinghua Egyetem",
+            "font_size": 8
+        },
+        {
+            "text": "Ecetmuslica Galilei Kunya Német márka Afta Kognitív tudomány",
+            "font_size": 6
+        },
+        {
+            "text": "Extremofil Spirálgalaxis Tirrén Világtörténelem Felső Menstruációs ciklus",
+            "font_size": 4
+        },
+        {
+            "text": "Csehszlovákia Szamothraké Horrorfilm Ciprusi Köztársaság Graubünden kanton Filmrendező",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

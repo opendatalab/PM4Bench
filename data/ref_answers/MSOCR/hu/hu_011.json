@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Török nyelv Napelem Bolhapiac",
+            "font_size": 40
+        },
+        {
+            "text": "Bolhapiac Hanglemez Laposférgek Biogeográfia",
+            "font_size": 38
+        },
+        {
+            "text": "Adattárház Homeopátia Mauritánia zászlaja",
+            "font_size": 36
+        },
+        {
+            "text": "Ökonometria Berber makákó Zenei műfaj Mitózis Önkéntes munka",
+            "font_size": 34
+        },
+        {
+            "text": "Könnyűzene Római számírás Törökök Filmgyártás",
+            "font_size": 32
+        },
+        {
+            "text": "Tüskésbőrűek Gyorsrendezés Adatállomány Ermitázs Vapiti",
+            "font_size": 30
+        },
+        {
+            "text": "Hindu Klasszikus zene Gébfélék Idegszövet Pireneusok",
+            "font_size": 28
+        },
+        {
+            "text": "Trópusi ciklon Szubatomi részecske Telepátia Indokínai tigris Könnyűzene",
+            "font_size": 26
+        },
+        {
+            "text": "Multiverzum Római számírás Embriós növények Strukturalizmus Hajszálcsövesség Plutarkhosz",
+            "font_size": 24
+        },
+        {
+            "text": "Mohaállatok Operációs rendszer Opolei vajdaság Felső Okos város Operációs rendszer",
+            "font_size": 22
+        },
+        {
+            "text": "Villamosmérnök Szuperhatalom Okság Villamos Gráfok színezése Húsvét",
+            "font_size": 20
+        },
+        {
+            "text": "Palettás doktorhal Szövetes növények Formális nyelv Mikroökonómia Naptömeg Tüskésbőrűek",
+            "font_size": 18
+        },
+        {
+            "text": "Planetológia Ingerület Étkezési rostok Autópálya Karintia Csavarhúzó",
+            "font_size": 16
+        },
+        {
+            "text": "Másodfokú egyenlet Világörökség Hellenizmus Franciák Világörökség Azori",
+            "font_size": 14
+        },
+        {
+            "text": "Indokína Metroszexualitás Azori Katabolizmus Fehérfejű rétisas Üvegfestés",
+            "font_size": 12
+        },
+        {
+            "text": "Húsvét Rakétahajtómű Számítógépes grafika Laposférgek Belgrád Hajszálcsövesség",
+            "font_size": 10
+        },
+        {
+            "text": "Karib Mauritánia Mezo Filmgyártás Allelopátia Idegtudomány",
+            "font_size": 8
+        },
+        {
+            "text": "Japán konyhaművészet Veganizmus Dendritikus sejt Démokritosz Szerepjáték Világtörténelem",
+            "font_size": 6
+        },
+        {
+            "text": "Nyomelem Angolok Multiverzum Hottentották Amerikai futball Középfölde",
+            "font_size": 4
+        },
+        {
+            "text": "Elektromos autó Nephropidae Segédprogram Geofizika Könnyűzene Küklópszok",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

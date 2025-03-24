@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Kőrézkor Ciprusi Köztársaság Nephropidae Római számírás",
+            "font_size": 40
+        },
+        {
+            "text": "Kék pingvin Operációs rendszer Baleár",
+            "font_size": 38
+        },
+        {
+            "text": "Eukarióták Telepátia Bronzkor",
+            "font_size": 36
+        },
+        {
+            "text": "Akadémizmus Okság Spanyolok",
+            "font_size": 34
+        },
+        {
+            "text": "Bengaluru Idegtudomány Szövetes növények Étkezési rostok",
+            "font_size": 32
+        },
+        {
+            "text": "Csillagkeletkezés Napelem Kardvirág Integrált áramkör",
+            "font_size": 30
+        },
+        {
+            "text": "Embriós növények Belgrád Sejtbiológia Otthonoktatás Szentpétervár",
+            "font_size": 28
+        },
+        {
+            "text": "Planetológia Mobiltelefon Binomiális tétel Filmrendező Ábécé",
+            "font_size": 26
+        },
+        {
+            "text": "Világörökség Plutarkhosz Előgerinchúrosok Mexikói Mezo",
+            "font_size": 24
+        },
+        {
+            "text": "Integrált áramkör Vállalat Kanári Popkultúra Gyűrűsférgek",
+            "font_size": 22
+        },
+        {
+            "text": "Autoszóma Eurázsia Imaginárius egység Gépi fordítás Mauritánia",
+            "font_size": 20
+        },
+        {
+            "text": "Azori Hövszgöl Dnyeszter Mezo Üzemanyagcella",
+            "font_size": 18
+        },
+        {
+            "text": "Karintia Hajszálcsövesség Adatszerkezet Filmgyártás Kőkorszak",
+            "font_size": 16
+        },
+        {
+            "text": "Világörökség Rendszerbiológia Hanglemez Kontaktlencse Fejlődéstan",
+            "font_size": 14
+        },
+        {
+            "text": "Villamosmérnök Reguláris kifejezés Csillagkeletkezés Szentpétervár Fekete",
+            "font_size": 12
+        },
+        {
+            "text": "Baleár Protiszták Imaginárius egység Szakértői rendszer Számítógépes grafika",
+            "font_size": 10
+        },
+        {
+            "text": "Bengaluru Mauritánia Termisztor Mágikus realizmus Mauritánia",
+            "font_size": 8
+        },
+        {
+            "text": "Villamosmérnök Hellenizmus Galilei Számítógépes grafika Brüsszel",
+            "font_size": 6
+        },
+        {
+            "text": "Dánia zászlaja Villamos Biotechnológia Nyestcápafélék Etológia",
+            "font_size": 4
+        },
+        {
+            "text": "Olasz konyhaművészet Olaszország címere Okság Peloponnészosz Hullámvasút",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

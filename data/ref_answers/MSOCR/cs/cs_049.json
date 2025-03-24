@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Antilopa jelení Bělehrad Dolnoněmčina",
+            "font_size": 40
+        },
+        {
+            "text": "Barvení grafu Marrákeš Surrealismus Psychoanalýza",
+            "font_size": 38
+        },
+        {
+            "text": "Výroková logika Severní Brabantsko Dunkerk",
+            "font_size": 36
+        },
+        {
+            "text": "Portugalština Tramvaj Korintský průplav Státní znak Itálie",
+            "font_size": 34
+        },
+        {
+            "text": "Supervelmoc Anatolské jazyky Počítačová síť Značkovací jazyk",
+            "font_size": 32
+        },
+        {
+            "text": "Kypr Aligátorovití Raketový motor Středozem",
+            "font_size": 30
+        },
+        {
+            "text": "Siamská dvojčata Dardanely Mýdelníkotvaré Bengalúr Doba železná",
+            "font_size": 28
+        },
+        {
+            "text": "Česká vlajka Elektrotechnika Renesance Mýdelníkotvaré Palivový článek",
+            "font_size": 26
+        },
+        {
+            "text": "Elektrotechnika Filmový režisér Velikonoční ostrov Sfinx Katodová trubice Obec",
+            "font_size": 24
+        },
+        {
+            "text": "Surrealismus Mobilní peněženka Antika Komandorské ostrovy Hlístice Klasická hudba",
+            "font_size": 22
+        },
+        {
+            "text": "Irština Skauting Drápkovci Vitráž Hladkounovití Francouzi",
+            "font_size": 20
+        },
+        {
+            "text": "Prokaryota Humrovití Endokrinologie Genetický kód Velština Přírodní vědy",
+            "font_size": 18
+        },
+        {
+            "text": "Eukaryota Etologie Dějiny lidstva Turečtina Elektronická hudba Filmová produkce",
+            "font_size": 16
+        },
+        {
+            "text": "Siamská dvojčata Maledivština Pythagorova věta Khoikhoiové Jezevec lesní Pythagorova věta",
+            "font_size": 14
+        },
+        {
+            "text": "Hydrofyty Eukaryota Japonská kuchyně Kvantová mechanika Neurověda Telepatie",
+            "font_size": 12
+        },
+        {
+            "text": "Pythagorova věta Luskoun krátkoocasý Hydrofyty Mezoamerika Telepatie Opolské vojvodství",
+            "font_size": 10
+        },
+        {
+            "text": "Hérodotos Řád karmelitánů Klasická hudba Chemická reakce Chemická reakce Filmová produkce",
+            "font_size": 8
+        },
+        {
+            "text": "Mauritánie Eurasijská deska Elektromobil Psychoanalýza Meióza Kvantová mechanika",
+            "font_size": 6
+        },
+        {
+            "text": "Turci Menstruační cyklus Sfinx Želva ostruhatá Telepatie Sociální práce",
+            "font_size": 4
+        },
+        {
+            "text": "Termoregulace Hypofýza Konstantinopol Litevština Elektrotechnika Surrealismus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

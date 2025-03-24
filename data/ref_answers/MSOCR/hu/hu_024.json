@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Afta Ciprusi Köztársaság Természettudomány",
+            "font_size": 40
+        },
+        {
+            "text": "Operációs rendszer Ősnövénytan Elméleti fizika",
+            "font_size": 38
+        },
+        {
+            "text": "Pszichiátria Japán konyhaművészet Filmrendező Község",
+            "font_size": 36
+        },
+        {
+            "text": "Villamos Rjúkjú Bajorország Agyalapi mirigy Római provinciák",
+            "font_size": 34
+        },
+        {
+            "text": "Magyarok Világtörténelem Sárgaúszójú tonhal Filmrendező",
+            "font_size": 32
+        },
+        {
+            "text": "Klasszikus zene Húsvéti tojás Cinematográfia Bolhapiac Vapiti",
+            "font_size": 30
+        },
+        {
+            "text": "Alpok Rakétahajtómű Szupravezetés Rétegvulkán Csinghua Egyetem",
+            "font_size": 28
+        },
+        {
+            "text": "Kőrézkor Pinjin Bioinformatika Telepátia Európa történelme",
+            "font_size": 26
+        },
+        {
+            "text": "Bentosz Keringési idő Integrált áramkör Keringési idő Számítógép Európai borz",
+            "font_size": 24
+        },
+        {
+            "text": "Biotechnológia Ajakoshalfélék Karmeliták Ógörög nyelv Angolok Kémiai reakció Dodekanészosz",
+            "font_size": 22
+        },
+        {
+            "text": "Kulturális sokk Triatlon Trópusi ciklon Beágyazott rendszer Varmia Repülőgép Zenei műfaj",
+            "font_size": 20
+        },
+        {
+            "text": "Húsevő Bolhapiac Kárpátok Imaginárius egység Pszichiátria Szappanfavirágúak Homeopátia",
+            "font_size": 18
+        },
+        {
+            "text": "Operációs rendszer Ciprusi Köztársaság Modernizmus Bengaluru Írek Csehszlovákia Közönséges dió",
+            "font_size": 16
+        },
+        {
+            "text": "Autópálya Páncélos ostorosok Ecetmuslica Bébi úr Kognitív tudomány Spanyol nyelv Nagybőgő",
+            "font_size": 14
+        },
+        {
+            "text": "Baleár Kognitív tudomány Gébfélék Felső Tüskésbőrűek Kunya Ír nyelv",
+            "font_size": 12
+        },
+        {
+            "text": "Autoszóma Európai borz Filmgyártás Ermitázs Gépipar Japán történelme Otthonoktatás",
+            "font_size": 10
+        },
+        {
+            "text": "Operációs rendszer Kék pingvin Dánia Ermitázs Húsvét Japonizmus Katalán nyelv",
+            "font_size": 8
+        },
+        {
+            "text": "Pörgekarúak Egyszerű gép Homeopátia Villamos Üzemanyagcella Skótok Afrikai aranymacska",
+            "font_size": 6
+        },
+        {
+            "text": "Okság Kéklábú szula Spanyolok Pasztőrözés Piemont Spanyolok Mobiltárca",
+            "font_size": 4
+        },
+        {
+            "text": "Prokarióták Spanyol nyelv Hérodotosz Agávé Nagy kárókatona Triatlon Homeopátia",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

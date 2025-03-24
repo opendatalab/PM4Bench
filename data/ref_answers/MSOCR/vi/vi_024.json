@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Nhiệt miệng áp tơ Cộng hòa Síp Khoa học tự nhiên",
+            "font_size": 40
+        },
+        {
+            "text": "Hệ điều hành Cổ thực vật học Vật lý lý thuyết",
+            "font_size": 38
+        },
+        {
+            "text": "Khoa tâm thần Ẩm thực Nhật Bản Đạo diễn điện ảnh Khu tự quản",
+            "font_size": 36
+        },
+        {
+            "text": "Xe điện mặt đất Quần đảo Nansei Bayern Tuyến yên Tỉnh của La Mã",
+            "font_size": 34
+        },
+        {
+            "text": "Người Hungary Lịch sử thế giới Cá ngừ vây vàng Đạo diễn điện ảnh",
+            "font_size": 32
+        },
+        {
+            "text": "Nhạc cổ điển Trứng Phục sinh Kỹ thuật điện ảnh Chợ trời Nai sừng xám",
+            "font_size": 30
+        },
+        {
+            "text": "Anpơ Động cơ tên lửa Siêu dẫn Núi lửa dạng tầng Đại học Thanh Hoa",
+            "font_size": 28
+        },
+        {
+            "text": "Thời đại đồ đồng đá Bính âm Hán ngữ Tin sinh học Thần giao cách cảm Lịch sử châu Âu",
+            "font_size": 26
+        },
+        {
+            "text": "Sinh vật đáy Chu kỳ quỹ đạo Vi mạch Chu kỳ quỹ đạo Mạng máy tính Lửng châu Âu",
+            "font_size": 24
+        },
+        {
+            "text": "Công nghệ sinh học Họ Cá bàng chài Dòng Cát Minh Tiếng Hy Lạp cổ đại Người Anh Phản ứng hóa học Dodekanisa",
+            "font_size": 22
+        },
+        {
+            "text": "Sốc văn hóa Ba môn phối hợp Xoáy thuận nhiệt đới Hệ thống nhúng Warmińsko Tàu sân bay Thể loại nhạc",
+            "font_size": 20
+        },
+        {
+            "text": "Động vật ăn thịt Chợ trời Dãy núi Karpat Đơn vị ảo Khoa tâm thần Bộ Bồ hòn Vi lượng đồng căn",
+            "font_size": 18
+        },
+        {
+            "text": "Hệ điều hành Cộng hòa Síp Chủ nghĩa hiện đại Bengaluru Người Ireland Tiệp Khắc Cây óc chó",
+            "font_size": 16
+        },
+        {
+            "text": "Đường cao tốc Dinoflagellata Ruồi giấm thường Nhóc trùm Khoa học nhận thức Tiếng Tây Ban Nha Contrebasse",
+            "font_size": 14
+        },
+        {
+            "text": "Quần đảo Baleares Khoa học nhận thức Họ Cá bống trắng Thượng Pfalz Ngành Da gai Kunya Tiếng Ireland",
+            "font_size": 12
+        },
+        {
+            "text": "Nhiễm sắc thể thường Lửng châu Âu Quá trình làm phim Bảo tàng Ermitazh Kỹ thuật cơ khí Lịch sử Nhật Bản Giáo dục tại gia",
+            "font_size": 10
+        },
+        {
+            "text": "Hệ điều hành Eudyptula minor Eo biển Đan Mạch Bảo tàng Ermitazh Đảo Phục Sinh Chủ nghĩa Nhật Bản Tiếng Catalunya",
+            "font_size": 8
+        },
+        {
+            "text": "Ngành Tay cuộn Máy cơ đơn giản Vi lượng đồng căn Xe điện mặt đất Pin nhiên liệu Người Scotland Beo vàng châu Phi",
+            "font_size": 6
+        },
+        {
+            "text": "Quan hệ nhân quả Chim điên chân xanh Người Tây Ban Nha Thanh trùng Piemonte Người Tây Ban Nha Ví điện tử",
+            "font_size": 4
+        },
+        {
+            "text": "Sinh vật nhân sơ Tiếng Tây Ban Nha Herodotos Chi Thùa Cốc đế Ba môn phối hợp Vi lượng đồng căn",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

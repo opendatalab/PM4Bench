@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Văn hóa đại chúng Vi mạch Thần giao cách cảm",
+            "font_size": 40
+        },
+        {
+            "text": "Nhạc cổ điển Người Áo Ngành Tay cuộn Vi lượng đồng căn",
+            "font_size": 38
+        },
+        {
+            "text": "Phương trình bậc hai Quần đảo Baleares Siêu Trái Đất Nguyên phân",
+            "font_size": 36
+        },
+        {
+            "text": "Động vật ăn thịt Kỹ thuật điện ảnh Tiếng Thổ Nhĩ Kỳ Tiếng Ý",
+            "font_size": 34
+        },
+        {
+            "text": "Đơn vị ảo Phân tâm học Quốc kỳ Tchad Báo săn châu Á",
+            "font_size": 32
+        },
+        {
+            "text": "Kim loại chuyển tiếp Sankt Vi lượng đồng căn Chợ trời Vi lượng đồng căn",
+            "font_size": 30
+        },
+        {
+            "text": "Sinh học tế bào Sinh vật nhân sơ Kinh tế học vi mô Contrebasse Kỹ thuật cơ khí",
+            "font_size": 28
+        },
+        {
+            "text": "Địa lý sinh học Xoáy thuận nhiệt đới Loãng xương Bayern Kitakyūshū Sông Dnepr",
+            "font_size": 26
+        },
+        {
+            "text": "Dodekanisa Tiếng Ý Số La Mã Kinh tế học vi mô Phân hủy hóa học Động vật thân mềm",
+            "font_size": 24
+        },
+        {
+            "text": "Cá ngừ vây vàng Tập tính học Thực vật một lá mầm Lombardia Hệ điều hành Chủ nghĩa hòa bình",
+            "font_size": 22
+        },
+        {
+            "text": "Aeneis Họ Ruồi giả ong Viện hàn lâm Pháp Điện thoại di động Khoa tâm thần Tàu lượn siêu tốc",
+            "font_size": 20
+        },
+        {
+            "text": "Chủ nghĩa hòa bình Công nghệ sinh học Khoa học tự nhiên Trung Địa Mauritanie Thực vật thủy sinh",
+            "font_size": 18
+        },
+        {
+            "text": "Sankt Ngôn ngữ học xã hội Peloponnesos Trường phái hàn lâm Bách khoa toàn thư Thể loại nhạc",
+            "font_size": 16
+        },
+        {
+            "text": "Lý thuyết hỗn loạn Beograd Bóng bầu dục Mỹ Hạt hạ nguyên tử Tập tin Điện thoại di động",
+            "font_size": 14
+        },
+        {
+            "text": "Quần đảo Mã Lai Phim kinh dị Trung Địa Sinh đôi dính liền Người Pháp Hạ Bayern",
+            "font_size": 12
+        },
+        {
+            "text": "Ba môn phối hợp Thần giao cách cảm Văn hóa đại chúng Điện thoại di động Thunnus alalunga Vi mạch",
+            "font_size": 10
+        },
+        {
+            "text": "Tiếng Catalunya Graubünden Người Ireland Tiếng Amhara Lombardia Quần đảo Canaria",
+            "font_size": 8
+        },
+        {
+            "text": "Chất làm chậm Định lý Pythagoras Thể loại nhạc Dodekanisa Báo săn châu Á Contrebasse",
+            "font_size": 6
+        },
+        {
+            "text": "Bộ tăng áp động cơ Tình nguyện Piemonte Tiếng Ireland Vi mạch Varanus niloticus",
+            "font_size": 4
+        },
+        {
+            "text": "CG artwork Nhóm ngôn ngữ Sami Người Hungary Ngành Tay cuộn Transilvania Hệ điều hành",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

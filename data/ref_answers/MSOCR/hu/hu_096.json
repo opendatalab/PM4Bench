@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Karmos féreglábúak Felső Japán konyhaművészet",
+            "font_size": 40
+        },
+        {
+            "text": "Binomiális tétel Okság Élelmiszer Azori",
+            "font_size": 38
+        },
+        {
+            "text": "Hérodotosz Szjevjerodoneck Életbiztosítás Kriptovaluta",
+            "font_size": 36
+        },
+        {
+            "text": "Karib Szabad licenc Rendszerbiológia Üdítőital",
+            "font_size": 34
+        },
+        {
+            "text": "Nagybőgő Páncélos ostorosok Török nyelv Ingerület",
+            "font_size": 32
+        },
+        {
+            "text": "Hindu Akadémizmus Húsvéti tojás Zeneterápia",
+            "font_size": 30
+        },
+        {
+            "text": "Grönlandi fóka Popkultúra Természetfilozófia Kanári",
+            "font_size": 28
+        },
+        {
+            "text": "Ferences rend Operációs rendszer Karib Nagy kárókatona Bentosz",
+            "font_size": 26
+        },
+        {
+            "text": "Imaginárius egység Római provinciák Katalán nyelv Operációs rendszer Horrorfilm",
+            "font_size": 24
+        },
+        {
+            "text": "Olasz nyelv Ázsiai gepárd Eukarióták Világörökség Enciklopédia Menstruációs ciklus",
+            "font_size": 22
+        },
+        {
+            "text": "Rakétahajtómű Noradrenalin Etológia Aranysakál Közönséges dió Integrált áramkör",
+            "font_size": 20
+        },
+        {
+            "text": "Kvantummechanika Biotechnológia Tengelyferdeség Étkezési rostok Planetológia Anatólia",
+            "font_size": 18
+        },
+        {
+            "text": "Csillagkeletkezés Jylland Otthonoktatás Karmos féreglábúak Vállalat Idődilatáció",
+            "font_size": 16
+        },
+        {
+            "text": "Gébfélék Húsvét Meiózis Integrált áramkör Napelem Olaszok",
+            "font_size": 14
+        },
+        {
+            "text": "Római számírás Operációs rendszer Plutarkhosz Litográfia Klasszikus zene Egyszikűek",
+            "font_size": 12
+        },
+        {
+            "text": "Húsevő Idődilatáció Csehszlovákia Gyűrűsfarkú maki Grúz nyelv Visztula",
+            "font_size": 10
+        },
+        {
+            "text": "Aligátorfélék Búbos vöcsök Prokarióták Számítógép Lombardia Biotechnológia",
+            "font_size": 8
+        },
+        {
+            "text": "Káoszelmélet Hérodotosz Beágyazott rendszer Kunya Eurázsia Római számírás",
+            "font_size": 6
+        },
+        {
+            "text": "Bentosz Pireneusok Homeopátia Litván nyelv Pastu nyelv Angolok",
+            "font_size": 4
+        },
+        {
+            "text": "Pinjin Nyestcápafélék Marquises Társadalmi norma Antwerpen Alnémet nyelv",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

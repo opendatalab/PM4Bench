@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Popkultúra Integrált áramkör Telepátia",
+            "font_size": 40
+        },
+        {
+            "text": "Klasszikus zene Osztrákok Pörgekarúak Homeopátia",
+            "font_size": 38
+        },
+        {
+            "text": "Másodfokú egyenlet Baleár Szuperföld Mitózis",
+            "font_size": 36
+        },
+        {
+            "text": "Húsevő Cinematográfia Török nyelv Olasz nyelv",
+            "font_size": 34
+        },
+        {
+            "text": "Imaginárius egység Pszichoanalízis Csád zászlaja Ázsiai gepárd",
+            "font_size": 32
+        },
+        {
+            "text": "Átmenetifémek Szentpétervár Homeopátia Bolhapiac Homeopátia",
+            "font_size": 30
+        },
+        {
+            "text": "Sejtbiológia Prokarióták Mikroökonómia Nagybőgő Gépipar",
+            "font_size": 28
+        },
+        {
+            "text": "Biogeográfia Trópusi ciklon Csontritkulás Bajorország Kitakjúsú Dnyeper",
+            "font_size": 26
+        },
+        {
+            "text": "Dodekanészosz Olasz nyelv Római számírás Mikroökonómia Bomlás Puhatestűek",
+            "font_size": 24
+        },
+        {
+            "text": "Sárgaúszójú tonhal Etológia Egyszikűek Lombardia Operációs rendszer Pacifizmus",
+            "font_size": 22
+        },
+        {
+            "text": "Aeneis Zengőlégyfélék Francia Akadémia Mobiltelefon Pszichiátria Hullámvasút",
+            "font_size": 20
+        },
+        {
+            "text": "Pacifizmus Biotechnológia Természettudomány Középfölde Mauritánia Vízi növényzet",
+            "font_size": 18
+        },
+        {
+            "text": "Szentpétervár Szociolingvisztika Peloponnészosz Akadémizmus Enciklopédia Zenei műfaj",
+            "font_size": 16
+        },
+        {
+            "text": "Káoszelmélet Belgrád Amerikai futball Szubatomi részecske Adatállomány Mobiltelefon",
+            "font_size": 14
+        },
+        {
+            "text": "Maláj szigetvilág Horrorfilm Középfölde Kettős torzok Franciák Alsó",
+            "font_size": 12
+        },
+        {
+            "text": "Triatlon Telepátia Popkultúra Mobiltelefon Thunnus alalunga Integrált áramkör",
+            "font_size": 10
+        },
+        {
+            "text": "Katalán nyelv Graubünden kanton Írek Amhara nyelv Lombardia Kanári",
+            "font_size": 8
+        },
+        {
+            "text": "Neutronmoderátor Pitagorasz Zenei műfaj Dodekanészosz Ázsiai gepárd Nagybőgő",
+            "font_size": 6
+        },
+        {
+            "text": "Turbófeltöltő Önkéntes munka Piemont Ír nyelv Integrált áramkör Nílusi varánusz",
+            "font_size": 4
+        },
+        {
+            "text": "Számítógépes grafika Számi nyelvek Magyarok Pörgekarúak Erdély Operációs rendszer",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

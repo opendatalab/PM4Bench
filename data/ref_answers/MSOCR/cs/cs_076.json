@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Hérodotos Německý ovčák Kontaktní čočka",
+            "font_size": 40
+        },
+        {
+            "text": "Gramofonová deska Přírodní vědy Orel bělohlavý",
+            "font_size": 38
+        },
+        {
+            "text": "Subsaharská Afrika Vědy o Zemi Telepatie",
+            "font_size": 36
+        },
+        {
+            "text": "Psychoanalýza Bleší trh Arabské číslice Soubor Kapilarita",
+            "font_size": 34
+        },
+        {
+            "text": "Expertní systém Surrealismus Kvantová mechanika Integrovaný obvod",
+            "font_size": 32
+        },
+        {
+            "text": "Kognitivní věda Vznik hvězdy Plútarchos Elektrotechnika",
+            "font_size": 30
+        },
+        {
+            "text": "Klasická hudba Fyzikální chemie Africká deska Severní Brabantsko",
+            "font_size": 28
+        },
+        {
+            "text": "Vřesovcovité Antverpy Ermitáž Středozem Rakušané Ploštěnci",
+            "font_size": 26
+        },
+        {
+            "text": "Teoretická fyzika Světové dědictví Mauritánie Italština Helénismus",
+            "font_size": 24
+        },
+        {
+            "text": "Japonská kuchyně Jutsko Magot bezocasý Řazení vkládáním Vesmírná turistika Kamjanske Faktorizace",
+            "font_size": 22
+        },
+        {
+            "text": "Kapilarita Kauzalita Operační systém Skotové Antika Tučňák nejmenší Sfinx",
+            "font_size": 20
+        },
+        {
+            "text": "Stoicismus Pythagorova věta Trojskok Hlaváčovití Organická chemie Ježek západní Angličané",
+            "font_size": 18
+        },
+        {
+            "text": "Mobilní telefon Pchin Vývojová biologie Chemická reakce Přírodní vědy Vývojová biologie Filmová produkce",
+            "font_size": 16
+        },
+        {
+            "text": "Strojírenství Mitóza Pláštěnci Trojskok Eneolit Hlukové znečištění Aerodynamika",
+            "font_size": 14
+        },
+        {
+            "text": "Epitelová tkáň Dilatace času Bodlok pestrý Tropická cyklóna Dějiny Asie Francouzi Karetní hra",
+            "font_size": 12
+        },
+        {
+            "text": "Expresionismus Bentos Francouzská akademie Tygr indočínský Menstruační cyklus Helénismus Orel bělohlavý",
+            "font_size": 10
+        },
+        {
+            "text": "Epitelová tkáň Aristotelés Humrovití Bentos Francouzi Sókratés Elektrotechnika",
+            "font_size": 8
+        },
+        {
+            "text": "Břichobrvky Hranolky Výpočetní chemie Dálnice Česká vlajka Střední Franky Petrohrad",
+            "font_size": 6
+        },
+        {
+            "text": "Angličané Ptolemaiovci Triatlon Křečík Roborovského Sedmihradsko Kulový blesk Menstruační cyklus",
+            "font_size": 4
+        },
+        {
+            "text": "Mikroekonomie Pavián babuin Serau malý Pojivová tkáň Psychoterapie Komandorské ostrovy Endokrinologie",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

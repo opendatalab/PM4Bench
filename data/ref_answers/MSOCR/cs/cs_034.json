@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Světové dědictví Organická chemie Rumunština",
+            "font_size": 40
+        },
+        {
+            "text": "Středozem Andulka vlnkovaná Sklon rotační osy",
+            "font_size": 38
+        },
+        {
+            "text": "Korporace Řád karmelitánů Kormorán velký Sviňuchovití Španělé",
+            "font_size": 36
+        },
+        {
+            "text": "Krytosemenné Litografie Bodlok pestrý Antika",
+            "font_size": 34
+        },
+        {
+            "text": "Bleší trh Soubor Kinematografie Pythagorova věta",
+            "font_size": 32
+        },
+        {
+            "text": "Portugalština Karibik Antika Héfaistos Arcivévoda",
+            "font_size": 30
+        },
+        {
+            "text": "Katalánština Slezské vojvodství Eneolit Počítačová síť",
+            "font_size": 28
+        },
+        {
+            "text": "Expresionismus Moderna Pavián babuin Bengalúr Gramofonová deska Tropická cyklóna",
+            "font_size": 26
+        },
+        {
+            "text": "Integrovaný obvod Pestřenky Přírodní vědy Mozaika Akční potenciál Toskánsko",
+            "font_size": 24
+        },
+        {
+            "text": "Středozem Vápenatí Přírodní vědy Komandorské ostrovy Agorafobie Univerzita Čching",
+            "font_size": 22
+        },
+        {
+            "text": "Doba železná Tropická cyklóna Kočka zlatá Bronchitida Výpočetní chemie Meióza",
+            "font_size": 20
+        },
+        {
+            "text": "Graubünden Francouzská akademie Starořečtina Kontrabas Řád karmelitánů Mechanika tekutin",
+            "font_size": 18
+        },
+        {
+            "text": "Elektromobil Jantarová stezka Konzervace potravin Dolní Bavorsko Antika Mauritánská vlajka",
+            "font_size": 16
+        },
+        {
+            "text": "Paleobotanika Rypouš Homeopatie Italština Mezoamerika Horská dráha",
+            "font_size": 14
+        },
+        {
+            "text": "Sociální norma Anglická vlajka Mrchožrout Pojivová tkáň Bělehrad Vláknina",
+            "font_size": 12
+        },
+        {
+            "text": "Turbodmychadlo Mechanika tekutin Kauzalita Homeopatie Triatlon Sociolingvistika",
+            "font_size": 10
+        },
+        {
+            "text": "Geochemie Německá kuchyně Kitakjúšú Doba oběhu Jutsko Meióza",
+            "font_size": 8
+        },
+        {
+            "text": "Německý ovčák Sókratés Spirální galaxie Regulární výraz Etologie Populární kultura",
+            "font_size": 6
+        },
+        {
+            "text": "Maledivština Subatomární částice Výrobní faktor Fotovoltaický článek Tučňák nejmenší Arabské číslice",
+            "font_size": 4
+        },
+        {
+            "text": "Malajské souostroví Asturština Obec Bleší trh Renesance Dálnice",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

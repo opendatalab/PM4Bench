@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Động vật ăn xác thối Điện thoại di động Sốc văn hóa",
+            "font_size": 40
+        },
+        {
+            "text": "Sinh vật nhân thực Nhóc trùm Quá trình làm phim",
+            "font_size": 38
+        },
+        {
+            "text": "Śląskie Điện thoại di động Địa vật lý Cổ thực vật học",
+            "font_size": 36
+        },
+        {
+            "text": "Thánh ca Thụy Sĩ Họ Cun cút Tâm lý trị liệu Nội dung tự do",
+            "font_size": 34
+        },
+        {
+            "text": "Lịch sử châu Âu Nội tiết học Phân hủy hóa học Açores",
+            "font_size": 32
+        },
+        {
+            "text": "Nhạc đại chúng Thực vật hai năm Định lý Pythagoras Khí hiếm",
+            "font_size": 30
+        },
+        {
+            "text": "Người Thổ Nhĩ Kỳ Siêu anh hùng Sinh học hệ thống Tình nguyện Gấu đen Bắc Mỹ",
+            "font_size": 28
+        },
+        {
+            "text": "Di sản thế giới Hóa hữu cơ Người Scotland Ngôn ngữ học xã hội Thượng Bayern",
+            "font_size": 26
+        },
+        {
+            "text": "Động vật hình rêu Nhóm ngôn ngữ gốc Ý Biểu mô Tập tính học Chuẩn mực xã hội Ẩm thực Ý",
+            "font_size": 24
+        },
+        {
+            "text": "Peloponnesos Quốc kỳ Cộng hòa Séc Động vật ăn thịt Tiếng Thổ Nhĩ Kỳ Lưỡng Hà Tiếng Dhivehi",
+            "font_size": 22
+        },
+        {
+            "text": "Ngành Giun đầu gai Mác Đức Contrebasse Ngữ tộc Tiểu Á Giáo dục tại gia Mảng Ả Rập",
+            "font_size": 20
+        },
+        {
+            "text": "Biểu mô Dodekanisa Cơ học chất lưu Nước ngọt có ga Tiền mã hóa Đại bàng đầu trắng",
+            "font_size": 18
+        },
+        {
+            "text": "Phản ứng hóa học Vật lý thiên văn Kính áp tròng Giáo dục tại gia Tiếng Ý Cơ học lượng tử",
+            "font_size": 16
+        },
+        {
+            "text": "Tàu lượn siêu tốc Tiếng Ý Thực vật hạt trần Quần đảo Nansei Chủ nghĩa siêu thực Pin Mặt Trời",
+            "font_size": 14
+        },
+        {
+            "text": "Cơ học lượng tử Đảo Phục Sinh Cút Nhật Bản Người Scotland Điện thoại di động Thuần chay",
+            "font_size": 12
+        },
+        {
+            "text": "Bảo hiểm nhân thọ Sự hình thành sao Enisei Thiên hà xoắn ốc Tiếng Dhivehi Lịch sử thế giới",
+            "font_size": 10
+        },
+        {
+            "text": "Ngôn ngữ hình thức Quạ mỏ nhỏ Bính âm Hán ngữ Xe điện mặt đất Độ nghiêng trục quay Cá cửu sừng",
+            "font_size": 8
+        },
+        {
+            "text": "Số La Mã Họ Cá bống trắng Nước ngọt có ga Đĩa than Tranh khảm Tập tính học",
+            "font_size": 6
+        },
+        {
+            "text": "Chi phí biên Jylland Thời đại đồ sắt Chợ trời Người Anh Sinh học phát triển",
+            "font_size": 4
+        },
+        {
+            "text": "Phân tâm học Vật lý thiên văn Lịch sử Anh Sieverodonetsk Kỹ thuật điện Người Ireland",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

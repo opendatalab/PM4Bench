@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Napelem Integrált áramkör Dánia",
+            "font_size": 40
+        },
+        {
+            "text": "Cserkészet Afta Dodekanészosz Popkultúra",
+            "font_size": 38
+        },
+        {
+            "text": "Zeneterápia Szupravezetés Filmgyártás",
+            "font_size": 36
+        },
+        {
+            "text": "Meiózis Filmgyártás Homeopátia Rakétahajtómű",
+            "font_size": 34
+        },
+        {
+            "text": "Mobiltárca Pajzsvulkán Mészszivacsok Brüsszel",
+            "font_size": 32
+        },
+        {
+            "text": "Antikvitás Rjúkjú Néreiszek Strandlabdarúgás Sziléziai vajdaság",
+            "font_size": 30
+        },
+        {
+            "text": "Amhara nyelv Olasz nyelv Üvegfestés Népszámlálás Olasz nyelv",
+            "font_size": 28
+        },
+        {
+            "text": "Számítógépes grafika Káoszelmélet Nagybőgő Telepátia Erdei elefánt",
+            "font_size": 26
+        },
+        {
+            "text": "Ír nyelv Telepátia Ázsiai gepárd Skótok Antikvitás",
+            "font_size": 24
+        },
+        {
+            "text": "Gépi fordítás Kontaktlencse Homeopátia Roborovszkij Alnémet nyelv",
+            "font_size": 22
+        },
+        {
+            "text": "Kvantummechanika Etológia Rjúkjú Planetológia Ázsia történelme",
+            "font_size": 20
+        },
+        {
+            "text": "Rekreáció Török nyelv Csehszlovákia Kunya Határköltség",
+            "font_size": 18
+        },
+        {
+            "text": "Mikroökonómia Kártyajáték Adattárház Puhatestűek Otthonoktatás",
+            "font_size": 16
+        },
+        {
+            "text": "Kártyajáték Filmgyártás Angolok Áramlástan Okság",
+            "font_size": 14
+        },
+        {
+            "text": "Csinghua Egyetem Hérodotosz Törökök Japán konyhaművészet Mohaállatok",
+            "font_size": 12
+        },
+        {
+            "text": "Alsó Azori Azori Űrturizmus Sörényes hangyász",
+            "font_size": 10
+        },
+        {
+            "text": "Hellenizmus Alnémet nyelv Hullámvasút Középfölde Európa történelme",
+            "font_size": 8
+        },
+        {
+            "text": "Pacifizmus Geofizika Opolei vajdaság Mitózis Olasz nyelv",
+            "font_size": 6
+        },
+        {
+            "text": "Kémiai reakció Sárgaúszójú tonhal Egyszikűek Litvánia zászlaja Francia Akadémia",
+            "font_size": 4
+        },
+        {
+            "text": "Előgerinchúrosok Hanglemez Meiózis Filmrendező Strukturalizmus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

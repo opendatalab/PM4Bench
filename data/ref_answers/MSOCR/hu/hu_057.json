@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Helgoland Ermitázs Szjevjerodoneck Mauritánia",
+            "font_size": 40
+        },
+        {
+            "text": "Ingerület Klasszikus zene Mágikus realizmus",
+            "font_size": 38
+        },
+        {
+            "text": "Szentpétervár Villamos Könnyűzene Számítógépes kémia",
+            "font_size": 36
+        },
+        {
+            "text": "Takarmánylucerna Adatállomány Belgrád Antikvitás Hangafélék",
+            "font_size": 34
+        },
+        {
+            "text": "Dodekanészosz Kanári Eurázsia Húsvét Zengőlégyfélék",
+            "font_size": 32
+        },
+        {
+            "text": "Parancsnok Adatállomány Csillagkeletkezés Zajszennyezés",
+            "font_size": 30
+        },
+        {
+            "text": "Üdítőital Parazitológia Fehérfejű rétisas Katalán nyelv",
+            "font_size": 28
+        },
+        {
+            "text": "Skótok Számítógép Pitagorasz Csillagfejlődés Modernizmus",
+            "font_size": 26
+        },
+        {
+            "text": "Szövetes növények Vapiti Számítógép Plutarkhosz Nyomelem Mobiltelefon",
+            "font_size": 24
+        },
+        {
+            "text": "Akadémizmus A mindenség elmélete Alpok Húsvét Szerepjáték Kognitív tudomány Projektmenedzsment",
+            "font_size": 22
+        },
+        {
+            "text": "Földtudomány Analitikai kémia Analitikai kémia Eukarióták Turbófeltöltő Havasszépe Okság",
+            "font_size": 20
+        },
+        {
+            "text": "Önkéntes munka Dögevő Dnyeszter Operációs rendszer Démokritosz Nagy kárókatona Ősnövénytan",
+            "font_size": 18
+        },
+        {
+            "text": "Hövszgöl Szövetes növények Guvatfürjfélék Mezo Asztrofizika Egyszikűek Aranysakál",
+            "font_size": 16
+        },
+        {
+            "text": "Hullámvasút Kunya Gólyatöcs Ukrán nyelv Laposférgek Ketzalkóatl Rakétahajtómű",
+            "font_size": 14
+        },
+        {
+            "text": "Szlovének Rjúkjú Bajorország Mohaállatok Takarmánylucerna Ukrán nyelv Sokúszós csukafélék",
+            "font_size": 12
+        },
+        {
+            "text": "Csillagkeletkezés Operációs rendszer Adattárház Francia Akadémia Átmenetifémek Dnyeszter Filmes munkakörök",
+            "font_size": 10
+        },
+        {
+            "text": "Pasztőrözés Plutarkhosz Karmeliták Felső Római provinciák Sárgaúszójú tonhal Pozsgások",
+            "font_size": 8
+        },
+        {
+            "text": "Cserkészet Repülőgép Allelopátia Svájc himnusza Japán konyhaművészet Filmgyártás Szürrealizmus",
+            "font_size": 6
+        },
+        {
+            "text": "Számítógépes kémia Walesi nyelv Eurázsiai Számi nyelvek Angolok Ciprusi Köztársaság Etológia",
+            "font_size": 4
+        },
+        {
+            "text": "Nyitvatermők Mobiltelefon Buborékrendezés Trópusi ciklon Szabad licenc Dunkerque Pszichoterápia",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

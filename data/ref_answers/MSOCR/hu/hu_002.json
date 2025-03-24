@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Dögevő Dánia zászlaja Közép",
+            "font_size": 40
+        },
+        {
+            "text": "Montréal Etológia Kéklábú szula Ázsiai gepárd",
+            "font_size": 38
+        },
+        {
+            "text": "Spirálgalaxis Cinematográfia Francia Akadémia",
+            "font_size": 36
+        },
+        {
+            "text": "Számítógépes kémia Ábécé Kőrézkor Életbiztosítás",
+            "font_size": 34
+        },
+        {
+            "text": "Kvantummechanika Hajszálcsövesség Anatólia Mikroökonómia Kitakjúsú",
+            "font_size": 32
+        },
+        {
+            "text": "Spirálgalaxis Előgerinchúrosok Otthonoktatás Gascogne",
+            "font_size": 30
+        },
+        {
+            "text": "Egyszikűek Napelem Napelem Szuperhős Idődilatáció",
+            "font_size": 28
+        },
+        {
+            "text": "Ázsia történelme Űrturizmus Ősnövénytan Berber makákó Pszichoanalízis",
+            "font_size": 26
+        },
+        {
+            "text": "Maláj szigetvilág Szphinx Szociális munka Szubatomi részecske Szerepjáték",
+            "font_size": 24
+        },
+        {
+            "text": "Cirill ábécé Maldív nyelv Kártyajáték Villamos Kontaktlencse Mészszivacsok",
+            "font_size": 22
+        },
+        {
+            "text": "Vízi növényzet Aranysakál Népszámlálás Ukrán nyelv Középfölde Asztrofizika",
+            "font_size": 20
+        },
+        {
+            "text": "Életbiztosítás Lapolvasó Mobiltelefon Csillagfejlődés Operációs rendszer Sztoikus filozófia",
+            "font_size": 18
+        },
+        {
+            "text": "Autoszóma Karintia Kunya Termisztor Pinjin Tengelyferdeség",
+            "font_size": 16
+        },
+        {
+            "text": "Csillagkeletkezés Szürrealizmus Japán zászlaja Prokarióták Hullámvasút Szentpétervár",
+            "font_size": 14
+        },
+        {
+            "text": "Olaszország címere Ázsia történelme Antikvitás Olasz nyelv Kémiai reakció Szlovének",
+            "font_size": 12
+        },
+        {
+            "text": "Üzleti titok Pasztőrözés Húsevő Ermitázs Üzemanyagcella Bengaluru",
+            "font_size": 10
+        },
+        {
+            "text": "Üvegfestés Szövetes növények Románia zászlaja Kulturális sokk Vörös tűzhal Formális nyelv",
+            "font_size": 8
+        },
+        {
+            "text": "Mobiltárca Napelem Vérszopó denevérek Nílusi varánusz Japán fürj Hullámvasút",
+            "font_size": 6
+        },
+        {
+            "text": "Borneói vörösmacska Zárvatermők Bengaluru Bronzkor Okság Sokúszós csukafélék",
+            "font_size": 4
+        },
+        {
+            "text": "Község Napelem Asztúriai nyelvtan Minimalizmus Zengőlégyfélék Német márka",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

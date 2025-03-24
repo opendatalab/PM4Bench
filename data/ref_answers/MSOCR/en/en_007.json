@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Japanese quail Smart city Arabian Plate",
+            "font_size": 40
+        },
+        {
+            "text": "Romanian language Cyrillic script Drosophila melanogaster",
+            "font_size": 38
+        },
+        {
+            "text": "Menstrual cycle Azores Samothrace French people",
+            "font_size": 36
+        },
+        {
+            "text": "Pacifism Prokaryote Welsh language Cyrillic script",
+            "font_size": 34
+        },
+        {
+            "text": "Card game Superhero Mobile phone Filmmaking",
+            "font_size": 32
+        },
+        {
+            "text": "Cyprus Free content Capillary action Biotechnology Croats",
+            "font_size": 30
+        },
+        {
+            "text": "Card game Pacifism Turbocharger Tram Role-playing game",
+            "font_size": 28
+        },
+        {
+            "text": "Irish language Municipality Pythagorean theorem Academic art Film director",
+            "font_size": 26
+        },
+        {
+            "text": "Jutland Yellowfin tuna Benthos Chukchi Peninsula Academic art Electric car",
+            "font_size": 24
+        },
+        {
+            "text": "Organic chemistry Pinyin Quantum mechanics Insertion sort Electronic music Dardanelles",
+            "font_size": 22
+        },
+        {
+            "text": "Chemical kinetics Food preservation Easter Island Saint Petersburg Astrophysics Telepathy",
+            "font_size": 20
+        },
+        {
+            "text": "Belgrade Opole Voivodeship Causality Surrealism Subatomic particle Mainland Southeast Asia",
+            "font_size": 18
+        },
+        {
+            "text": "Antidepressant Transition metal Franciscans Hellenistic period Transition metal Peloponnese",
+            "font_size": 16
+        },
+        {
+            "text": "Italic languages Italian language Upper Bavaria Antwerp Easter Island Eukaryote",
+            "font_size": 14
+        },
+        {
+            "text": "Aircraft carrier Role-playing game Stratovolcano Menstrual cycle Thermistor Plutarch",
+            "font_size": 12
+        },
+        {
+            "text": "Alfalfa Lower Saxony Tram Heterotroph Computer graphics Cyprus",
+            "font_size": 10
+        },
+        {
+            "text": "Flag of Austria Volunteering Factors of production Mobile phone Scottish people Free content",
+            "font_size": 8
+        },
+        {
+            "text": "Triathlon Phonograph record Card game Census Markup language Maldivian language",
+            "font_size": 6
+        },
+        {
+            "text": "Escalator Data structure Pituitary gland Sámi languages Anatolian languages Menstrual cycle",
+            "font_size": 4
+        },
+        {
+            "text": "Irrawaddy dolphin Plutarch Chemical reaction Arabic numerals European badger Menstrual cycle",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

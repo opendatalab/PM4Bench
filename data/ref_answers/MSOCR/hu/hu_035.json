@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Gráfok színezése Pinjin Mérgessiklófélék",
+            "font_size": 40
+        },
+        {
+            "text": "Kvantummechanika Csillagkeletkezés",
+            "font_size": 38
+        },
+        {
+            "text": "Mobiltelefon Örvös medve Mohaállatok",
+            "font_size": 36
+        },
+        {
+            "text": "Jylland Beágyazott rendszer Hellenizmus Csillagkeletkezés",
+            "font_size": 34
+        },
+        {
+            "text": "Olasz nyelv Katódsugárcső Mezopotámia Autópálya",
+            "font_size": 32
+        },
+        {
+            "text": "Mauritánia Dardanellák Kriptovaluta Számítógép",
+            "font_size": 30
+        },
+        {
+            "text": "Integrált áramkör Gépi fordítás Község Vagarsapat",
+            "font_size": 28
+        },
+        {
+            "text": "Fizikai kémia Magyar nyelv Felső Otthonoktatás Ferences rend",
+            "font_size": 26
+        },
+        {
+            "text": "Üvegfestés Guvat Vapiti Villamos Nyitvatermők Angolok",
+            "font_size": 24
+        },
+        {
+            "text": "Anglia történelme Angolok Világörökség Mauritánia zászlaja Szupravezetés Búbos vöcsök",
+            "font_size": 22
+        },
+        {
+            "text": "Geokémia Fehérfejű rétisas Észak Napelem Menstruációs ciklus Üvegfestés",
+            "font_size": 20
+        },
+        {
+            "text": "Allelopátia Maldív nyelv Sztoikus filozófia Német márka Hindu Pszichoanalízis",
+            "font_size": 18
+        },
+        {
+            "text": "Kriptovaluta Litográfia Szerepjáték Hámszövet Mauritánia Német juhászkutya",
+            "font_size": 16
+        },
+        {
+            "text": "Pozsgások Húsvét Sarkantyús teknős Elektronikus zene Kártyajáték Román nyelv",
+            "font_size": 14
+        },
+        {
+            "text": "Kriptovaluta Idődilatáció Vaskor Természettudomány Harmadfokú egyenlet Eurázsia",
+            "font_size": 12
+        },
+        {
+            "text": "Elektromos autó Hellenizmus Kafferbivaly Villamosmérnök Galilei Ökonometria",
+            "font_size": 10
+        },
+        {
+            "text": "Római provinciák Lombardia Európai borz Pszichoterápia Község Természettudomány",
+            "font_size": 8
+        },
+        {
+            "text": "Gerinchúrosok Szarka Walesi nyelv Egyszikűek Minimalizmus Cserkészet",
+            "font_size": 6
+        },
+        {
+            "text": "Cirill ábécé Földtudomány Anglia történelme Lágy szárú növény Római számírás Peloponnészosz",
+            "font_size": 4
+        },
+        {
+            "text": "Autópálya Csontritkulás Toszkána Grúz nyelv Karintia Baleár",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szarka Berber makákó Alsó",
+            "font_size": 40
+        },
+        {
+            "text": "Szubatomi részecske Gyűrűsférgek Alpok Török nyelv",
+            "font_size": 38
+        },
+        {
+            "text": "Lapolvasó Baleár Menstruációs ciklus",
+            "font_size": 36
+        },
+        {
+            "text": "Kontaktlencse Szubatomi részecske Csehszlovákia Olaszország zászlaja",
+            "font_size": 34
+        },
+        {
+            "text": "Egyszikűek Homeopátia Belgrád Binomiális tétel",
+            "font_size": 32
+        },
+        {
+            "text": "Ptolemaida Tüskésbőrűek Csehszlovákia Popkultúra Német márka",
+            "font_size": 30
+        },
+        {
+            "text": "Dnyeszter Húsvéti tojás Jylland Újlatin nyelvek Mezopotámia Villamosmérnök",
+            "font_size": 28
+        },
+        {
+            "text": "Görögország címere Nyitvatermők Turbófeltöltő Angolok Villamosmérnök",
+            "font_size": 26
+        },
+        {
+            "text": "Magyarok Ferences rend Hámszövet Fehérfejű rétisas Gébfélék Karmos féreglábúak",
+            "font_size": 24
+        },
+        {
+            "text": "Mobiltelefon Kéklábú szula Spirálgalaxis Allelopátia Antikvitás Erdély",
+            "font_size": 22
+        },
+        {
+            "text": "Bajorország Segédprogram Kémiai reakció Aranysakál Pastu nyelv Rakétahajtómű",
+            "font_size": 20
+        },
+        {
+            "text": "Berber makákó Szabad licenc Homeopátia Idegszövet Gépi fordítás Hanglemez",
+            "font_size": 18
+        },
+        {
+            "text": "Jylland Olasz nyelv Kártyajáték Karintia Kék pingvin Kunya",
+            "font_size": 16
+        },
+        {
+            "text": "Szürrealizmus Menstruációs ciklus Csinghua Egyetem Gépi fordítás Marquises Üzemanyagcella",
+            "font_size": 14
+        },
+        {
+            "text": "Királypingvin Kőkorszak Rakétahajtómű Belgrád Európai sün Csehszlovákia",
+            "font_size": 12
+        },
+        {
+            "text": "Dánia zászlaja Hasábburgonya Enciklopédia Húsvét Dögevő Szuperhős",
+            "font_size": 10
+        },
+        {
+            "text": "Hajszálcsövesség Tengelyferdeség Ukrán nyelv Ógörög nyelv Laposférgek Kék pingvin",
+            "font_size": 8
+        },
+        {
+            "text": "Antikvitás Húsvét Akadémizmus Kriptovaluta Biotechnológia Fizikai kémia",
+            "font_size": 6
+        },
+        {
+            "text": "Kémiai reakció Azori Menstruációs ciklus Vaskor Termelési tényező Otthonoktatás",
+            "font_size": 4
+        },
+        {
+            "text": "Pitagorasz Geofizika Biogeográfia Reguláris kifejezés Bolhapiac Cserkészet",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

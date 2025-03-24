@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Telepátia Katódsugárcső Csillagkeletkezés",
+            "font_size": 40
+        },
+        {
+            "text": "Skótok Menstruációs ciklus Asztrofizika",
+            "font_size": 38
+        },
+        {
+            "text": "Toszkána Üzemanyagcella Római számírás Római számírás",
+            "font_size": 36
+        },
+        {
+            "text": "Írek Meiózis Thunnus alalunga Hámszövet Aerodinamika",
+            "font_size": 34
+        },
+        {
+            "text": "Aeneis Mobiltelefon Segédprogram Alpok Szerepjáték",
+            "font_size": 32
+        },
+        {
+            "text": "Opolei vajdaság Alnémet nyelv Villamos Piemont Szókratész Pinjin",
+            "font_size": 30
+        },
+        {
+            "text": "Kémiai reakció Német márka Aranysakál Integrált áramkör",
+            "font_size": 28
+        },
+        {
+            "text": "Parazitológia Dnyeper Ciprusi Köztársaság Mobiltelefon Román nyelv",
+            "font_size": 26
+        },
+        {
+            "text": "Írek Üdítőital Szabad licenc Étkezési rostok Népsűrűség Üvegfestés",
+            "font_size": 24
+        },
+        {
+            "text": "Zenei műfaj Jenyiszej Jylland Plutarkhosz Parazitológia Afta Románia zászlaja Búbos vöcsök",
+            "font_size": 22
+        },
+        {
+            "text": "Planetológia Szociolingvisztika Havasszépe Középfölde Szövetes növények Aeneis Vízi növényzet",
+            "font_size": 20
+        },
+        {
+            "text": "Varmia Cinematográfia Kőrézkor Termisztor Bentosz Újlatin nyelvek Francia Akadémia Olasz konyhaművészet",
+            "font_size": 18
+        },
+        {
+            "text": "Sárkányok háza Írek Írek Pitagorasz Szerves kémia Rjúkjú Mobiltárca Pszichoanalízis",
+            "font_size": 16
+        },
+        {
+            "text": "Bentosz Csehszlovákia Alsó Vízi növényzet Mauritánia Nemesgázok Fejlődéstan Közönséges makákó",
+            "font_size": 14
+        },
+        {
+            "text": "Román nyelv Kognitív tudomány Hellenizmus Nemesgázok Villamos Fehérfejű rétisas Hövszgöl Villamosmérnök",
+            "font_size": 12
+        },
+        {
+            "text": "Káoszelmélet Menstruációs ciklus Varmia Bomlás Sokúszós csukafélék Szürrealizmus Mauritánia zászlaja Walesiek",
+            "font_size": 10
+        },
+        {
+            "text": "Ingerület Pozsgások Kínai tobzoska Kanári Világörökség Turbófeltöltő Szervetlen kémia Hámszövet",
+            "font_size": 8
+        },
+        {
+            "text": "Lazac Határköltség Alpok Aeneis Eurázsiai Szociolingvisztika Tüskésbőrűek Konstantinápoly",
+            "font_size": 6
+        },
+        {
+            "text": "Felső Turbófeltöltő Kognitív tudomány Peloponnészosz Filmgyártás Napraforgóolaj Hellenizmus Vérszopó denevérek",
+            "font_size": 4
+        },
+        {
+            "text": "Lágy szárú növény Középfölde Egyéves növény Szürrealizmus Anatólia Biotechnológia Imaginárius egység Gömbvillám",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

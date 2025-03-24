@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Hanglemez Takarmánylucerna Elektromos autó",
+            "font_size": 40
+        },
+        {
+            "text": "Mobiltelefon Közép Telepátia",
+            "font_size": 38
+        },
+        {
+            "text": "Kriptovaluta Asztrofizika Szentpétervár Pacifizmus",
+            "font_size": 36
+        },
+        {
+            "text": "Népsűrűség Filmrendező Európai sün",
+            "font_size": 34
+        },
+        {
+            "text": "Meiózis Középfölde Számítógép Kettős torzok",
+            "font_size": 32
+        },
+        {
+            "text": "Ausztria zászlaja Fehérfejű rétisas Zenei műfaj Repülőgép",
+            "font_size": 30
+        },
+        {
+            "text": "Aerodinamika Vérszopó denevérek Filmgyártás Adattárház",
+            "font_size": 28
+        },
+        {
+            "text": "Skótok Pszichiátria Amhara nyelv Sztoikus filozófia Eukarióták Chichén Itzá",
+            "font_size": 26
+        },
+        {
+            "text": "Aranysakál Asztrofizika Gépipar Cserkészet Vaskor Karmos féreglábúak",
+            "font_size": 24
+        },
+        {
+            "text": "Bioinformatika Hámszövet Gépipar Lányegyüttes Német juhászkutya Cirill ábécé Román nyelv",
+            "font_size": 22
+        },
+        {
+            "text": "Középfölde Buzogányfejű férgek Termelési tényező Szabad licenc Maláj szigetvilág Bolhapiac",
+            "font_size": 20
+        },
+        {
+            "text": "Pastu nyelv Villamosmérnök Mobiltárca Ázsiai gepárd Ciprusi Köztársaság Marokkó zászlaja Szentpétervár",
+            "font_size": 18
+        },
+        {
+            "text": "Ecetmuslica Faktorizáció Mobiltelefon Szuperhős Adattárház Vízi növényzet Ír nyelv",
+            "font_size": 16
+        },
+        {
+            "text": "Villamosmérnök Karintia Fonálférgek Csillagkeletkezés Kőrézkor Királypingvin Gépi fordítás",
+            "font_size": 14
+        },
+        {
+            "text": "Világörökség Mobiltelefon Egyszikűek Autoszóma Turbófeltöltő Nagy kárókatona Biotechnológia",
+            "font_size": 12
+        },
+        {
+            "text": "Etológia Skótok Dögevő Űrturizmus Takarmánylucerna Mobiltelefon Homeopátia",
+            "font_size": 10
+        },
+        {
+            "text": "Spirálgalaxis Villamos Kémiai reakció Futurizmus Szuperhős Indokína Biotechnológia",
+            "font_size": 8
+        },
+        {
+            "text": "Nemesgázok Mezopotámia Kötőszövet Belgrád Hanglemez Biotechnológia Belgrád",
+            "font_size": 6
+        },
+        {
+            "text": "Triatlon Nyomelem Operációs rendszer Litográfia Hidroponika Nyestcápafélék Napelem",
+            "font_size": 4
+        },
+        {
+            "text": "Ketzalkóatl Villamos Napelem Vaskor Integrált áramkör Kognitív tudomány Étkezési rostok",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

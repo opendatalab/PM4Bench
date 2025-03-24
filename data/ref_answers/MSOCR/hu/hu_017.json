@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Agapornis Okság Napelem Pireneusok",
+            "font_size": 40
+        },
+        {
+            "text": "Binomiális tétel Szunda Anglia történelme",
+            "font_size": 38
+        },
+        {
+            "text": "Formális nyelv Újlatin nyelvek Thunnus alalunga",
+            "font_size": 36
+        },
+        {
+            "text": "Mezo Szociolingvisztika Bolhapiac Popkultúra",
+            "font_size": 34
+        },
+        {
+            "text": "Lubusi vajdaság Antidepresszáns Hindu Pörgekarúak",
+            "font_size": 32
+        },
+        {
+            "text": "Klasszikus zene Község Mobiltelefon Ingerület",
+            "font_size": 30
+        },
+        {
+            "text": "Karib Csillagkeletkezés Német konyhaművészet Noradrenalin",
+            "font_size": 28
+        },
+        {
+            "text": "Expresszionizmus Faktorizáció Magyar nyelv Svájc zászlaja Homeopátia",
+            "font_size": 26
+        },
+        {
+            "text": "Buzogányfejű férgek Fizikai kémia Mentális egészség Fehérfejű rétisas Formális nyelv Hellenizmus",
+            "font_size": 24
+        },
+        {
+            "text": "Kárpátok Homeopátia Repülőgép Allelopátia Kriptovaluta Zajszennyezés Extremofil",
+            "font_size": 22
+        },
+        {
+            "text": "Gépi fordítás Villamos Írek Adattárház Galilei Ráktérítő Mitózis",
+            "font_size": 20
+        },
+        {
+            "text": "Mexikói Világörökség Szociális munka Turbófeltöltő Mobiltelefon Eurázsia Mérgessiklófélék",
+            "font_size": 18
+        },
+        {
+            "text": "Csillóshasúak Fekete harkály Eurázsia Római provinciák Rjúkjú Popkultúra Napelem",
+            "font_size": 16
+        },
+        {
+            "text": "Pszichoterápia Égi mechanika Ítéletlogika Eseményhorizont Maldív nyelv Villamosmérnök Protiszták",
+            "font_size": 14
+        },
+        {
+            "text": "Menstruációs ciklus Hámszövet Lapolvasó Számítógép Agávé Ferences rend Cirill ábécé",
+            "font_size": 12
+        },
+        {
+            "text": "Mikroökonómia Homeopátia Olimpiai himnusz Határköltség Káoszelmélet Dunkerque Eurázsia",
+            "font_size": 10
+        },
+        {
+            "text": "Asztrofizika Binomiális tétel Hidroponika Pszichoanalízis Kitakjúsú Gépi fordítás Asztrofizika",
+            "font_size": 8
+        },
+        {
+            "text": "Antwerpen Cserkészet Hármasugrás Angolok Kulturális sokk Világörökség Filmrendező",
+            "font_size": 6
+        },
+        {
+            "text": "Turbófeltöltő Visztula Menstruációs ciklus Olasz nyelv Radiális sebesség Görög ábécé Dögevő",
+            "font_size": 4
+        },
+        {
+            "text": "Mezo Mágikus realizmus Beszúrásos rendezés Bioinformatika Rjúkjú Újlatin nyelvek Üdítőital",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

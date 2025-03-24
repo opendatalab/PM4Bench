@@ -1,0 +1,71 @@
+languages:
+  EN:
+    cot:
+      vision: "Please read the image content and the multiple-choice question, and choose the correct option after careful consideration. There is only one correct option. Please output the letter of the correct option in the last line, enclosed in angle brackets, e.g., <X>."
+      traditional: "Please read the question below and choose the correct option after careful consideration. There is only one correct option. Please output the letter of the correct option in the last line, enclosed in angle brackets, e.g., <X>. Question:"
+    direct:
+      vision: "Please read the image content and the multiple-choice question, and choose the correct option. There is only one correct option. Please output only the letter of the correct option, enclosed in angle brackets, e.g., <X>."
+      traditional: "Please read the question below and choose the correct option. There is only one correct option. Please output only the letter of the correct option, enclosed in angle brackets, e.g., <X>. Question:"
+  ZH:
+    cot:
+      vision: "请你阅读图片内容和其中的选择题，并从中选择正确选项，逐步思考后作答。正确选项只有一个，请你在最后一行输出正确选项的字母，并将其包裹在尖括号中，如: <X>。"
+      traditional: "请你阅读下面的问题，并从中选择正确选项，逐步思考后作答。正确选项只有一个，请你在最后一行输出正确选项的字母，并将其包裹在尖括号中，如: <X>。问题:"
+    direct:
+      vision: "请你阅读图片内容和其中的选择题，并从中选择正确选项。正确选项只有一个，请你只输出正确选项的字母，并将其包裹在尖括号中，如: <X>"
+      traditional: "请你阅读下面的问题，并从中选择正确选项。正确选项只有一个，请你只输出正确选项的字母，并将其包裹在尖括号中，如: <X>。问题:"
+  AR:
+    cot:
+      vision: "من فضلك اقرأ محتوى الصورة والسؤال متعدد الاختيارات، واختر الخيار الصحيح بعد التفكير التدريجي. يوجد خيار صحيح واحد فقط. من فضلك ضع حرف الخيار الصحيح في السطر الأخير، مغلفًا في أقواس زاوية، مثل: <X>."
+      traditional: "من فضلك اقرأ السؤال أدناه واختر الخيار الصحيح بعد التفكير التدريجي. يوجد خيار صحيح واحد فقط. من فضلك ضع حرف الخيار الصحيح في السطر الأخير، مغلفًا في أقواس زاوية، مثل: <X>. السؤال:"
+    direct:
+      vision: "من فضلك اقرأ محتوى الصورة والسؤال متعدد الاختيارات، واختر الخيار الصحيح. يوجد خيار صحيح واحد فقط. من فضلك اخرج فقط حرف الخيار الصحيح، مغلفًا في أقواس زاوية، مثل: <X>."
+      traditional: "من فضلك اقرأ السؤال أدناه واختر الخيار الصحيح. يوجد خيار صحيح واحد فقط. من فضلك اخرج فقط حرف الخيار الصحيح، مغلفًا في أقواس زاوية، مثل: <X>. السؤال:"
+  CS:
+    cot:
+      vision: "Přečtěte si obsah obrázku a výběrovou otázku a po postupném přemýšlení vyberte správnou možnost. Existuje pouze jedna správná možnost. V posledním řádku uveďte písmeno správné možnosti a obklopte ho ostrými závorkami, například: <X>."
+      traditional: "Přečtěte si otázku níže a po pečlivém zvážení vyberte správnou možnost. Existuje pouze jedna správná možnost. V posledním řádku uveďte písmeno správné možnosti a obklopte ho ostrými závorkami, například: <X>. Otázka:"
+    direct:
+      vision: "Přečtěte si obsah obrázku a výběrovou otázku, a vyberte správnou možnost. Existuje pouze jedna správná možnost. Prosím, vypište pouze písmeno správné možnosti, obklopené ostrými závorkami, například: <X>."
+      traditional: "Přečtěte si otázku níže a vyberte správnou možnost. Existuje pouze jedna správná možnost. Prosím, vypište pouze písmeno správné možnosti, obklopené ostrými závorkami, například: <X>. Otázka:"
+  HU:
+    cot:
+      vision: "Kérlek, olvasd el a kép tartalmát és a választós kérdést, majd fokozatos gondolkodás után válaszd ki a helyes választ. Csak egy helyes válasz létezik. Kérlek, az utolsó sorban add meg a helyes válasz betűjét, és tedd szögletes zárójelek közé, például: <X>."
+      traditional: "Kérlek, olvasd el az alábbi kérdést, és válaszd ki a helyes választ fokozatos gondolkodás után. Csak egy helyes válasz létezik. Kérlek, az utolsó sorban add meg a helyes válasz betűjét, és tedd szögletes zárójelek közé, például: <X>. Kérdés:"
+    direct:
+      vision: "Kérlek, olvasd el a kép tartalmát és a választós kérdést, majd válaszd ki a helyes választ. Csak egy helyes válasz létezik. Kérlek, csak a helyes válasz betűjét add meg, és tedd szögletes zárójelek közé, például: <X>."
+      traditional: "Kérlek, olvasd el az alábbi kérdést, és válaszd ki a helyes választ. Csak egy helyes válasz létezik. Kérlek, csak a helyes válasz betűjét add meg, és tedd szögletes zárójelek közé, például: <X>. Kérdés:"
+  KO:
+    cot:
+      vision: "이미지 내용을 읽고 객관식 질문을 살펴본 후 신중하게 선택하여 정답을 선택해주세요. 정답은 하나만 있습니다. 마지막 줄에 정답의 글자를 출력하고, 이를 꺾쇠 괄호로 감싸서 입력해 주세요, 예: <X>."
+      traditional: "아래의 질문을 읽고 신중하게 생각한 후 정답을 선택해주세요. 정답은 하나만 있습니다. 마지막 줄에 정답의 글자를 출력하고, 이를 꺾쇠 괄호로 감싸서 입력해 주세요, 예: <X>. 질문:"
+    direct:
+      vision: "이미지 내용을 읽고 객관식 질문을 살펴본 후 정답을 선택하세요. 정답은 하나만 있습니다. 정답의 글자만 출력하고, 이를 꺾쇠 괄호로 감싸서 입력해 주세요, 예: <X>."
+      traditional: "아래의 질문을 읽고 정답을 선택하세요. 정답은 하나만 있습니다. 정답의 글자만 출력하고, 이를 꺾쇠 괄호로 감싸서 입력해 주세요, 예: <X>. 질문:"
+  RU:
+    cot:
+      vision: "Пожалуйста, прочитайте содержание изображения и вопрос с выбором ответа, а затем выберите правильный вариант, обдумав его. Правильный вариант только один. Пожалуйста, выведите букву правильного варианта в последней строке, обрамленную угловыми скобками, например: <X>."
+      traditional: "Пожалуйста, прочитайте вопрос ниже и выберите правильный вариант, обдумав его. Правильный вариант только один. Пожалуйста, выведите букву правильного варианта в последней строке, обрамленную угловыми скобками, например: <X>. Вопрос:"
+    direct:
+      vision: "Пожалуйста, прочитайте содержание изображения и вопрос с выбором ответа, и выберите правильный вариант. Правильный вариант только один. Пожалуйста, выведите только букву правильного варианта, обрамленную угловыми скобками, например: <X>."
+      traditional: "Пожалуйста, прочитайте вопрос ниже и выберите правильный вариант. Правильный вариант только один. Пожалуйста, выведите только букву правильного варианта, обрамленную угловыми скобками, например: <X>. Вопрос:"
+  SR:
+    cot:
+      vision: "Молим вас да прочитате садржај слике и питање са избором одговора, а затим изаберете тачан одговор након пажљивог разматрања. Постоји само један тачан одговор. Молим вас да у последњем реду изађете са словом тачног одговора, обавијеним у угловне заграде, на пример: <X>."
+      traditional: "Молим вас да прочитате питање испод и изаберете тачан одговор након пажљивог разматрања. Постоји само један тачан одговор. Молим вас да у последњем реду изађете са словом тачног одговора, обавијеним у угловне заграде, на пример: <X>. Питање:"
+    direct:
+      vision: "Молим вас да прочитате садржај слике и питање са избором одговора, а затим изаберете тачан одговор. Постоји само један тачан одговор. Молим вас да изађете са само словом тачног одговора, обавијеним у угловне заграде, на пример: <X>."
+      traditional: "Молим вас да прочитате питање испод и изаберете тачан одговор. Постоји само један тачан одговор. Молим вас да изађете са само словом тачног одговора, обавијеним у угловне заграде, на пример: <X>. Питање:"
+  TH:
+    cot:
+      vision: "กรุณาอ่านเนื้อหาภาพและคำถามแบบเลือกตอบ จากนั้นเลือกตัวเลือกที่ถูกต้องหลังจากคิดอย่างรอบคอบ ตัวเลือกที่ถูกต้องมีเพียงหนึ่งเดียว กรุณาแสดงตัวอักษรของตัวเลือกที่ถูกต้องในบรรทัดสุดท้าย โดยห่อหุ้มในวงเล็บมุม เช่น: <X>"
+      traditional: "กรุณาอ่านคำถามด้านล่างนี้และเลือกตัวเลือกที่ถูกต้องหลังจากคิดอย่างรอบคอบ ตัวเลือกที่ถูกต้องมีเพียงหนึ่งเดียว กรุณาแสดงตัวอักษรของตัวเลือกที่ถูกต้องในบรรทัดสุดท้าย โดยห่อหุ้มในวงเล็บมุม เช่น: <X>. คำถาม:"
+    direct:
+      vision: "กรุณาอ่านเนื้อหาภาพและคำถามแบบเลือกตอบ จากนั้นเลือกตัวเลือกที่ถูกต้อง ตัวเลือกที่ถูกต้องมีเพียงหนึ่งเดียว กรุณาแสดงตัวอักษรของตัวเลือกที่ถูกต้องและห่อหุ้มในวงเล็บมุม เช่น: <X>"
+      traditional: "กรุณาอ่านคำถามด้านล่างนี้และเลือกตัวเลือกที่ถูกต้อง ตัวเลือกที่ถูกต้องมีเพียงหนึ่งเดียว กรุณาแสดงตัวอักษรของตัวเลือกที่ถูกต้องและห่อหุ้มในวงเล็บมุม เช่น: <X>. คำถาม:"
+  VI:
+    cot:
+      vision: "Xin vui lòng đọc nội dung hình ảnh và câu hỏi trắc nghiệm, sau đó lựa chọn phương án đúng sau khi suy nghĩ kỹ lưỡng. Chỉ có một phương án đúng. Vui lòng xuất ra chữ cái của phương án đúng ở dòng cuối cùng, và bao quanh nó trong dấu ngoặc nhọn, ví dụ: <X>."
+      traditional: "Xin vui lòng đọc câu hỏi dưới đây và chọn phương án đúng sau khi suy nghĩ kỹ lưỡng. Chỉ có một phương án đúng. Vui lòng xuất ra chữ cái của phương án đúng ở dòng cuối cùng, và bao quanh nó trong dấu ngoặc nhọn, ví dụ: <X>. Câu hỏi:"
+    direct:
+      vision: "Xin vui lòng đọc nội dung hình ảnh và câu hỏi trắc nghiệm, sau đó lựa chọn phương án đúng. Chỉ có một phương án đúng. Vui lòng chỉ xuất ra chữ cái của phương án đúng và bao quanh nó trong dấu ngoặc nhọn, ví dụ: <X>."
+      traditional: "Xin vui lòng đọc câu hỏi dưới đây và chọn phương án đúng. Chỉ có một phương án đúng. Vui lòng chỉ xuất ra chữ cái của phương án đúng và bao quanh nó trong dấu ngoặc nhọn, ví dụ: <X>. Câu hỏi:"

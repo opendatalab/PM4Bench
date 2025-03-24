@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Rjúkjú Hellenizmus Protiszták",
+            "font_size": 40
+        },
+        {
+            "text": "Azori Integrált áramkör Alnémet nyelv",
+            "font_size": 38
+        },
+        {
+            "text": "Katódsugárcső Római számírás Adatállomány Alpok",
+            "font_size": 36
+        },
+        {
+            "text": "Alsó Idegtudomány Triatlon Román nyelv",
+            "font_size": 34
+        },
+        {
+            "text": "Meiózis Afrikai aranymacska Múzeum Parancsnok",
+            "font_size": 32
+        },
+        {
+            "text": "Autoszóma Űrturizmus Mitózis Napelem Eurázsia Római számírás",
+            "font_size": 30
+        },
+        {
+            "text": "Borostyánút Tengelyferdeség Szerepjáték Természetfilozófia",
+            "font_size": 28
+        },
+        {
+            "text": "Kémiai reakció Üdítőital Ázsiai gepárd Baleár",
+            "font_size": 26
+        },
+        {
+            "text": "Üzemanyagcella Skótok Vízi növényzet Számi nyelvek Élelmiszer",
+            "font_size": 24
+        },
+        {
+            "text": "Középfölde Szociolingvisztika Francia Akadémia Eurázsia Dögevő Popkultúra Adatállomány",
+            "font_size": 22
+        },
+        {
+            "text": "Dnyeszter Kártyajáték Mobiltelefon Pszichoterápia Sztoikus filozófia Menstruációs ciklus Mezopotámia",
+            "font_size": 20
+        },
+        {
+            "text": "Olaszország zászlaja Okság Mobiltelefon Rjúkjú Német juhászkutya Otthonoktatás Binomiális tétel",
+            "font_size": 18
+        },
+        {
+            "text": "Török nyelv Repülőgép Villamosmérnök Európai borz Csehszlovákia Mauritánia Szphinx",
+            "font_size": 16
+        },
+        {
+            "text": "Kártyajáték Felső Ír nyelv Jylland Bentosz Kriptovaluta Szuperhős",
+            "font_size": 14
+        },
+        {
+            "text": "Napraforgóolaj Italikus nyelvek Eseményhorizont Antikvitás Triatlon Hanglemez Autópálya",
+            "font_size": 12
+        },
+        {
+            "text": "Felső Biotechnológia Középfölde Francia Akadémia Katódsugárcső Kitakjúsú Zenei műfaj",
+            "font_size": 10
+        },
+        {
+            "text": "Fejlődéstan Mezopotámia Elektromos autó Autoszóma Belgrád Dodekanészosz Pszichiátria",
+            "font_size": 8
+        },
+        {
+            "text": "Projektmenedzsment Planetológia Világtörténelem Amerikai alkörmös Guvat Kék pingvin Karib",
+            "font_size": 6
+        },
+        {
+            "text": "Szupravezetés Ausztria zászlaja Ceyloni fahéjfa Otthonoktatás Üdítőital Gravitációs lencse Vapiti",
+            "font_size": 4
+        },
+        {
+            "text": "Elektronikus zene Hámszövet Analitikai kémia Cirill ábécé Kéklábú szula Szerepjáték Kitakjúsú",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

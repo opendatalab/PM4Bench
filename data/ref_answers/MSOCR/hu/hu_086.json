@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Popkultúra Bentosz Rekreáció Bengaluru Jenyiszej",
+            "font_size": 40
+        },
+        {
+            "text": "Cinematográfia Bajorország Dodekanészosz Mobiltárca",
+            "font_size": 38
+        },
+        {
+            "text": "Vapiti Hérodotosz Hanglemez Előgerinchúrosok Antikvitás",
+            "font_size": 36
+        },
+        {
+            "text": "Számítógépes kémia Menstruációs ciklus Sárgaúszójú tonhal",
+            "font_size": 34
+        },
+        {
+            "text": "Csillagkeletkezés Geofizika Középfölde Olaszok Pszichoterápia",
+            "font_size": 32
+        },
+        {
+            "text": "Skótok Társadalmi norma Számítógépes grafika Porcos halak",
+            "font_size": 30
+        },
+        {
+            "text": "Cserkészet Opolei vajdaság Sztoikus filozófia Nílusi varánusz Csillagfejlődés",
+            "font_size": 28
+        },
+        {
+            "text": "Homeopátia Karmeliták Pacifizmus Projektmenedzsment Gépipar",
+            "font_size": 26
+        },
+        {
+            "text": "Kéklábú szula Pacifizmus Villamos Világörökség Metroszexualitás Montréal",
+            "font_size": 24
+        },
+        {
+            "text": "Binomiális tétel Űrturizmus Szphinx Angolok Ír nyelv Chichén Itzá Integrált áramkör",
+            "font_size": 22
+        },
+        {
+            "text": "Francia Akadémia Jenyiszej Mobiltelefon Dögevő Nagybőgő Bronzkor Mauritánia",
+            "font_size": 20
+        },
+        {
+            "text": "Kanári Horrorfilm Zeneterápia Zeneterápia Hámszövet Hasábburgonya Toszkána",
+            "font_size": 18
+        },
+        {
+            "text": "Bentosz Projektmenedzsment Okság Páncélos ostorosok Mobiltelefon Villamosmérnök Számítógépes kémia",
+            "font_size": 16
+        },
+        {
+            "text": "Zenei műfaj Alsó Skótok Formális nyelv Asztrofizika Űrturizmus Ízletes vargánya",
+            "font_size": 14
+        },
+        {
+            "text": "Afta Filmrendező Vízi növényzet Turbófeltöltő Dodekanészosz Okság Természettudomány",
+            "font_size": 12
+        },
+        {
+            "text": "Szarka Meiózis Antidepresszáns Karmeliták Káoszelmélet Ízeltlábúak Csillóshasúak",
+            "font_size": 10
+        },
+        {
+            "text": "Vízi növényzet Antidepresszáns Nagy Nyári Háromszög Szakértői rendszer Kitakjúsú Mobiltelefon Rekreáció",
+            "font_size": 8
+        },
+        {
+            "text": "Okos város Világörökség Fejlődéstan Agapornis Naptömeg Genetikai kód Bentosz",
+            "font_size": 6
+        },
+        {
+            "text": "Triatlon Kötőszövet Középfölde Mobiltelefon Örvös medve Csinghua Egyetem Villamos",
+            "font_size": 4
+        },
+        {
+            "text": "Gépipar Káoszelmélet Formális nyelv Vízi növényzet Segédprogram Homeopátia Asztrofizika",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Telepathy Cathode-ray tube Star formation",
+            "font_size": 40
+        },
+        {
+            "text": "Scottish people Menstrual cycle Astrophysics",
+            "font_size": 38
+        },
+        {
+            "text": "Tuscany Fuel cell Roman numerals Roman numerals",
+            "font_size": 36
+        },
+        {
+            "text": "Irish people Meiosis Albacore Epithelium Aerodynamics",
+            "font_size": 34
+        },
+        {
+            "text": "Aeneid Mobile phone Utility software Alps Role-playing game",
+            "font_size": 32
+        },
+        {
+            "text": "Opole Voivodeship Low German Tram Piedmont Socrates Pinyin",
+            "font_size": 30
+        },
+        {
+            "text": "Chemical reaction Deutsche Mark Golden jackal Integrated circuit",
+            "font_size": 28
+        },
+        {
+            "text": "Parasitology Dnieper Cyprus Mobile phone Romanian language",
+            "font_size": 26
+        },
+        {
+            "text": "Irish people Soft drink Free content Dietary fiber Population density Stained glass",
+            "font_size": 24
+        },
+        {
+            "text": "Music genre Yenisey Jutland Plutarch Parasitology Aphthous stomatitis Flag of Romania Great crested grebe",
+            "font_size": 22
+        },
+        {
+            "text": "Planetary science Sociolinguistics Rhododendron Middle-earth Vascular plant Aeneid Aquatic plant",
+            "font_size": 20
+        },
+        {
+            "text": "Warmian–Masurian Voivodeship Cinematography Chalcolithic Thermistor Benthos Romance languages Académie Française Italian cuisine",
+            "font_size": 18
+        },
+        {
+            "text": "House of the Dragon Irish people Irish people Pythagorean theorem Organic chemistry Ryukyu Islands Digital wallet Psychoanalysis",
+            "font_size": 16
+        },
+        {
+            "text": "Benthos Czechoslovakia Lower Saxony Aquatic plant Mauritania Noble gas Developmental biology Crab-eating macaque",
+            "font_size": 14
+        },
+        {
+            "text": "Romanian language Cognitive science Hellenistic period Noble gas Tram Bald eagle Lake Khövsgöl Electrical engineering",
+            "font_size": 12
+        },
+        {
+            "text": "Chaos theory Menstrual cycle Warmian–Masurian Voivodeship Chemical decomposition Bichir Surrealism Flag of Mauritania Welsh people",
+            "font_size": 10
+        },
+        {
+            "text": "Action potential Succulent plant Chinese pangolin Canary Islands World Heritage Site Turbocharger Inorganic chemistry Epithelium",
+            "font_size": 8
+        },
+        {
+            "text": "Atlantic salmon Marginal cost Alps Aeneid Eurasian Plate Sociolinguistics Echinoderm Constantinople",
+            "font_size": 6
+        },
+        {
+            "text": "Upper Bavaria Turbocharger Cognitive science Peloponnese Filmmaking Sunflower oil Hellenistic period Vampire bat",
+            "font_size": 4
+        },
+        {
+            "text": "Herbaceous plant Middle-earth Annual plant Surrealism Anatolia Biotechnology Imaginary unit Ball lightning",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

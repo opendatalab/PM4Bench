@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Japán fürj Okos város Arábiai",
+            "font_size": 40
+        },
+        {
+            "text": "Román nyelv Cirill ábécé Ecetmuslica",
+            "font_size": 38
+        },
+        {
+            "text": "Menstruációs ciklus Azori Szamothraké Franciák",
+            "font_size": 36
+        },
+        {
+            "text": "Pacifizmus Prokarióták Walesi nyelv Cirill ábécé",
+            "font_size": 34
+        },
+        {
+            "text": "Kártyajáték Szuperhős Mobiltelefon Filmgyártás",
+            "font_size": 32
+        },
+        {
+            "text": "Ciprusi Köztársaság Szabad licenc Hajszálcsövesség Biotechnológia Horvátok",
+            "font_size": 30
+        },
+        {
+            "text": "Kártyajáték Pacifizmus Turbófeltöltő Villamos Szerepjáték",
+            "font_size": 28
+        },
+        {
+            "text": "Ír nyelv Község Pitagorasz Akadémizmus Filmrendező",
+            "font_size": 26
+        },
+        {
+            "text": "Jylland Sárgaúszójú tonhal Bentosz Csukcs Akadémizmus Elektromos autó",
+            "font_size": 24
+        },
+        {
+            "text": "Szerves kémia Pinjin Kvantummechanika Beszúrásos rendezés Elektronikus zene Dardanellák",
+            "font_size": 22
+        },
+        {
+            "text": "Reakciókinetika Élelmiszer Húsvét Szentpétervár Asztrofizika Telepátia",
+            "font_size": 20
+        },
+        {
+            "text": "Belgrád Opolei vajdaság Okság Szürrealizmus Szubatomi részecske Indokína",
+            "font_size": 18
+        },
+        {
+            "text": "Antidepresszáns Átmenetifémek Ferences rend Hellenizmus Átmenetifémek Peloponnészosz",
+            "font_size": 16
+        },
+        {
+            "text": "Italikus nyelvek Olasz nyelv Felső Antwerpen Húsvét Eukarióták",
+            "font_size": 14
+        },
+        {
+            "text": "Repülőgép Szerepjáték Rétegvulkán Menstruációs ciklus Termisztor Plutarkhosz",
+            "font_size": 12
+        },
+        {
+            "text": "Takarmánylucerna Alsó Villamos Heterotrófia Számítógépes grafika Ciprusi Köztársaság",
+            "font_size": 10
+        },
+        {
+            "text": "Ausztria zászlaja Önkéntes munka Termelési tényező Mobiltelefon Skótok Szabad licenc",
+            "font_size": 8
+        },
+        {
+            "text": "Triatlon Hanglemez Kártyajáték Népszámlálás Jelölőnyelv Maldív nyelv",
+            "font_size": 6
+        },
+        {
+            "text": "Mozgólépcső Adatszerkezet Agyalapi mirigy Számi nyelvek Anatóliai nyelvek Menstruációs ciklus",
+            "font_size": 4
+        },
+        {
+            "text": "Kúposfejű delfin Plutarkhosz Kémiai reakció Hindu Európai borz Menstruációs ciklus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

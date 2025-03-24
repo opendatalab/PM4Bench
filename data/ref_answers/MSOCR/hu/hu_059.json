@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szürrealizmus Világtörténelem Spanyolok",
+            "font_size": 40
+        },
+        {
+            "text": "Strandröplabda Elektronikus zene Előgerinchúrosok",
+            "font_size": 38
+        },
+        {
+            "text": "Áramlástan Noradrenalin Közönséges makákó Spanyolok",
+            "font_size": 36
+        },
+        {
+            "text": "Pastu nyelv Számítógépes grafika Húsevő Világörökség",
+            "font_size": 34
+        },
+        {
+            "text": "Élelmiszer Mitózis Japán történelme Trópusi ciklon",
+            "font_size": 32
+        },
+        {
+            "text": "Portugál nyelv Dánia zászlaja Hármasugrás Afta",
+            "font_size": 30
+        },
+        {
+            "text": "Buzogányfejű férgek Varmia Agorafóbia Rakétahajtómű Középfölde",
+            "font_size": 28
+        },
+        {
+            "text": "Dögevő Segédprogram Olaszország zászlaja Metroszexualitás Okság Község",
+            "font_size": 26
+        },
+        {
+            "text": "Parancsnok Elméleti fizika Kanári Popkultúra",
+            "font_size": 24
+        },
+        {
+            "text": "Görög ábécé Agapornis Vállalat Kártyajáték Kvantummechanika Természetfilozófia",
+            "font_size": 22
+        },
+        {
+            "text": "Üvegfestés Mezo Kőrézkor Eukarióták Kémiai reakció Húsvét",
+            "font_size": 20
+        },
+        {
+            "text": "Elméleti fizika Napraforgóolaj Nílusi varánusz Tengelyferdeség Kriptovaluta Csillagkeletkezés",
+            "font_size": 18
+        },
+        {
+            "text": "Kőkorszak Kártyajáték Heterotrófia Pasztőrözés Svédország zászlaja Kriptovaluta",
+            "font_size": 16
+        },
+        {
+            "text": "Kanári Szürrealizmus Japonizmus Számi nyelvek Afta Fizikai kémia",
+            "font_size": 14
+        },
+        {
+            "text": "Buborékrendezés Középfölde Előgerinchúrosok Olaszország címere Puhatestűek Szürrealizmus",
+            "font_size": 12
+        },
+        {
+            "text": "Napraforgóolaj Szlovének Eurázsiai Menstruációs ciklus Eukarióták Önkéntes munka",
+            "font_size": 10
+        },
+        {
+            "text": "Triatlon Spanyolok Hasábburgonya Nagybőgő Hindu Gyorsrendezés",
+            "font_size": 8
+        },
+        {
+            "text": "Menstruációs ciklus Hottentották Áramlástan Termisztor Világörökség Etológia",
+            "font_size": 6
+        },
+        {
+            "text": "Ingerület Sejtbiológia Német márka Húsvét Pasztőrözés Olasz konyhaművészet",
+            "font_size": 4
+        },
+        {
+            "text": "Kártyajáték Villamosmérnök Asztrofizika Húsevő Okos város Üdítőital",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

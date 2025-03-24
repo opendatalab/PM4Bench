@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Montenegrói nyelv Mikroökonómia Szentpétervár",
+            "font_size": 40
+        },
+        {
+            "text": "Európai borz Triatlon Napraforgóolaj Gráfok színezése",
+            "font_size": 38
+        },
+        {
+            "text": "Alpok Húsvét Bioinformatika Európa történelme",
+            "font_size": 36
+        },
+        {
+            "text": "Eukarióták Hindu Fekete Villamos",
+            "font_size": 34
+        },
+        {
+            "text": "Kanári Kognitív tudomány Bolhapiac Német juhászkutya",
+            "font_size": 32
+        },
+        {
+            "text": "Faktorizáció Marrákes Amhara nyelv Adattárház",
+            "font_size": 30
+        },
+        {
+            "text": "Pszichoanalízis Hövszgöl Bentosz Faktorizáció Adattárház Japonizmus",
+            "font_size": 28
+        },
+        {
+            "text": "Osztrákok Szupravezetés Anatólia Szociális munka Pszichoanalízis Hanglemez",
+            "font_size": 26
+        },
+        {
+            "text": "Sokúszós csukafélék Rakétahajtómű Minimalizmus Repülőgép Társadalmi norma Idegtudomány",
+            "font_size": 24
+        },
+        {
+            "text": "Homeopátia Közönséges makákó Elektronikus zene Villamos Fizikai kémia Román nyelv",
+            "font_size": 22
+        },
+        {
+            "text": "Kék pingvin Montenegrói nyelv Földtudomány Mauritánia Kibertér Lombardia",
+            "font_size": 20
+        },
+        {
+            "text": "Katalán nyelv Baleár Földtudomány Csalánozók Otthonoktatás Idődilatáció",
+            "font_size": 18
+        },
+        {
+            "text": "Angolok Társadalmi norma Nagy Nyári Háromszög Mohó algoritmus Számítógép Filmgyártás",
+            "font_size": 16
+        },
+        {
+            "text": "Vállalat Gráfok színezése Ciprusi Köztársaság Alsó Metroszexualitás Angolok",
+            "font_size": 14
+        },
+        {
+            "text": "Szarka Szunda Fekete medve Appenninek Berber makákó Akadémizmus",
+            "font_size": 12
+        },
+        {
+            "text": "Horrorfilm Eseményhorizont Litográfia Dodekanészosz Homeopátia Üdítőital",
+            "font_size": 10
+        },
+        {
+            "text": "Aranysakál Filmrendező Antikvitás Trópusi ciklon Német juhászkutya Ír nyelv",
+            "font_size": 8
+        },
+        {
+            "text": "Etológia Kék pingvin Peloponnészosz Románia zászlaja Sztoikus filozófia Asztrofizika",
+            "font_size": 6
+        },
+        {
+            "text": "Reneszánsz Appenninek Üdítőital Horrorfilm Szociális munka Turbófeltöltő",
+            "font_size": 4
+        },
+        {
+            "text": "Triatlon Pitagorasz Pacifizmus Popkultúra Termelési tényező Húsvéti tojás",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

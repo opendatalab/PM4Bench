@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Binomiális tétel Áramlástan Mentális egészség",
+            "font_size": 40
+        },
+        {
+            "text": "Amhara nyelv Főherceg Csontritkulás Reguláris kifejezés",
+            "font_size": 38
+        },
+        {
+            "text": "Dögevő Villamosmérnök Hanglemez Sógun",
+            "font_size": 36
+        },
+        {
+            "text": "Operációs rendszer Dánia zászlaja Karmeliták Asztrofizika",
+            "font_size": 34
+        },
+        {
+            "text": "Villamosmérnök Gyűrűsférgek Hullámvasút Hövszgöl",
+            "font_size": 32
+        },
+        {
+            "text": "Pitagorasz Segédprogram Sárgás babuin Káoszelmélet",
+            "font_size": 30
+        },
+        {
+            "text": "Szuperhős Turbófeltöltő Üdítőital Hámszövet Menstruációs ciklus Visztula",
+            "font_size": 28
+        },
+        {
+            "text": "Kínai tobzoska Heterotrófia Húsvét Cinematográfia Geofizika Középfölde",
+            "font_size": 26
+        },
+        {
+            "text": "Hanglemez Szakértői rendszer Olaszok Kriptovaluta Sárgaúszójú tonhal Japonizmus",
+            "font_size": 24
+        },
+        {
+            "text": "Ajakoshalfélék Ingerület Cserkészet Üzemanyagcella Kéklábú szula Mezo",
+            "font_size": 22
+        },
+        {
+            "text": "Középfölde Kártyajáték Aerodinamika Hellenizmus Modernizmus Ábécé",
+            "font_size": 20
+        },
+        {
+            "text": "Angolok Akadémizmus Filmgyártás Planetológia Belgrád Walesiek",
+            "font_size": 18
+        },
+        {
+            "text": "Fehérfejű rétisas Rétegvulkán Olasz konyhaművészet Kvantummechanika Szabad licenc Mezo",
+            "font_size": 16
+        },
+        {
+            "text": "Római Díj Sógun Szövetes növények Formális nyelv Csehszlovákia Villamos",
+            "font_size": 14
+        },
+        {
+            "text": "Hullámvasút Franciák Egyéves növény Popkultúra Vapiti Zenei műfaj",
+            "font_size": 12
+        },
+        {
+            "text": "Gerinchúrosok Kéklábú szula Nemesgázok Bomlás Klasszikus zene Páncélos ostorosok",
+            "font_size": 10
+        },
+        {
+            "text": "Szamothraké Szunda Pastu nyelv Vízi növényzet Imaginárius egység Kvantummechanika",
+            "font_size": 8
+        },
+        {
+            "text": "Sokúszós csukafélék Ógörög nyelv Üzemanyagcella Filmrendező Ingerület Rakétahajtómű",
+            "font_size": 6
+        },
+        {
+            "text": "Határköltség Napelem Vízi növényzet Spirálgalaxis Integrált áramkör Csillagkeletkezés",
+            "font_size": 4
+        },
+        {
+            "text": "Mobiltelefon Modernizmus Emberré válás Török nyelv Lubusi vajdaság Arábiai",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Ferences rend Európai sün Ermitázs",
+            "font_size": 40
+        },
+        {
+            "text": "Multiverzum Baleár Vízi növényzet",
+            "font_size": 38
+        },
+        {
+            "text": "Baleár Maldív nyelv Olasz nyelv",
+            "font_size": 36
+        },
+        {
+            "text": "Allelopátia Biotechnológia Elektronikus zene Mezo",
+            "font_size": 34
+        },
+        {
+            "text": "Pastu nyelv Olimpiai himnusz Pszichoanalízis Hottentották",
+            "font_size": 32
+        },
+        {
+            "text": "Grönlandi fóka Dnyeper Ázsia történelme Makrofág Belgrád",
+            "font_size": 30
+        },
+        {
+            "text": "Nyestcápafélék Japán történelme Ősnövénytan Pinjin Olasz konyhaművészet Ábécé",
+            "font_size": 28
+        },
+        {
+            "text": "Húsvét Alpok Zeneterápia Hőszabályozás Katabolizmus Olasz konyhaművészet",
+            "font_size": 26
+        },
+        {
+            "text": "Homeopátia Középfölde Hámszövet Ingerület Felső",
+            "font_size": 24
+        },
+        {
+            "text": "Ógörög nyelv Visztula Csád zászlaja Ír nyelv Idegtudomány Otthonoktatás Ír nyelv",
+            "font_size": 22
+        },
+        {
+            "text": "Elméleti fizika Telepátia Dnyeper Pszichoterápia Káoszelmélet Segédprogram Mauritánia zászlaja",
+            "font_size": 20
+        },
+        {
+            "text": "Meiózis Ógörög nyelv Palettás doktorhal Kanári Kémiai reakció Autópálya Antikvitás",
+            "font_size": 18
+        },
+        {
+            "text": "Kunya Integrált áramkör Csinghua Egyetem Gépipar Közönséges makákó Hámszövet Keringési idő",
+            "font_size": 16
+        },
+        {
+            "text": "Popkultúra Csontritkulás Káoszelmélet Szövetes növények Cirill ábécé Planetológia Fonálférgek",
+            "font_size": 14
+        },
+        {
+            "text": "Asztrofizika Szamothraké Gráfok színezése Német juhászkutya Természettudomány Ermitázs Kártyajáték",
+            "font_size": 12
+        },
+        {
+            "text": "Termelési tényező Község Káoszelmélet Agyalapi mirigy Egyszerű gép Mikroökonómia Katalán nyelv",
+            "font_size": 10
+        },
+        {
+            "text": "Hellenizmus Kárpátok Románia zászlaja Német márka Segédprogram Dodekanészosz Trópusi ciklon",
+            "font_size": 8
+        },
+        {
+            "text": "Társadalmi norma Pastu nyelv Analitikai kémia Fejlődéstan Kártyajáték Nephropidae Cserkészet",
+            "font_size": 6
+        },
+        {
+            "text": "Analitikai kémia Antikvitás Indokína Alpok Grönlandi fóka Lazac Svédország zászlaja",
+            "font_size": 4
+        },
+        {
+            "text": "Varmia Hámszövet Pacifizmus Bolhapiac Húsvéti tojás Dnyeszter Karmos féreglábúak",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

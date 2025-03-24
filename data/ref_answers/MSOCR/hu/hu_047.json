@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Libanon címere Sárgaúszójú tonhal Csehszlovákia",
+            "font_size": 40
+        },
+        {
+            "text": "Hullámvasút Cirill ábécé Pszichiátria",
+            "font_size": 38
+        },
+        {
+            "text": "Svájc zászlaja Szlovének Planetológia Közönséges dió Dnyeszter",
+            "font_size": 36
+        },
+        {
+            "text": "Villamosmérnök Metroszexualitás Amhara nyelv Cirill ábécé",
+            "font_size": 34
+        },
+        {
+            "text": "Keringési idő Mitózis Autópálya Enciklopédia Német konyhaművészet",
+            "font_size": 32
+        },
+        {
+            "text": "Középfölde Hövszgöl Zeneterápia Kognitív tudomány Buzogányfejű férgek",
+            "font_size": 30
+        },
+        {
+            "text": "Eurázsia Olaszország zászlaja Kriptovaluta Kerekesférgek Hanglemez Olaszok",
+            "font_size": 28
+        },
+        {
+            "text": "Üdítőital Strandlabdarúgás Mobiltelefon Aranysakál",
+            "font_size": 26
+        },
+        {
+            "text": "Eseményhorizont Világörökség Község Plutarkhosz Roborovszkij Napelem",
+            "font_size": 24
+        },
+        {
+            "text": "Európai borz Parazitológia Mexikói Pszichoterápia Idegszövet Egyszerű gép",
+            "font_size": 22
+        },
+        {
+            "text": "Gyűrűsférgek Írek Anatóliai nyelvek Biotechnológia Geofizika Kártyajáték",
+            "font_size": 20
+        },
+        {
+            "text": "Ciprusi Köztársaság Kamjanszke Formális nyelv Popkultúra Középfölde Bronzkor",
+            "font_size": 18
+        },
+        {
+            "text": "Beszúrásos rendezés Római provinciák Üzleti titok Kanári Hövszgöl Franciák",
+            "font_size": 16
+        },
+        {
+            "text": "Kunya Autoszóma Vagarsapat Római számírás Karmeliták Kémiai reakció",
+            "font_size": 14
+        },
+        {
+            "text": "Hanglemez Buborékrendezés Kvantummechanika Gyűrűsférgek Medveállatkák Kémiai reakció",
+            "font_size": 12
+        },
+        {
+            "text": "Puhatestűek Fogszabályozás Község Filmrendező Villamos Kémiai reakció",
+            "font_size": 10
+        },
+        {
+            "text": "Gráfok színezése Mobiltelefon Húsevő Élelmiszer Földtudomány Napelem",
+            "font_size": 8
+        },
+        {
+            "text": "Autoszóma Kognitív tudomány Hanglemez Takarmánylucerna Telepátia Mauritánia",
+            "font_size": 6
+        },
+        {
+            "text": "Kulturális sokk Autópálya Aranysakál Embriós növények Francia Akadémia Japán zászlaja",
+            "font_size": 4
+        },
+        {
+            "text": "Dnyeper Rakétahajtómű Bronzkor Román nyelv Bronzkor Agávé",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

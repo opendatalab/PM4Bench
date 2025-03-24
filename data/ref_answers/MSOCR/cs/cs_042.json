@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Pyskounovití Elektrotechnika Ořešák královský Nahosemenné",
+            "font_size": 40
+        },
+        {
+            "text": "Telepatie Kanárské ostrovy Vědy o Zemi",
+            "font_size": 38
+        },
+        {
+            "text": "Mexický záliv Drápkovci Čukotka",
+            "font_size": 36
+        },
+        {
+            "text": "Kitakjúšú Chytré město Imaginární jednotka Norská vlajka",
+            "font_size": 34
+        },
+        {
+            "text": "Apeniny Hudební žánr Řád karmelitánů Recidivující afty Tučňák nejmenší",
+            "font_size": 32
+        },
+        {
+            "text": "Noradrenalin Dolní Bavorsko Slunečnicový olej Dálnice",
+            "font_size": 30
+        },
+        {
+            "text": "Rakouská vlajka Meióza Héfaistos Kauzalita Irové Gramofonová deska",
+            "font_size": 28
+        },
+        {
+            "text": "Dálnice Paryby Strunatci Antidepresivum Angličané Středozem",
+            "font_size": 26
+        },
+        {
+            "text": "Akční potenciál Marocká vlajka Astrofyzika Bengalúr Upíři Italové Futurismus",
+            "font_size": 24
+        },
+        {
+            "text": "Doba kamenná Karetní hra Mýdelníkotvaré Pestřenky Paštština Mezní náklady Planetologie",
+            "font_size": 22
+        },
+        {
+            "text": "Německá kuchyně Kyklop Lubušské vojvodství Hypofýza Počítačová síť Anorganická chemie Ploštěnci",
+            "font_size": 20
+        },
+        {
+            "text": "Kypr Kinematografie Československo Datový sklad Akademismus Střední Franky Korutany",
+            "font_size": 18
+        },
+        {
+            "text": "Bengalúr Makak jávský Sedmihradsko Psychoterapie Akční potenciál Pisila čáponohá Albatrosovití",
+            "font_size": 16
+        },
+        {
+            "text": "Populární kultura Integrovaný obvod Strunatci Ortodoncie Tramvaj Menstruační cyklus Pestřenky",
+            "font_size": 14
+        },
+        {
+            "text": "Doba bronzová Kočka bornejská Vitráž Kvantová mechanika Meióza Recidivující afty Vznik hvězdy",
+            "font_size": 12
+        },
+        {
+            "text": "Triatlon Paryby Svobodný obsah Palivový článek Klasická hudba Mobilní telefon Populární kultura",
+            "font_size": 10
+        },
+        {
+            "text": "Středozem Kvantová mechanika Bělehrad Integrovaný obvod Domácí vzdělávání Mitóza Angličané",
+            "font_size": 8
+        },
+        {
+            "text": "Kroužkovci Endokrinologie Turci Obec Chichén Itzá Expertní systém Abeceda",
+            "font_size": 6
+        },
+        {
+            "text": "Eneolit Varmijsko Superhrdina Počítačová grafika Apeniny Americký fotbal Minimalismus",
+            "font_size": 4
+        },
+        {
+            "text": "Antverpy Spirální galaxie Mobilní telefon Vznik hvězdy Mauritánie Tuňák křídlatý Severní Brabantsko",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

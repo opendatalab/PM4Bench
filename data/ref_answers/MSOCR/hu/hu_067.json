@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Fehérfejű rétisas Római provinciák Azori",
+            "font_size": 40
+        },
+        {
+            "text": "Konstantinápoly Trópusi ciklon Hámszövet Visztula",
+            "font_size": 38
+        },
+        {
+            "text": "Hérodotosz Mobiltelefon Pajzsvulkán Eurázsia",
+            "font_size": 36
+        },
+        {
+            "text": "Ukrán nyelv Dodekanészosz Harmadfokú egyenlet Homeopátia",
+            "font_size": 34
+        },
+        {
+            "text": "Rakétahajtómű Okos város Katódsugárcső Mezopotámia",
+            "font_size": 32
+        },
+        {
+            "text": "Szürrealizmus Meiózis Szuperhős Kriptovaluta Pinjin",
+            "font_size": 30
+        },
+        {
+            "text": "Villamosmérnök Antwerpen Kémiai reakció Pitagorasz",
+            "font_size": 28
+        },
+        {
+            "text": "Szabad licenc Etológia Kulturális sokk Hanglemez Hellenizmus",
+            "font_size": 26
+        },
+        {
+            "text": "Hajszálcsövesség Szervetlen kémia Hanglemez Hullámvasút Japán makákó",
+            "font_size": 24
+        },
+        {
+            "text": "Páncélos ostorosok Csontritkulás Gyűrűsfarkú maki Planetológia Ráktérítő Villamos",
+            "font_size": 22
+        },
+        {
+            "text": "Nagybőgő Laposférgek Csillagkeletkezés Allelopátia Villamosmérnök Újlatin nyelvek",
+            "font_size": 20
+        },
+        {
+            "text": "Enciklopédia Hullámvasút Élelmiszer Homeopátia Elektronikus zene Okság",
+            "font_size": 18
+        },
+        {
+            "text": "Üzleti titok Jelölőnyelv Szuperhős Pszichoanalízis Szentpétervár Azori",
+            "font_size": 16
+        },
+        {
+            "text": "Mezo Aranysakál Rjúkjú Szürrealizmus Svájc zászlaja Okság",
+            "font_size": 14
+        },
+        {
+            "text": "Beágyazott rendszer Toszkána Mozgólépcső Ízletes vargánya Cirill ábécé Sárgás babuin",
+            "font_size": 12
+        },
+        {
+            "text": "Turbófeltöltő Szövetes növények Visztula Trópusi ciklon Pszichoterápia Fogszabályozás",
+            "font_size": 10
+        },
+        {
+            "text": "Mobiltelefon Üdítőital Európai borz Filmrendező Mentális egészség Szupravezetés",
+            "font_size": 8
+        },
+        {
+            "text": "Anatólia Dendritikus sejt Belgrád Információtudomány Csillagkeletkezés Számi nyelvek",
+            "font_size": 6
+        },
+        {
+            "text": "Puhatestűek Hámszövet Ferences rend Kártyajáték Mikroökonómia Etológia",
+            "font_size": 4
+        },
+        {
+            "text": "Minimalizmus Cinematográfia Integrált áramkör Kamjanszke Gyorsrendezés Kanári",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

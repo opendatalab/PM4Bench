@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Karmeliták Szókratész Szappanfavirágúak Község",
+            "font_size": 40
+        },
+        {
+            "text": "Kvantummechanika Szuperföld Reguláris kifejezés",
+            "font_size": 38
+        },
+        {
+            "text": "Nyitvatermők Katódsugárcső Napelem Agyalapi mirigy",
+            "font_size": 36
+        },
+        {
+            "text": "Űrturizmus Geofizika Mozgólépcső Alsó",
+            "font_size": 34
+        },
+        {
+            "text": "Azori Laposférgek Fonálférgek Reguláris kifejezés Fogszabályozás",
+            "font_size": 32
+        },
+        {
+            "text": "Harmadfokú egyenlet Eukarióták Pozsgások Sztoikus filozófia",
+            "font_size": 30
+        },
+        {
+            "text": "Peloponnészosz Ázsia történelme Bengaluru Rjúkjú Üzemanyagcella",
+            "font_size": 28
+        },
+        {
+            "text": "Takarmánylucerna Római provinciák Vállalat Hindu Hámszövet",
+            "font_size": 26
+        },
+        {
+            "text": "Római számírás Reguláris kifejezés Menstruációs ciklus Fogszabályozás Porcos halak",
+            "font_size": 24
+        },
+        {
+            "text": "Antidepresszáns Népszámlálás Világörökség Római Díj Anglia zászlaja Ábécé",
+            "font_size": 22
+        },
+        {
+            "text": "Klasszikus zene Rakétahajtómű Eurázsia Belgrád Bengaluru Baleár",
+            "font_size": 20
+        },
+        {
+            "text": "Makrofág Katalán nyelv Szociolingvisztika Életbiztosítás Marrákes Jenyiszej",
+            "font_size": 18
+        },
+        {
+            "text": "Bentosz Beszúrásos rendezés Erdély Hámszövet Svájc zászlaja Múzeum",
+            "font_size": 16
+        },
+        {
+            "text": "Szuperhős Enciklopédia Adattárház Kétéves növény Mitózis Felső",
+            "font_size": 14
+        },
+        {
+            "text": "Zeneterápia Élelmiszer Szentpétervár Homeopátia Kognitív tudomány Átmenetifémek",
+            "font_size": 12
+        },
+        {
+            "text": "Mobiltárca Svájc himnusza Szuperföld Idegtudomány Dnyeszter Triatlon",
+            "font_size": 10
+        },
+        {
+            "text": "Világörökség Életbiztosítás Idődilatáció Franciák Protiszták Észak",
+            "font_size": 8
+        },
+        {
+            "text": "Szubatomi részecske Mobiltelefon Libanon címere Azori Pitagorasz Guvatfürjfélék",
+            "font_size": 6
+        },
+        {
+            "text": "Peloponnészosz Világörökség Határköltség Biogeográfia Beágyazott rendszer Hellenizmus",
+            "font_size": 4
+        },
+        {
+            "text": "Filmgyártás Népsűrűség Alpok Metroszexualitás Villamos Piemont",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

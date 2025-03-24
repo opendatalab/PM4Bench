@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Cơ sinh học Bóng bầu dục Mỹ Appennini",
+            "font_size": 40
+        },
+        {
+            "text": "Đạo diễn điện ảnh Điện thoại di động Biểu mô",
+            "font_size": 38
+        },
+        {
+            "text": "Tiếng Ý Bảo quản thực phẩm Quốc kỳ Úc Pyrénées",
+            "font_size": 36
+        },
+        {
+            "text": "Contrebasse Lịch sử thế giới Chủ nghĩa hòa bình Bengaluru",
+            "font_size": 34
+        },
+        {
+            "text": "Dầu hướng dương Pin Mặt Trời Tỉnh của La Mã Mạng máy tính",
+            "font_size": 32
+        },
+        {
+            "text": "Bảo hiểm nhân thọ Bách khoa toàn thư Pin nhiên liệu Cổ đại Hy Đại thực bào",
+            "font_size": 30
+        },
+        {
+            "text": "Vịnh México Trung Địa Kỹ thuật điện Dãy núi Karpat Phản ứng hóa học",
+            "font_size": 28
+        },
+        {
+            "text": "Quần đảo Baleares Dnister Haute Tiếng Ireland Gấu ngựa",
+            "font_size": 26
+        },
+        {
+            "text": "Nhạc điện tử Tàu lượn siêu tốc Nhảy xa ba bước Người Pháp Ruồi giấm thường",
+            "font_size": 24
+        },
+        {
+            "text": "Phân tâm học Chợ trời Lịch sử châu Âu Vi mạch Cổ đại Hy Phim kinh dị",
+            "font_size": 22
+        },
+        {
+            "text": "Phục Hưng Người Anh Máy quét ảnh Người Pháp Vi mạch Xoáy thuận nhiệt đới",
+            "font_size": 20
+        },
+        {
+            "text": "Tuốc nơ vít Eudyptula minor Nhóm ngôn ngữ Sami Siêu anh hùng Quan hệ nhân quả Antwerpen",
+            "font_size": 18
+        },
+        {
+            "text": "Chủ nghĩa khắc kỷ Xoáy thuận nhiệt đới Marrakech Lịch sử thế giới Báo săn châu Á Hiện tượng mao dẫn",
+            "font_size": 16
+        },
+        {
+            "text": "Người Thổ Nhĩ Kỳ Thực vật một lá mầm Aeneis Họ Tôm hùm càng Shōgun Plutarchus",
+            "font_size": 14
+        },
+        {
+            "text": "Cyclops Hệ thống nhúng Nhiệt miệng áp tơ Quốc kỳ Đan Mạch Đại học Thanh Hoa Thành phố thông minh",
+            "font_size": 12
+        },
+        {
+            "text": "Nhân sư Đạo diễn điện ảnh Phần mềm tiện ích Bengaluru Tiêu khiển Máy quét ảnh",
+            "font_size": 10
+        },
+        {
+            "text": "Người Pháp Thời đại đồ đá Thực vật hàng năm Mô liên kết Đạo diễn điện ảnh Hạt hạ nguyên tử",
+            "font_size": 8
+        },
+        {
+            "text": "Nhóm ngôn ngữ Rôman Nội dung tự do Quốc kỳ România Sinh học tế bào Pin nhiên liệu Loãng xương",
+            "font_size": 6
+        },
+        {
+            "text": "Antwerpen Contrebasse Nhà Ptolemaios Thực vật hạt trần Vật lý lý thuyết Quần đảo Eolie",
+            "font_size": 4
+        },
+        {
+            "text": "Đảo Phục Sinh Chi Đỗ quyên Sinh vật nguyên sinh CG artwork Người Scotland Tiền mã hóa",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

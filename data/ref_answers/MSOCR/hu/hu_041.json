@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Előgerinchúrosok Guvatfürjfélék Szarka Integrált áramkör",
+            "font_size": 40
+        },
+        {
+            "text": "Szuperhős Anatóliai nyelvek Hullámos papagáj",
+            "font_size": 38
+        },
+        {
+            "text": "Dendritikus sejt Beágyazott rendszer Kártyajáték",
+            "font_size": 36
+        },
+        {
+            "text": "Szphinx Gyorsrendezés Világörökség Európai sün",
+            "font_size": 34
+        },
+        {
+            "text": "Kémiai reakció Francia Akadémia Imaginárius egység",
+            "font_size": 32
+        },
+        {
+            "text": "Római provinciák Meiózis Ausztrália zászlaja Karmos féreglábúak Aligátorfélék",
+            "font_size": 30
+        },
+        {
+            "text": "Autoszóma Szuperhatalom Peloponnészosz Antikvitás Chichén Itzá",
+            "font_size": 28
+        },
+        {
+            "text": "Ceyloni fahéjfa Sztoikus filozófia Kognitív tudomány Strandröplabda Európai borz",
+            "font_size": 26
+        },
+        {
+            "text": "Örvös medve Könnyűzene Felső Japán fürj Mobiltelefon",
+            "font_size": 24
+        },
+        {
+            "text": "Szamothraké Olaszország zászlaja Katalán nyelv Húsvét Mauritánia zászlaja Ajakoshalfélék Pszichoanalízis",
+            "font_size": 22
+        },
+        {
+            "text": "Gerinchúrosok Keringési idő Eseményhorizont Medveállatkák Olasz konyhaművészet Életbiztosítás Újlatin nyelvek",
+            "font_size": 20
+        },
+        {
+            "text": "Jylland Csillagfejlődés Otthonoktatás Otthonoktatás Csillagfejlődés Trópusi ciklon Világörökség",
+            "font_size": 18
+        },
+        {
+            "text": "Menstruációs ciklus Filmgyártás Pinjin Villamosmérnök Autoszóma Villamos Jenyiszej",
+            "font_size": 16
+        },
+        {
+            "text": "Közönséges dió Elektronikus zene Sztoikus filozófia Hámszövet Szlovének Triatlon Gépi fordítás",
+            "font_size": 14
+        },
+        {
+            "text": "Roborovszkij Brüsszel Japán zászlaja Középfölde Lubusi vajdaság Walesiek Villamosmérnök",
+            "font_size": 12
+        },
+        {
+            "text": "Porcos halak Anatólia Varmia Etológia Horvátok Ceyloni fahéjfa Japán történelme",
+            "font_size": 10
+        },
+        {
+            "text": "Fizikai kémia Villamos Cirill ábécé Radiális sebesség Lombardia Noradrenalin Franciák",
+            "font_size": 8
+        },
+        {
+            "text": "Jylland Cirill ábécé Ír nyelv Dögevő Ábécé Római számírás Karmeliták",
+            "font_size": 6
+        },
+        {
+            "text": "Villamos Autópálya Agapornis Nephropidae Hőszabályozás Bengaluru Mauritánia",
+            "font_size": 4
+        },
+        {
+            "text": "Agorafóbia Toszkána Szerepjáték Segédprogram Világörökség Csavarhúzó Strandlabdarúgás",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

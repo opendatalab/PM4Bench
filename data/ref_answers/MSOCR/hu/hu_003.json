@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Dánia Mezopotámia Amerikai futball",
+            "font_size": 40
+        },
+        {
+            "text": "Turbófeltöltő Binomiális tétel Operációs rendszer",
+            "font_size": 38
+        },
+        {
+            "text": "Neutronmoderátor Prokarióták Binomiális tétel Sztoikus filozófia",
+            "font_size": 36
+        },
+        {
+            "text": "Guvat Hövszgöl Csillagfejlődés Alnémet nyelv",
+            "font_size": 34
+        },
+        {
+            "text": "Etológia Felső Hérodotosz Adatállomány Szabad licenc",
+            "font_size": 32
+        },
+        {
+            "text": "Litván nyelv Buzogányfejű férgek Filmgyártás Integrált áramkör",
+            "font_size": 30
+        },
+        {
+            "text": "Villamos Román nyelv Ingerület Alsó Angolok",
+            "font_size": 28
+        },
+        {
+            "text": "Fehérfejű rétisas Gyűrűsférgek Skótok Nyestcápafélék Közönséges dió",
+            "font_size": 26
+        },
+        {
+            "text": "Fejlődéstan Pajzsvulkán Triatlon Világörökség Szuperhős",
+            "font_size": 24
+        },
+        {
+            "text": "Strandröplabda Számítógép Ázsiai gepárd Kvantummechanika Zárvatermők",
+            "font_size": 22
+        },
+        {
+            "text": "Enciklopédia Olaszország zászlaja Harmadfokú egyenlet Svájc himnusza Gravitációs lencse",
+            "font_size": 20
+        },
+        {
+            "text": "Szubatomi részecske Szabad licenc Trópusi ciklon Palettás doktorhal Libanon címere",
+            "font_size": 18
+        },
+        {
+            "text": "Írek Bajorország Pinjin Plutarkhosz Kitakjúsú",
+            "font_size": 16
+        },
+        {
+            "text": "Lányegyüttes Szuperhatalom Gépi fordítás Ingerület Európai sün",
+            "font_size": 14
+        },
+        {
+            "text": "Allelopátia Japán zászlaja Angolok Autópálya Horrorfilm",
+            "font_size": 12
+        },
+        {
+            "text": "Ábécé Plutarkhosz Japán történelme Ciprusi Köztársaság Kunya",
+            "font_size": 10
+        },
+        {
+            "text": "Hidroponika Takarmánylucerna Fekete harkály Átmenetifémek Strandlabdarúgás",
+            "font_size": 8
+        },
+        {
+            "text": "Villamos Örvös medve Nyestcápafélék Prokarióták Számítógép",
+            "font_size": 6
+        },
+        {
+            "text": "Páncélos ostorosok Pacifizmus Európai borz Nagybőgő Népsűrűség",
+            "font_size": 4
+        },
+        {
+            "text": "Ábécé Európai borz Olimpiai himnusz Francia Akadémia Kis ámbráscet",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

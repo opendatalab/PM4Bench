@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szabad akarat Alsó Walesiek",
+            "font_size": 40
+        },
+        {
+            "text": "Mexikói Modernizmus Kunya",
+            "font_size": 38
+        },
+        {
+            "text": "Varmia Gyűrűsférgek Rjúkjú Dánia",
+            "font_size": 36
+        },
+        {
+            "text": "Cirill ábécé Hámszövet Szerepjáték Ukrán nyelv",
+            "font_size": 34
+        },
+        {
+            "text": "Hindu Formális nyelv Üzemanyagcella Szjevjerodoneck",
+            "font_size": 32
+        },
+        {
+            "text": "Zenei műfaj Beágyazott rendszer Baleár Vagarsapat",
+            "font_size": 30
+        },
+        {
+            "text": "Turbófeltöltő Lombardia Számítógép Vegetarianizmus Meiózis",
+            "font_size": 28
+        },
+        {
+            "text": "Hanglemez Asztrofizika Litván nyelv Arábiai Német juhászkutya",
+            "font_size": 26
+        },
+        {
+            "text": "Eukarióták Tüskésbőrűek Afta Gépipar Hellenizmus Aranysakál",
+            "font_size": 24
+        },
+        {
+            "text": "Imaginárius egység Ptolemaida Japán konyhaművészet Szamothraké Pasztőrözés Fizikus Ermitázs",
+            "font_size": 22
+        },
+        {
+            "text": "Karib Ciprusi Köztársaság Francia Akadémia Minimalizmus Természettudomány Mezopotámia Egyszikűek",
+            "font_size": 20
+        },
+        {
+            "text": "Űrturizmus Trópusi ciklon Csehország zászlaja Számítógépes grafika Japán zászlaja Akadémizmus Sógun",
+            "font_size": 18
+        },
+        {
+            "text": "Nagybőgő Puhatestűek Pacifizmus Peloponnészosz Középfölde Pozsgások Ír nyelv",
+            "font_size": 16
+        },
+        {
+            "text": "Menstruációs ciklus Grúz nyelv Nagybőgő Antwerpen Vegetarianizmus Protiszták Amhara nyelv",
+            "font_size": 14
+        },
+        {
+            "text": "Rjúkjú Rendszerbiológia Világtörténelem Angolok Mezo Kanári Ferences rend",
+            "font_size": 12
+        },
+        {
+            "text": "Jelölőnyelv Formális nyelv Montenegrói nyelv Okság Asztrofizika Európai sün Meiózis",
+            "font_size": 10
+        },
+        {
+            "text": "Hullámos papagáj Havasi varjú Fehérfejű rétisas Anatóliai nyelvek Csillagkeletkezés Napelem Meiózis",
+            "font_size": 8
+        },
+        {
+            "text": "Vagarsapat Franciák Mobiltelefon Reneszánsz Spirálgalaxis Húsevő Mobiltelefon",
+            "font_size": 6
+        },
+        {
+            "text": "Nagybőgő Filmrendező Húsvét Hanglemez Asztúriai nyelvtan Ingerület Kártyajáték",
+            "font_size": 4
+        },
+        {
+            "text": "Fekete medve Sokúszós csukafélék Anatólia Borostyánút Faktorizáció Maldív nyelv Dodekanészosz",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

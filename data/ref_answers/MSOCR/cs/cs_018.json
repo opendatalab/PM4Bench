@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Gramofonová deska Univerzita Čching Kubická rovnice",
+            "font_size": 40
+        },
+        {
+            "text": "Doba bronzová Chövsgöl núr Pyreneje Albatrosovití",
+            "font_size": 38
+        },
+        {
+            "text": "Turečtina Strojový překlad Jenisej Plážový fotbal",
+            "font_size": 36
+        },
+        {
+            "text": "Mobilní peněženka Hranolky Plútarchos Rjúkjú",
+            "font_size": 34
+        },
+        {
+            "text": "Rychlé řazení Dněpr Gepard indický Telepatie Galileiho měsíce",
+            "font_size": 32
+        },
+        {
+            "text": "Palivový článek Počítačová grafika Stoicismus Karibské moře",
+            "font_size": 30
+        },
+        {
+            "text": "Dějiny lidstva Epitelová tkáň Americký fotbal Supravodivost Hra na hrdiny",
+            "font_size": 28
+        },
+        {
+            "text": "Švýcarská hymna Středozem Epitelová tkáň Palivový článek Obec Dodekany",
+            "font_size": 26
+        },
+        {
+            "text": "Kanárské ostrovy Tuleň grónský Horská dráha Teorie chaosu Členovci",
+            "font_size": 24
+        },
+        {
+            "text": "Supravodivost Bublinkové řazení Brusel Integrovaný obvod Pyreneje Petrohrad Prokaryota",
+            "font_size": 22
+        },
+        {
+            "text": "Irština Eukaryota Velikonoční ostrov Helénismus Tropická cyklóna Bělehrad Magot bezocasý",
+            "font_size": 20
+        },
+        {
+            "text": "Italská vlajka Františkáni Biotechnologie Francouzi Italština Vývoj hvězd Teoretická fyzika",
+            "font_size": 18
+        },
+        {
+            "text": "Imaginární jednotka Sviňuchovití Pyreneje Abeceda Homeopatie Akční potenciál Moskevský čas",
+            "font_size": 16
+        },
+        {
+            "text": "Planetologie Azory Pythagorova věta Pojivová tkáň Telepatie Straka obecná Středozem",
+            "font_size": 14
+        },
+        {
+            "text": "Humrovití Jednoděložné Vitráž Románské jazyky Francouzi Etologie Mikroekonomie",
+            "font_size": 12
+        },
+        {
+            "text": "Paryby Malá Asie Jednoduchý stroj Epitelová tkáň Mezopotámie Wapiti Japonismus",
+            "font_size": 10
+        },
+        {
+            "text": "Antverpy Výroková logika Neurověda Meióza Kulturní šok Skotové Orel bělohlavý",
+            "font_size": 8
+        },
+        {
+            "text": "Bělehrad Eneolit Severní Holandsko Peloponés Malá Asie Jednoděložné Hra na hrdiny",
+            "font_size": 6
+        },
+        {
+            "text": "Meióza Telepatie Kočka bornejská Spirální galaxie Stratovulkán Slezské vojvodství Recidivující afty",
+            "font_size": 4
+        },
+        {
+            "text": "Vestavěný systém Psychoanalýza Pestřenky Francouzská akademie Gramofonová deska Kontaktní čočka Japonská kuchyně",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

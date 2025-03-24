@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Bolhapiac Portugál nyelv Parancsnok",
+            "font_size": 40
+        },
+        {
+            "text": "Biotechnológia Mezo Kék pingvin",
+            "font_size": 38
+        },
+        {
+            "text": "Kártyajáték Telepátia Analitikai kémia Mikroökonómia",
+            "font_size": 36
+        },
+        {
+            "text": "Üvegfestés Hellenizmus Pastu nyelv Kormos varjú",
+            "font_size": 34
+        },
+        {
+            "text": "Operációs rendszer Spanyolok Szövetes növények Afta Hámszövet",
+            "font_size": 32
+        },
+        {
+            "text": "Karmeliták Kártyajáték Laposférgek Nyestcápafélék Asztrofizika",
+            "font_size": 30
+        },
+        {
+            "text": "Dnyeszter Földtudomány Amhara nyelv Metroszexualitás Zeneterápia Turbófeltöltő",
+            "font_size": 28
+        },
+        {
+            "text": "Karib Olimpiai himnusz Vízi növényzet Piemont Villamos Mobiltelefon",
+            "font_size": 26
+        },
+        {
+            "text": "Ázsia történelme Autoszóma Allelopátia Pszichiátria Prokarióták Alnémet nyelv",
+            "font_size": 24
+        },
+        {
+            "text": "Villamos Adatállomány Filmgyártás Dnyeper Adatállomány Középfölde Cirill ábécé Szabad akarat Szerepjáték",
+            "font_size": 22
+        },
+        {
+            "text": "Erdély Indokínai tigris Eukarióták Akadémizmus Sokúszós csukafélék Ciprusi Köztársaság Világtörténelem",
+            "font_size": 20
+        },
+        {
+            "text": "Üvegfestés Autópálya Mikrobiológia Mobiltelefon Számi nyelvek Kőrézkor Török nyelv",
+            "font_size": 18
+        },
+        {
+            "text": "Maldív nyelv Franciák Ciprusi Köztársaság Ábécé Termisztor Franciák Szabad akarat Faktorizáció Mezopotámia",
+            "font_size": 16
+        },
+        {
+            "text": "Villamosmérnök Szerepjáték Biotechnológia Pacifizmus Triatlon Takarmánylucerna Pszichiátria Amhara nyelv Fehérfejű rétisas",
+            "font_size": 14
+        },
+        {
+            "text": "Alsó Hidroponika Olasz konyhaművészet Királypingvin Hellenizmus Világörökség Karintia Imaginárius egység Olaszország zászlaja",
+            "font_size": 12
+        },
+        {
+            "text": "Bentosz Pszichiátria Mentális egészség Bengaluru Ingerület Termisztor Aeneis Pasztőrözés Projektmenedzsment",
+            "font_size": 10
+        },
+        {
+            "text": "Radiális sebesség Japán konyhaművészet Olasz nyelv Opolei vajdaság Üvegfestés Hellenizmus Számítógépes grafika Mobiltárca Trópusi ciklon",
+            "font_size": 8
+        },
+        {
+            "text": "Cinematográfia Vállalat Afta Társadalmi norma Spirálgalaxis Kontaktlencse Hámszövet Szuperhatalom Villamosmérnök",
+            "font_size": 6
+        },
+        {
+            "text": "Reneszánsz Rjúkjú Karmos féreglábúak Heterotrófia Vízi növényzet Embriós növények Kvantummechanika Sztoikus filozófia Csehország zászlaja",
+            "font_size": 4
+        },
+        {
+            "text": "Mitózis Kormos varjú Puhatestűek Modernizmus Gébfélék Ír nyelv Húsvéti tojás Erdély Zajszennyezés",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

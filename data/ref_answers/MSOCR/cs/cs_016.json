@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Sociální práce Regulární výraz",
+            "font_size": 40
+        },
+        {
+            "text": "Doba oběhu Československo Světové dědictví",
+            "font_size": 38
+        },
+        {
+            "text": "Dněstr Gravitační čočka Palivový článek",
+            "font_size": 36
+        },
+        {
+            "text": "Raketový motor Sociální norma Orel bělohlavý Bělehrad",
+            "font_size": 34
+        },
+        {
+            "text": "Hlístice Elektronická hudba Francouzská akademie Paleobotanika",
+            "font_size": 32
+        },
+        {
+            "text": "Paštština Velikonoční ostrov Katodová trubice Antika Středozem",
+            "font_size": 30
+        },
+        {
+            "text": "Skotové Karelská republika Snovačovití Cyrilice Vagharšapat Skotové",
+            "font_size": 28
+        },
+        {
+            "text": "Italština Švédská vlajka Turbodmychadlo Meióza Sociální práce Hra na hrdiny",
+            "font_size": 26
+        },
+        {
+            "text": "Moskevský čas Orel bělohlavý Fyzikální chemie Gramofonová deska Dněstr Encyklopedie",
+            "font_size": 24
+        },
+        {
+            "text": "Vzácné plyny Stoicismus Výroková logika Pchin Vitráž Rjúkjú Cévnaté rostliny",
+            "font_size": 22
+        },
+        {
+            "text": "Katodová trubice Hydrofyty Tramvaj Japonská kuchyně Tramvaj Populární kultura Kubická rovnice",
+            "font_size": 20
+        },
+        {
+            "text": "Tuňák žlutoploutvý Terej modronohý Gramofonová deska Masožravec Filmový režisér Telepatie Mezopotámie",
+            "font_size": 18
+        },
+        {
+            "text": "Medvěd baribal Aerodynamika Gruzínština Teoretická fyzika Filmová produkce Tuňák křídlatý Chřástal vodní",
+            "font_size": 16
+        },
+        {
+            "text": "Irové Hydrofyty Buněčná biologie Pavián babuin Elektrotechnika Tolice vojtěška Sókratés",
+            "font_size": 14
+        },
+        {
+            "text": "Orel bělohlavý Teorie chaosu Vědy o Zemi Francouzi Velikonoční ostrov Menstruační cyklus Luskoun krátkoocasý",
+            "font_size": 12
+        },
+        {
+            "text": "Státní znak Řecka Arabské číslice Telepatie Menstruační cyklus Baleáry Kontaktní čočka Psychoterapie",
+            "font_size": 10
+        },
+        {
+            "text": "Kanárské ostrovy Mikroekonomie Papoušík Surrealismus Gramofonová deska Utilita Mezní náklady",
+            "font_size": 8
+        },
+        {
+            "text": "Populární kultura Turečtina Elektrotechnika Světové dědictví Prokaryota Skotové Malajské souostroví",
+            "font_size": 6
+        },
+        {
+            "text": "Maledivština Kitakjúšú Subatomární částice Irové Filmový horor Kitakjúšú Eurasie",
+            "font_size": 4
+        },
+        {
+            "text": "Přírodní vědy Románské jazyky Tramvaj Kvantová mechanika Supervelmoc Liparské ostrovy Populární kultura",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

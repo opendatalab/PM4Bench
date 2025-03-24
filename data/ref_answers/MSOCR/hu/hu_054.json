@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Alsó Mezopotámia Olaszország címere",
+            "font_size": 40
+        },
+        {
+            "text": "Buborékrendezés Üdítőital Porcos halak",
+            "font_size": 38
+        },
+        {
+            "text": "Napelem Elektronikus zene Cinematográfia",
+            "font_size": 36
+        },
+        {
+            "text": "Cirill ábécé Pajzsvulkán Német konyhaművészet Társadalmi norma",
+            "font_size": 34
+        },
+        {
+            "text": "Antikvitás Felső Alnémet nyelv Egyszikűek",
+            "font_size": 32
+        },
+        {
+            "text": "Menstruációs ciklus Káoszelmélet Nemesgázok Zengőlégyfélék Horrorfilm",
+            "font_size": 30
+        },
+        {
+            "text": "Írek Szerepjáték Menstruációs ciklus Alpok Önkéntes munka Páncélos ostorosok",
+            "font_size": 28
+        },
+        {
+            "text": "Mobiltelefon Zenei műfaj Asztrofizika Népsűrűség Repülőgép",
+            "font_size": 26
+        },
+        {
+            "text": "Hottentották Csillagkeletkezés Medveállatkák Filmgyártás Antidepresszáns",
+            "font_size": 24
+        },
+        {
+            "text": "Üvegfestés Világörökség Mobiltelefon Ingerület Futurizmus Belgrád Spanyol nyelv",
+            "font_size": 22
+        },
+        {
+            "text": "Középfölde Kontaktlencse Természetfilozófia Biotechnológia Római provinciák Fehérfejű rétisas",
+            "font_size": 20
+        },
+        {
+            "text": "Protiszták Információtudomány Ábécé Buborékrendezés Mobiltelefon Nyitvatermők Kitakjúsú",
+            "font_size": 18
+        },
+        {
+            "text": "Grúz nyelv Természettudomány Turbófeltöltő Néreiszek Etológia Középfölde Világörökség",
+            "font_size": 16
+        },
+        {
+            "text": "Asztrofizika Zengőlégyfélék Rakétahajtómű Szerepjáték Német konyhaművészet Menstruációs ciklus Szövőmadárfélék",
+            "font_size": 14
+        },
+        {
+            "text": "Franciák Kafferbivaly Integrált áramkör Etológia Vasbeton Skótok Francia Akadémia",
+            "font_size": 12
+        },
+        {
+            "text": "Repülőgép Katabolizmus Cirill ábécé Imaginárius egység Pitagorasz Hámszövet Anatólia",
+            "font_size": 10
+        },
+        {
+            "text": "Mentális egészség Kunya Maldív nyelv Modernizmus Észak Adatállomány Dravida nyelvcsalád",
+            "font_size": 8
+        },
+        {
+            "text": "Középfölde Klasszikus zene Spirálgalaxis Mobiltelefon Egyszikűek Német márka Ízeltlábúak",
+            "font_size": 6
+        },
+        {
+            "text": "Sárgaúszójú tonhal Szabad licenc Számítógépes kémia Libanon címere Szerepjáték Reguláris kifejezés Antwerpen",
+            "font_size": 4
+        },
+        {
+            "text": "Skótok Mezo Szürrealizmus Rjúkjú Pitagorasz Telepátia Áramlástan",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

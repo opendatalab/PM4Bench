@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Gravitační čočka Vrtejši Velšané",
+            "font_size": 40
+        },
+        {
+            "text": "Mnohovesmír Kamjanske Moderna Aligátorovití",
+            "font_size": 38
+        },
+        {
+            "text": "Mobilní telefon Homeopatie Konstantinopol",
+            "font_size": 36
+        },
+        {
+            "text": "Chemická kinetika Buněčná biologie Biotechnologie Azory",
+            "font_size": 34
+        },
+        {
+            "text": "Kontaktní čočka Řecké písmo Skauting Apeniny",
+            "font_size": 32
+        },
+        {
+            "text": "Německý ovčák Öskemen Tuňák žlutoploutvý Surrealismus Karetní hra",
+            "font_size": 30
+        },
+        {
+            "text": "Antika Makak červenolící Biotechnologie Jednoděložné Aligátorovití",
+            "font_size": 28
+        },
+        {
+            "text": "Eukaryota Dějiny Evropy Nervová tkáň Hladkounovití Vývoj hvězd Pchin",
+            "font_size": 26
+        },
+        {
+            "text": "Varmijsko Bichirovití Superhrdina Kvadratická rovnice Orel bělohlavý",
+            "font_size": 24
+        },
+        {
+            "text": "Hranolky Amharština Binomická věta Litevština Recidivující afty Biotechnologie Tramvaj",
+            "font_size": 22
+        },
+        {
+            "text": "Světové dědictví Hra na hrdiny Fotovoltaický článek Losos obecný Francouzi Dějiny Asie Vznik hvězdy",
+            "font_size": 20
+        },
+        {
+            "text": "Meióza Jednoduchý stroj Mauritánie Korporace Populární kultura Etologie Životní pojištění",
+            "font_size": 18
+        },
+        {
+            "text": "Německý ovčák Skener Italská kuchyně Rjúkjú Lombardie Limonáda Francouzi",
+            "font_size": 16
+        },
+        {
+            "text": "Mauritánská vlajka Ermitáž Pasterace Chemická reakce Soubor Skotové Paryby",
+            "font_size": 14
+        },
+        {
+            "text": "Pasterace Dunkerk Tropická cyklóna Římské číslice Malajské souostroví Operační systém Organická chemie",
+            "font_size": 12
+        },
+        {
+            "text": "Arabské číslice Strojový překlad Přechodné kovy Vitráž Superhrdina Menstruační cyklus Komandorské ostrovy",
+            "font_size": 10
+        },
+        {
+            "text": "Palivový článek Bavorsko Subatomární částice Obratník Raka Kvantová mechanika Populární kultura Moderna",
+            "font_size": 8
+        },
+        {
+            "text": "Maďarština Sociální práce Španělé Řízení projektů Bleší trh Krytosemenné Počítačová grafika",
+            "font_size": 6
+        },
+        {
+            "text": "Rakušané Visla Skořicovník pravý Homeopatie Středozem Velština Helénismus",
+            "font_size": 4
+        },
+        {
+            "text": "Menstruační cyklus Baleáry Korutany Bělehrad Dilatace času Antverpy Irština",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

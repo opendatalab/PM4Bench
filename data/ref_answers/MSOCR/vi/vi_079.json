@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Hệ thống nhúng Quốc huy Liban Phân tâm học",
+            "font_size": 40
+        },
+        {
+            "text": "Động vật có dây sống Lớp Cá sụn Tuyến yên Chu kỳ kinh nguyệt",
+            "font_size": 38
+        },
+        {
+            "text": "Hệ chuyên gia Lịch sử Anh Lịch sử Nhật Bản Bảng chữ cái",
+            "font_size": 36
+        },
+        {
+            "text": "Geochelone sulcata Vi lượng đồng căn Nhím gai châu Âu",
+            "font_size": 34
+        },
+        {
+            "text": "Nhạc điện tử Quốc kỳ Đan Mạch Dòng Cát Minh Xe điện mặt đất",
+            "font_size": 32
+        },
+        {
+            "text": "Kitakyūshū Vi mạch Tiếng Ý Nhạc điện tử",
+            "font_size": 30
+        },
+        {
+            "text": "Vi mạch Lombardia Quần đảo Baleares Varanus niloticus Tiếng Litva",
+            "font_size": 28
+        },
+        {
+            "text": "Tiếng Hungary Hóa lý Siêu Trái Đất Trường phái hàn lâm Họ Tôm hùm càng Phân tích nhân tử",
+            "font_size": 26
+        },
+        {
+            "text": "Tiếng Ukraina Beograd Giun dẹp Nguyên tố vi lượng Phodopus roborovskii",
+            "font_size": 24
+        },
+        {
+            "text": "Kỹ thuật điện Bảng chữ cái Hy Lạp Sông Dnepr Cơ học chất lưu Giáo dục tại gia Sinh học phát triển",
+            "font_size": 22
+        },
+        {
+            "text": "Lục địa Á Açores Khu tự quản Công nghệ sinh học Bí mật kinh doanh Thánh ca Thụy Sĩ",
+            "font_size": 20
+        },
+        {
+            "text": "Tiếng Amhara Động vật ăn xác thối Máy quét ảnh Trứng Phục sinh Sinh vật nhân sơ Lịch sử thế giới",
+            "font_size": 18
+        },
+        {
+            "text": "Viện hàn lâm Pháp Vệ tinh Galileo Ngành Giun đầu gai Basse Haute Plutarchus",
+            "font_size": 16
+        },
+        {
+            "text": "Chỉnh nha Hạ Bayern Ẩm thực Nhật Bản Tập tin Ngành Da gai Động cơ tên lửa",
+            "font_size": 14
+        },
+        {
+            "text": "Nhạc điện tử Địa vật lý Đồng bằng phù sa Quản lý dự án Tâm lý trị liệu Lombardia",
+            "font_size": 12
+        },
+        {
+            "text": "Tập tin Pin Mặt Trời Vi lượng đồng căn Sinh học hệ thống Khu tự quản Sắp xếp chèn",
+            "font_size": 10
+        },
+        {
+            "text": "Quản lý dự án Hướng đạo Vật lý nguyên tử Phân tâm học Chu kỳ kinh nguyệt Chu kỳ kinh nguyệt",
+            "font_size": 8
+        },
+        {
+            "text": "Kim loại chuyển tiếp Nhạc cổ điển Chủ nghĩa cấu trúc Quần đảo Nansei Quốc kỳ Thụy Sĩ Tiếng Gruzia",
+            "font_size": 6
+        },
+        {
+            "text": "Bengaluru Biểu thức chính quy Sokrates Cấu trúc dữ liệu Trung Địa Beograd",
+            "font_size": 4
+        },
+        {
+            "text": "Tàu sân bay Thực vật một lá mầm Phương trình bậc hai Chó rừng lông vàng Chủ nghĩa siêu thực Siêu anh hùng",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

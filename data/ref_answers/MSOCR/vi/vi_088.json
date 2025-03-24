@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Chủ nghĩa cấu trúc Nhạc đại chúng Tiếng Hungary",
+            "font_size": 40
+        },
+        {
+            "text": "Du lịch vũ trụ Dunkerque Lý thuyết hỗn loạn Hạ Bayern",
+            "font_size": 38
+        },
+        {
+            "text": "Trò chơi bài Nhiệt miệng áp tơ Beograd Phân hủy hóa học",
+            "font_size": 36
+        },
+        {
+            "text": "Quan hệ nhân quả Tiền mã hóa Chủ nghĩa cấu trúc Lý thuyết hỗn loạn",
+            "font_size": 34
+        },
+        {
+            "text": "Kỹ thuật điện Họ Rồng rộc Biểu mô Thực vật hạt trần Lịch sử thế giới",
+            "font_size": 32
+        },
+        {
+            "text": "Định lý nhị thức Chu kỳ quỹ đạo Chu kỳ kinh nguyệt",
+            "font_size": 30
+        },
+        {
+            "text": "Kính áp tròng Khoa học nhận thức Phương trình bậc hai Warmińsko",
+            "font_size": 28
+        },
+        {
+            "text": "Ẩm thực Ý Thời đại đồ đồng đá Nhiễm sắc thể thường Kitakyūshū Quan hệ nhân quả Cổ đại Hy",
+            "font_size": 26
+        },
+        {
+            "text": "Sokrates Khoikhoi Quốc kỳ Litva Đạo diễn điện ảnh Quế quan Thực vật có phôi",
+            "font_size": 24
+        },
+        {
+            "text": "Thượng Pfalz Núi lửa dạng tầng Họ Cá bàng chài Ngôn ngữ đánh dấu Điện trở nhiệt Sinh học phát triển",
+            "font_size": 22
+        },
+        {
+            "text": "Điện thoại di động Tập tính học Kinh tế học vi mô Nhạc điện tử Tiếng Hạ Đức Phim kinh dị",
+            "font_size": 20
+        },
+        {
+            "text": "Contrebasse Vi lượng đồng căn Bóng chuyền bãi biển Kỹ thuật điện Quần đảo Nansei Quan hệ nhân quả",
+            "font_size": 18
+        },
+        {
+            "text": "Quan hệ nhân quả Quần đảo Canaria Tiếng Litva Sinh học hệ thống Lục địa Á Bộ tăng áp động cơ",
+            "font_size": 16
+        },
+        {
+            "text": "Dnister Quần đảo Eolie Tiếng Ý Siêu anh hùng Người Thổ Nhĩ Kỳ Chủ nghĩa hòa bình",
+            "font_size": 14
+        },
+        {
+            "text": "Siêu anh hùng Chó rừng lông vàng Kho dữ liệu Ẩm thực Đức Động vật có dây sống Châu Phi Hạ Sahara",
+            "font_size": 12
+        },
+        {
+            "text": "Điện thế hoạt động Ruồi giấm thường Thực vật có mạch Chó rừng lông vàng Mảng châu Phi Chữ Kirin",
+            "font_size": 10
+        },
+        {
+            "text": "Phim kinh dị Vịnh México Khí hiếm Cá mao tiên Xoáy thuận nhiệt đới Cốc đế",
+            "font_size": 8
+        },
+        {
+            "text": "Thời đại đồ sắt Biểu mô Chủ nghĩa hiện đại Contrebasse Ngữ hệ Dravida Ngôn ngữ hình thức",
+            "font_size": 6
+        },
+        {
+            "text": "Cá ngừ vây vàng Động vật ăn xác thối Vùng Caribe Tiếng Asturias Phân tích nhân tử Dnister",
+            "font_size": 4
+        },
+        {
+            "text": "Chim điên chân xanh Siêu Trái Đất Động vật ăn xác thối Mạng máy tính Bayern Sông Dnepr",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

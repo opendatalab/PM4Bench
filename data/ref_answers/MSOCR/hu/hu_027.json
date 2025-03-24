@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Bronzkor Lágy szárú növény Szentpétervár",
+            "font_size": 40
+        },
+        {
+            "text": "Mérgessiklófélék Olaszország zászlaja Bronzkor",
+            "font_size": 38
+        },
+        {
+            "text": "Strandlabdarúgás Páncélos ostorosok Csavarhúzó Piemont",
+            "font_size": 36
+        },
+        {
+            "text": "Skótok Angolok Harmadfokú egyenlet Felső",
+            "font_size": 34
+        },
+        {
+            "text": "Projektmenedzsment Anatólia Csillagfejlődés Afta",
+            "font_size": 32
+        },
+        {
+            "text": "Anatóliai nyelvek Kontaktlencse Varmia Protiszták",
+            "font_size": 30
+        },
+        {
+            "text": "Gascogne Rakétahajtómű Guvatfürjfélék Berber makákó Belgrád Takarmánylucerna",
+            "font_size": 28
+        },
+        {
+            "text": "Eurázsia Kvantummechanika Eurázsia Napraforgóolaj Hámszövet Húsevő",
+            "font_size": 26
+        },
+        {
+            "text": "Extremofil Baleár Strukturalizmus Aerodinamika Szövőmadárfélék Napelem",
+            "font_size": 24
+        },
+        {
+            "text": "Búbos vöcsök Takarmánylucerna Gébfélék Kunya Francia Akadémia Számítógép",
+            "font_size": 22
+        },
+        {
+            "text": "Kunya Észak Montenegrói nyelv Mobiltelefon Montenegrói nyelv Alsó",
+            "font_size": 20
+        },
+        {
+            "text": "Vapiti Maldív nyelv Öszkemen Integrált áramkör Otthonoktatás Káoszelmélet",
+            "font_size": 18
+        },
+        {
+            "text": "Egyszikűek Búbos vöcsök Fehérfejű rétisas Mikroökonómia Formális nyelv Pireneusok",
+            "font_size": 16
+        },
+        {
+            "text": "Üzemanyagcella Ermitázs Rakétahajtómű Villamos Integrált áramkör Analitikai kémia",
+            "font_size": 14
+        },
+        {
+            "text": "Francia Akadémia Appenninek Pinjin Írek Ősnövénytan Ausztria zászlaja",
+            "font_size": 12
+        },
+        {
+            "text": "Hámszövet Számítógépes grafika Aerodinamika Tengelyferdeség Biogeográfia Integrált áramkör",
+            "font_size": 10
+        },
+        {
+            "text": "Zengőlégyfélék Középfölde Laposférgek Mészszivacsok Lazac Ógörög nyelv",
+            "font_size": 8
+        },
+        {
+            "text": "Klasszikus zene Prokarióták Homeopátia Homeopátia Kék pingvin Medveállatkák",
+            "font_size": 6
+        },
+        {
+            "text": "Cinematográfia Eurázsia Ábécé Turbófeltöltő Triatlon Biotechnológia",
+            "font_size": 4
+        },
+        {
+            "text": "Község Menstruációs ciklus Káoszelmélet Autópálya Rakétahajtómű Napelem",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

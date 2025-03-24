@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Formális nyelv Maldív nyelv Svédország zászlaja",
+            "font_size": 40
+        },
+        {
+            "text": "Takarmánylucerna Integrált áramkör Skótok Angolok",
+            "font_size": 38
+        },
+        {
+            "text": "Mobiltelefon Határköltség Toszkána Ízeltlábúak",
+            "font_size": 36
+        },
+        {
+            "text": "Kémiai reakció Trópusi ciklon Dánia zászlaja",
+            "font_size": 34
+        },
+        {
+            "text": "Számítógépes grafika Neutronmoderátor Fizikai kémia",
+            "font_size": 32
+        },
+        {
+            "text": "Porcos halak Szókratész Üdítőital Beágyazott rendszer",
+            "font_size": 30
+        },
+        {
+            "text": "Expresszionizmus Projektmenedzsment Minimalizmus Katódsugárcső Franciák",
+            "font_size": 28
+        },
+        {
+            "text": "Európai sün Üzemanyagcella Havasi varjú Elméleti fizika Felső",
+            "font_size": 26
+        },
+        {
+            "text": "Asztrofizika Számítógép Nemesgázok Üzemanyagcella Villamos",
+            "font_size": 24
+        },
+        {
+            "text": "Rendszerbiológia Kőkorszak Menstruációs ciklus Grúz nyelv Asztrofizika Napelem",
+            "font_size": 22
+        },
+        {
+            "text": "Szunda Szürrealizmus Villamosmérnök Maldív nyelv Karintia Mobiltelefon",
+            "font_size": 20
+        },
+        {
+            "text": "Karmos féreglábúak Római számírás Vasbeton Okság Határköltség Olasz nyelv",
+            "font_size": 18
+        },
+        {
+            "text": "Lapolvasó Homeopátia Beágyazott rendszer Embriós növények Antikvitás Írek",
+            "font_size": 16
+        },
+        {
+            "text": "Biogeográfia Anatólia Borneói vörösmacska Eurázsia Buborékrendezés Szupravezetés",
+            "font_size": 14
+        },
+        {
+            "text": "Gravitációs lencse Karib Vasbeton Skótok Napraforgóolaj Francia buldog",
+            "font_size": 12
+        },
+        {
+            "text": "Villamos Hövszgöl Fekete Gépipar Biogeográfia Peloponnészosz",
+            "font_size": 10
+        },
+        {
+            "text": "Szarka Olaszország zászlaja Jylland Német konyhaművészet Agyalapi mirigy Középfölde",
+            "font_size": 8
+        },
+        {
+            "text": "Csontritkulás Társadalmi norma Húsvét Zeneterápia Autoszóma Cirill ábécé",
+            "font_size": 6
+        },
+        {
+            "text": "Sztoikus filozófia Csillagkeletkezés Roborovszkij Agapornis Szociolingvisztika Hérodotosz",
+            "font_size": 4
+        },
+        {
+            "text": "Idődilatáció Örvös medve Hanglemez Számítógép Kontaktlencse Integrált áramkör",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

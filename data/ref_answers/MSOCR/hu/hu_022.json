@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Biomechanika Amerikai futball Appenninek",
+            "font_size": 40
+        },
+        {
+            "text": "Filmrendező Mobiltelefon Hámszövet",
+            "font_size": 38
+        },
+        {
+            "text": "Olasz nyelv Élelmiszer Ausztrália zászlaja Pireneusok",
+            "font_size": 36
+        },
+        {
+            "text": "Nagybőgő Világtörténelem Pacifizmus Bengaluru",
+            "font_size": 34
+        },
+        {
+            "text": "Napraforgóolaj Napelem Római provinciák Számítógép",
+            "font_size": 32
+        },
+        {
+            "text": "Életbiztosítás Enciklopédia Üzemanyagcella Antikvitás Makrofág",
+            "font_size": 30
+        },
+        {
+            "text": "Mexikói Középfölde Villamosmérnök Kárpátok Kémiai reakció",
+            "font_size": 28
+        },
+        {
+            "text": "Baleár Dnyeszter Felső Ír nyelv Örvös medve",
+            "font_size": 26
+        },
+        {
+            "text": "Elektronikus zene Hullámvasút Hármasugrás Franciák Ecetmuslica",
+            "font_size": 24
+        },
+        {
+            "text": "Pszichoanalízis Bolhapiac Európa történelme Integrált áramkör Antikvitás Horrorfilm",
+            "font_size": 22
+        },
+        {
+            "text": "Reneszánsz Angolok Lapolvasó Franciák Integrált áramkör Trópusi ciklon",
+            "font_size": 20
+        },
+        {
+            "text": "Csavarhúzó Kék pingvin Számi nyelvek Szuperhős Okság Antwerpen",
+            "font_size": 18
+        },
+        {
+            "text": "Sztoikus filozófia Trópusi ciklon Marrákes Világtörténelem Ázsiai gepárd Hajszálcsövesség",
+            "font_size": 16
+        },
+        {
+            "text": "Törökök Egyszikűek Aeneis Nephropidae Sógun Plutarkhosz",
+            "font_size": 14
+        },
+        {
+            "text": "Küklópszok Beágyazott rendszer Afta Dánia zászlaja Csinghua Egyetem Okos város",
+            "font_size": 12
+        },
+        {
+            "text": "Szphinx Filmrendező Segédprogram Bengaluru Rekreáció Lapolvasó",
+            "font_size": 10
+        },
+        {
+            "text": "Franciák Kőkorszak Egyéves növény Kötőszövet Filmrendező Szubatomi részecske",
+            "font_size": 8
+        },
+        {
+            "text": "Újlatin nyelvek Szabad licenc Románia zászlaja Sejtbiológia Üzemanyagcella Csontritkulás",
+            "font_size": 6
+        },
+        {
+            "text": "Antwerpen Nagybőgő Ptolemaida Nyitvatermők Elméleti fizika Lipari",
+            "font_size": 4
+        },
+        {
+            "text": "Húsvét Havasszépe Protiszták Számítógépes grafika Skótok Kriptovaluta",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

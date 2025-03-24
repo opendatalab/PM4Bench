@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Kulturális sokk Enciklopédia Bentosz Anatólia",
+            "font_size": 40
+        },
+        {
+            "text": "Indokínai tigris Berber makákó Bomlás",
+            "font_size": 38
+        },
+        {
+            "text": "Hindu Szuperhős Ciprusi Köztársaság Mitózis",
+            "font_size": 36
+        },
+        {
+            "text": "Törökök Mérgessiklófélék Anglia zászlaja Vaskor Magyarok",
+            "font_size": 34
+        },
+        {
+            "text": "Újlatin nyelvek Mobiltelefon Turbófeltöltő Autópálya",
+            "font_size": 32
+        },
+        {
+            "text": "Rendszerbiológia Fizikai kémia Hármasugrás Antidepresszáns",
+            "font_size": 30
+        },
+        {
+            "text": "Pszichoanalízis Popkultúra Berber makákó Olasz konyhaművészet",
+            "font_size": 28
+        },
+        {
+            "text": "Indokínai tigris Reguláris kifejezés Francia buldog Pinjin",
+            "font_size": 26
+        },
+        {
+            "text": "Antidepresszáns Római provinciák Közönséges dió Turbófeltöltő Planetológia Zengőlégyfélék",
+            "font_size": 24
+        },
+        {
+            "text": "Antidepresszáns Szphinx Napelem Turbófeltöltő Adatállomány Opolei vajdaság Olaszország zászlaja",
+            "font_size": 22
+        },
+        {
+            "text": "Beágyazott rendszer Konstantinápoly Japán konyhaművészet Kibertér Hámszövet Római számírás Embriós növények",
+            "font_size": 20
+        },
+        {
+            "text": "Termisztor Csehszlovákia Sörényes hangyász Angolok Lapolvasó Étkezési rostok Könnyűzene",
+            "font_size": 18
+        },
+        {
+            "text": "Szamothraké Villamosmérnök Sejtbiológia Olasz nyelv Francia Akadémia Reneszánsz Világtörténelem",
+            "font_size": 16
+        },
+        {
+            "text": "Sárgaúszójú tonhal Hérodotosz Román nyelv Német konyhaművészet Francia Akadémia Zeneterápia Kanári",
+            "font_size": 14
+        },
+        {
+            "text": "Segédprogram Integrált áramkör Operációs rendszer Adatszerkezet Ingerület Pszichoanalízis Szerves kémia",
+            "font_size": 12
+        },
+        {
+            "text": "Menstruációs ciklus Mobiltelefon Agorafóbia Reneszánsz Nemesgázok Rekreáció Pszichoanalízis",
+            "font_size": 10
+        },
+        {
+            "text": "Japán konyhaművészet Szabad licenc Termelési tényező Antikvitás Gépi fordítás Dodekanészosz Jelölőnyelv",
+            "font_size": 8
+        },
+        {
+            "text": "Felső Mitózis Turbófeltöltő Takarmánylucerna Ciprusi Köztársaság Pitagorasz Búbos vöcsök",
+            "font_size": 6
+        },
+        {
+            "text": "Szamothraké Számi nyelvek Operációs rendszer Idegtudomány Lapolvasó Planetológia Szürrealizmus",
+            "font_size": 4
+        },
+        {
+            "text": "Románia zászlaja Hőszabályozás Katódsugárcső Csillagkeletkezés Fizikai kémia Makrofág Rakétahajtómű",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Villamos Hanglemez Bronzkor Eurázsia",
+            "font_size": 40
+        },
+        {
+            "text": "Dunkerque Hindu Pozsgások Trópusi ciklon",
+            "font_size": 38
+        },
+        {
+            "text": "Magyarok Porcos halak Villamos Hindu",
+            "font_size": 36
+        },
+        {
+            "text": "Akromegália Menstruációs ciklus Beágyazott rendszer",
+            "font_size": 34
+        },
+        {
+            "text": "Ajakoshalfélék Marrákes Beszúrásos rendezés Hajszálcsövesség Mozaik",
+            "font_size": 32
+        },
+        {
+            "text": "Szabad licenc Heterotrófia Török nyelv Vízi növényzet",
+            "font_size": 30
+        },
+        {
+            "text": "Operációs rendszer Nagybőgő Binomiális tétel Telepátia Hellenizmus",
+            "font_size": 28
+        },
+        {
+            "text": "Turbófeltöltő Rjúkjú Elméleti fizika Szamothraké Homeopátia Határköltség",
+            "font_size": 26
+        },
+        {
+            "text": "Sokúszós csukafélék Horvátok Újlatin nyelvek Maldív nyelv Biotechnológia Geofizika",
+            "font_size": 24
+        },
+        {
+            "text": "Holográfia Operációs rendszer Rjúkjú Ukrán nyelv Karintia Karib Nagy kárókatona",
+            "font_size": 22
+        },
+        {
+            "text": "Vasbeton Otthonoktatás Olaszország zászlaja Asztrofizika Olasz nyelv Szuperhatalom Ptolemaida",
+            "font_size": 20
+        },
+        {
+            "text": "Heterotrófia Világörökség Kulturális sokk Ermitázs Anatólia Vaskor Jylland",
+            "font_size": 18
+        },
+        {
+            "text": "Disznódelfinfélék Graubünden kanton Villamos Sörényes hangyász Modernizmus Bentosz Románia zászlaja",
+            "font_size": 16
+        },
+        {
+            "text": "Zenei műfaj Homeopátia Adatállomány Másodfokú egyenlet Szentpétervár Fizikai kémia Nílusi varánusz",
+            "font_size": 14
+        },
+        {
+            "text": "Tüskésbőrűek Horrorfilm Telepátia Vapiti Elméleti fizika Villamosmérnök Menstruációs ciklus",
+            "font_size": 12
+        },
+        {
+            "text": "Integrált áramkör Üzemanyagcella Pszichoanalízis Spirálgalaxis Rekreáció Karintia Multiverzum",
+            "font_size": 10
+        },
+        {
+            "text": "Társadalmi norma Okság Hindu Alnémet nyelv Turbófeltöltő Mobiltárca Mikroökonómia",
+            "font_size": 8
+        },
+        {
+            "text": "Toszkána Alsó Cirill ábécé Cirill ábécé Nyestcápafélék Számítógépes grafika Kunya",
+            "font_size": 6
+        },
+        {
+            "text": "Mobiltelefon Popkultúra Szerepjáték Bolhapiac Szociális munka Biogeográfia Középfölde",
+            "font_size": 4
+        },
+        {
+            "text": "Termisztor Román nyelv Biotechnológia Baleár Karmeliták Nephropidae Középfölde",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Văn hóa đại chúng Quốc huy Liban Pin Mặt Trời",
+            "font_size": 40
+        },
+        {
+            "text": "Di sản thế giới Basse Đường cao tốc",
+            "font_size": 38
+        },
+        {
+            "text": "Plutarchus Di sản thế giới Cá ngừ vây vàng Tô màu đồ thị",
+            "font_size": 36
+        },
+        {
+            "text": "Khu tự quản Kỹ thuật điện Sinh vật nhân sơ Hồ Khovsgol",
+            "font_size": 34
+        },
+        {
+            "text": "CG artwork Điện thoại di động Cyclops Khoa học tự nhiên",
+            "font_size": 32
+        },
+        {
+            "text": "Mauritanie Quần đảo Canaria Chó rừng lông vàng Phân tích nhân tử",
+            "font_size": 30
+        },
+        {
+            "text": "Tàu sân bay Kính màu ghép Định lý Pythagoras Tập tin Lịch sử thế giới",
+            "font_size": 28
+        },
+        {
+            "text": "Chuẩn mực xã hội Cá hồi Đại Tây Dương Thời đại đồ đồng Ngôn ngữ hình thức Tiếng Ireland",
+            "font_size": 26
+        },
+        {
+            "text": "Cổ đại Hy Kamjanske Bảo quản thực phẩm Họ Ruồi giả ong Gấu đen Bắc Mỹ Khoai tây chiên",
+            "font_size": 24
+        },
+        {
+            "text": "Chi Thùa Chim cánh cụt vua Triết học tự nhiên Tiếng Ý Sự hình thành sao Anpơ",
+            "font_size": 22
+        },
+        {
+            "text": "Biển Philippines Ẩm thực Nhật Bản Quần đảo Eolie Trò chơi bài Tiểu Á Nhóm ngôn ngữ Rôman",
+            "font_size": 20
+        },
+        {
+            "text": "Xe điện mặt đất Trứng Phục sinh Tàu lượn siêu tốc Kinh tế học vi mô Quốc kỳ Litva Viện hàn lâm Pháp",
+            "font_size": 18
+        },
+        {
+            "text": "Người Wales Khoa học hành tinh Chợ trời Quan hệ nhân quả Trường phái hàn lâm Chữ Kirin",
+            "font_size": 16
+        },
+        {
+            "text": "Vịnh México Nữ thần biển Bệnh sợ khoảng trống Người Wales Đa vũ trụ Bóng chuyền bãi biển",
+            "font_size": 14
+        },
+        {
+            "text": "Jylland Xe điện mặt đất Vi lượng đồng căn Cổ đại Hy Thực vật mọng nước Tâm lý trị liệu",
+            "font_size": 12
+        },
+        {
+            "text": "Văn hóa đại chúng Họ Cá heo chuột Thời kỳ Hy Lạp hóa Tiếng Ireland Tiểu Á Người Anh",
+            "font_size": 10
+        },
+        {
+            "text": "Nguyên phân Biểu thức chính quy Vi lượng đồng căn Cơ học thiên thể Sieverodonetsk Thiên hà xoắn ốc",
+            "font_size": 8
+        },
+        {
+            "text": "Quá trình làm phim Dơi quỷ Khoa tâm thần Mèo nâu đỏ Đạo diễn điện ảnh Điện thoại di động",
+            "font_size": 6
+        },
+        {
+            "text": "Cổ đại Hy Xe điện mặt đất Tiếng România Quốc kỳ România Khoa học thần kinh Tập tính học",
+            "font_size": 4
+        },
+        {
+            "text": "Vận tốc xuyên tâm Khoai tây chiên Vi mạch Chủ nghĩa hiện đại Herodotos Sinh vật nhân thực",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

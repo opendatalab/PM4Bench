@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Villamos Hellenizmus Imaginárius egység",
+            "font_size": 40
+        },
+        {
+            "text": "Római provinciák Filmrendező Ketzalkóatl Eurázsia",
+            "font_size": 38
+        },
+        {
+            "text": "Fejlődéstan Középfölde Fehérfejű rétisas Filmrendező",
+            "font_size": 36
+        },
+        {
+            "text": "Harmadfokú egyenlet Társadalmi norma Örvös medve",
+            "font_size": 34
+        },
+        {
+            "text": "Kitakjúsú Protiszták Fonálférgek Menstruációs ciklus",
+            "font_size": 32
+        },
+        {
+            "text": "Cserkészet Agyalapi mirigy Katalán nyelv Homeopátia Mobiltelefon",
+            "font_size": 30
+        },
+        {
+            "text": "Filmgyártás Szubatomi részecske Bajorország Nemesgázok Mobiltelefon",
+            "font_size": 28
+        },
+        {
+            "text": "Adatszerkezet Azori Török nyelv Bentosz Appenninek Katalán nyelv",
+            "font_size": 26
+        },
+        {
+            "text": "Etológia Filmes munkakörök Középfölde Rendszerbiológia Ízeltlábúak Aranysakál",
+            "font_size": 24
+        },
+        {
+            "text": "Triatlon Felső Könnyűzene Buzogányfejű férgek Horrorfilm Vízi növényzet Franciák",
+            "font_size": 22
+        },
+        {
+            "text": "Kőkorszak Alnémet nyelv Hasábburgonya Világtörténelem Olasz konyhaművészet Rekreáció Laposférgek",
+            "font_size": 20
+        },
+        {
+            "text": "Szunda Hanglemez Pasztőrözés Cirill ábécé Cirill ábécé Dánia zászlaja Katalán nyelv",
+            "font_size": 18
+        },
+        {
+            "text": "Antikvitás Karélia Rakétahajtómű Zeneterápia Szupravezetés Mobiltelefon Kontaktlencse",
+            "font_size": 16
+        },
+        {
+            "text": "Héphaisztosz Francia Akadémia Természettudomány Római számírás Napelem Mauritánia Vaskor",
+            "font_size": 14
+        },
+        {
+            "text": "Gyűrűsférgek Tüskésbőrűek Sörényes hangyász Biotechnológia Integrált áramkör Nagybőgő Szürrealizmus",
+            "font_size": 12
+        },
+        {
+            "text": "Integrált áramkör Alpok Katalán nyelv Japán történelme Kék pingvin Elméleti fizika Rétegvulkán",
+            "font_size": 10
+        },
+        {
+            "text": "Elektronikus zene Ingerület Telepátia Nemesgázok Planetológia Beszúrásos rendezés Csillagkeletkezés",
+            "font_size": 8
+        },
+        {
+            "text": "Szuperhős Protiszták Hangafélék Dunkerque Biotechnológia Spirálgalaxis Triatlon",
+            "font_size": 6
+        },
+        {
+            "text": "Afrikai Mezopotámia Élelmiszer Rekreáció Walesiek Angolok Kis ámbráscet",
+            "font_size": 4
+        },
+        {
+            "text": "Hellenizmus Ausztrália zászlaja Ökonometria Román nyelv Faktorizáció Román nyelv Kognitív tudomány",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

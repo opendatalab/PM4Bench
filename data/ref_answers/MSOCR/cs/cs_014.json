@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Dněstr Kontaktní čočka Epitelová tkáň Recidivující afty",
+            "font_size": 40
+        },
+        {
+            "text": "Dánská vlajka Strojový překlad Makrofág",
+            "font_size": 38
+        },
+        {
+            "text": "Dějiny Evropy Velikonoční ostrov Homeopatie Vířníci",
+            "font_size": 36
+        },
+        {
+            "text": "Světové dědictví Expertní systém Horní Bavorsko",
+            "font_size": 34
+        },
+        {
+            "text": "Teoretická fyzika Filmový režisér Antika Homeopatie",
+            "font_size": 32
+        },
+        {
+            "text": "Horizont událostí Imaginární jednotka Srdeční cyklus Kypr Etologie",
+            "font_size": 30
+        },
+        {
+            "text": "Doba bronzová Wapiti Systémová biologie Vestavěný systém Wapiti",
+            "font_size": 28
+        },
+        {
+            "text": "Sámské jazyky Pchin Chemická reakce Encyklopedie Hustota zalidnění",
+            "font_size": 26
+        },
+        {
+            "text": "Starořečtina Mobilní peněženka Stoicismus Severodoněck Katalánština",
+            "font_size": 24
+        },
+        {
+            "text": "Španělé Paryby Středozem Kitakjúšú Kypr Helénismus Počítačová grafika",
+            "font_size": 22
+        },
+        {
+            "text": "Angličané Jezevec lesní Peloponés Homeopatie Bengalúr Teorie chaosu Kontrabas",
+            "font_size": 20
+        },
+        {
+            "text": "Kvantová mechanika Šógun Řízení projektů Homeopatie Italština Epitelová tkáň Evoluce člověka",
+            "font_size": 18
+        },
+        {
+            "text": "Kvantová mechanika Kvadratická rovnice Humrovití Nahosemenné Buněčná biologie Jednoděložné Homeopatie",
+            "font_size": 16
+        },
+        {
+            "text": "Aerodynamika Italické jazyky Olympijská hymna Korutany Antika Peloponés Domácí vzdělávání",
+            "font_size": 14
+        },
+        {
+            "text": "Středozem Alelopatie Stratovulkán Rjúkjú Československo Cyrilice Akromegalie",
+            "font_size": 12
+        },
+        {
+            "text": "Pyreneje Plútarchos Subsaharská Afrika Supravodivost Siamská dvojčata Vznik hvězdy Tropická cyklóna",
+            "font_size": 10
+        },
+        {
+            "text": "Kapilarita Vrána černá Karetní hra Teorie chaosu Chemická reakce Klasická hudba Psychoterapie",
+            "font_size": 8
+        },
+        {
+            "text": "Výpočetní chemie Tramvaj Elektronická hudba Italská vlajka Kuňja Vzácné plyny Kvantová mechanika",
+            "font_size": 6
+        },
+        {
+            "text": "Ermitáž Světové dědictví Populární hudba Triatlon Siamská dvojčata Severodoněck Samothraké",
+            "font_size": 4
+        },
+        {
+            "text": "Obrněnky Formální jazyk Chytré město Helénismus Rumunská vlajka Dálnice Spirální galaxie",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

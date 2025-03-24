@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Filmrendező Nagy kárókatona Filippínó",
+            "font_size": 40
+        },
+        {
+            "text": "Olaszok Kártyajáték Homeopátia Integrált áramkör",
+            "font_size": 38
+        },
+        {
+            "text": "Pszichoterápia Számítógép Szabad licenc",
+            "font_size": 36
+        },
+        {
+            "text": "Napelem Vállalat Erdély Francia Akadémia",
+            "font_size": 34
+        },
+        {
+            "text": "Filmgyártás Dunkerque Elektronikus zene Kognitív tudomány",
+            "font_size": 32
+        },
+        {
+            "text": "Üdítőital Fehérfejű rétisas Osztrákok Cirill ábécé Vasbeton",
+            "font_size": 30
+        },
+        {
+            "text": "Adatállomány Telepátia Akromegália Klasszikus zene Európai sün",
+            "font_size": 28
+        },
+        {
+            "text": "Piemont Ciprusi Köztársaság Rjúkjú Anatólia Plutarkhosz Előgerinchúrosok Szphinx",
+            "font_size": 26
+        },
+        {
+            "text": "Villamosmérnök Törökök Aranysakál Laposférgek Homeopátia Nagybőgő",
+            "font_size": 24
+        },
+        {
+            "text": "Héphaisztosz Menstruációs ciklus Zenei műfaj Harmadfokú egyenlet Cirill ábécé Agávé Idegszövet",
+            "font_size": 22
+        },
+        {
+            "text": "Vérszopó denevérek Kognitív tudomány Rekreáció Klasszikus zene Harmadfokú egyenlet Szentpétervár Kitakjúsú",
+            "font_size": 20
+        },
+        {
+            "text": "Pszichoterápia Hámszövet Walesiek Hidroponika Szókratész Grönlandi fóka Egyéves növény",
+            "font_size": 18
+        },
+        {
+            "text": "Szlovének Kémiai reakció Turbófeltöltő Ermitázs Akadémizmus Örvös medve Dodekanészosz",
+            "font_size": 16
+        },
+        {
+            "text": "Község Római számírás Disznódelfinfélék Ciprusi Köztársaság Áramlástan Szappanfavirágúak Asztrofizika",
+            "font_size": 14
+        },
+        {
+            "text": "Okság Észak Számítógép Olasz nyelv Mobiltelefon Ír nyelv Ciprusi Köztársaság",
+            "font_size": 12
+        },
+        {
+            "text": "Hanglemez Áramlástan Mobiltárca Sejtbiológia Etológia Pörgekarúak Imaginárius egység",
+            "font_size": 10
+        },
+        {
+            "text": "Mezopotámia Üzleti titok Nílusi varánusz Római provinciák Kormos varjú Buborékrendezés Bébi úr",
+            "font_size": 8
+        },
+        {
+            "text": "Katalán nyelv Graubünden kanton Angolok Afta Hasábburgonya Szövetes növények Karmeliták",
+            "font_size": 6
+        },
+        {
+            "text": "Expresszionizmus Enciklopédia Anatólia Község Baleár Nagybőgő Olasz nyelv",
+            "font_size": 4
+        },
+        {
+            "text": "Hérodotosz Villamosmérnök Medveállatkák Mobiltelefon Szuperhős Visztula Hámszövet",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

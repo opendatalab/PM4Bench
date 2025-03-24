@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Catalan language Modernism Space tourism",
+            "font_size": 40
+        },
+        {
+            "text": "Canary Islands Electrical engineering Beach soccer",
+            "font_size": 38
+        },
+        {
+            "text": "Cyrillic script Machine translation Turkish people Computer graphics",
+            "font_size": 36
+        },
+        {
+            "text": "English people Greek alphabet Lovebird Binomial theorem",
+            "font_size": 34
+        },
+        {
+            "text": "Vascular plant Celestial equator Japanese quail Card game",
+            "font_size": 32
+        },
+        {
+            "text": "Homeschooling Acanthocephala Albatross Operating system",
+            "font_size": 30
+        },
+        {
+            "text": "World Heritage Site Alfalfa Pythagorean theorem Homeschooling",
+            "font_size": 28
+        },
+        {
+            "text": "Annual plant Antidepressant Vegetarianism Orbital period Azores",
+            "font_size": 26
+        },
+        {
+            "text": "Pasteurization Free content French fries Machine translation Mobile phone",
+            "font_size": 24
+        },
+        {
+            "text": "Easter Island Hermitage Museum Chemical decomposition Popular music Académie Française Music genre",
+            "font_size": 22
+        },
+        {
+            "text": "Marginal cost Controlled-access highway Aphthous stomatitis Piedmont Amber Road Roman province",
+            "font_size": 20
+        },
+        {
+            "text": "Prokaryote Water rail Triathlon Piedmont Natural science Rocket engine",
+            "font_size": 18
+        },
+        {
+            "text": "Biotechnology Tram Lake Khövsgöl Lombardy Plutarch Alps",
+            "font_size": 16
+        },
+        {
+            "text": "Encyclopedia Asian black bear Asian black bear Fuel cell Star formation Menstrual cycle",
+            "font_size": 14
+        },
+        {
+            "text": "Superhero Cell biology Trace element Orthodontics Yellowfin tuna Acanthocephala",
+            "font_size": 12
+        },
+        {
+            "text": "Eurasia Aircraft carrier Epithelium Homeopathy English people Eurasian magpie",
+            "font_size": 10
+        },
+        {
+            "text": "Stellar evolution Role-playing game Machine translation Computer graphics Azores Arabic numerals",
+            "font_size": 8
+        },
+        {
+            "text": "African golden cat Social work Binomial theorem Bioinformatics Superconductivity Beach soccer",
+            "font_size": 6
+        },
+        {
+            "text": "Film crew Italian cuisine Mesoamerica Controlled-access highway Cognitive science Balearic Islands",
+            "font_size": 4
+        },
+        {
+            "text": "Flag of Mauritania Trace element Pashto Psychoanalysis Flag of Sweden Irish people",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

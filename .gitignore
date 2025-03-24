@@ -1,0 +1,65 @@
+# 忽略所有 .tsv 文件
+*.tsv
+
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .env 文件
+*.env
+
+# 忽略特定目录及其内容
+VLM_output_judge/
+VLM_output/
+MIQA_extracted_score/
+
+# 忽略 data/results 目录下的所有文件（但不忽略目录本身）
+data/results/*
+
+# 忽略 data/tsv 目录下的所有文件（但不忽略目录本身）
+data/tsv/*
+
+# 忽略 Python 编译文件和虚拟环境
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 忽略日志和缓存文件
+*.log
+*.cache
+*.pid
+*.seed
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# 忽略压缩文件
+*.zip
+*.tar.gz
+*.tgz
+
+# 忽略测试相关文件
+.coverage
+htmlcov/
+.pytest_cache/

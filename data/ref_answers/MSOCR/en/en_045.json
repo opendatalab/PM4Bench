@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Drosophila melanogaster Bangalore Ethology Formal language",
+            "font_size": 40
+        },
+        {
+            "text": "Japanese quail Quantum mechanics Autosome English people",
+            "font_size": 38
+        },
+        {
+            "text": "Social norm Flea market French fries",
+            "font_size": 36
+        },
+        {
+            "text": "Romance languages Tram Epithelium Chinese pangolin",
+            "font_size": 34
+        },
+        {
+            "text": "Biotechnology Benthos Imaginary unit Warmian–Masurian Voivodeship",
+            "font_size": 32
+        },
+        {
+            "text": "Yellow baboon Psychiatry Cell biology Asian black bear Solar cell",
+            "font_size": 30
+        },
+        {
+            "text": "Markup language Welsh language Socrates Superconductivity Greedy algorithm",
+            "font_size": 28
+        },
+        {
+            "text": "Asian black bear Houndshark Human history Eurasian Plate",
+            "font_size": 26
+        },
+        {
+            "text": "Irish language Tram Rocket engine Scottish people Tropical cyclone Allelopathy",
+            "font_size": 24
+        },
+        {
+            "text": "Romanian language Factors of production Mesoamerica Mesoamerica Chalcolithic Stratovolcano",
+            "font_size": 22
+        },
+        {
+            "text": "Rocket engine Superhero Meiosis Embedded system Amharic Tram",
+            "font_size": 20
+        },
+        {
+            "text": "Aquatic plant Bronze Age Acromegaly Renaissance Pythagorean theorem Low German",
+            "font_size": 18
+        },
+        {
+            "text": "Spiral galaxy Balearic Islands Marginal cost Triathlon Beach volleyball Lobster",
+            "font_size": 16
+        },
+        {
+            "text": "Card game Regular expression Calcareous sponge Homeopathy Eurasian magpie Greedy algorithm",
+            "font_size": 14
+        },
+        {
+            "text": "Romance languages Menstrual cycle Kitakyushu German cuisine Action potential Homeopathy",
+            "font_size": 12
+        },
+        {
+            "text": "Asian black bear Role-playing game Roller coaster Nematode Gulf of Mexico Welsh language",
+            "font_size": 10
+        },
+        {
+            "text": "Card game Arthropod Quantum mechanics Systems biology Mauritania World Heritage Site",
+            "font_size": 8
+        },
+        {
+            "text": "Nervous tissue Filmmaking Bronze Age Homeopathy Mauritania Dietary fiber",
+            "font_size": 6
+        },
+        {
+            "text": "Anatolian languages Silesian Voivodeship Trace element Social norm Integrated circuit Grisons",
+            "font_size": 4
+        },
+        {
+            "text": "Aeneid Biotechnology Arabic numerals Catalan language Monocotyledon Filmmaking",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

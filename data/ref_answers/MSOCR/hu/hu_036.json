@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szphinx Római számírás Görögország címere Határköltség",
+            "font_size": 40
+        },
+        {
+            "text": "Újlatin nyelvek Önkéntes munka Szürrealizmus",
+            "font_size": 38
+        },
+        {
+            "text": "Természettudomány Sárgás babuin Dnyeper Olasz konyhaművészet",
+            "font_size": 36
+        },
+        {
+            "text": "Napelem Meiózis Gráfok színezése Káoszelmélet Visztula",
+            "font_size": 34
+        },
+        {
+            "text": "Szabad licenc Vízi növényzet Filmes munkakörök Antikvitás",
+            "font_size": 32
+        },
+        {
+            "text": "Amhara nyelv Otthonoktatás Kétéves növény Eukarióták",
+            "font_size": 30
+        },
+        {
+            "text": "Káoszelmélet Európai sün Kőkorszak Földtudomány Pajzsvulkán",
+            "font_size": 28
+        },
+        {
+            "text": "Mobiltelefon Angolok Szupravezetés Katalán nyelv Gerinchúrosok",
+            "font_size": 26
+        },
+        {
+            "text": "Szubatomi részecske Csalánozók Peloponnészosz Számítógépes kémia Mezo",
+            "font_size": 24
+        },
+        {
+            "text": "Binomiális tétel Olasz konyhaművészet Biotechnológia Olaszok Szjevjerodoneck Zengőlégyfélék Autoszóma",
+            "font_size": 22
+        },
+        {
+            "text": "Mentális egészség Dnyeper Klasszikus zene Húsvét Trópusi ciklon Turbófeltöltő Nyomelem",
+            "font_size": 20
+        },
+        {
+            "text": "Bajorország Szürrealizmus Integrált áramkör Csinghua Egyetem Puhatestűek Eurázsia Spanyolok",
+            "font_size": 18
+        },
+        {
+            "text": "Grúz nyelv Pacifizmus Otthonoktatás Otthonoktatás Üzemanyagcella Rekreáció Község",
+            "font_size": 16
+        },
+        {
+            "text": "Toszkána Lombardia Rekreáció Mérgessiklófélék Bronzkor Cserkészet Hullámvasút",
+            "font_size": 14
+        },
+        {
+            "text": "Enciklopédia Konstantinápoly Földtudomány Agyalapi mirigy Takarmánylucerna Afrikai Fehérfejű rétisas",
+            "font_size": 12
+        },
+        {
+            "text": "Csalánozók Sógun Integrált áramkör Prokarióták Egyéves növény Világörökség Osztrákok",
+            "font_size": 10
+        },
+        {
+            "text": "Tüskésbőrűek Szarka Csillóshasúak Telepátia Asztúriai nyelvtan Hellenizmus Szövetes növények",
+            "font_size": 8
+        },
+        {
+            "text": "Vasbeton Világörökség Vaskor Egyszikűek Katalán nyelv Villamos Ábécé",
+            "font_size": 6
+        },
+        {
+            "text": "Cinematográfia Formális nyelv Ősnövénytan Autópálya Eurázsia Gascogne Alnémet nyelv",
+            "font_size": 4
+        },
+        {
+            "text": "Mobiltelefon Klasszikus zene Naptömeg Eukarióták Kéklábú szula Kontaktlencse Mobiltelefon",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

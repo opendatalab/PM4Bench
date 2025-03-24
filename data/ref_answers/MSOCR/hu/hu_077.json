@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Planetológia Akromegália Erdei elefánt",
+            "font_size": 40
+        },
+        {
+            "text": "Alpok Sokúszós csukafélék Rjúkjú Páncélos ostorosok",
+            "font_size": 38
+        },
+        {
+            "text": "Agapornis Adattárház Önkéntes munka",
+            "font_size": 36
+        },
+        {
+            "text": "Indiai antilop Menstruációs ciklus Azori Üzemanyagcella",
+            "font_size": 34
+        },
+        {
+            "text": "Guvatfürjfélék Önkéntes munka Hanglemez Autoszóma Eukarióták",
+            "font_size": 32
+        },
+        {
+            "text": "Mauritánia zászlaja Csillagkeletkezés Chichén Itzá Protiszták Bentosz",
+            "font_size": 30
+        },
+        {
+            "text": "Lazac Spanyolok Elméleti fizika Európa történelme",
+            "font_size": 28
+        },
+        {
+            "text": "Skótok Varmia Életbiztosítás Sárgaúszójú tonhal Menstruációs ciklus",
+            "font_size": 26
+        },
+        {
+            "text": "Pinjin Mobiltelefon Villamosmérnök Nyestcápafélék Kanári Hullámvasút",
+            "font_size": 24
+        },
+        {
+            "text": "Andoki kondor Románia zászlaja Mitózis Ökonometria Mentális egészség Természettudomány",
+            "font_size": 22
+        },
+        {
+            "text": "Pireneusok Termisztor Eukarióták Török nyelv Turbófeltöltő Hasábburgonya",
+            "font_size": 20
+        },
+        {
+            "text": "Nephropidae Áramlástan Hajszálcsövesség Hámszövet Vaskor Hullámos papagáj",
+            "font_size": 18
+        },
+        {
+            "text": "Számítógép Metroszexualitás Mobiltelefon Életbiztosítás Metroszexualitás Húsvéti tojás",
+            "font_size": 16
+        },
+        {
+            "text": "Hindu Ermitázs Mérgessiklófélék Medveállatkák Római számírás Koboldcápa",
+            "font_size": 14
+        },
+        {
+            "text": "Noradrenalin Strandlabdarúgás Extremofil Ciprusi Köztársaság Földtudomány Lombardia",
+            "font_size": 12
+        },
+        {
+            "text": "Beágyazott rendszer Hanglemez Szphinx Homeopátia Napelem Számítógépes grafika",
+            "font_size": 10
+        },
+        {
+            "text": "Svájc zászlaja Zenei műfaj Toszkána Szentpétervár Mohaállatok Skótok",
+            "font_size": 8
+        },
+        {
+            "text": "Spirálgalaxis Bolhapiac Repülőgép Mobiltelefon Nephropidae Átmenetifémek",
+            "font_size": 6
+        },
+        {
+            "text": "Kamjanszke Pitagorasz Mezo Mezo Román nyelv Földtudomány",
+            "font_size": 4
+        },
+        {
+            "text": "Húsvéti tojás Görög ábécé Integrált áramkör Varmia Integrált áramkör Kanári",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Warmińsko Tiếng Hạ Đức Dinoflagellata",
+            "font_size": 40
+        },
+        {
+            "text": "Máy cơ đơn giản Động vật thân mềm Hướng đạo",
+            "font_size": 38
+        },
+        {
+            "text": "Thượng Pfalz Chữ Kirin Máy cơ đơn giản Xe điện mặt đất",
+            "font_size": 36
+        },
+        {
+            "text": "Định lý Pythagoras Quá trình làm phim Lý thuyết hỗn loạn Thời đại đồ đồng",
+            "font_size": 34
+        },
+        {
+            "text": "Siêu anh hùng Thời đại đồ sắt Ngôn ngữ đánh dấu Ngôn ngữ đánh dấu",
+            "font_size": 32
+        },
+        {
+            "text": "Thể loại nhạc Biểu mô Mauritanie Siêu anh hùng Chủ nghĩa khắc kỷ",
+            "font_size": 30
+        },
+        {
+            "text": "Nhân sư Ống tia âm cực Đa vũ trụ Bán đảo Đông Dương Cơ học chất lưu",
+            "font_size": 28
+        },
+        {
+            "text": "Tiếng Catalunya Bộ Bồ hòn Chợ trời Cơ học thiên thể Ẩm thực Đức",
+            "font_size": 26
+        },
+        {
+            "text": "Phân tích nhân tử Gấu ngựa Định lý Pythagoras Trò chơi nhập vai Chữ số Ả Rập Sinh vật dị dưỡng",
+            "font_size": 24
+        },
+        {
+            "text": "Vi mạch Chim lặn mào lớn Kho dữ liệu Họ Cun cút Quốc huy Hy Lạp Gấu đen Bắc Mỹ",
+            "font_size": 22
+        },
+        {
+            "text": "Quần đảo Canaria Nhà vật lý Họ Cá bàng chài Thần giao cách cảm Kỹ thuật cơ khí Quần đảo Eolie",
+            "font_size": 20
+        },
+        {
+            "text": "Tập tính học Văn hóa đại chúng Chim cánh cụt vua Sinh vật dị dưỡng Động vật ăn xác thối Dòng Cát Minh",
+            "font_size": 18
+        },
+        {
+            "text": "Beograd Đoàn thể Nhóm ngôn ngữ Rôman Công nghệ sinh học Cyclops Xe điện mặt đất",
+            "font_size": 16
+        },
+        {
+            "text": "Vượn cáo đuôi vòng Hóa hữu cơ Bengaluru Phục Hưng Châu Phi Hạ Sahara Trò chơi bài",
+            "font_size": 14
+        },
+        {
+            "text": "Phản ứng hóa học Tiếng Hạ Đức Ẩm thực Ý Vi mạch Bảng chữ cái Phần mềm tiện ích",
+            "font_size": 12
+        },
+        {
+            "text": "Eudyptula minor Amyloza Kính màu ghép Sinh vật đáy Quốc kỳ Úc Thời đại đồ đồng",
+            "font_size": 10
+        },
+        {
+            "text": "CG artwork Cơ học lượng tử Tiền mã hóa Bí mật kinh doanh Khu tự quản Mô thần kinh",
+            "font_size": 8
+        },
+        {
+            "text": "Phân tâm học Sinh học tế bào Di sản thế giới Thể loại nhạc Vật lý lý thuyết Khoa học hành tinh",
+            "font_size": 6
+        },
+        {
+            "text": "Thiên hà xoắn ốc Tàu lượn siêu tốc Tiếng Montenegro Cá hồi Đại Tây Dương Pin nhiên liệu Định lý Pythagoras",
+            "font_size": 4
+        },
+        {
+            "text": "Cơ học lượng tử Lớp Cá sụn Agapornis Động vật ăn thịt Dòng Cát Minh Thuần chay",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

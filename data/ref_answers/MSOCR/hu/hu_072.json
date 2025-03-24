@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Popkultúra Libanon címere Napelem",
+            "font_size": 40
+        },
+        {
+            "text": "Világörökség Alsó Autópálya",
+            "font_size": 38
+        },
+        {
+            "text": "Plutarkhosz Világörökség Sárgaúszójú tonhal Gráfok színezése",
+            "font_size": 36
+        },
+        {
+            "text": "Község Villamosmérnök Prokarióták Hövszgöl",
+            "font_size": 34
+        },
+        {
+            "text": "Számítógépes grafika Mobiltelefon Küklópszok Természettudomány",
+            "font_size": 32
+        },
+        {
+            "text": "Mauritánia Kanári Aranysakál Faktorizáció",
+            "font_size": 30
+        },
+        {
+            "text": "Repülőgép Üvegfestés Pitagorasz Adatállomány Világtörténelem",
+            "font_size": 28
+        },
+        {
+            "text": "Társadalmi norma Lazac Bronzkor Formális nyelv Ír nyelv",
+            "font_size": 26
+        },
+        {
+            "text": "Antikvitás Kamjanszke Élelmiszer Zengőlégyfélék Fekete medve Hasábburgonya",
+            "font_size": 24
+        },
+        {
+            "text": "Agávé Királypingvin Természetfilozófia Olasz nyelv Csillagkeletkezés Alpok",
+            "font_size": 22
+        },
+        {
+            "text": "Filippínó Japán konyhaművészet Lipari Kártyajáték Anatólia Újlatin nyelvek",
+            "font_size": 20
+        },
+        {
+            "text": "Villamos Húsvéti tojás Hullámvasút Mikroökonómia Litvánia zászlaja Francia Akadémia",
+            "font_size": 18
+        },
+        {
+            "text": "Walesiek Planetológia Bolhapiac Okság Akadémizmus Cirill ábécé",
+            "font_size": 16
+        },
+        {
+            "text": "Mexikói Néreiszek Agorafóbia Walesiek Multiverzum Strandröplabda",
+            "font_size": 14
+        },
+        {
+            "text": "Jylland Villamos Homeopátia Antikvitás Pozsgások Pszichoterápia",
+            "font_size": 12
+        },
+        {
+            "text": "Popkultúra Disznódelfinfélék Hellenizmus Ír nyelv Anatólia Angolok",
+            "font_size": 10
+        },
+        {
+            "text": "Mitózis Reguláris kifejezés Homeopátia Égi mechanika Szjevjerodoneck Spirálgalaxis",
+            "font_size": 8
+        },
+        {
+            "text": "Filmgyártás Vérszopó denevérek Pszichiátria Borneói vörösmacska Filmrendező Mobiltelefon",
+            "font_size": 6
+        },
+        {
+            "text": "Antikvitás Villamos Román nyelv Románia zászlaja Idegtudomány Etológia",
+            "font_size": 4
+        },
+        {
+            "text": "Radiális sebesség Hasábburgonya Integrált áramkör Modernizmus Hérodotosz Eukarióták",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

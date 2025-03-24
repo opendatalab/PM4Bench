@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Řád karmelitánů Sókratés Mýdelníkotvaré Obec",
+            "font_size": 40
+        },
+        {
+            "text": "Kvantová mechanika Superzemě Regulární výraz",
+            "font_size": 38
+        },
+        {
+            "text": "Nahosemenné Katodová trubice Fotovoltaický článek Hypofýza",
+            "font_size": 36
+        },
+        {
+            "text": "Vesmírná turistika Geofyzika Eskalátor Dolní Sasko",
+            "font_size": 34
+        },
+        {
+            "text": "Azory Ploštěnci Hlístice Regulární výraz Ortodoncie",
+            "font_size": 32
+        },
+        {
+            "text": "Kubická rovnice Eukaryota Sukulent Stoicismus",
+            "font_size": 30
+        },
+        {
+            "text": "Peloponés Dějiny Asie Bengalúr Rjúkjú Palivový článek",
+            "font_size": 28
+        },
+        {
+            "text": "Tolice vojtěška Římské provincie Korporace Arabské číslice Epitelová tkáň",
+            "font_size": 26
+        },
+        {
+            "text": "Římské číslice Regulární výraz Menstruační cyklus Ortodoncie Paryby",
+            "font_size": 24
+        },
+        {
+            "text": "Antidepresivum Sčítání lidu Světové dědictví Římská cena Anglická vlajka Abeceda",
+            "font_size": 22
+        },
+        {
+            "text": "Klasická hudba Raketový motor Eurasie Bělehrad Bengalúr Baleáry",
+            "font_size": 20
+        },
+        {
+            "text": "Makrofág Katalánština Sociolingvistika Životní pojištění Marrákeš Jenisej",
+            "font_size": 18
+        },
+        {
+            "text": "Bentos Řazení vkládáním Sedmihradsko Epitelová tkáň Švýcarská vlajka Ostrov muzeí",
+            "font_size": 16
+        },
+        {
+            "text": "Superhrdina Encyklopedie Datový sklad Dvouletá rostlina Mitóza Horní Franky",
+            "font_size": 14
+        },
+        {
+            "text": "Muzikoterapie Konzervace potravin Petrohrad Homeopatie Kognitivní věda Přechodné kovy",
+            "font_size": 12
+        },
+        {
+            "text": "Mobilní peněženka Švýcarská hymna Superzemě Neurověda Dněstr Triatlon",
+            "font_size": 10
+        },
+        {
+            "text": "Světové dědictví Životní pojištění Dilatace času Francouzi Protisté Severní Holandsko",
+            "font_size": 8
+        },
+        {
+            "text": "Subatomární částice Mobilní telefon Státní znak Libanonu Azory Pythagorova věta Perepelovití",
+            "font_size": 6
+        },
+        {
+            "text": "Peloponés Světové dědictví Mezní náklady Biogeografie Vestavěný systém Helénismus",
+            "font_size": 4
+        },
+        {
+            "text": "Filmová produkce Hustota zalidnění Alpy Metrosexuál Tramvaj Piemont",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

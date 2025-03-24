@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Akademismus Parazitologie Mobilní telefon",
+            "font_size": 40
+        },
+        {
+            "text": "Gravitační čočka Makrofág Strojový překlad",
+            "font_size": 38
+        },
+        {
+            "text": "Astrofyzika Autozom Pythagorova věta Azory",
+            "font_size": 36
+        },
+        {
+            "text": "Velikonoční ostrov Kauzalita Piemont Sociální práce",
+            "font_size": 34
+        },
+        {
+            "text": "Bengalúr Bengalúr Kitakjúšú Žahavci Epitelová tkáň",
+            "font_size": 32
+        },
+        {
+            "text": "Rjúkjú Mexický záliv Tramvaj Dněpr Františkáni",
+            "font_size": 30
+        },
+        {
+            "text": "Brusel Počítačová síť Piemont Ukrajinština Římské číslice",
+            "font_size": 28
+        },
+        {
+            "text": "Arabská deska Psychoterapie Hustota zalidnění Pythagorova věta",
+            "font_size": 26
+        },
+        {
+            "text": "Turečtina Bublinkové řazení Magický realismus Sklon rotační osy Psychiatrie",
+            "font_size": 24
+        },
+        {
+            "text": "Perepelovití Eukaryota Aerodynamika Binomická věta Počítačová síť Teoretická fyzika",
+            "font_size": 22
+        },
+        {
+            "text": "Masožravec Radiální rychlost Kanárské ostrovy Antidepresivum Gruzínština Mechanika tekutin",
+            "font_size": 20
+        },
+        {
+            "text": "Angličané Sklon rotační osy Dolnoněmčina Telepatie Německá kuchyně Kognitivní věda",
+            "font_size": 18
+        },
+        {
+            "text": "Skauting Expertní systém Medvěd baribal Paleobotanika Anglická vlajka Azory",
+            "font_size": 16
+        },
+        {
+            "text": "Jezevec lesní Skotové Biotechnologie Teorie chaosu Vitráž Upíři",
+            "font_size": 14
+        },
+        {
+            "text": "Hra na hrdiny Pythagorova věta Jantarová stezka Khoikhoiové Ježek západní Dardanely",
+            "font_size": 12
+        },
+        {
+            "text": "Klasická hudba Tomistoma úzkohlavá Anatolské jazyky Dobrovolnictví Protisté Velikonoční ostrov",
+            "font_size": 10
+        },
+        {
+            "text": "Skener Eukaryota Slezské vojvodství Ekonometrie Chemická reakce Univerzita Čching",
+            "font_size": 8
+        },
+        {
+            "text": "Octomilka obecná Galileiho měsíce Kuňja Německá marka Recidivující afty Kognitivní věda",
+            "font_size": 6
+        },
+        {
+            "text": "Extrémofil Spirální galaxie Tyrhénské moře Dějiny lidstva Horní Falc Menstruační cyklus",
+            "font_size": 4
+        },
+        {
+            "text": "Československo Samothraké Filmový horor Kypr Graubünden Filmový režisér",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Ploštěnci Mezoamerika Strojový překlad Abeceda",
+            "font_size": 40
+        },
+        {
+            "text": "Teorie chaosu Eneolit Pláštěnci",
+            "font_size": 38
+        },
+        {
+            "text": "Jednoděložné Autozom Obrněnky",
+            "font_size": 36
+        },
+        {
+            "text": "Pestřenky Populární hudba Hranolky Jednoduchý stroj",
+            "font_size": 34
+        },
+        {
+            "text": "Pestřenky Chemický rozklad Jaderná fyzika Krytosemenné",
+            "font_size": 32
+        },
+        {
+            "text": "Medvěd ušatý Homeopatie Kulový blesk Paryby",
+            "font_size": 30
+        },
+        {
+            "text": "Jednoděložné Tomistoma úzkohlavá Etologie Moderna Mezoamerika",
+            "font_size": 28
+        },
+        {
+            "text": "Encyklopedie Dějiny lidstva Ježek západní Autozom Dějiny lidstva",
+            "font_size": 26
+        },
+        {
+            "text": "Obec Fotovoltaický článek Jednoduchý stroj Kamjanske Chemická reakce Telepatie",
+            "font_size": 24
+        },
+        {
+            "text": "Paleobotanika Systémová biologie Extrémofil Italština Maledivština Teorie všeho",
+            "font_size": 22
+        },
+        {
+            "text": "Kontrabas Čukotka Filmová produkce Hudební žánr Bioinformatika Plážový fotbal",
+            "font_size": 20
+        },
+        {
+            "text": "Hydrofyty Ortodoncie Homeopatie Sámské jazyky Populární hudba Hranolky",
+            "font_size": 18
+        },
+        {
+            "text": "Kognitivní věda Snovačovití Kapilarita Datel černý Vestavěný systém Turbodmychadlo",
+            "font_size": 16
+        },
+        {
+            "text": "Kypr Palivový článek Visla Hranolky Gramofonová deska Pyreneje",
+            "font_size": 14
+        },
+        {
+            "text": "Počítačová síť Meióza Kontrabas Subsaharská Afrika Öskemen Dálnice",
+            "font_size": 12
+        },
+        {
+            "text": "Mikroekonomie Italská vlajka Jednoletá rostlina Konzervace potravin Akromegalie Ermitáž",
+            "font_size": 10
+        },
+        {
+            "text": "Akční potenciál Dněpr Nahosemenné Teorie chaosu Tropická cyklóna Konzervace potravin",
+            "font_size": 8
+        },
+        {
+            "text": "Dardanely Radiální rychlost Teorie chaosu Amharština Barvení grafu Pyreneje",
+            "font_size": 6
+        },
+        {
+            "text": "Obec Hra na hrdiny Alelopatie Karetní hra Antika Čadská vlajka",
+            "font_size": 4
+        },
+        {
+            "text": "Chemická reakce Lombardie Marrákeš Paryby Formální jazyk Korutany",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

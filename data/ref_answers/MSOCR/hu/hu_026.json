@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Antikvitás Karmos féreglábúak Földtudomány Kálidásza",
+            "font_size": 40
+        },
+        {
+            "text": "Formális nyelv Űrturizmus Eurázsiai",
+            "font_size": 38
+        },
+        {
+            "text": "Csehszlovákia Keringési idő Operációs rendszer",
+            "font_size": 36
+        },
+        {
+            "text": "Erdei elefánt Sztoikus filozófia Menstruációs ciklus Német márka",
+            "font_size": 34
+        },
+        {
+            "text": "Pinjin Otthonoktatás Napelem Német juhászkutya Ábécé",
+            "font_size": 32
+        },
+        {
+            "text": "Aranysakál Meiózis Akadémizmus Lányegyüttes Analitikai kémia",
+            "font_size": 30
+        },
+        {
+            "text": "Európai borz Szabad licenc Csád zászlaja Kanári Csehország zászlaja",
+            "font_size": 28
+        },
+        {
+            "text": "Walesi nyelv Hámszövet Lombardia Turbófeltöltő Bengaluru Spanyolok",
+            "font_size": 26
+        },
+        {
+            "text": "Európa történelme Földtudomány Cserkészet Számi nyelvek Homeopátia Ingerület",
+            "font_size": 24
+        },
+        {
+            "text": "Pszichoterápia Albatroszfélék Alsó Opolei vajdaság Szürrealizmus Közönséges makákó Anglia történelme",
+            "font_size": 22
+        },
+        {
+            "text": "Adatállomány Ábécé Japán konyhaművészet Pitagorasz Mexikói Szphinx Afta",
+            "font_size": 20
+        },
+        {
+            "text": "Filmgyártás Filmgyártás Kunya Pastu nyelv Adattárház Pacifizmus Szerepjáték",
+            "font_size": 18
+        },
+        {
+            "text": "Bronzkor Bengaluru Elektronikus zene Formális nyelv Filmgyártás Maldív nyelv Integrált áramkör",
+            "font_size": 16
+        },
+        {
+            "text": "Kettős torzok Villamos Hindu Turbófeltöltő Telepátia Világörökség Kvantummechanika",
+            "font_size": 14
+        },
+        {
+            "text": "Spirálgalaxis Középfölde Társadalmi norma Turbófeltöltő Zenei műfaj Karib Szürrealizmus",
+            "font_size": 12
+        },
+        {
+            "text": "Kafferbivaly Zengőlégyfélék Pitagorasz Szabad licenc Porcos halak Formális nyelv Metroszexualitás",
+            "font_size": 10
+        },
+        {
+            "text": "Biotechnológia Turbófeltöltő Telepátia Népsűrűség Társadalmi norma Csillóshasúak Héphaisztosz",
+            "font_size": 8
+        },
+        {
+            "text": "Rjúkjú Török nyelv Gerinchúrosok Természetfilozófia Homeopátia Berber makákó Filmgyártás",
+            "font_size": 6
+        },
+        {
+            "text": "Pitagorasz Község Világtörténelem Klasszikus zene Pszichoterápia Gyűrűsfarkú maki Anatólia",
+            "font_size": 4
+        },
+        {
+            "text": "Mauritánia zászlaja Mikroökonómia Mezopotámia Grúz nyelv Pitagorasz Égi mechanika Mohaállatok",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

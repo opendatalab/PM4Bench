@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Szuperhatalom Olasz konyhaművészet Turbófeltöltő Szarka",
+            "font_size": 40
+        },
+        {
+            "text": "Vaskor Község Jelölőnyelv",
+            "font_size": 38
+        },
+        {
+            "text": "Világtörténelem Páncélos ostorosok Makrofág Tüskésbőrűek",
+            "font_size": 36
+        },
+        {
+            "text": "Kanári Hövszgöl Grúz nyelv Okos város",
+            "font_size": 34
+        },
+        {
+            "text": "Dendritikus sejt Társadalmi norma Analitikai kémia",
+            "font_size": 32
+        },
+        {
+            "text": "Mezo Cserkészet Amhara nyelv Rakétahajtómű",
+            "font_size": 30
+        },
+        {
+            "text": "Homeopátia Idegtudomány Török nyelv Mitózis Enciklopédia",
+            "font_size": 28
+        },
+        {
+            "text": "Szentpétervár Ír nyelv Cirill ábécé Antikvitás Reneszánsz Szerepjáték",
+            "font_size": 26
+        },
+        {
+            "text": "Portugál nyelv Kanári Triatlon Menstruációs ciklus Szabad akarat Román nyelv",
+            "font_size": 24
+        },
+        {
+            "text": "Fejlődéstan Vállalat Peloponnészosz Dögevő Szürrealizmus Kontaktlencse Szentpétervár",
+            "font_size": 22
+        },
+        {
+            "text": "Karélia Üvegfestés Kerekesférgek Kőrézkor Áramlástan Egyszikűek Bengaluru",
+            "font_size": 20
+        },
+        {
+            "text": "Egyszikűek Olasz nyelv Binomiális tétel Bolhapiac Osztrákok Triatlon Pszichoterápia",
+            "font_size": 18
+        },
+        {
+            "text": "Hámszövet Trópusi ciklon Német konyhaművészet Sejtbiológia Azori Integrált áramkör Sejtbiológia",
+            "font_size": 16
+        },
+        {
+            "text": "Cserkészet Varmia Meiózis Olaszok Kanári Elektronikus zene Antidepresszáns",
+            "font_size": 14
+        },
+        {
+            "text": "Rakétahajtómű Vállalat Eurázsia Kriptovaluta Kontaktlencse Sárgaúszójú tonhal Villamos",
+            "font_size": 12
+        },
+        {
+            "text": "Ferences rend Villamos Havasszépe Cserkészet Pszichoanalízis Repülőgép Dögevő",
+            "font_size": 10
+        },
+        {
+            "text": "Gerinchúrosok Gyűrűsférgek Ógörög nyelv Római provinciák Európai borz Démokritosz Kriptovaluta",
+            "font_size": 8
+        },
+        {
+            "text": "Üzemanyagcella Nyestcápafélék Gólyatöcs Integrált áramkör Elméleti fizika Földtudomány Expresszionizmus",
+            "font_size": 6
+        },
+        {
+            "text": "Azori Antikvitás Szövetes növények Kettős torzok Újlatin nyelvek Mobiltelefon Spanyolok",
+            "font_size": 4
+        },
+        {
+            "text": "Adattárház Üdítőital Etológia Mezopotámia Varmia Mexikói Vízi növényzet",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

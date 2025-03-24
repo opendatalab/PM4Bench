@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Hérodotosz Német juhászkutya Kontaktlencse",
+            "font_size": 40
+        },
+        {
+            "text": "Hanglemez Természettudomány Fehérfejű rétisas",
+            "font_size": 38
+        },
+        {
+            "text": "Fekete Földtudomány Telepátia",
+            "font_size": 36
+        },
+        {
+            "text": "Pszichoanalízis Bolhapiac Hindu Adatállomány Hajszálcsövesség",
+            "font_size": 34
+        },
+        {
+            "text": "Szakértői rendszer Szürrealizmus Kvantummechanika Integrált áramkör",
+            "font_size": 32
+        },
+        {
+            "text": "Kognitív tudomány Csillagkeletkezés Plutarkhosz Villamosmérnök",
+            "font_size": 30
+        },
+        {
+            "text": "Klasszikus zene Fizikai kémia Afrikai Észak",
+            "font_size": 28
+        },
+        {
+            "text": "Hangafélék Antwerpen Ermitázs Középfölde Osztrákok Laposférgek",
+            "font_size": 26
+        },
+        {
+            "text": "Elméleti fizika Világörökség Mauritánia Olasz nyelv Hellenizmus",
+            "font_size": 24
+        },
+        {
+            "text": "Japán konyhaművészet Jylland Berber makákó Beszúrásos rendezés Űrturizmus Kamjanszke Faktorizáció",
+            "font_size": 22
+        },
+        {
+            "text": "Hajszálcsövesség Okság Operációs rendszer Skótok Antikvitás Kék pingvin Szphinx",
+            "font_size": 20
+        },
+        {
+            "text": "Sztoikus filozófia Pitagorasz Hármasugrás Gébfélék Szerves kémia Európai sün Angolok",
+            "font_size": 18
+        },
+        {
+            "text": "Mobiltelefon Pinjin Fejlődéstan Kémiai reakció Természettudomány Fejlődéstan Filmgyártás",
+            "font_size": 16
+        },
+        {
+            "text": "Gépipar Mitózis Előgerinchúrosok Hármasugrás Kőrézkor Zajszennyezés Aerodinamika",
+            "font_size": 14
+        },
+        {
+            "text": "Hámszövet Idődilatáció Palettás doktorhal Trópusi ciklon Ázsia történelme Franciák Kártyajáték",
+            "font_size": 12
+        },
+        {
+            "text": "Expresszionizmus Bentosz Francia Akadémia Indokínai tigris Menstruációs ciklus Hellenizmus Fehérfejű rétisas",
+            "font_size": 10
+        },
+        {
+            "text": "Hámszövet Arisztotelész Nephropidae Bentosz Franciák Szókratész Villamosmérnök",
+            "font_size": 8
+        },
+        {
+            "text": "Csillóshasúak Hasábburgonya Számítógépes kémia Autópálya Csehország zászlaja Közép Szentpétervár",
+            "font_size": 6
+        },
+        {
+            "text": "Angolok Ptolemaida Triatlon Roborovszkij Erdély Gömbvillám Menstruációs ciklus",
+            "font_size": 4
+        },
+        {
+            "text": "Mikroökonómia Sárgás babuin Japán széró Kötőszövet Pszichoterápia Parancsnok Endokrinológia",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

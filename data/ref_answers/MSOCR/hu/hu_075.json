@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Dögevő Mobiltelefon Kulturális sokk",
+            "font_size": 40
+        },
+        {
+            "text": "Eukarióták Bébi úr Filmgyártás",
+            "font_size": 38
+        },
+        {
+            "text": "Sziléziai vajdaság Mobiltelefon Geofizika Ősnövénytan",
+            "font_size": 36
+        },
+        {
+            "text": "Svájc himnusza Guvatfürjfélék Pszichoterápia Szabad licenc",
+            "font_size": 34
+        },
+        {
+            "text": "Európa történelme Endokrinológia Bomlás Azori",
+            "font_size": 32
+        },
+        {
+            "text": "Könnyűzene Kétéves növény Pitagorasz Nemesgázok",
+            "font_size": 30
+        },
+        {
+            "text": "Törökök Szuperhős Rendszerbiológia Önkéntes munka Fekete medve",
+            "font_size": 28
+        },
+        {
+            "text": "Világörökség Szerves kémia Skótok Szociolingvisztika Felső",
+            "font_size": 26
+        },
+        {
+            "text": "Mohaállatok Italikus nyelvek Hámszövet Etológia Társadalmi norma Olasz konyhaművészet",
+            "font_size": 24
+        },
+        {
+            "text": "Peloponnészosz Csehország zászlaja Húsevő Török nyelv Mezopotámia Maldív nyelv",
+            "font_size": 22
+        },
+        {
+            "text": "Buzogányfejű férgek Német márka Nagybőgő Anatóliai nyelvek Otthonoktatás Arábiai",
+            "font_size": 20
+        },
+        {
+            "text": "Hámszövet Dodekanészosz Áramlástan Üdítőital Kriptovaluta Fehérfejű rétisas",
+            "font_size": 18
+        },
+        {
+            "text": "Kémiai reakció Asztrofizika Kontaktlencse Otthonoktatás Olasz nyelv Kvantummechanika",
+            "font_size": 16
+        },
+        {
+            "text": "Hullámvasút Olasz nyelv Nyitvatermők Rjúkjú Szürrealizmus Napelem",
+            "font_size": 14
+        },
+        {
+            "text": "Kvantummechanika Húsvét Japán fürj Skótok Mobiltelefon Veganizmus",
+            "font_size": 12
+        },
+        {
+            "text": "Életbiztosítás Csillagkeletkezés Jenyiszej Spirálgalaxis Maldív nyelv Világtörténelem",
+            "font_size": 10
+        },
+        {
+            "text": "Formális nyelv Kormos varjú Pinjin Villamos Tengelyferdeség Sokúszós csukafélék",
+            "font_size": 8
+        },
+        {
+            "text": "Római számírás Gébfélék Üdítőital Hanglemez Mozaik Etológia",
+            "font_size": 6
+        },
+        {
+            "text": "Határköltség Jylland Vaskor Bolhapiac Angolok Fejlődéstan",
+            "font_size": 4
+        },
+        {
+            "text": "Pszichoanalízis Asztrofizika Anglia történelme Szjevjerodoneck Villamosmérnök Írek",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

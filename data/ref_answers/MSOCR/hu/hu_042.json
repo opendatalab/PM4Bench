@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Ajakoshalfélék Villamosmérnök Közönséges dió Nyitvatermők",
+            "font_size": 40
+        },
+        {
+            "text": "Telepátia Kanári Földtudomány",
+            "font_size": 38
+        },
+        {
+            "text": "Mexikói Karmos féreglábúak Csukcs",
+            "font_size": 36
+        },
+        {
+            "text": "Kitakjúsú Okos város Imaginárius egység Norvégia zászlaja",
+            "font_size": 34
+        },
+        {
+            "text": "Appenninek Zenei műfaj Karmeliták Afta Kék pingvin",
+            "font_size": 32
+        },
+        {
+            "text": "Noradrenalin Alsó Napraforgóolaj Autópálya",
+            "font_size": 30
+        },
+        {
+            "text": "Ausztria zászlaja Meiózis Héphaisztosz Okság Írek Hanglemez",
+            "font_size": 28
+        },
+        {
+            "text": "Autópálya Porcos halak Gerinchúrosok Antidepresszáns Angolok Középfölde",
+            "font_size": 26
+        },
+        {
+            "text": "Ingerület Marokkó zászlaja Asztrofizika Bengaluru Vérszopó denevérek Olaszok Futurizmus",
+            "font_size": 24
+        },
+        {
+            "text": "Kőkorszak Kártyajáték Szappanfavirágúak Zengőlégyfélék Pastu nyelv Határköltség Planetológia",
+            "font_size": 22
+        },
+        {
+            "text": "Német konyhaművészet Küklópszok Lubusi vajdaság Agyalapi mirigy Számítógép Szervetlen kémia Laposférgek",
+            "font_size": 20
+        },
+        {
+            "text": "Ciprusi Köztársaság Cinematográfia Csehszlovákia Adattárház Akadémizmus Közép Karintia",
+            "font_size": 18
+        },
+        {
+            "text": "Bengaluru Közönséges makákó Erdély Pszichoterápia Ingerület Gólyatöcs Albatroszfélék",
+            "font_size": 16
+        },
+        {
+            "text": "Popkultúra Integrált áramkör Gerinchúrosok Fogszabályozás Villamos Menstruációs ciklus Zengőlégyfélék",
+            "font_size": 14
+        },
+        {
+            "text": "Bronzkor Borneói vörösmacska Üvegfestés Kvantummechanika Meiózis Afta Csillagkeletkezés",
+            "font_size": 12
+        },
+        {
+            "text": "Triatlon Porcos halak Szabad licenc Üzemanyagcella Klasszikus zene Mobiltelefon Popkultúra",
+            "font_size": 10
+        },
+        {
+            "text": "Középfölde Kvantummechanika Belgrád Integrált áramkör Otthonoktatás Mitózis Angolok",
+            "font_size": 8
+        },
+        {
+            "text": "Gyűrűsférgek Endokrinológia Törökök Község Chichén Itzá Szakértői rendszer Ábécé",
+            "font_size": 6
+        },
+        {
+            "text": "Kőrézkor Varmia Szuperhős Számítógépes grafika Appenninek Amerikai futball Minimalizmus",
+            "font_size": 4
+        },
+        {
+            "text": "Antwerpen Spirálgalaxis Mobiltelefon Csillagkeletkezés Mauritánia Thunnus alalunga Észak",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

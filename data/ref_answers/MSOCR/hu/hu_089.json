@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Amilóz Zengőlégyfélék Elméleti fizika",
+            "font_size": 40
+        },
+        {
+            "text": "Eurázsia Varmia Kanári Gerinchúrosok",
+            "font_size": 38
+        },
+        {
+            "text": "Planetológia Nemesgázok Gráfok színezése Turbófeltöltő",
+            "font_size": 36
+        },
+        {
+            "text": "Étkezési rostok Szabad akarat Okság Üdítőital",
+            "font_size": 34
+        },
+        {
+            "text": "Nagy kárókatona Európai sün Középfölde Másodfokú egyenlet",
+            "font_size": 32
+        },
+        {
+            "text": "Homeopátia Imaginárius egység Mauritánia zászlaja Okság Cirill ábécé",
+            "font_size": 30
+        },
+        {
+            "text": "Plutarkhosz Rendszerbiológia Szentpétervár Takarmánylucerna Pszichoterápia",
+            "font_size": 28
+        },
+        {
+            "text": "Szociolingvisztika Ingerület Mágikus realizmus Alsó Homeopátia",
+            "font_size": 26
+        },
+        {
+            "text": "Spanyol nyelv Telepátia Tengelyferdeség Bioinformatika Fonálférgek Napelem",
+            "font_size": 24
+        },
+        {
+            "text": "Projektmenedzsment Fehérfejű rétisas Szuperföld Számítógép Franciák Hámszövet Adatállomány",
+            "font_size": 22
+        },
+        {
+            "text": "Cirill ábécé Egyszerű gép Mikroökonómia Világörökség Beszúrásos rendezés Berber makákó Mészszivacsok",
+            "font_size": 20
+        },
+        {
+            "text": "Rjúkjú Égi egyenlítő Sörényes hangyász Gépipar Biotechnológia Extremofil Község",
+            "font_size": 18
+        },
+        {
+            "text": "Világörökség Vízi növényzet Marrákes Hámszövet Rjúkjú Katódsugárcső Életbiztosítás",
+            "font_size": 16
+        },
+        {
+            "text": "Mobiltelefon Hanglemez Önkéntes munka Strandlabdarúgás Pitagorasz Alnémet nyelv Akadémizmus",
+            "font_size": 14
+        },
+        {
+            "text": "Olasz konyhaművészet Heterotrófia Brüsszel Villamos Világörökség Antidepresszáns Belgrád",
+            "font_size": 12
+        },
+        {
+            "text": "Világörökség Világörökség Nyestcápafélék Trópusi ciklon Reguláris kifejezés Hidroponika Másodfokú egyenlet",
+            "font_size": 10
+        },
+        {
+            "text": "Aerodinamika Szupravezetés Nemesgázok Karmos féreglábúak Villamosmérnök Spirálgalaxis Karmeliták",
+            "font_size": 8
+        },
+        {
+            "text": "Ősnövénytan Spanyolok Karintia Mobiltelefon Akadémizmus Rakétahajtómű Analitikai kémia",
+            "font_size": 6
+        },
+        {
+            "text": "Protiszták Hésziodosz Eukarióták Ingerület Magyarok Kanári Horrorfilm",
+            "font_size": 4
+        },
+        {
+            "text": "Enciklopédia Alnémet nyelv Fekete medve Modernizmus Eukarióták Mobiltelefon Világtörténelem",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

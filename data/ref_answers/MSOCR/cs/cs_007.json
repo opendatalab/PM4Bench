@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Křepelka japonská Chytré město Arabská deska",
+            "font_size": 40
+        },
+        {
+            "text": "Rumunština Cyrilice Octomilka obecná",
+            "font_size": 38
+        },
+        {
+            "text": "Menstruační cyklus Azory Samothraké Francouzi",
+            "font_size": 36
+        },
+        {
+            "text": "Pacifismus Prokaryota Velština Cyrilice",
+            "font_size": 34
+        },
+        {
+            "text": "Karetní hra Superhrdina Mobilní telefon Filmová produkce",
+            "font_size": 32
+        },
+        {
+            "text": "Kypr Svobodný obsah Kapilarita Biotechnologie Chorvati",
+            "font_size": 30
+        },
+        {
+            "text": "Karetní hra Pacifismus Turbodmychadlo Tramvaj Hra na hrdiny",
+            "font_size": 28
+        },
+        {
+            "text": "Irština Obec Pythagorova věta Akademismus Filmový režisér",
+            "font_size": 26
+        },
+        {
+            "text": "Jutsko Tuňák žlutoploutvý Bentos Čukotka Akademismus Elektromobil",
+            "font_size": 24
+        },
+        {
+            "text": "Organická chemie Pchin Kvantová mechanika Řazení vkládáním Elektronická hudba Dardanely",
+            "font_size": 22
+        },
+        {
+            "text": "Chemická kinetika Konzervace potravin Velikonoční ostrov Petrohrad Astrofyzika Telepatie",
+            "font_size": 20
+        },
+        {
+            "text": "Bělehrad Opolské vojvodství Kauzalita Surrealismus Subatomární částice Indočína",
+            "font_size": 18
+        },
+        {
+            "text": "Antidepresivum Přechodné kovy Františkáni Helénismus Přechodné kovy Peloponés",
+            "font_size": 16
+        },
+        {
+            "text": "Italické jazyky Italština Horní Bavorsko Antverpy Velikonoční ostrov Eukaryota",
+            "font_size": 14
+        },
+        {
+            "text": "Letadlová loď Hra na hrdiny Stratovulkán Menstruační cyklus Termistor Plútarchos",
+            "font_size": 12
+        },
+        {
+            "text": "Tolice vojtěška Dolní Sasko Tramvaj Heterotrofie Počítačová grafika Kypr",
+            "font_size": 10
+        },
+        {
+            "text": "Rakouská vlajka Dobrovolnictví Výrobní faktor Mobilní telefon Skotové Svobodný obsah",
+            "font_size": 8
+        },
+        {
+            "text": "Triatlon Gramofonová deska Karetní hra Sčítání lidu Značkovací jazyk Maledivština",
+            "font_size": 6
+        },
+        {
+            "text": "Eskalátor Datová struktura Hypofýza Sámské jazyky Anatolské jazyky Menstruační cyklus",
+            "font_size": 4
+        },
+        {
+            "text": "Orcela tuponosá Plútarchos Chemická reakce Arabské číslice Jezevec lesní Menstruační cyklus",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Fehérfejű rétisas Csád zászlaja Ingerület",
+            "font_size": 40
+        },
+        {
+            "text": "Okság Ferences rend Hőszabályozás",
+            "font_size": 38
+        },
+        {
+            "text": "Mitózis Vízi növényzet Nyomelem Horrorfilm",
+            "font_size": 36
+        },
+        {
+            "text": "Vasbeton Angolok Villamos Világörökség",
+            "font_size": 34
+        },
+        {
+            "text": "Bolhapiac Népszámlálás Hullámos papagáj",
+            "font_size": 32
+        },
+        {
+            "text": "Vízi növényzet Szókratész Középfölde Csontritkulás Cirill ábécé Mauritánia",
+            "font_size": 30
+        },
+        {
+            "text": "Genetikai kód Aranysakál Héphaisztosz Elektronikus zene Szerepjáték",
+            "font_size": 28
+        },
+        {
+            "text": "Szentpétervár Filippínó Zenei műfaj Lipari Világtörténelem",
+            "font_size": 26
+        },
+        {
+            "text": "Geofizika Mezopotámia Aranysakál Üzemanyagcella Biogeográfia Ökonometria",
+            "font_size": 24
+        },
+        {
+            "text": "Csillagkeletkezés Hellenizmus Olasz konyhaművészet Elektronikus zene Idegszövet Porcos halak",
+            "font_size": 22
+        },
+        {
+            "text": "Pszichiátria Villamosmérnök Katabolizmus Triatlon Kínai tobzoska Szuperföld",
+            "font_size": 20
+        },
+        {
+            "text": "Hasábburgonya Laposférgek Katalán nyelv Otthonoktatás Világörökség Királypingvin",
+            "font_size": 18
+        },
+        {
+            "text": "Olasz konyhaművészet Pasztőrözés Filmgyártás Hullámos papagáj Triatlon Svédország zászlaja",
+            "font_size": 16
+        },
+        {
+            "text": "Lapolvasó Olasz nyelv Eurázsia Asztrofizika Pszichoanalízis Zeneterápia",
+            "font_size": 14
+        },
+        {
+            "text": "Parancsnok Repülőgép Olaszország zászlaja Pireneusok Hellenizmus Antidepresszáns",
+            "font_size": 12
+        },
+        {
+            "text": "Európa történelme Eseményhorizont Kártyajáték Thunnus alalunga Telepátia Harmadfokú egyenlet",
+            "font_size": 10
+        },
+        {
+            "text": "Búbos vöcsök Eurázsia Szociolingvisztika Otthonoktatás Antikvitás Kitakjúsú",
+            "font_size": 8
+        },
+        {
+            "text": "Bronzkor Fekete harkály Pozsgások Üdítőital Középfölde Helgoland",
+            "font_size": 6
+        },
+        {
+            "text": "Naptömeg Multiverzum Tengelyferdeség Elektronikus zene Üzemanyagcella Karib",
+            "font_size": 4
+        },
+        {
+            "text": "Tüskésbőrűek Római provinciák Hámszövet Mobiltelefon Kőkorszak Beágyazott rendszer",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

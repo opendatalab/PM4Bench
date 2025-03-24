@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Indokína Moszkvai idő Szociolingvisztika",
+            "font_size": 40
+        },
+        {
+            "text": "Opolei vajdaság Hámszövet Maldív nyelv",
+            "font_size": 38
+        },
+        {
+            "text": "Földtudomány Albatroszfélék Trópusi ciklon",
+            "font_size": 36
+        },
+        {
+            "text": "Kártyajáték Mobiltelefon Katalán nyelv Arisztotelész",
+            "font_size": 34
+        },
+        {
+            "text": "Akadémizmus Skótok Harmadfokú egyenlet Pszichoterápia",
+            "font_size": 32
+        },
+        {
+            "text": "Afta Nagybőgő Franciák Szentpétervár",
+            "font_size": 30
+        },
+        {
+            "text": "Örvös medve Életbiztosítás Kőrézkor Peloponnészosz Peloponnészosz",
+            "font_size": 28
+        },
+        {
+            "text": "Ceyloni fahéjfa Chichén Itzá Napelem Popkultúra Sógun Néreiszek Geokémia",
+            "font_size": 26
+        },
+        {
+            "text": "Allelopátia Pasztőrözés Zengőlégyfélék Bronzkor Idegszövet Kanári",
+            "font_size": 24
+        },
+        {
+            "text": "Örvös medve Turbófeltöltő Spanyolok Szürrealizmus Kínai tobzoska Rjúkjú Kúposfejű delfin",
+            "font_size": 22
+        },
+        {
+            "text": "Szókratész Pszichiátria Litván nyelv Elektronikus zene Homeopátia Ingerület Mobiltelefon",
+            "font_size": 20
+        },
+        {
+            "text": "Gyűrűsfarkú maki Szociolingvisztika Magyar nyelv Szlovének Sógun Káoszelmélet Káoszelmélet",
+            "font_size": 18
+        },
+        {
+            "text": "Homeopátia Kártyajáték Nagybőgő Japán fürj Filmgyártás Turbófeltöltő Makrofág",
+            "font_size": 16
+        },
+        {
+            "text": "Csalánozók Üzemanyagcella Jelölőnyelv Mikroökonómia Pörgekarúak Szunda Filmgyártás",
+            "font_size": 14
+        },
+        {
+            "text": "Baleár Olaszország zászlaja Csinghua Egyetem Nagy kárókatona Ősnövénytan Dögevő Ítéletlogika",
+            "font_size": 12
+        },
+        {
+            "text": "Démokritosz Újlatin nyelvek Fekete medve Adattárház Guvatfürjfélék Középfölde Csillagkeletkezés",
+            "font_size": 10
+        },
+        {
+            "text": "Karmos féreglábúak Mitózis Analitikai kémia Trópusi ciklon Információtudomány Német juhászkutya Földtudomány",
+            "font_size": 8
+        },
+        {
+            "text": "Nagybőgő Palettás doktorhal Franciák Sógun Svájc himnusza Rjúkjú Szentpétervár",
+            "font_size": 6
+        },
+        {
+            "text": "Planetológia Ingerület Kvantummechanika Hámszövet Káoszelmélet Üzleti titok Klasszikus zene",
+            "font_size": 4
+        },
+        {
+            "text": "Antikvitás Jelölőnyelv Homeopátia Karmos féreglábúak Kvantummechanika Brüsszel Beszúrásos rendezés",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

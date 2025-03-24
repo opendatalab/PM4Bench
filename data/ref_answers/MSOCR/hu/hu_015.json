@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Extremofil Török nyelv Formális nyelv",
+            "font_size": 40
+        },
+        {
+            "text": "Középfölde Szunda Autópálya",
+            "font_size": 38
+        },
+        {
+            "text": "Alpok Katalán nyelv Számítógép Szuperhős",
+            "font_size": 36
+        },
+        {
+            "text": "Káoszelmélet Operációs rendszer Klasszikus zene",
+            "font_size": 34
+        },
+        {
+            "text": "Rjúkjú Magfizika Kriptovaluta Szövetes növények Község",
+            "font_size": 32
+        },
+        {
+            "text": "Bajorország Termelési tényező Szívciklus Berber makákó Multiverzum",
+            "font_size": 30
+        },
+        {
+            "text": "Trópusi ciklon Noradrenalin Horrorfilm Villamos Turbófeltöltő",
+            "font_size": 28
+        },
+        {
+            "text": "Világtörténelem Hámszövet Község Geokémia Ítéletlogika",
+            "font_size": 26
+        },
+        {
+            "text": "Cirill ábécé Kártyajáték Sárkányok háza Protiszták Mészszivacsok Villamos",
+            "font_size": 24
+        },
+        {
+            "text": "Üdítőital Baleár Csehszlovákia Világörökség Kvantummechanika Japonizmus",
+            "font_size": 22
+        },
+        {
+            "text": "Trópusi ciklon Ermitázs Heterotrófia Etológia Grúz nyelv Kártyajáték",
+            "font_size": 20
+        },
+        {
+            "text": "Noradrenalin Keringési idő Alsó Karmos féreglábúak Popkultúra Etológia",
+            "font_size": 18
+        },
+        {
+            "text": "Eurázsia Középfölde Lombardia Középfölde Előgerinchúrosok Középfölde",
+            "font_size": 16
+        },
+        {
+            "text": "Felső Dánia zászlaja Elektronikus zene Angolok Napelem Chichén Itzá",
+            "font_size": 14
+        },
+        {
+            "text": "Pasztőrözés Szunda Üzemanyagcella Kémiai reakció Hullámos papagáj Mészszivacsok",
+            "font_size": 12
+        },
+        {
+            "text": "Meiózis Asztrofizika Akadémizmus Popkultúra Szókratész Természetfilozófia",
+            "font_size": 10
+        },
+        {
+            "text": "Bentosz Pitagorasz Szuperhős Minimalizmus Peloponnészosz Római provinciák",
+            "font_size": 8
+        },
+        {
+            "text": "Szlovének Pszichoanalízis Üvegfestés Afta Sokúszós csukafélék Világtörténelem",
+            "font_size": 6
+        },
+        {
+            "text": "Hanglemez Kognitív tudomány Hasábburgonya Hármasugrás Skótok Agorafóbia",
+            "font_size": 4
+        },
+        {
+            "text": "Gyűrűsfarkú maki Elméleti fizika Japán történelme Vízi növényzet Maláj szigetvilág Csavarhúzó",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

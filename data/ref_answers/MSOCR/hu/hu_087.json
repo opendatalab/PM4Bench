@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Aranysakál Dnyeper Maldív nyelv",
+            "font_size": 40
+        },
+        {
+            "text": "Veganizmus Bioinformatika Mezopotámia Pszichoanalízis",
+            "font_size": 38
+        },
+        {
+            "text": "Pitagorasz Antikvitás Parancsnok Anatólia",
+            "font_size": 36
+        },
+        {
+            "text": "Veganizmus Olaszország címere Olasz nyelv Anatólia Középfölde",
+            "font_size": 34
+        },
+        {
+            "text": "Ingerület Írek Szívciklus Angolok",
+            "font_size": 32
+        },
+        {
+            "text": "Kunya Vasbeton Francia buldog Kognitív tudomány Peloponnészosz",
+            "font_size": 30
+        },
+        {
+            "text": "Hindu Repülőgép Dnyeper Zenei műfaj Berber makákó Telepátia",
+            "font_size": 28
+        },
+        {
+            "text": "Prokarióták Húsvét Társadalmi norma Autoszóma Afta",
+            "font_size": 26
+        },
+        {
+            "text": "Trópusi ciklon Mezopotámia Tengelyferdeség Szabad licenc Egyszikűek",
+            "font_size": 24
+        },
+        {
+            "text": "Litvánia zászlaja Hérodotosz Csehszlovákia Homeopátia Litván nyelv Nemesgázok Adattárház",
+            "font_size": 22
+        },
+        {
+            "text": "Olasz konyhaművészet Mitózis Hámszövet Olasz nyelv Ősnövénytan Kognitív tudomány Harmadfokú egyenlet",
+            "font_size": 20
+        },
+        {
+            "text": "Mexikói Keringési idő Jenyiszej Villamosmérnök Európai sün Dánia Vállalat",
+            "font_size": 18
+        },
+        {
+            "text": "Cirill ábécé Szabad akarat Adatállomány Dodekanészosz Földtudomány Eseményhorizont Bengaluru",
+            "font_size": 16
+        },
+        {
+            "text": "Vérszopó denevérek Pastu nyelv Dodekanészosz Pajzsvulkán Fogszabályozás Vízi növényzet Porcos halak",
+            "font_size": 14
+        },
+        {
+            "text": "Földtudomány Üdítőital Adatállomány Világörökség Bentosz Hasábburgonya Minimalizmus",
+            "font_size": 12
+        },
+        {
+            "text": "Kanári Japonizmus Szociális munka Páncélos ostorosok Otthonoktatás Szerepjáték Mobiltelefon",
+            "font_size": 10
+        },
+        {
+            "text": "Cinematográfia Jenyiszej Menstruációs ciklus Maldív nyelv Ferences rend Gerinchúrosok Főherceg",
+            "font_size": 8
+        },
+        {
+            "text": "Villamos Trópusi ciklon Otthonoktatás Húsvéti tojás Ír nyelv Amhara nyelv Újlatin nyelvek",
+            "font_size": 6
+        },
+        {
+            "text": "Trópusi ciklon Gravitációs lencse Embriós növények Világörökség Étkezési rostok Dendritikus sejt Varmia",
+            "font_size": 4
+        },
+        {
+            "text": "Káoszelmélet Szövetes növények Antikvitás Középfölde Csinghua Egyetem Ciprusi Köztársaság Antikvitás",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

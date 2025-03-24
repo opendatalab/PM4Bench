@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Museum Island Canary Islands Mesoamerica",
+            "font_size": 40
+        },
+        {
+            "text": "Markup language Census Ethology Yellow baboon",
+            "font_size": 38
+        },
+        {
+            "text": "Spiral galaxy Factorization Film director Biogeography",
+            "font_size": 36
+        },
+        {
+            "text": "Renaissance Konye-Urgench Mobile phone Encyclopedia Orthodontics",
+            "font_size": 34
+        },
+        {
+            "text": "Mesoamerica Caribbean Natural science European hedgehog",
+            "font_size": 32
+        },
+        {
+            "text": "Embedded system Expressionism Ancient Greek Japanese quail",
+            "font_size": 30
+        },
+        {
+            "text": "Flag of Norway Low German African forest elephant Triathlon Ethology",
+            "font_size": 28
+        },
+        {
+            "text": "Gulf of Mexico Star formation American black bear Belgrade Benthos",
+            "font_size": 26
+        },
+        {
+            "text": "Human evolution North Holland Herbaceous plant Smart city City of Brussels",
+            "font_size": 24
+        },
+        {
+            "text": "Meiosis Sociolinguistics King penguin Physical chemistry Cubic equation",
+            "font_size": 22
+        },
+        {
+            "text": "Great crested grebe Hydroponics Aerodynamics Bichir Flag of Mauritania",
+            "font_size": 20
+        },
+        {
+            "text": "Sub-Saharan Africa Stellar evolution Bangalore Bay cat Epithelium",
+            "font_size": 18
+        },
+        {
+            "text": "Popular culture Belgrade Time dilation Card game Bald eagle",
+            "font_size": 16
+        },
+        {
+            "text": "Carmelites Maldivian language Mesoamerica Shield volcano Fluid mechanics",
+            "font_size": 14
+        },
+        {
+            "text": "Alfalfa Econometrics Slovenes Bangalore Kitakyushu",
+            "font_size": 12
+        },
+        {
+            "text": "Mobile phone Dinoflagellate Ethology Biotechnology Microeconomics",
+            "font_size": 10
+        },
+        {
+            "text": "Fuel cell Monocotyledon Bioinformatics Homeopathy Systems biology",
+            "font_size": 8
+        },
+        {
+            "text": "Pituitary gland Screwdriver English people Star formation Popular music",
+            "font_size": 6
+        },
+        {
+            "text": "Aircraft carrier African buffalo Onychophora Role-playing game African golden cat",
+            "font_size": 4
+        },
+        {
+            "text": "Telepathy Spiral galaxy Dnieper Sphinx Cyrillic script",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

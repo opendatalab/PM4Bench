@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Eneolit Kypr Humrovití Římské číslice",
+            "font_size": 40
+        },
+        {
+            "text": "Tučňák nejmenší Operační systém Baleáry",
+            "font_size": 38
+        },
+        {
+            "text": "Eukaryota Telepatie Doba bronzová",
+            "font_size": 36
+        },
+        {
+            "text": "Akademismus Kauzalita Španělé",
+            "font_size": 34
+        },
+        {
+            "text": "Bengalúr Neurověda Cévnaté rostliny Vláknina",
+            "font_size": 32
+        },
+        {
+            "text": "Vznik hvězdy Fotovoltaický článek Mečík Integrovaný obvod",
+            "font_size": 30
+        },
+        {
+            "text": "Vyšší rostliny Bělehrad Buněčná biologie Domácí vzdělávání Petrohrad",
+            "font_size": 28
+        },
+        {
+            "text": "Planetologie Mobilní telefon Binomická věta Filmový režisér Abeceda",
+            "font_size": 26
+        },
+        {
+            "text": "Světové dědictví Plútarchos Pláštěnci Mexický záliv Mezoamerika",
+            "font_size": 24
+        },
+        {
+            "text": "Integrovaný obvod Korporace Kanárské ostrovy Populární kultura Kroužkovci",
+            "font_size": 22
+        },
+        {
+            "text": "Autozom Eurasie Imaginární jednotka Strojový překlad Mauritánie",
+            "font_size": 20
+        },
+        {
+            "text": "Azory Chövsgöl núr Dněstr Mezoamerika Palivový článek",
+            "font_size": 18
+        },
+        {
+            "text": "Korutany Kapilarita Datová struktura Filmová produkce Doba kamenná",
+            "font_size": 16
+        },
+        {
+            "text": "Světové dědictví Systémová biologie Gramofonová deska Kontaktní čočka Vývojová biologie",
+            "font_size": 14
+        },
+        {
+            "text": "Elektrotechnika Regulární výraz Vznik hvězdy Petrohrad Subsaharská Afrika",
+            "font_size": 12
+        },
+        {
+            "text": "Baleáry Protisté Imaginární jednotka Expertní systém Počítačová grafika",
+            "font_size": 10
+        },
+        {
+            "text": "Bengalúr Mauritánie Termistor Magický realismus Mauritánie",
+            "font_size": 8
+        },
+        {
+            "text": "Elektrotechnika Helénismus Galileiho měsíce Počítačová grafika Brusel",
+            "font_size": 6
+        },
+        {
+            "text": "Dánská vlajka Tramvaj Biotechnologie Hladkounovití Etologie",
+            "font_size": 4
+        },
+        {
+            "text": "Italská kuchyně Státní znak Itálie Kauzalita Peloponés Horská dráha",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Amylóza Pestřenky Teoretická fyzika",
+            "font_size": 40
+        },
+        {
+            "text": "Eurasie Varmijsko Kanárské ostrovy Strunatci",
+            "font_size": 38
+        },
+        {
+            "text": "Planetologie Vzácné plyny Barvení grafu Turbodmychadlo",
+            "font_size": 36
+        },
+        {
+            "text": "Vláknina Svobodná vůle Kauzalita Limonáda",
+            "font_size": 34
+        },
+        {
+            "text": "Kormorán velký Ježek západní Středozem Kvadratická rovnice",
+            "font_size": 32
+        },
+        {
+            "text": "Homeopatie Imaginární jednotka Mauritánská vlajka Kauzalita Cyrilice",
+            "font_size": 30
+        },
+        {
+            "text": "Plútarchos Systémová biologie Petrohrad Tolice vojtěška Psychoterapie",
+            "font_size": 28
+        },
+        {
+            "text": "Sociolingvistika Akční potenciál Magický realismus Dolní Bavorsko Homeopatie",
+            "font_size": 26
+        },
+        {
+            "text": "Španělština Telepatie Sklon rotační osy Bioinformatika Hlístice Fotovoltaický článek",
+            "font_size": 24
+        },
+        {
+            "text": "Řízení projektů Orel bělohlavý Superzemě Počítačová síť Francouzi Epitelová tkáň Soubor",
+            "font_size": 22
+        },
+        {
+            "text": "Cyrilice Jednoduchý stroj Mikroekonomie Světové dědictví Řazení vkládáním Magot bezocasý Vápenatí",
+            "font_size": 20
+        },
+        {
+            "text": "Rjúkjú Nebeský rovník Mravenečník velký Strojírenství Biotechnologie Extrémofil Obec",
+            "font_size": 18
+        },
+        {
+            "text": "Světové dědictví Hydrofyty Marrákeš Epitelová tkáň Rjúkjú Katodová trubice Životní pojištění",
+            "font_size": 16
+        },
+        {
+            "text": "Mobilní telefon Gramofonová deska Dobrovolnictví Plážový fotbal Pythagorova věta Dolnoněmčina Akademismus",
+            "font_size": 14
+        },
+        {
+            "text": "Italská kuchyně Heterotrofie Brusel Tramvaj Světové dědictví Antidepresivum Bělehrad",
+            "font_size": 12
+        },
+        {
+            "text": "Světové dědictví Světové dědictví Hladkounovití Tropická cyklóna Regulární výraz Hydroponie Kvadratická rovnice",
+            "font_size": 10
+        },
+        {
+            "text": "Aerodynamika Supravodivost Vzácné plyny Drápkovci Elektrotechnika Spirální galaxie Řád karmelitánů",
+            "font_size": 8
+        },
+        {
+            "text": "Paleobotanika Španělé Korutany Mobilní telefon Akademismus Raketový motor Analytická chemie",
+            "font_size": 6
+        },
+        {
+            "text": "Protisté Hésiodos Eukaryota Akční potenciál Maďaři Kanárské ostrovy Filmový horor",
+            "font_size": 4
+        },
+        {
+            "text": "Encyklopedie Dolnoněmčina Medvěd baribal Moderna Eukaryota Mobilní telefon Dějiny lidstva",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

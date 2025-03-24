@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Kulturní šok Encyklopedie Bentos Malá Asie",
+            "font_size": 40
+        },
+        {
+            "text": "Tygr indočínský Magot bezocasý Chemický rozklad",
+            "font_size": 38
+        },
+        {
+            "text": "Arabské číslice Superhrdina Kypr Mitóza",
+            "font_size": 36
+        },
+        {
+            "text": "Turci Korálovcovití Anglická vlajka Doba železná Maďaři",
+            "font_size": 34
+        },
+        {
+            "text": "Románské jazyky Mobilní telefon Turbodmychadlo Dálnice",
+            "font_size": 32
+        },
+        {
+            "text": "Systémová biologie Fyzikální chemie Trojskok Antidepresivum",
+            "font_size": 30
+        },
+        {
+            "text": "Psychoanalýza Populární kultura Magot bezocasý Italská kuchyně",
+            "font_size": 28
+        },
+        {
+            "text": "Tygr indočínský Regulární výraz Francouzský buldoček Pchin",
+            "font_size": 26
+        },
+        {
+            "text": "Antidepresivum Římské provincie Ořešák královský Turbodmychadlo Planetologie Pestřenky",
+            "font_size": 24
+        },
+        {
+            "text": "Antidepresivum Sfinx Fotovoltaický článek Turbodmychadlo Soubor Opolské vojvodství Italská vlajka",
+            "font_size": 22
+        },
+        {
+            "text": "Vestavěný systém Konstantinopol Japonská kuchyně Kyberprostor Epitelová tkáň Římské číslice Vyšší rostliny",
+            "font_size": 20
+        },
+        {
+            "text": "Termistor Československo Mravenečník velký Angličané Skener Vláknina Populární hudba",
+            "font_size": 18
+        },
+        {
+            "text": "Samothraké Elektrotechnika Buněčná biologie Italština Francouzská akademie Renesance Dějiny lidstva",
+            "font_size": 16
+        },
+        {
+            "text": "Tuňák žlutoploutvý Hérodotos Rumunština Německá kuchyně Francouzská akademie Muzikoterapie Kanárské ostrovy",
+            "font_size": 14
+        },
+        {
+            "text": "Utilita Integrovaný obvod Operační systém Datová struktura Akční potenciál Psychoanalýza Organická chemie",
+            "font_size": 12
+        },
+        {
+            "text": "Menstruační cyklus Mobilní telefon Agorafobie Renesance Vzácné plyny Rekreace Psychoanalýza",
+            "font_size": 10
+        },
+        {
+            "text": "Japonská kuchyně Svobodný obsah Výrobní faktor Antika Strojový překlad Dodekany Značkovací jazyk",
+            "font_size": 8
+        },
+        {
+            "text": "Horní Falc Mitóza Turbodmychadlo Tolice vojtěška Kypr Pythagorova věta Potápka roháč",
+            "font_size": 6
+        },
+        {
+            "text": "Samothraké Sámské jazyky Operační systém Neurověda Skener Planetologie Surrealismus",
+            "font_size": 4
+        },
+        {
+            "text": "Rumunská vlajka Termoregulace Katodová trubice Vznik hvězdy Fyzikální chemie Makrofág Raketový motor",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

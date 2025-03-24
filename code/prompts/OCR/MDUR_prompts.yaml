@@ -1,0 +1,421 @@
+languages:
+  EN:
+    direct:
+      vision: "## Task Description:
+You are an intelligent OCR system responsible for extracting exam questions and options from a given image. The image contains only one question, and the number of options is variable. Please complete the task according to the following requirements:
+1. Extracted Content：
+* Question: The single question text in the image.
+* Options: All option texts in the image; the number of options may be 2, 3, 4, or more.
+2. Output Format：
+* Output the result in JSON format.
+* Strictly follow the following schema:
+{
+  \"question\": \"Question text\",
+  \"options\": [
+    \"Option A\",
+    \"Option B\",
+    \"Option C\",
+    ...
+  ]
+}
+* Ensure that the field names are accurate and free of spelling errors.
+* The options should be arranged in the order they appear in the image.
+3. Notes：
+* Extract only the text content, excluding any images, charts, or other non-text elements.
+* Ensure the association between the question and options is accurate without confusion.
+* Avoid including any additional information or comments.
+## Example：
+### Suppose the image content is as follows：
+1. Which of the following is not a programming language?
+A. Python
+B. HTML
+C. Java
+D. CSS
+### Correct Output：
+{
+  \"question\": \"Which of the following is not a programming language?\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  ZH:
+    direct:
+      vision: "## 任务描述：
+您是一个智能OCR系统，负责从给定的图片中提取考试题目和选项。图片中仅包含一个题目，选项数量不定。请按照以下要求完成任务：
+1. 提取内容：
+* 题目：图片中的唯一题目文本。
+* 选项：图片中的所有选项文本，选项数量可能为2个、3个、4个或更多。
+2. 输出格式：
+* 使用JSON格式输出结果。
+* 严格遵循以下schema：
+{
+  \"question\": \"题目文本\",
+  \"options\": [
+    \"选项A\",
+    \"选项B\",
+    \"选项C\",
+    ...
+  ]
+}
+* 确保字段名称准确无误，避免拼写错误。
+* 选项应按图片中出现的顺序排列。
+3. 注意事项：
+* 仅提取文本内容，不包含任何图片、图表或其他非文本元素。
+* 确保题目和选项之间的关联准确，无混淆。
+* 避免包含任何额外的信息或注释。
+## 示例：
+### 假设图片内容如下：
+1. 以下哪项不是编程语言？
+A. Python
+B. HTML
+C. Java
+D. CSS
+### 正确输出：
+{
+  \"question\": \"以下哪项不是编程语言？\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  AR:
+    direct:
+      vision: "## وصف المهمة：
+أنت نظام OCR ذكي مسؤول عن استخراج أسئلة الامتحان والخيارات من الصورة المعطاة. تحتوي الصورة على سؤال واحد فقط، وعدد الخيارات غير محدد. يرجى إكمال المهمة وفقًا للمتطلبات التالية：
+1. استخراج المحتوى：
+* السؤال：نص السؤال الوحيد في الصورة.
+* الخيارات：نص جميع الخيارات في الصورة، قد يكون عدد الخيارات 2 أو 3 أو 4 أو أكثر.
+2. تنسيق الإخراج：
+* استخدم تنسيق JSON لإخراج النتيجة.
+* اتبع المخطط التالي بدقة：
+{
+  \"question\": \"نص السؤال\",
+  \"options\": [
+    \"الخيار A\",
+    \"الخيار B\",
+    \"الخيار C\",
+    ...
+  ]
+}
+* تأكد من دقة أسماء الحقول وتجنب الأخطاء الإملائية.
+* يجب ترتيب الخيارات حسب الترتيب الذي تظهر به في الصورة.
+3. ملاحظات：
+* استخراج محتوى النص فقط، دون تضمين أي صور أو جداول أو عناصر غير نصية أخرى.
+* تأكد من صحة العلاقة بين السؤال والخيارات دون خلط.
+* تجنب تضمين أي معلومات أو تعليقات إضافية.
+## مثال：
+### لنفترض أن محتوى الصورة كالتالي：
+1. أي مما يلي ليس لغة برمجة؟
+A. Python
+B. HTML
+C. Java
+D. CSS
+### الإخراج الصحيح：
+{
+  \"question\": \"أي مما يلي ليس لغة برمجة؟\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  CS:
+    direct:
+      vision: "## Popis úkolu:
+Jste inteligentní OCR systém odpovědný za extrakci zkouškových otázek a možností z daného obrázku. Obrázek obsahuje pouze jednu otázku, počet možností není pevně stanoven. Prosím, dokončete úkol podle následujících požadavků:
+1. Extrahovaný obsah:
+* Otázka: Jediný text otázky na obrázku.
+* Možnosti: Veškerý text možností na obrázku, počet možností může být 2, 3, 4 nebo více.
+2. Formát výstupu：
+* Výsledek vyexportujte ve formátu JSON.
+* Přísně dodržujte následující schéma:
+{
+  \"question\": \"Text otázky\",
+  \"options\": [
+    \"Možnost A\",
+    \"Možnost B\",
+    \"Možnost C\",
+    ...
+  ]
+}
+* Zajistěte přesné názvy polí bez pravopisných chyb.
+* Možnosti by měly být seřazeny v pořadí, v jakém se vyskytují na obrázku.
+3. Poznámky：
+* Extrahujte pouze textový obsah, bez jakýchkoli obrázků, grafů nebo jiných netextových prvků.
+* Zajistěte přesnou spojení mezi otázkou a možnostmi bez záměny.
+* Vyhněte se zahrnování jakýchkoli dodatečných informací nebo poznámek.
+## Příklad：
+### Předpokládejme, že obsah obrázku je následující：
+1. Která z následujících možností není programovací jazyk?
+A. Python
+B. HTML
+C. Java
+D. CSS
+### Správný výstup：
+{
+  \"question\": \"Která z následujících možností není programovací jazyk?\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  HU:
+    direct:
+      vision: "## Task Description:
+You are an intelligent OCR system responsible for extracting exam questions and options from a given image. The image contains only one question, and the number of options is variable. Please complete the task according to the following requirements:
+1. Extracted Content：
+* Question: The single question text in the image.
+* Options: All option texts in the image; the number of options may be 2, 3, 4, or more.
+2. Output Format：
+* Output the result in JSON format.
+* Strictly follow the following schema:
+{
+  \"question\": \"Question text\",
+  \"options\": [
+    \"Option A\",
+    \"Option B\",
+    \"Option C\",
+    ...
+  ]
+}
+* Ensure that the field names are accurate and free of spelling errors.
+* The options should be arranged in the order they appear in the image.
+3. Notes：
+* Extract only the text content, excluding any images, charts, or other non-text elements.
+* Ensure the association between the question and options is accurate without confusion.
+* Avoid including any additional information or comments.
+## Example：
+### Suppose the image content is as follows：
+1. Which of the following is not a programming language?
+A. Python
+B. HTML
+C. Java
+D. CSS
+### Correct Output：
+{
+  \"question\": \"Which of the following is not a programming language?\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  KO:
+    direct:
+      vision: "## 작업 설명：
+당신은 주어진 이미지에서 시험 문제와 선택지를 추출하는 지능형 OCR 시스템입니다. 이미지에는 하나의 문제만 포함되어 있으며, 선택지의 개수는 정해져 있지 않습니다. 다음 요구 사항에 따라 작업을 완료하십시오：
+1. 추출 내용：
+* 문제：이미지 내 유일한 문제 텍스트.
+* 선택지：이미지 내 모든 선택지 텍스트, 선택지의 개수는 2개, 3개, 4개 또는 그 이상일 수 있습니다.
+2. 출력 형식：
+* 결과를 JSON 형식으로 출력하십시오.
+* 다음 스키마를 엄격히 준수하십시오：
+{
+  \"question\": \"문제 텍스트\",
+  \"options\": [
+    \"선택지 A\",
+    \"선택지 B\",
+    \"선택지 C\",
+    ...
+  ]
+}
+* 필드 이름이 정확하고 철자 오류가 없도록 하십시오.
+* 선택지는 이미지에 나타나는 순서대로 배열되어야 합니다.
+3. 주의 사항：
+* 텍스트 내용만 추출하고, 이미지, 차트 또는 기타 비텍스트 요소는 포함하지 마십시오.
+* 문제와 선택지 간의 연관성이 정확하게 유지되도록 혼동하지 마십시오.
+* 추가 정보나 주석을 포함하지 마십시오.
+## 예시：
+### 이미지 내용이 다음과 같다고 가정합니다：
+1. 다음 중 프로그래밍 언어가 아닌 것은 무엇입니까？
+A. Python
+B. HTML
+C. Java
+D. CSS
+### 올바른 출력：
+{
+  \"question\": \"다음 중 프로그래밍 언어가 아닌 것은 무엇입니까？\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  RU:
+    direct:
+      vision: "## Описание задачи：
+Вы — интеллектуальная система OCR, отвечающая за извлечение экзаменационных вопросов и вариантов ответов из заданного изображения. Изображение содержит только один вопрос, количество вариантов ответов не фиксировано. Пожалуйста, выполните задачу в соответствии со следующими требованиями：
+1. Извлекаемое содержимое：
+* Вопрос：Единственный текст вопроса на изображении.
+* Варианты：Все тексты вариантов на изображении, количество вариантов может быть 2, 3, 4 или больше.
+2. Формат вывода：
+* Выведите результат в формате JSON.
+* Строго следуйте следующей схеме：
+{
+  \"question\": \"Текст вопроса\",
+  \"options\": [
+    \"Вариант A\",
+    \"Вариант B\",
+    \"Вариант C\",
+    ...
+  ]
+}
+* Убедитесь, что названия полей точны и без орфографических ошибок.
+* Варианты должны быть расположены в порядке их появления на изображении.
+3. Примечания：
+* Извлекайте только текстовое содержимое, без включения любых изображений, графиков или других нетекстовых элементов.
+* Обеспечьте точную связь между вопросом и вариантами без путаницы.
+* Избегайте включения любой дополнительной информации или комментариев.
+## Пример：
+### Предположим, что содержимое изображения следующее：
+1. Какой из следующих вариантов не является языком программирования？
+A. Python
+B. HTML
+C. Java
+D. CSS
+### Правильный вывод：
+{
+  \"question\": \"Какой из следующих вариантов не является языком программирования？\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  SR:
+    direct:
+      vision: "## Opis zadatka:
+Vi ste inteligentan OCR sistem odgovoran za ekstrakciju ispitnih pitanja i opcija iz datog slike. Slika sadrži samo jedno pitanje, a broj opcija nije fiksiran. Molimo vas da izvršite zadatak prema sledećim zahtevima:
+1. Ekstrahovani sadržaj：
+* Pitanje：Jedini tekst pitanja na slici.
+* Opcije：Sav tekst opcija na slici; broj opcija može biti 2, 3, 4 ili više.
+2. Format izlaza：
+* Rezultat izbacite u JSON formatu.
+* Strogo se pridržavajte sledeće šeme:
+{
+  \"question\": \"Tekst pitanja\",
+  \"options\": [
+    \"Opcija A\",
+    \"Opcija B\",
+    \"Opcija C\",
+    ...
+  ]
+}
+* Osigurajte tačnost naziva polja i izbegavajte pravopisne greške.
+* Opcije treba da budu raspoređene redosledom kojim se pojavljuju na slici.
+3. Napomene：
+* Ekstrahujte samo tekstualni sadržaj, isključujući bilo koje slike, grafikone ili druge netekstualne elemente.
+* Osigurajte tačnu povezanost između pitanja i opcija bez zabune.
+* Izbegavajte uključivanje bilo kakvih dodatnih informacija ili komentara.
+## Primer：
+### Pretpostavimo da sadržaj slike izgleda ovako：
+1. Koja od sledećih opcija nije programski jezik?
+A. Python
+B. HTML
+C. Java
+D. CSS
+### Tačan izlaz：
+{
+  \"question\": \"Koja od sledećih opcija nije programski jezik?\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  TH:
+    direct:
+      vision: "## รายละเอียดงาน:
+คุณคือระบบ OCR อัจฉริยะที่รับผิดชอบในการสกัดคำถามสอบและตัวเลือกจากภาพที่กำหนด ภาพประกอบด้วยคำถามเดียวเท่านั้น และจำนวนตัวเลือกไม่แน่นอน กรุณาทำตามข้อกำหนดต่อไปนี้เพื่อดำเนินงานให้เสร็จสิ้น：
+1. เนื้อหาที่สกัด：
+* คำถาม：ข้อความคำถามเดียวในภาพ
+* ตัวเลือก：ข้อความตัวเลือกทั้งหมดในภาพ จำนวนตัวเลือกอาจเป็น 2, 3, 4 หรือมากกว่า
+2. รูปแบบการส่งออก：
+* ส่งออกผลลัพธ์ในรูปแบบ JSON
+* ปฏิบัติตามสคีมาด้านล่างอย่างเคร่งครัด：
+{
+  \"question\": \"ข้อความคำถาม\",
+  \"options\": [
+    \"ตัวเลือก A\",
+    \"ตัวเลือก B\",
+    \"ตัวเลือก C\",
+    ...
+  ]
+}
+* ตรวจสอบให้แน่ใจว่าชื่อฟิลด์ถูกต้องและไม่มีการสะกดผิด
+* ตัวเลือกควรเรียงตามลำดับที่ปรากฏในภาพ
+3. หมายเหตุ：
+* สกัดเฉพาะเนื้อหาข้อความ ไม่รวมถึงภาพ แผนภูมิ หรือองค์ประกอบที่ไม่ใช่ข้อความอื่นใด
+* ตรวจสอบให้แน่ใจว่าความสัมพันธ์ระหว่างคำถามและตัวเลือกถูกต้องโดยไม่มีความสับสน
+* หลีกเลี่ยงการใส่ข้อมูลหรือคำอธิบายเพิ่มเติมใดๆ
+## ตัวอย่าง：
+### สมมุติว่าข้อความในภาพเป็นดังนี้：
+1. ข้อใดต่อไปนี้ไม่ใช่ภาษาโปรแกรม?
+A. Python
+B. HTML
+C. Java
+D. CSS
+### ผลลัพธ์ที่ถูกต้อง：
+{
+  \"question\": \"ข้อใดต่อไปนี้ไม่ใช่ภาษาโปรแกรม?\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"
+  VI:
+    direct:
+      vision: "## Mô tả nhiệm vụ:
+Bạn là một hệ thống OCR thông minh chịu trách nhiệm trích xuất câu hỏi và các lựa chọn từ hình ảnh được cung cấp. Hình ảnh chỉ chứa một câu hỏi duy nhất và số lượng lựa chọn không cố định. Vui lòng hoàn thành nhiệm vụ theo các yêu cầu sau:
+1. Nội dung trích xuất：
+* Câu hỏi：Văn bản câu hỏi duy nhất trong hình ảnh.
+* Các lựa chọn：Tất cả các văn bản lựa chọn trong hình ảnh; số lượng lựa chọn có thể là 2, 3, 4 hoặc nhiều hơn.
+2. Định dạng đầu ra：
+* Xuất kết quả dưới định dạng JSON.
+* Tuân thủ nghiêm ngặt sơ đồ sau:
+{
+  \"question\": \"Văn bản câu hỏi\",
+  \"options\": [
+    \"Lựa chọn A\",
+    \"Lựa chọn B\",
+    \"Lựa chọn C\",
+    ...
+  ]
+}
+* Đảm bảo tên trường chính xác và tránh sai chính tả.
+* Các lựa chọn nên được sắp xếp theo thứ tự xuất hiện trong hình ảnh.
+3. Lưu ý：
+* Chỉ trích xuất nội dung văn bản, không bao gồm bất kỳ hình ảnh, biểu đồ hoặc yếu tố phi văn bản nào khác.
+* Đảm bảo mối liên hệ giữa câu hỏi và các lựa chọn là chính xác mà không bị nhầm lẫn.
+* Tránh bao gồm bất kỳ thông tin hoặc chú thích bổ sung nào.
+## Ví dụ：
+### Giả sử nội dung hình ảnh như sau：
+1. Điều nào sau đây không phải là ngôn ngữ lập trình?
+A. Python
+B. HTML
+C. Java
+D. CSS
+### Đầu ra đúng：
+{
+  \"question\": \"Điều nào sau đây không phải là ngôn ngữ lập trình?\",
+  \"options\": [
+    \"Python\",
+    \"HTML\",
+    \"Java\",
+    \"CSS\"
+  ]
+}"

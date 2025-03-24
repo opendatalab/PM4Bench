@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Vitráž Sókratés Italská vlajka Geofyzika",
+            "font_size": 40
+        },
+        {
+            "text": "Recidivující afty Makrofág Ořešák královský Antidepresivum",
+            "font_size": 38
+        },
+        {
+            "text": "Dolnoněmčina Moderátor neutronů Slezské vojvodství",
+            "font_size": 36
+        },
+        {
+            "text": "Etologie Kubická rovnice Počítačová grafika Meióza Wapiti",
+            "font_size": 34
+        },
+        {
+            "text": "Tramvaj Eukaryota Sklon rotační osy Severodoněck",
+            "font_size": 32
+        },
+        {
+            "text": "Sklon rotační osy Gepard indický Ptolemaiovci Operační systém",
+            "font_size": 30
+        },
+        {
+            "text": "Alelopatie Filmová produkce Protisté Šroubovák Sociální norma",
+            "font_size": 28
+        },
+        {
+            "text": "Masožravec Horizont událostí Dolnoněmčina Katalánština Homeopatie",
+            "font_size": 26
+        },
+        {
+            "text": "Skener Křepelka japonská Korporace Radiální rychlost Kontaktní čočka",
+            "font_size": 24
+        },
+        {
+            "text": "Velština Teorie chaosu Teoretická fyzika Gravitační čočka Přírodní vědy",
+            "font_size": 22
+        },
+        {
+            "text": "Psychoterapie Psychoterapie Palivový článek Sukulent Bengalúr",
+            "font_size": 20
+        },
+        {
+            "text": "Sukulent Vrtejši Mnohovesmír Chövsgöl núr Moderátor neutronů",
+            "font_size": 18
+        },
+        {
+            "text": "Španělé Řízení projektů Slunečnicový olej Středozem Kálidása",
+            "font_size": 16
+        },
+        {
+            "text": "Románské jazyky Astrofyzika Vzácné plyny Planetologie Bylina",
+            "font_size": 14
+        },
+        {
+            "text": "Středozem Telepatie Sklon rotační osy Toskánsko Mobilní telefon",
+            "font_size": 12
+        },
+        {
+            "text": "Mezopotámie Skotové Skauting Dějiny Evropy Irové",
+            "font_size": 10
+        },
+        {
+            "text": "Homeopatie Dolnoněmčina Homeopatie Pythagorova věta Úhoř říční",
+            "font_size": 8
+        },
+        {
+            "text": "Jezevec lesní Nervová tkáň Řád karmelitánů Akademismus Počítačová síť",
+            "font_size": 6
+        },
+        {
+            "text": "Masožravec Středozem Antika Telepatie Skauting",
+            "font_size": 4
+        },
+        {
+            "text": "Obec Elektrotechnika Populární kultura Irština Angličané",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

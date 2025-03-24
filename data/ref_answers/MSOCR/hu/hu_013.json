@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Expresszionizmus Kontaktlencse Triatlon",
+            "font_size": 40
+        },
+        {
+            "text": "Planetológia Elektronikus zene Montenegrói nyelv",
+            "font_size": 38
+        },
+        {
+            "text": "Fejlődéstan Tengelyferdeség Etológia Karintia",
+            "font_size": 36
+        },
+        {
+            "text": "Prokarióták Középfölde Római provinciák Ferences rend",
+            "font_size": 34
+        },
+        {
+            "text": "Hajszálcsövesség Hasábburgonya Csillóshasúak Azori Kitakjúsú",
+            "font_size": 32
+        },
+        {
+            "text": "Észak Trópusi ciklon Marrákes Vapiti Számítógép",
+            "font_size": 30
+        },
+        {
+            "text": "Vapiti Aligátorfélék Nagybőgő Kéklábú szula Mikroökonómia",
+            "font_size": 28
+        },
+        {
+            "text": "Cinematográfia Európai borz Földtudomány Kognitív tudomány Harmadfokú egyenlet",
+            "font_size": 26
+        },
+        {
+            "text": "Kanári Hámszövet Átmenetifémek Könnyűzene Strukturalizmus Középfölde",
+            "font_size": 24
+        },
+        {
+            "text": "Cinematográfia Adattárház Homeopátia Kontaktlencse Homeopátia Marokkó zászlaja",
+            "font_size": 22
+        },
+        {
+            "text": "Olaszország zászlaja Vaskor Mágikus realizmus Etológia Amilóz Nagybőgő",
+            "font_size": 20
+        },
+        {
+            "text": "Francia buldog Szlovének Filmrendező Káoszelmélet Noradrenalin Villamosmérnök",
+            "font_size": 18
+        },
+        {
+            "text": "Nephropidae Egyszikűek Hámszövet Maldív nyelv Vasbeton Világörökség",
+            "font_size": 16
+        },
+        {
+            "text": "Üdítőital Világtörténelem Hőszabályozás Egyéves növény Lapolvasó Hésziodosz",
+            "font_size": 14
+        },
+        {
+            "text": "Mészszivacsok Spanyol nyelv Konstantinápoly Pacifizmus Peloponnészosz Indokínai tigris",
+            "font_size": 12
+        },
+        {
+            "text": "Hármasugrás Kognitív tudomány Asztúriai nyelvtan Számítógépes kémia Egyszerű gép Katódsugárcső",
+            "font_size": 10
+        },
+        {
+            "text": "Dunkerque Trópusi ciklon Modernizmus Spanyolok Eurázsia Gépipar",
+            "font_size": 8
+        },
+        {
+            "text": "Embriós növények Fonálférgek Ptolemaida Pinjin Húsvét Jylland",
+            "font_size": 6
+        },
+        {
+            "text": "Svédország zászlaja Pszichoterápia Kéklábú szula Akromegália Bolhapiac Prokarióták",
+            "font_size": 4
+        },
+        {
+            "text": "Integrált áramkör Otthonoktatás Termelési tényező Kriptovaluta Hanglemez Pitagorasz",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "font_gradient": [
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+    ],
+    "lines": [
+        {
+            "text": "Számi nyelvek Számítógépes grafika",
+            "font_size": 40
+        },
+        {
+            "text": "Graubünden kanton Walesi nyelv Meiózis Hérodotosz",
+            "font_size": 38
+        },
+        {
+            "text": "Indokínai tigris Hindu Menstruációs ciklus",
+            "font_size": 36
+        },
+        {
+            "text": "Múzeum Gépipar Csehország zászlaja",
+            "font_size": 34
+        },
+        {
+            "text": "Telepátia Metroszexualitás Szappanfavirágúak Ingerület Belgrád",
+            "font_size": 32
+        },
+        {
+            "text": "Ingerület Dánia zászlaja Kanári Varmia",
+            "font_size": 30
+        },
+        {
+            "text": "Homeopátia Szabad licenc Embriós növények Konstantinápoly",
+            "font_size": 28
+        },
+        {
+            "text": "Pszichiátria Spirálgalaxis Alsó Bronzkor Elektronikus zene",
+            "font_size": 26
+        },
+        {
+            "text": "Kontaktlencse Vérszopó denevérek Enciklopédia Neutronmoderátor Akromegália",
+            "font_size": 24
+        },
+        {
+            "text": "Homeopátia Kafferbivaly Magfizika Projektmenedzsment Minimalizmus Homeopátia",
+            "font_size": 22
+        },
+        {
+            "text": "Ciprusi Köztársaság Biotechnológia Villamosmérnök Kanári Agyalapi mirigy Aeneis",
+            "font_size": 20
+        },
+        {
+            "text": "Szerepjáték Villamos Vérszopó denevérek Asztrofizika Mikroökonómia Fogszabályozás",
+            "font_size": 18
+        },
+        {
+            "text": "Ősnövénytan Lombardia Rakétahajtómű Homeopátia Középfölde Kanári",
+            "font_size": 16
+        },
+        {
+            "text": "Búbos vöcsök Egyszikűek Piemont Sokúszós csukafélék Bolhapiac Hindu",
+            "font_size": 14
+        },
+        {
+            "text": "Heterotrófia Kriptovaluta Spirálgalaxis Mikroökonómia Genetikai kód Radiális sebesség",
+            "font_size": 12
+        },
+        {
+            "text": "Japán makákó Popkultúra Vegetarianizmus Tirrén Turbófeltöltő Maldív nyelv",
+            "font_size": 10
+        },
+        {
+            "text": "Mitózis Magfizika Etológia Meiózis Rjúkjú Hámszövet",
+            "font_size": 8
+        },
+        {
+            "text": "Mezo Klasszikus zene Népsűrűség Kriptovaluta Vasbeton Csillagfejlődés",
+            "font_size": 6
+        },
+        {
+            "text": "Község Filmgyártás Kitakjúsú Üzemanyagcella Hullámvasút Rendszerbiológia",
+            "font_size": 4
+        },
+        {
+            "text": "Szociolingvisztika Sejtbiológia Buzogányfejű férgek Pszichoanalízis Hasábburgonya Angolok",
+            "font_size": 2
+        }
+    ],
+    "image_size": [
+        1280,
+        720
+    ]
+}
