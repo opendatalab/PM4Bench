@@ -1,12 +1,12 @@
 # PM<sup>4</sup>Bench: A Parallel Multilingual Multi-Modal Multi-task Benchmark for Large Vision Language Model
----
+<!-- ---
 
-[Junyuan Gao*](), [Jiahe Song*](https://jiahe-song.webflow.io/), [Jiang Wu*†](), Runchuan Zhu, Guanlin Shen, Shasha Wang, Xingjian Wei, Haote Yang, Songyang Zhang, Weijia Li, Bin Wang, Dahua Lin, Lijun Wu, Conghui He‡
-```
-*Equal contribution.
-†Project lead.
-‡Corresponding author.
-```
+[Junyuan Gao*](https://openreview.net/profile?id=~Junyuan_Gao1), [Jiahe Song*](https://jiahe-song.webflow.io/), [Jiang Wu*†](https://openreview.net/profile?id=~Jiang_Wu7), [Runchuan Zhu](https://openreview.net/profile?id=~Runchuan_Zhu1), [Guanlin Shen](https://www.linkedin.com/in/gary-shen-88b95b179/), Shasha Wang, [Xingjian Wei, Haote Yang, Songyang Zhang, Weijia Li, [Bin Wang](https://wangbindl.github.io/), Dahua Lin, Lijun Wu, Conghui He‡
+
+<small>*Equal contribution.</small>  
+<small>†Project lead.</small>  
+<small>‡Corresponding author.</small> -->
+
 ---
 
 <!-- [**🌐 Homepage**](https://mmmu-benchmark.github.io/) | [**🏆 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**🤗 PM<sup>4</sup>Bench**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**📖 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**🤗 MMMU**](https://huggingface.co/datasets/MMMU/MMMU/) | [**📖 MMMU arXiv**](https://arxiv.org/pdf/2311.16502.pdf)  -->
