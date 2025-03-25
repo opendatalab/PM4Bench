@@ -11,17 +11,17 @@
 
 <!-- [**🌐 Homepage**](https://mmmu-benchmark.github.io/) | [**🏆 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**🤗 PM<sup>4</sup>Bench**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**📖 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**🤗 MMMU**](https://huggingface.co/datasets/MMMU/MMMU/) | [**📖 MMMU arXiv**](https://arxiv.org/pdf/2311.16502.pdf)  -->
 
-[**🌐 Homepage**](https://songjhpku.github.io/PM4Bench/) | [**🤗 PM<sup>4</sup>Bench**](https://huggingface.co/datasets/songjhPKU/PM4Bench) | [**📖 PM<sup>4</sup>Bench arXiv**](https://arxiv.org/abs/2503.18484) 
+[**🌐 Homepage**](https://songjhpku.github.io/PM4Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/songjhPKU/PM4Bench) | [**📖 Paper arXiv**](https://arxiv.org/abs/2503.18484) 
 
 
 ## 📢 News
 
-- **🔥[2025-03-25]: We uploaded PM<sup>4</sup>Bench to [HuggingFace](https://huggingface.co/datasets/songjhPKU/PM4Bench) and open-sourced the code, paper on GitHub and [arXiv](https://arxiv.org/abs/2503.18484).**
+- **🔥[2025-03-25]: Dataset available on [HuggingFace](https://huggingface.co/datasets/songjhPKU/PM4Bench). Paper available on  [arXiv](https://arxiv.org/abs/2503.18484).**
 
 ---
 
 ## 🧑‍💻 How to Run?
-### 📁 Code Directory
+<!-- ### 📁 Code Directory
 - `code/`
   - `eval/`
   - `prompts/`
@@ -45,17 +45,27 @@
 - `logs/`
 - `scripts/`
 - `requirements.txt`
-- `README.md`
+- `README.md` -->
 ### 🏠 Set Up
+#### Dataset Download
+Download `tsv` files from [HuggingFace](https://huggingface.co/datasets/songjhPKU/PM4Bench/tree/main) and store them in `data/tsv/`. The directory should be like `data/tsv/{DATASET}_{SETTING}_{LANGUAGE}.tsv`.
+#### Environment Configuration
 ``` bash
-conda env create -f requirements.txt
+conda create -n pm4bench python=3.10.5
+conda activate pm4bench
+pip install -r requirements.txt
 ```
 ### ⚙️ Inference
 #### API Inference
 ##### Step 0. Configure `.env` file
 API inference requires an `API_KEY`. Please configure the `API_KEY` in the `.env` file in the following format: 
-``` bash
-model_name='sk-123'
+``` env
+gpt-4o-2024-11-20='xxx'
+step-1o-vision-32k='xxx'
+qwen2.5-vl-72b-instruct='xxx'
+gemini-2.0-flash-thinking-exp='xxx'
+DeepSeek-R1='xxx'
+gpt-4o-mini='xxx'
 ```
 The `API_KEY` will be loaded through the `infer_api.py` file using:
 ``` python
