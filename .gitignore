@@ -4,8 +4,6 @@
 # 忽略所有 .log 文件
 *.log
 
-# 忽略所有 .env 文件
-*.env
 
 # 忽略特定目录及其内容
 VLM_output_judge/*
