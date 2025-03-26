@@ -11,7 +11,7 @@
 
 <!-- [**🌐 Homepage**](https://mmmu-benchmark.github.io/) | [**🏆 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**🤗 PM<sup>4</sup>Bench**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**📖 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**🤗 MMMU**](https://huggingface.co/datasets/MMMU/MMMU/) | [**📖 MMMU arXiv**](https://arxiv.org/pdf/2311.16502.pdf)  -->
 
-[**🌐 Homepage**](https://songjhpku.github.io/PM4Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/songjhPKU/PM4Bench) | [**📖 Paper arXiv**](https://arxiv.org/abs/2503.18484) 
+[**🌐 Homepage**](https://songjhpku.github.io/PM4Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/songjhPKU/PM4Bench) | [**📖 Paper**](https://arxiv.org/abs/2503.18484) 
 
 
 ## 📢 News
