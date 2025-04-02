@@ -28,6 +28,7 @@ def find_first_failure_font_size(ocr_string, reference_list):
             current_position += 1
     return 2
 
+
 def judge_MSOCR_ocr():
     src_root = r'VLM_output'
     dst_root = r'VLM_output_judge'
@@ -50,11 +51,12 @@ def judge_MSOCR_ocr():
                 ref_meta = json.load(open(os.path.join(ref_dir, f'{lang}_{name}.json'), 'r', encoding='utf-8'))
                 ref_info = ref_meta['lines']
                 try:
-                    score = find_first_failure_font_size(obj['response'], ref_info)
+                    size = find_first_failure_font_size(obj['response'], ref_info)
                 except:
                     print(f"{lang} {obj['index']} error")
                     continue
-                entry = {'index': obj['index'], 'score': score}
+                entry = {'index': obj['index'], 'score': int(42 - size)}
                 out_file.write(json.dumps(entry, ensure_ascii=False) + '\n')
         
+
 judge_MSOCR_ocr()
