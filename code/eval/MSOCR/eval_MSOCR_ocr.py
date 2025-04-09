@@ -1,42 +1,51 @@
 import os
 import json
-from joblib import Parallel, delayed
-from tqdm import tqdm
 import re
-import string
+
+
+def clean_string(s):
+    if not s:
+        return ""
+    s = re.sub(r'[^\w\u0600-\u06FF\u0E00-\u0E7F]', '', s, flags=re.UNICODE)
+    s = re.sub(r'<.*?>', '', s)
+    return s
 
 
 def find_first_failure_font_size(ocr_string, reference_list):
-    _ocr_words = re.split(r'\s+', ocr_string.split('<start>')[-1].split('<Start>')[-1].split('<end>')[0].split('<End>')[0].strip(string.punctuation).strip())
-    ocr_words = []
-    for word in _ocr_words:
-        if word:
-            ocr_words.append(word)
-    current_position = 0
-
-    for ref_dict in reference_list:
-        ref_line = ref_dict['text']
-        ref_font_size = ref_dict['font_size']
-        ref_words = ref_line.split()
-        if current_position >= len(ocr_words):
-            return ref_font_size
-        for expected_word in ref_words:
-            if current_position >= len(ocr_words):
-                return ref_font_size + 2
-            if ocr_words[current_position] != expected_word:
-                return ref_font_size + 2
-            current_position += 1
-    return 2
-
+    ocr_string = clean_string(ocr_string)
+    if not ocr_string:
+        return 0
+    ref_string = ""
+    font_size_map = []
+    
+    for item in reference_list:
+        text = clean_string(item["text"])
+        ref_string += text
+        for _ in text:
+            font_size_map.append(item["font_size"])
+    
+    for i, (ocr_char, ref_char) in enumerate(zip(ocr_string, ref_string)):
+        if ocr_char != ref_char:
+            size = max(0, i-1)
+            return 40 - font_size_map[size]
+    
+    if len(ocr_string) != len(ref_string):
+        min_len = min(len(ocr_string), len(ref_string))
+        if min_len < len(font_size_map):
+            return 40 - font_size_map[min_len]
+    
+    return 40
+    
 
 def judge_MSOCR_ocr():
     src_root = r'VLM_output'
     dst_root = r'VLM_output_judge'
     ref_root = r'data/ref_answers/MSOCR'
+
     for model in os.listdir(src_root):
         if 'err' in model or 'origin' in model:
             continue
-        model_dir = os.path.join(src_root, model, 'MSOCR', 'OCR')
+        model_dir = os.path.join(src_root, model, 'SizeBench', 'OCR')
         dst_dir = os.path.join(dst_root, model, 'MSOCR', 'OCR')
         os.makedirs(dst_dir, exist_ok=True)
         for file in os.listdir(model_dir):
@@ -50,13 +59,9 @@ def judge_MSOCR_ocr():
                 name = str(obj["index"]).rjust(3, '0')
                 ref_meta = json.load(open(os.path.join(ref_dir, f'{lang}_{name}.json'), 'r', encoding='utf-8'))
                 ref_info = ref_meta['lines']
-                try:
-                    size = find_first_failure_font_size(obj['response'], ref_info)
-                except:
-                    print(f"{lang} {obj['index']} error")
-                    continue
-                entry = {'index': obj['index'], 'score': int(42 - size)}
+                score = find_first_failure_font_size(obj['response'], ref_info)
+                entry = {'index': obj['index'], 'score': score}
                 out_file.write(json.dumps(entry, ensure_ascii=False) + '\n')
-        
 
+        
 judge_MSOCR_ocr()
