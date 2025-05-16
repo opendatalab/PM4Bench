@@ -19,6 +19,7 @@
 - **🔥[2025-03-25]: Dataset available on [HuggingFace](https://huggingface.co/datasets/songjhPKU/PM4Bench). Paper available on  [arXiv](https://arxiv.org/abs/2503.18484).**
 
 ---
+## Warning: MMJB data contains potentially offensive and harmful text.
 
 ## 🧑‍💻 How to Run?
 <!-- ### 📁 Code Directory
