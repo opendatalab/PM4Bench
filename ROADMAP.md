@@ -1,0 +1,20 @@
+# Roadmap
+
+## v2.0.0 release
+
+- [x] Define portable deduplicated benchmark schemas.
+- [x] Extract and validate all four task inventories.
+- [x] Isolate the global-step-200 QGO-8B checkpoint.
+- [x] Finish deterministic local evaluators and MIQA judge adapter.
+- [x] Reconstruct the deterministic MGUI renderer and GT comparator.
+- [x] Run the full 1,000-page structural renderer regression.
+- [x] Validate the sanitized QGO Parquet release.
+- [x] Add end-to-end tiny fixtures and CI.
+- [ ] Publish the benchmark, training data, model, and GitHub tag.
+
+## Post-release
+
+- Add a prediction-format converter for common inference frameworks.
+- Add resumable evaluation reports without coupling them to paper figures.
+- Publish explicit compatibility tests for later Transformers/veRL releases.
+- Publish a container that reproduces the historical MGUI platform-font geometry.
