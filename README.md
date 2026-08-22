@@ -11,9 +11,9 @@ PM4Bench is a strictly parallel multilingual vision-language benchmark over
 This repository contains the clean v2 evaluation, validation, construction,
 and QGO training code. Large artifacts live on Hugging Face:
 
-- Benchmark: <https://huggingface.co/datasets/opendatalab/PM4Bench>
-- QGO training data: <https://huggingface.co/datasets/opendatalab/PM4Bench-QGO-Train>
-- QGO-8B: <https://huggingface.co/opendatalab/QGO-8B>
+- Benchmark: <https://huggingface.co/datasets/songjhPKU/PM4Bench>
+- QGO training data: <https://huggingface.co/datasets/DatasetMan/PM4Bench-QGO-Train>
+- QGO-8B: <https://huggingface.co/DatasetMan/QGO-8B>
 
 The former TSV/base64 representation is retired. The v2 dataset stores each
 image once and references it from portable JSONL manifests.
