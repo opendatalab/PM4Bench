@@ -1,5 +1,7 @@
 # PM4Bench
 
+> **News:** PM4Bench has been accepted to the **EMNLP 2026 Main Conference**.
+
 PM4Bench is a strictly parallel multilingual vision-language benchmark over
 10 languages and four tasks:
 
@@ -9,8 +11,10 @@ PM4Bench is a strictly parallel multilingual vision-language benchmark over
 - **MGUI** — multilingual GUI grounding (200 items/language)
 
 This repository contains the clean v2 evaluation, validation, construction,
-and QGO training code. Large artifacts live on Hugging Face:
+and QGO training code.
 
+- Project page: <https://little-bird-vodka.github.io/PM4Bench/>
+- Paper: <https://arxiv.org/abs/2503.18484>
 - Benchmark: <https://huggingface.co/datasets/songjhPKU/PM4Bench>
 - QGO training data: <https://huggingface.co/datasets/DatasetMan/PM4Bench-QGO-Train>
 - QGO-8B: <https://huggingface.co/DatasetMan/QGO-8B>

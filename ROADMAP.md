@@ -11,7 +11,8 @@
 - [x] Validate the sanitized QGO Parquet release.
 - [x] Add end-to-end tiny fixtures and CI.
 - [x] Align the QGO reward coefficients and sanitized GRPO launcher.
-- [ ] Publish the benchmark, training data, model, and GitHub tag.
+- [x] Refresh the project page for the four-task/QGO release and EMNLP 2026 acceptance.
+- [x] Publish the benchmark, training data, model, code, and v2.0.0 tag.
 
 ## Post-release
 

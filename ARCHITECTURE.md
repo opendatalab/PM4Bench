@@ -9,6 +9,10 @@ PM4Bench v2 separates four ownership layers:
 3. **QGO training dataset** — portable Parquet shards with embedded images.
 4. **QGO model** — a standalone BF16 Transformers checkpoint.
 
+The static [project page](https://little-bird-vodka.github.io/PM4Bench/) is a
+presentation layer over these canonical resources and the public arXiv record;
+it does not duplicate released data, weights, or executable code.
+
 No layer contains machine-specific paths, credentials, experiment logs, or
 paper-result outputs. Dataset rows use stable identifiers and paths relative to
 the dataset snapshot root.
