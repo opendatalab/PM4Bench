@@ -10,12 +10,17 @@ Canonical settings:
 - rollouts per prompt: `8` (256 sampled trajectories per step)
 - actor PPO mini-batch: `32`
 - actor PPO micro-batch/GPU: `1`
-- maximum prompt length: `16384`
-- maximum response length: `16384`
+- maximum prompt length: `8192`
+- maximum response length: `4096`
 - rollout temperature: `1.0`
 - KL loss coefficient: `0.01`
 - training GPUs: `8`
 - released checkpoint: global step `200`
+- reward length interval: `[1000, 10000]`
+- over-length scale: `1200`
+- repetition threshold: `0.6`
+- length reward / length penalty / repetition penalty weights: `0.2 / 0.8 / 0.4`
+- accuracy / format reward weights: `0.8 / 0.2`
 
 `train_grpo.sh` contains no machine paths or credentials. Supply the base
 model, dataset snapshot, output directory, and reward module through explicit

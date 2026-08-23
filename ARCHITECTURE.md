@@ -3,7 +3,8 @@
 PM4Bench v2 separates four ownership layers:
 
 1. **GitHub toolkit** — schemas, validators, deterministic metrics, optional
-   judge integration, construction code, and QGO recipes.
+   judge integration, construction code, and the QGO reward and training
+   recipe.
 2. **Benchmark dataset** — immutable JSONL manifests plus deduplicated assets.
 3. **QGO training dataset** — portable Parquet shards with embedded images.
 4. **QGO model** — a standalone BF16 Transformers checkpoint.
@@ -11,6 +12,10 @@ PM4Bench v2 separates four ownership layers:
 No layer contains machine-specific paths, credentials, experiment logs, or
 paper-result outputs. Dataset rows use stable identifiers and paths relative to
 the dataset snapshot root.
+
+The QGO launcher keeps model, data, output, and reward locations external while
+fixing the public training parameters. Its reward module implements the same
+accuracy, length, and repetition terms used for QGO-8B.
 
 The release pipeline builds immutable candidate generations on H1. A candidate
 is activated only after count, schema, path, secret, checksum, and smoke-load

@@ -10,6 +10,7 @@
 - [x] Run the full 1,000-page structural renderer regression.
 - [x] Validate the sanitized QGO Parquet release.
 - [x] Add end-to-end tiny fixtures and CI.
+- [x] Align the QGO reward coefficients and sanitized GRPO launcher.
 - [ ] Publish the benchmark, training data, model, and GitHub tag.
 
 ## Post-release

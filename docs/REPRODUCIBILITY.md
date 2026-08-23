@@ -5,8 +5,12 @@ machine-readable inventory. Inventories record row counts, file sizes, and
 checksums for large transformed artifacts.
 
 QGO training uses 32 prompts per optimization batch and 8 rollouts per prompt,
-yielding 256 sampled trajectories per step. The released paper checkpoint is
-global step 200 and uses BF16 weights.
+yielding 256 sampled trajectories per step. Prompt and response limits are
+8,192 and 4,096, respectively. The formatting reward uses a `[1000, 10000]`
+length interval, over-length scale `1200`, repetition threshold `0.6`, and
+length-reward, length-penalty, and repetition-penalty weights `0.2`, `0.8`,
+and `0.4`. Accuracy and formatting are combined with weights `0.8` and `0.2`.
+The released paper checkpoint is global step 200 and uses BF16 weights.
 
 The training-data release preserves row order, prompt, embedded image bytes,
 reward target, ability, split, and auxiliary answer fields. Only nested image
