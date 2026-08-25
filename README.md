@@ -1,6 +1,19 @@
-# PM4Bench
+<div align="center">
 
-> **News:** PM4Bench has been accepted to the **EMNLP 2026 Main Conference**.
+# Benchmarking and Boosting Multilingual Capabilities of LVLMs via OCR-Centric Reinforcement Learning
+
+**PM<sup>4</sup>Bench · QGO-8B**
+
+[![arXiv](https://img.shields.io/badge/arXiv-2503.18484v3-B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.18484v3)
+[![Project Page](https://img.shields.io/badge/Project-Page-145C73.svg?logo=githubpages&logoColor=white)](https://little-bird-vodka.github.io/PM4Bench/)
+[![Benchmark](https://img.shields.io/badge/Hugging_Face-Benchmark-FFD21E.svg)](https://huggingface.co/datasets/songjhPKU/PM4Bench)
+[![Training Data](https://img.shields.io/badge/Hugging_Face-QGO_Train-FFD21E.svg)](https://huggingface.co/datasets/DatasetMan/PM4Bench-QGO-Train)
+[![Model](https://img.shields.io/badge/Hugging_Face-QGO--8B-FFD21E.svg)](https://huggingface.co/DatasetMan/QGO-8B)
+
+</div>
+
+> [!IMPORTANT]
+> **PM4Bench has been accepted to the EMNLP 2026 Main Conference.** The revised manuscript is available as [arXiv v3](https://arxiv.org/abs/2503.18484v3).
 
 PM4Bench is a strictly parallel multilingual vision-language benchmark over
 10 languages and four tasks:
@@ -10,14 +23,11 @@ PM4Bench is a strictly parallel multilingual vision-language benchmark over
 - **MSOCR** — multi-scale OCR (100 items/language)
 - **MGUI** — multilingual GUI grounding (200 items/language)
 
+The paper uses controlled comparisons between interleaved and vision-only
+input to identify OCR as a key source of cross-lingual performance gaps. QGO
+then targets this bottleneck with OCR-centric GRPO on fully synthesized data.
 This repository contains the clean v2 evaluation, validation, construction,
-and QGO training code.
-
-- Project page: <https://little-bird-vodka.github.io/PM4Bench/>
-- Paper: <https://arxiv.org/abs/2503.18484>
-- Benchmark: <https://huggingface.co/datasets/songjhPKU/PM4Bench>
-- QGO training data: <https://huggingface.co/datasets/DatasetMan/PM4Bench-QGO-Train>
-- QGO-8B: <https://huggingface.co/DatasetMan/QGO-8B>
+and training code for that study.
 
 The former TSV/base64 representation is retired. The v2 dataset stores each
 image once and references it from portable JSONL manifests.
@@ -144,3 +154,17 @@ pytest
 For problems with data or evaluation, open a GitHub issue with the task,
 language, sample identifier, and toolkit version. Do not include API keys or
 private model outputs.
+
+## Cite Us
+
+```bibtex
+@misc{gao2026benchmarkingboostingmultilingualcapabilities,
+      title={Benchmarking and Boosting Multilingual Capabilities of LVLMs via OCR-Centric Reinforcement Learning},
+      author={Junyuan Gao and Jiahe Song and Jiang Wu and Runchuan Zhu and Guanlin Shen and Shasha Wang and Xingjian Wei and Haote Yang and Weijia Li and Bin Wang and Lijun Wu and Conghui He},
+      year={2026},
+      eprint={2503.18484},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.18484},
+}
+```
