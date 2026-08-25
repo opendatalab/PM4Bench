@@ -14,6 +14,7 @@
 - [x] Refresh the project page for the four-task/QGO release and EMNLP 2026 acceptance.
 - [x] Publish the benchmark, training data, model, code, and v2.0.0 tag.
 - [x] Link arXiv v3 and add cross-repository navigation and copy-ready citation blocks.
+- [x] Pin every citation URL to arXiv v3 and avoid stale Hugging Face Papers metadata.
 
 ## Post-release
 

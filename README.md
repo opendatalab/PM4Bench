@@ -165,6 +165,6 @@ private model outputs.
       eprint={2503.18484},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.18484},
+      url={https://arxiv.org/abs/2503.18484v3},
 }
 ```
