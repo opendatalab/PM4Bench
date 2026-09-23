@@ -17,6 +17,13 @@ No layer contains machine-specific paths, credentials, experiment logs, or
 paper-result outputs. Dataset rows use stable identifiers and paths relative to
 the dataset snapshot root.
 
+The `vision` module separates checked text/image plans from raster rendering.
+MIQA and MSOCR consume the benchmark JSONL files directly. A manifest lock
+identifies the released text; synthesis writes plans, generated images, and
+environment/checksum reports to a separate output directory. Optional font
+downloads are pinned by source revision and checksum. Construction code does
+not sample replacement benchmark text or call translation services.
+
 The QGO launcher keeps model, data, output, and reward locations external while
 fixing the public training parameters. Its reward module implements the same
 accuracy, length, and repetition terms used for QGO-8B.

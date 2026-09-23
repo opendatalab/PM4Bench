@@ -68,6 +68,19 @@ def build_parser() -> argparse.ArgumentParser:
     )
     render.add_argument("--language", action="append", choices=LANGUAGES)
     render.add_argument("--template", action="append")
+
+    vision = subparsers.add_parser("render-vision", help="synthesize vision data from released text")
+    vision.add_argument("--dataset-root", type=Path, required=True)
+    vision.add_argument("--output-root", type=Path, required=True)
+    vision.add_argument("--task", choices=("miqa", "msocr"), required=True)
+    vision.add_argument("--language", action="append", choices=LANGUAGES)
+    vision.add_argument("--fonts-root", type=Path)
+    vision.add_argument("--id", action="append")
+    vision.add_argument("--limit", type=int, help="maximum records per language")
+    vision.add_argument("--audit-only", action="store_true")
+    vision.add_argument("--allow-custom-manifest", action="store_true")
+    vision.add_argument("--strict-glyphs", action="store_true", help="fail on missing font glyphs")
+    vision.add_argument("--workers", type=int, default=1)
     return parser
 
 
@@ -167,6 +180,18 @@ def main() -> None:
             judge,
             translator,
             args.workers,
+        )
+    elif args.command == "render-vision":
+        from .vision.render import render_vision
+
+        result = render_vision(
+            args.dataset_root, args.output_root, args.task,
+            tuple(args.language) if args.language else LANGUAGES,
+            fonts_root=args.fonts_root, ids=tuple(args.id) if args.id else None,
+            limit=args.limit, audit_only=args.audit_only,
+            allow_custom_manifest=args.allow_custom_manifest,
+            strict_glyphs=args.strict_glyphs,
+            workers=args.workers,
         )
     else:
         from .mgui.render import compare_gt, render_mgui

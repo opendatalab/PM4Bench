@@ -18,6 +18,9 @@
 
 ## Post-release
 
+- [x] Publish MIQA and MSOCR vision synthesis from the released text manifests.
+- [x] Add manifest locks, image-label alignment checks, and pinned font downloads.
+- [ ] Recover the matching MDUR renderer/style configuration and complete its release.
 - Add a prediction-format converter for common inference frameworks.
 - Add resumable evaluation reports without coupling them to paper figures.
 - Publish explicit compatibility tests for later Transformers/veRL releases.

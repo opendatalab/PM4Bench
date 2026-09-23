@@ -4,6 +4,13 @@ Release artifacts are versioned independently but share version `2.0.0` and a
 machine-readable inventory. Inventories record row counts, file sizes, and
 checksums for large transformed artifacts.
 
+Toolkit 2.1 adds the MIQA and MSOCR construction recipes in
+[VISION_SYNTHESIS.md](VISION_SYNTHESIS.md). They read the frozen v2.0.0
+benchmark manifests, preserve the released text and image order, and record
+the font and raster-library versions. The benchmark data version is unchanged.
+Generated pixels can differ from the released images when fonts or raster
+libraries differ; published evaluation uses the released images.
+
 QGO training uses 32 prompts per optimization batch and 8 rollouts per prompt,
 yielding 256 sampled trajectories per step. Prompt and response limits are
 8,192 and 4,096, respectively. The formatting reward uses a `[1000, 10000]`

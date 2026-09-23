@@ -17,6 +17,11 @@ One row contains `question`, `reference_answer`, `traditional_images`, and
 `vision_image`. `source_image_ids` retains the upstream MMDU identifiers for
 provenance.
 
+Read `traditional_images` in numeric `image_N.png` order. The v2.0.0 list for
+`105_0` is lexicographically sorted, so `image_10.png` and `image_11.png` appear
+before `image_2.png`. The vision compositor uses numeric order and retains the
+source labels from `rendered_text`; these labels can be non-consecutive.
+
 ## MSOCR
 
 One row contains a single `image`, ordered `lines` with `font_size`, and a

@@ -45,6 +45,7 @@ Install optional dependencies only when needed:
 ```bash
 python -m pip install -e '.[judge]'   # MIQA LLM-as-judge
 python -m pip install -e '.[render]'  # deterministic MGUI rendering
+python -m pip install -e '.[vision]'  # MIQA and MSOCR image synthesis
 python -m pip install -e '.[dev]'     # tests and lint
 ```
 
@@ -112,6 +113,28 @@ pm4bench judge-miqa \
   --output judgments/miqa_en.jsonl \
   --judge-model YOUR_JUDGE_MODEL
 ```
+
+## Synthesize benchmark images
+
+The construction tools read the released dataset manifests. MIQA preserves
+the question, image order, and source image labels. MSOCR renders the released
+line text at its recorded font sizes. The default input checks pin these
+strings to the benchmark's `v2.0.0` revision.
+
+```bash
+python -m pip install -e '.[vision]'
+python -m pm4bench.vision.fonts --output ./fonts
+pm4bench render-vision \
+  --task miqa \
+  --dataset-root /path/to/PM4Bench-snapshot \
+  --fonts-root ./fonts \
+  --output-root ./rendered-miqa \
+  --language en --limit 2
+```
+
+Use `--task msocr` for the multi-scale OCR renderer. Full-dataset commands,
+input auditing, font requirements, and output formats are described in
+[VISION_SYNTHESIS.md](docs/VISION_SYNTHESIS.md).
 
 To reconstruct MGUI with the pinned reference renderer:
 
