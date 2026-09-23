@@ -19,6 +19,11 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           cache: pip
-      - run: python -m pip install -e '.[dev,vision]'
+      - run: python -m pip install -e '.[dev,vision,synthesis]'
       - run: ruff check .
       - run: pytest
+      - if: matrix.python-version == '3.12'
+        run: |
+          python -m playwright install --with-deps chromium
+          python -m pm4bench.vision.fonts --output ./test-fonts
+          PM4BENCH_TEST_FONTS="$PWD/test-fonts" pytest -q tests/test_browser_synthesis.py

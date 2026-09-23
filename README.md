@@ -46,6 +46,7 @@ Install optional dependencies only when needed:
 python -m pip install -e '.[judge]'   # MIQA LLM-as-judge
 python -m pip install -e '.[render]'  # deterministic MGUI rendering
 python -m pip install -e '.[vision]'  # MIQA and MSOCR image synthesis
+python -m pip install -e '.[synthesis]'  # MDUR and QGO OCR-data synthesis
 python -m pip install -e '.[dev]'     # tests and lint
 ```
 
@@ -137,6 +138,10 @@ Use `--task msocr` for the multi-scale OCR renderer. Full-dataset commands,
 input auditing, font requirements, and output formats are described in
 [VISION_SYNTHESIS.md](docs/VISION_SYNTHESIS.md).
 
+MDUR's browser recipe is in [MDUR_SYNTHESIS.md](docs/MDUR_SYNTHESIS.md).
+It preserves public text/image routing and selects styles against reference
+images, accepting small font/raster differences.
+
 To reconstruct MGUI with the pinned reference renderer:
 
 ```bash
@@ -154,6 +159,10 @@ QGO-8B is the global-step-200 BF16 GRPO checkpoint derived from
 `Qwen/Qwen3-VL-8B-Thinking`. The exact release data is provided as 19,500
 training and 500 validation rows with embedded images. See
 [recipes/qgo/README.md](recipes/qgo/README.md).
+
+To generate multilingual OCR images and visible-word targets and pack training
+Parquet, follow [OCR_TRAIN_SYNTHESIS.md](docs/OCR_TRAIN_SYNTHESIS.md). Original
+text/background inputs and the published split inventory accompany the code.
 
 ## Reproducibility and provenance
 

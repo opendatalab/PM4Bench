@@ -21,7 +21,9 @@
 - [x] Publish MIQA and MSOCR vision synthesis from the released text manifests.
 - [x] Add manifest locks, image-label alignment checks, and pinned font downloads.
 - [x] Account for font baseline offsets to prevent cropped MIQA descenders.
-- [ ] Recover the matching MDUR renderer/style configuration and complete its release.
+- [x] Publish MDUR synthesis with public-transcript alignment and reference-led style fitting.
+- [x] Publish QGO OCR image/GT generation and portable Parquet packing.
+- [x] Include original OCR text/background inputs and the published train/validation split.
 - Add a prediction-format converter for common inference frameworks.
 - Add resumable evaluation reports without coupling them to paper figures.
 - Publish explicit compatibility tests for later Transformers/veRL releases.

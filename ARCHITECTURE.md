@@ -26,6 +26,17 @@ not sample replacement benchmark text or call translation services.
 The raster stage sizes text blocks from both line advances and actual ink
 extents so font baseline offsets cannot clip the final line.
 
+MDUR parses the public transcript and uses index-only source-image routing.
+Its offline browser renderer separates plans from reference-led style fitting;
+saved styles allow replay. Segoe/Noto is the closest tested candidate, with
+Noto-only rendering also available. Pixel identity is not a release requirement.
+
+`qgo.synthesize` samples the bundled text pool into explicit plans, renders
+words, and derives targets from visible boxes. `qgo.pack` validates image/GT
+pairs and writes portable Parquet with saved split membership/order. New
+corpora never modify the canonical training data. Shared browser utilities
+handle font loading, offline operation, and output protection.
+
 The QGO launcher keeps model, data, output, and reward locations external while
 fixing the public training parameters. Its reward module implements the same
 accuracy, length, and repetition terms used for QGO-8B.

@@ -1,5 +1,17 @@
 # Reproducibility
 
+Toolkit 2.2 adds [MDUR synthesis](MDUR_SYNTHESIS.md) and the
+[QGO OCR-data pipeline](OCR_TRAIN_SYNTHESIS.md). MDUR aligns public transcripts
+and images while accepting small visual differences. OCR synthesis records
+per-record plans, font/browser hashes, visible-word targets, and splits.
+New generated corpora are separate from unchanged published training data.
+
+The 2.2 release checks all 17,300 MDUR transcript/image-routing records and
+all 20,000 OCR targets/prompts against their source records. Browser regression
+checks replay of twelve multilingual OCR samples, including image and GT
+equality. MDUR visual smoke checks cover English and Chinese, supplied-style
+replay, and the Noto-only fallback; a full pixel-identity test is not asserted.
+
 Release artifacts are versioned independently but share version `2.0.0` and a
 machine-readable inventory. Inventories record row counts, file sizes, and
 checksums for large transformed artifacts.

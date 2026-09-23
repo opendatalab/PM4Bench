@@ -1,12 +1,12 @@
 # Vision data synthesis
 
+This page covers MIQA/MSOCR. See [MDUR_SYNTHESIS.md](MDUR_SYNTHESIS.md) for
+MDUR and [OCR_TRAIN_SYNTHESIS.md](OCR_TRAIN_SYNTHESIS.md) for QGO training data.
+
 The MIQA and MSOCR recipes reconstruct images from the public PM4Bench
 manifests. The MIQA layout comes from the MMDU single-question compositor;
 MSOCR uses the SizeBench multi-scale compositor. MGUI construction is available
 through `pm4bench render-mgui` as described in the main README.
-
-The MDUR renderer is pending recovery of a matching renderer/style pair.
-Its benchmark images remain available in the dataset.
 
 ## Inputs
 

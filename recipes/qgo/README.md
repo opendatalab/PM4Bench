@@ -1,5 +1,9 @@
 # QGO-8B recipe
 
+To generate OCR images, targets, and training Parquet, follow
+[OCR training-data synthesis](../../docs/OCR_TRAIN_SYNTHESIS.md).
+For the paper's exact corpus, use the published HF training dataset instead.
+
 QGO-8B starts from `Qwen/Qwen3-VL-8B-Thinking` and uses GRPO over the released
 synthetic multilingual OCR Parquet.
 

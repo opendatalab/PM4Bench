@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pm4bench"
-version = "2.1.0"
+version = "2.2.0"
 description = "Evaluation and reproducibility toolkit for PM4Bench and QGO-8B"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -16,6 +16,8 @@ dependencies = []
 judge = ["openai>=1.30,<3"]
 render = ["jinja2==3.1.6", "playwright==1.48.0"]
 vision = ["Pillow==11.3.0", "fonttools>=4.55,<5"]
+synthesis = ["Pillow==11.3.0", "fonttools>=4.55,<5", "playwright==1.48.0",
+             "numpy>=1.26,<3", "pyarrow>=18,<24"]
 dev = ["pytest>=8,<9", "ruff>=0.6,<1"]
 
 [project.scripts]
@@ -25,7 +27,8 @@ pm4bench = "pm4bench.cli:main"
 packages = ["src/pm4bench"]
 
 [tool.hatch.build]
-include = ["src/pm4bench/**/*.py", "src/pm4bench/prompts/*.txt", "src/pm4bench/vision/resources/**"]
+include = ["src/pm4bench/**/*.py", "src/pm4bench/prompts/*.txt",
+           "src/pm4bench/vision/resources/**", "src/pm4bench/qgo/resources/**"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
