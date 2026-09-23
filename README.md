@@ -120,6 +120,7 @@ The construction tools read the released dataset manifests. MIQA preserves
 the question, image order, and source image labels. MSOCR renders the released
 line text at its recorded font sizes. The default input checks pin these
 strings to the benchmark's `v2.0.0` revision.
+Text blocks expand to retain the full glyph height with the selected fonts.
 
 ```bash
 python -m pip install -e '.[vision]'

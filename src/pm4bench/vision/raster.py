@@ -87,14 +87,21 @@ def text_image(text: str, language: str, font_path: Path):
     # The historical renderer appends a newline to the last wrapped line.
     lines[-1] += "\n"
     boxes = [probe.textbbox((0, 0), line, font=font) for line in lines]
-    height = sum(box[3] - box[1] + 10 for box in boxes)
+    # Font ink can start below the draw origin. Summing bbox heights alone
+    # cuts off the final line's descenders (especially with Arabic fonts).
+    placements = []
+    y = 0
+    ink_bottom = 0
+    for line, box in zip(lines, boxes):
+        x = width - box[2] if language == "ar" else max(0, -box[0])
+        placements.append((line, x, y))
+        ink_bottom = max(ink_bottom, y + box[3])
+        y += box[3] - box[1] + 10
+    height = max(y, ink_bottom + 2)
     image = Image.new("RGB", (width, height), "white")
     draw = ImageDraw.Draw(image)
-    y = 0
-    for line, box in zip(lines, boxes):
-        x = width - (box[2] - box[0]) if language == "ar" else 0
+    for line, x, y in placements:
         draw.text((x, y), line, font=font, fill="black")
-        y += box[3] - box[1] + 10
     return image
 
 

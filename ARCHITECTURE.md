@@ -23,6 +23,8 @@ identifies the released text; synthesis writes plans, generated images, and
 environment/checksum reports to a separate output directory. Optional font
 downloads are pinned by source revision and checksum. Construction code does
 not sample replacement benchmark text or call translation services.
+The raster stage sizes text blocks from both line advances and actual ink
+extents so font baseline offsets cannot clip the final line.
 
 The QGO launcher keeps model, data, output, and reward locations external while
 fixing the public training parameters. Its reward module implements the same

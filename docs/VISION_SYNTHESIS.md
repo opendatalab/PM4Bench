@@ -27,6 +27,9 @@ assets are named `image_1.png`, `image_2.png`, and `image_3.png`. Arabic image
 labels retain the ordering in the released OCR text. The question is checked
 after removing the historical `<ImageHere>` image prefix; any disagreement
 with `rendered_text` stops the job. Reference answers are never drawn.
+Text-block height accounts for the font's baseline offset and descenders,
+preventing clipping with Arabic and other fonts whose ink extends below the
+old height-only crop.
 
 Asset filenames define their numeric order. In the v2.0.0 manifests,
 `105_0` has 11 images and its `traditional_images` list is lexicographically

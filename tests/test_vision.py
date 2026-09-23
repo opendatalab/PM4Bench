@@ -122,3 +122,23 @@ def test_raster_smoke(tmp_path):
     with Image.open(tmp_path / "msocr.png") as image:
         assert image.size == (1280, 720)
         assert image.getextrema()[0][0] == 0
+
+
+@pytest.mark.parametrize("language,text", [("en", "gypq"), ("ar", "1 صورة:")])
+def test_text_blocks_keep_descenders(language, text):
+    pytest.importorskip("PIL")
+    from PIL import Image, ImageDraw, ImageOps
+
+    from pm4bench.vision.raster import load_font, text_image
+
+    font_path = Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")
+    if not font_path.exists():
+        pytest.skip("system test font unavailable")
+    font = load_font(str(font_path), 42)
+    reference = Image.new("RGB", (1280, 256), "white")
+    draw = ImageDraw.Draw(reference)
+    box = draw.textbbox((0, 0), text + "\n", font=font)
+    x = 1280 - box[2] if language == "ar" else max(0, -box[0])
+    draw.text((x, 0), text + "\n", font=font, fill="black")
+    result = text_image(text, language, font_path)
+    assert ImageOps.invert(result).getbbox() == ImageOps.invert(reference).getbbox()
