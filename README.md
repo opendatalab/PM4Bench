@@ -44,9 +44,7 @@ Install optional dependencies only when needed:
 
 ```bash
 python -m pip install -e '.[judge]'   # MIQA LLM-as-judge
-python -m pip install -e '.[render]'  # deterministic MGUI rendering
-python -m pip install -e '.[vision]'  # MIQA and MSOCR image synthesis
-python -m pip install -e '.[synthesis]'  # MDUR and QGO OCR-data synthesis
+python -m pip install -e '.[synthesis]'  # all four vision tasks and QGO OCR synthesis
 python -m pip install -e '.[dev]'     # tests and lint
 ```
 
@@ -117,14 +115,15 @@ pm4bench judge-miqa \
 
 ## Synthesize benchmark images
 
-The construction tools read the released dataset manifests. MIQA preserves
-the question, image order, and source image labels. MSOCR renders the released
-line text at its recorded font sizes. The default input checks pin these
-strings to the benchmark's `v2.0.0` revision.
-Text blocks expand to retain the full glyph height with the selected fonts.
+All four tasks use **one interface**, `pm4bench render-vision --task TASK`.
+It reads the released manifests, checks their content against the `v2.0.0`
+snapshot, and writes checked plans, generated images, and a provenance report
+to a new directory. The same language, record-selection, and audit options
+apply to MDUR, MIQA, MSOCR, and MGUI.
 
 ```bash
-python -m pip install -e '.[vision]'
+python -m pip install -e '.[synthesis]'
+python -m playwright install chromium
 python -m pm4bench.vision.fonts --output ./fonts
 pm4bench render-vision \
   --task miqa \
@@ -134,24 +133,16 @@ pm4bench render-vision \
   --language en --limit 2
 ```
 
-Use `--task msocr` for the multi-scale OCR renderer. Full-dataset commands,
-input auditing, font requirements, and output formats are described in
-[VISION_SYNTHESIS.md](docs/VISION_SYNTHESIS.md).
+Use `--task mdur`, `msocr`, or `mgui` to select another task. MGUI uses the
+historical system font stack, so omit `--fonts-root` for that task. Add
+`--audit-only` to check inputs without rendering; no fonts or browser are
+needed in audit mode.
 
-MDUR's browser recipe is in [MDUR_SYNTHESIS.md](docs/MDUR_SYNTHESIS.md).
-It preserves public text/image routing and selects styles against reference
-images, accepting small font/raster differences.
-
-To reconstruct MGUI with the pinned reference renderer:
-
-```bash
-python -m playwright install chromium
-pm4bench render-mgui \
-  --templates-root metadata/mgui/templates \
-  --output-root rendered-mgui \
-  --compare-gt metadata/mgui/gt \
-  --comparison-mode structure
-```
+[Vision synthesis](docs/VISION_SYNTHESIS.md) is the shared guide for setup,
+the CLI and Python API, task-specific rendering options, and output layout.
+Browser-based MDUR/MGUI and raster-based MIQA/MSOCR retain their own layout
+logic behind this interface. Rendering does not overwrite the released data;
+use the published images for comparable evaluation.
 
 ## QGO-8B
 

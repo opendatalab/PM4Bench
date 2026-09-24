@@ -1,5 +1,8 @@
 # MDUR vision synthesis
 
+Use the shared [vision synthesis guide](VISION_SYNTHESIS.md) for installation,
+selection, and output conventions. This page covers MDUR-specific rendering.
+
 MDUR construction uses the recovered HTML layout and the closest tested
 browser/font configuration, with reference-led style selection. Small font
 and raster differences are accepted; pixel identity is not claimed. Use the
@@ -16,10 +19,7 @@ Index-only image routing includes question/option images in their recorded
 positions and excludes answer-explanation images. Public data remains unchanged.
 
 ```bash
-python -m pip install -e '.[synthesis]'
-python -m playwright install chromium
-python -m pm4bench.vision.fonts --output ./fonts
-python -m pm4bench.vision.mdur \
+pm4bench render-vision --task mdur \
   --dataset-root /path/to/PM4Bench --output-root ./mdur-audit --audit-only
 ```
 
@@ -42,7 +42,7 @@ a separate directory. Tested files were served from Microsoft's
 for terms. Tested hashes are in `vision/resources/reference-fonts.json`.
 
 ```bash
-python -m pm4bench.vision.mdur \
+pm4bench render-vision --task mdur \
   --dataset-root /path/to/PM4Bench --fonts-root ./fonts \
   --segoe-root ./segoe-fonts --language en --limit 3 \
   --output-root ./mdur-rendered
@@ -69,8 +69,8 @@ exactly the requested records. `--no-fit` uses the calibrated base style and
 fitted background without text-style search. All modes read reference images
 for comparison.
 
-Outputs: `plans.jsonl`, `html/`, `images/`, `images.jsonl`, `styles.jsonl`,
-`report.json`. These record text hashes, image routing, selected styles,
+Alongside the common output files, MDUR writes `html/mdur/{language}/` and
+`styles.jsonl`. Plans, styles, and reports record text hashes, image routing, selected styles,
 background-fit margins, reference scores, and font/browser metadata. Small
 background margins indicate ambiguity. Scores are diagnostic differences,
 not task performance or percentage accuracy.

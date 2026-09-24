@@ -18,6 +18,9 @@
 
 ## Post-release
 
+- [x] Unify four-task data loading, rendering entry point, plans, and output reports.
+- [x] Group all benchmark composers under `vision/tasks/`, retaining legacy import adapters.
+- [x] Consolidate rendering documentation and integrate MGUI manifest alignment/page deduplication.
 - [x] Publish MIQA and MSOCR vision synthesis from the released text manifests.
 - [x] Add manifest locks, image-label alignment checks, and pinned font downloads.
 - [x] Account for font baseline offsets to prevent cropped MIQA descenders.

@@ -1,140 +1,102 @@
-# Vision data synthesis
+# Benchmark vision synthesis
 
-This page covers MIQA/MSOCR. See [MDUR_SYNTHESIS.md](MDUR_SYNTHESIS.md) for
-MDUR and [OCR_TRAIN_SYNTHESIS.md](OCR_TRAIN_SYNTHESIS.md) for QGO training data.
+All four benchmark tasks use one command and Python API. They share manifest
+loading, record selection, checked plans, output protection, and reporting.
+Task-specific composition remains independent: MDUR/MGUI use a browser;
+MIQA/MSOCR use Pillow. The published dataset layout is unchanged.
 
-The MIQA and MSOCR recipes reconstruct images from the public PM4Bench
-manifests. The MIQA layout comes from the MMDU single-question compositor;
-MSOCR uses the SizeBench multi-scale compositor. MGUI construction is available
-through `pm4bench render-mgui` as described in the main README.
-
-## Inputs
-
-Download the benchmark at `v2.0.0` (commit
-`525f8686cf360eabc92311ab901b3ff8e0675575`) from
-[songjhPKU/PM4Bench](https://huggingface.co/datasets/songjhPKU/PM4Bench/tree/v2.0.0).
-The recipes require `data/miqa/*.jsonl`, `data/msocr/*.jsonl`, and MIQA's
-`assets/miqa/traditional/` images. No private text files, original upstream
-downloads, TSV files, or translation API calls are needed.
-
-| Task | Text source | Layout |
-| --- | --- | --- |
-| MIQA | `question` and `rendered_text`, checked against each other | 42 px text; 1,280 px text width; source images bounded to 1,200 × 700; 20 px outer padding |
-| MSOCR | Ordered `lines[].text` and `lines[].font_size`, checked against `ground_truth` | 1,280 × 720; 20 lines from 40 to 2 px; horizontally centered |
-
-MIQA retains source image numbers such as **1, 3, 4**, even though the portable
-assets are named `image_1.png`, `image_2.png`, and `image_3.png`. Arabic image
-labels retain the ordering in the released OCR text. The question is checked
-after removing the historical `<ImageHere>` image prefix; any disagreement
-with `rendered_text` stops the job. Reference answers are never drawn.
-Text-block height accounts for the font's baseline offset and descenders,
-preventing clipping with Arabic and other fonts whose ink extends below the
-old height-only crop.
-
-Asset filenames define their numeric order. In the v2.0.0 manifests,
-`105_0` has 11 images and its `traditional_images` list is lexicographically
-ordered (`1, 10, 11, 2, ...`). The compositor restores numeric order before
-pairing assets with their source labels. Apply the same numeric ordering when
-building traditional-setting input from that manifest.
-
-MSOCR consumes the released lines in order. The earlier title sampler is not
-part of reconstruction: rerunning it would change the evaluation text. The
-renderer does not translate, resample, shuffle, or reverse those lines.
-
-By default, the input manifest SHA-256 must match the released text. The
-expected values are packaged in `vision/resources/inputs.lock.json`. Use
-`--allow-custom-manifest` only for your own modified-text experiment; the same
-row-level consistency checks still apply and the report marks the custom input.
-
-## Environment and fonts
+## Setup and input
 
 ```bash
-python -m pip install -e '.[vision]'
+python -m pip install -e '.[synthesis]'
+python -m playwright install chromium
 python -m pm4bench.vision.fonts --output ./fonts
 ```
 
-The downloader retrieves five Noto font files and their SIL Open Font License
-notices from a fixed Google Fonts commit, and verifies their SHA-256 values.
-It preserves existing files and rejects a checksum mismatch. The font files
-are downloaded separately from the code package.
+Use the benchmark's [v2.0.0 snapshot](https://huggingface.co/datasets/songjhPKU/PM4Bench/tree/v2.0.0).
+All tasks read `data/<task>/<language>.jsonl` through `pm4bench.data`.
+The manifest lock in `data/resources/inputs.lock.json` covers all 40 files.
+Paths are relative to one `--dataset-root`, including MGUI template/GT metadata.
+No private source tree or translation service is required.
 
-The filenames follow the historical recipes. The pinned downloads are variable
-fonts, loaded at their **Regular** instance, including Chinese and Korean fonts
-whose default axis value is Thin. You can instead supply the original static
-fonts under the same filenames:
+| Task | Composition and input | Options/details |
+| --- | --- | --- |
+| MDUR | Public transcript + routed source images, reference-led browser styling | `--fonts-root`; optional `--segoe-root`, `--styles`, `--no-fit`; [details](MDUR_SYNTHESIS.md) |
+| MIQA | Ordered source images + public question/text blocks | `--fonts-root`; [raster details](RASTER_SYNTHESIS.md) |
+| MSOCR | Public lines at their recorded font sizes | `--fonts-root`; [raster details](RASTER_SYNTHESIS.md) |
+| MGUI | Public instructions aligned to templates and reference GT; shared pages rendered once | System font stack; `--comparison-mode`, `--bbox-tolerance`; [details](MGUI_SYNTHESIS.md) |
 
-- `NotoSans-Regular.ttf`: English, Czech, Hungarian, Russian, Serbian, Vietnamese
-- `NotoSansArabic-Regular.ttf`: Arabic
-- `NotoSansThai-Regular.ttf`: Thai
-- `NotoSansKR-Regular.ttf`: Korean
-- `NotoSansSC-Regular.ttf`: Chinese
-
-Pillow is pinned to 11.3.0 and requires libraqm for text shaping. The usual
-binary wheels include it. Check a custom installation with
-`python -c "from PIL import features; print(features.check_feature('raqm'))"`.
-
-Font coverage is recorded in `report.json`. The pinned Noto SC font lacks
-`U+2CE2F`, which occurs in the released Chinese MSOCR text. The string is kept
-unchanged and the font's missing-glyph symbol is rendered for this character.
-Use `--strict-glyphs` to reject missing characters before rendering, or provide
-a font covering the complete text. Font substitution changes geometry; output
-reports record the exact font hashes.
-
-## Run
-
-First validate every input without loading fonts or rendering images:
+## One interface
 
 ```bash
+# The same audit command works with mdur, miqa, msocr, or mgui; no fonts/browser needed.
+pm4bench render-vision --task mdur \
+  --dataset-root /path/to/PM4Bench --output-root ./audit-mdur --audit-only
+
+# Switch --task for the desired benchmark component.
 pm4bench render-vision --task miqa \
-  --dataset-root /path/to/PM4Bench-snapshot \
-  --output-root ./audit-miqa --audit-only
-pm4bench render-vision --task msocr \
-  --dataset-root /path/to/PM4Bench-snapshot \
-  --output-root ./audit-msocr --audit-only
+  --dataset-root /path/to/PM4Bench --fonts-root ./fonts \
+  --language en --limit 2 --output-root ./rendered-miqa
 ```
 
-Render all 2,180 MIQA images and 1,000 MSOCR images:
+For MGUI use `--task mgui` and omit `--fonts-root` to retain its historical
+platform-font stack. MDUR supports the same selectors and accepts small pixel
+differences. `--browser-executable` applies to the two browser tasks.
+`--workers` and `--strict-glyphs` apply to the Pillow tasks. Unsupported
+combinations fail explicitly rather than silently ignoring options.
 
-```bash
-pm4bench render-vision --task miqa \
-  --dataset-root /path/to/PM4Bench-snapshot \
-  --fonts-root ./fonts --output-root ./rendered-miqa --workers 4
-pm4bench render-vision --task msocr \
-  --dataset-root /path/to/PM4Bench-snapshot \
-  --fonts-root ./fonts --output-root ./rendered-msocr --workers 4
+`--language` and `--id` are repeatable. `--limit` limits **records per language**,
+after ID selection; omit it for all records. MGUI records are instructions,
+so two selected records may share one rendered page. An ID must occur in the
+final selection. `--allow-custom-manifest` marks a separate modified-input
+experiment; task-specific consistency and image-routing checks still apply.
+
+Python callers use the same orchestrator:
+
+```python
+from pathlib import Path
+from pm4bench.vision import render_vision
+
+report = render_vision(
+    Path("/path/to/PM4Bench"), Path("./audit-mgui"),
+    task="mgui", languages=("en",), limit=2, audit_only=True,
+)
 ```
 
-For a quick check, add `--language en --limit 2`. `--language` and `--id` can
-be repeated. A limit applies separately to each selected language. Every run
-requires a new output directory outside the input snapshot; failed or previous
-runs are kept for inspection.
+## Common output contract
 
-## Outputs and validation
+Each invocation requires a fresh output root outside the input directories:
 
-Each run writes:
+```text
+output/
+├── plans.jsonl                  # one checked plan per selected record
+├── images.jsonl                 # one artifact reference per rendered record
+├── report.json                  # shared run status/counts and backend metadata
+├── images/<task>/<language>/...  # deduplicated images
+├── html/<task>/<language>/...    # browser tasks only
+├── gt/mgui/<language>/...        # MGUI element boxes and page questions
+└── styles.jsonl                 # MDUR style selection/replay
+```
 
-- `plans.jsonl`: exact text blocks, line sizes or image order, and text hashes
-- `images/{task}/{language}/{id}.png`: generated images
-- `images.jsonl`: output image paths and SHA-256 values
-- `report.json`: input manifest hashes, font hashes, glyph coverage, row counts,
-  and Python/Pillow/FreeType/libraqm versions
+Every plan/artifact carries `id`, `task`, and `language`. Artifact records add
+`image` and `sha256`; MGUI also adds `gt`. Paths in plans refer to the input
+snapshot; artifact paths refer to the output. `images.jsonl` is empty in audit
+mode. MGUI's artifact rows share image paths where the source page is shared.
 
-Audit-only runs produce the plans and report. Paths in plans refer to the
-input snapshot; paths in `images.jsonl` refer to the generated output root.
+Reports consistently expose `task`, `backend`, `records`, `rendered_records`,
+`images` (unique image files), `audit_only`, `input_manifests_sha256`,
+`custom_manifest`, and `status`. Backends add font/browser or raster versions,
+styles, or GT comparisons. A run that fails after planning leaves its evidence
+and a `failed` report; it never replaces an old run. MGUI comparison failures
+return a nonzero CLI status. Use published benchmark images for evaluation.
 
-The release checks all 2,180 MIQA and 1,000 MSOCR text records against the
-public manifests, including question-prefix removal and non-consecutive image
-labels, and renders all 3,180 images in the pinned Pillow environment. Tests
-also cover double-digit image ordering, changed text, inconsistent ground truth, path escape,
-output protection, and raster generation. Text alignment does not imply
-pixel equality across font or FreeType versions. Use the public benchmark
-images for comparable evaluation scores.
+## Compatibility and training data
 
-## Licenses
+`render-mgui --templates-root ...` and `python -m pm4bench.vision.mdur` remain
+compatibility entry points. Their former image layouts/imports are retained;
+new workflows should use `render-vision`. The MGUI template-only entry point
+cannot provide the new manifest alignment checks without a dataset snapshot.
 
-Project-owned construction code is Apache-2.0. MIQA source data retains MMDU's
-CC BY-NC 4.0 terms; see the benchmark's
-[component licenses](https://huggingface.co/datasets/songjhPKU/PM4Bench/blob/v2.0.0/UPSTREAM_LICENSES.md).
-MSOCR is a PM4Bench-generated component. Downloaded Noto fonts retain their
-SIL OFL 1.1 notices; exact upstream URLs and checksums are in
-`vision/resources/fonts.lock.json`.
+QGO OCR training synthesis creates new random corpora and remains a separate
+workflow under `qgo/`; see [OCR_TRAIN_SYNTHESIS.md](OCR_TRAIN_SYNTHESIS.md).
+It is not an additional benchmark task.

@@ -1,6 +1,16 @@
 {
   "dataset": "songjhPKU/PM4Bench",
   "manifests": {
+    "data/mgui/ar.jsonl": "856ce8874f0954027ae50982dc66b4b851365dd7e5e5b3f845e5002706d104e2",
+    "data/mgui/cs.jsonl": "fd5fcef42e0a090d34cb3194b674311414f53703842470dd3c6a00df3ed34837",
+    "data/mgui/en.jsonl": "cdaeb26fe135de504a9ba4bc39cf7b22d4d20d8385da7e2710a49ad975b58240",
+    "data/mgui/hu.jsonl": "f43f13204375ac11920c3f47d3258c76bbaaa287a97467b2cb454bf36c43792a",
+    "data/mgui/ko.jsonl": "40a267b987e87902d6fc29eb3f22ea34d1539def6f251b365c692979cc29fe7a",
+    "data/mgui/ru.jsonl": "fea82b65b60bf1b2a7ff251289cdf6417b24decb96926cbaf8c354b19299ef4b",
+    "data/mgui/sr.jsonl": "cf9ad8d823ddaeb633856eb4f1b598b0da1fbca37f9e4225e448c84fd8486d0b",
+    "data/mgui/th.jsonl": "b695da672ce3a313ee29e3b5c39147977d37052317d360a41675ce7bb5bdc976",
+    "data/mgui/vi.jsonl": "d2b7ad25d1fac193ee29c7d18b81bf439248972d4bf608d90d1f9d2527fa13c8",
+    "data/mgui/zh.jsonl": "0bd91739f3f7cdceea5bf6e2689720127b138a4e7c89d280af488be2a2e55828",
     "data/mdur/ar.jsonl": "969361ff72558a579bd5ada02ea4f7b3e05996b20f7fd600009dda2e9eabde19",
     "data/mdur/cs.jsonl": "6b2c03560cd3218f55f78ab599688bb5781d500709ef832f01500176701f905c",
     "data/mdur/en.jsonl": "c408ab3a1be89b6f0a255aad2c0e04a53aa0102b0dd5897f842281ff53f1b335",

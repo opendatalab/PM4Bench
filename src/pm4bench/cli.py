@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+from .data import EXPECTED_COUNTS, LANGUAGES, TASKS
 from .io import iter_jsonl, load_predictions, record_key, resolve_asset
 from .metrics import (
     denormalize_coords,
@@ -19,9 +20,6 @@ from .metrics import (
     point_in_bbox,
 )
 from .miqa import OpenAICompatibleChat, aggregate_scores, judge_manifest
-
-EXPECTED_COUNTS = {"mdur": 1730, "miqa": 218, "msocr": 100, "mgui": 200}
-LANGUAGES = ("ar", "cs", "en", "hu", "ko", "ru", "sr", "th", "vi", "zh")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -56,7 +54,7 @@ def build_parser() -> argparse.ArgumentParser:
     summarize = subparsers.add_parser("summarize-miqa", help="summarize existing MIQA judge JSONL")
     summarize.add_argument("--judgments", type=Path, required=True)
 
-    render = subparsers.add_parser("render-mgui", help="render MGUI templates and ground truth")
+    render = subparsers.add_parser("render-mgui", help="legacy MGUI template interface")
     render.add_argument("--templates-root", type=Path, required=True)
     render.add_argument("--output-root", type=Path, required=True)
     render.add_argument("--compare-gt", type=Path)
@@ -72,7 +70,7 @@ def build_parser() -> argparse.ArgumentParser:
     vision = subparsers.add_parser("render-vision", help="synthesize vision data from released text")
     vision.add_argument("--dataset-root", type=Path, required=True)
     vision.add_argument("--output-root", type=Path, required=True)
-    vision.add_argument("--task", choices=("miqa", "msocr"), required=True)
+    vision.add_argument("--task", choices=TASKS, required=True)
     vision.add_argument("--language", action="append", choices=LANGUAGES)
     vision.add_argument("--fonts-root", type=Path)
     vision.add_argument("--id", action="append")
@@ -81,6 +79,13 @@ def build_parser() -> argparse.ArgumentParser:
     vision.add_argument("--allow-custom-manifest", action="store_true")
     vision.add_argument("--strict-glyphs", action="store_true", help="fail on missing font glyphs")
     vision.add_argument("--workers", type=int, default=1)
+    vision.add_argument("--browser-executable", type=Path)
+    vision.add_argument("--segoe-root", type=Path, help="MDUR: optional reference font profile")
+    vision.add_argument("--styles", type=Path, help="MDUR: saved style manifest")
+    vision.add_argument("--no-fit", action="store_true", help="MDUR: skip text-style fitting")
+    vision.add_argument("--comparison-mode", choices=("strict", "structure"), default="structure",
+                        help="MGUI: compare reference structure or geometry")
+    vision.add_argument("--bbox-tolerance", type=float, default=.2, help="MGUI geometry tolerance")
     return parser
 
 
@@ -192,10 +197,17 @@ def main() -> None:
             allow_custom_manifest=args.allow_custom_manifest,
             strict_glyphs=args.strict_glyphs,
             workers=args.workers,
+            browser_executable=args.browser_executable, segoe_root=args.segoe_root,
+            fit=not args.no_fit, styles=args.styles,
+            comparison_mode=args.comparison_mode, bbox_tolerance=args.bbox_tolerance,
         )
     else:
+        import warnings
+
         from .mgui.render import compare_gt, render_mgui
 
+        warnings.warn("Prefer render-vision --task mgui --dataset-root; render-mgui remains "
+                      "available for template-only callers.", FutureWarning, stacklevel=1)
         result = render_mgui(
             args.templates_root,
             args.output_root,
@@ -218,6 +230,8 @@ def main() -> None:
         temporary.write_text(rendered, encoding="utf-8")
         temporary.replace(args.report)
     print(rendered, end="")
+    if result.get("status") == "failed":
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

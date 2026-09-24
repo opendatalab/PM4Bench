@@ -3,8 +3,6 @@ from __future__ import annotations
 from functools import lru_cache
 from pathlib import Path
 
-from ..io import resolve_asset
-
 
 @lru_cache(maxsize=128)
 def load_font(path: str, size: int):
@@ -38,23 +36,6 @@ def missing_glyphs(font_path: Path, texts: list[str]) -> list[str]:
         and not 0xFE00 <= ord(char) <= 0xFE0F and ord(char) not in cmap
     })
     return [f"U+{code:04X}" for code in missing]
-
-
-def render_msocr(plan: dict, font_path: Path, destination: Path) -> None:
-    from PIL import Image, ImageDraw
-
-    image = Image.new("RGB", tuple(plan["image_size"]), "white")
-    draw = ImageDraw.Draw(image)
-    y = 10
-    for line in plan["lines"]:
-        font = load_font(str(font_path), line["font_size"])
-        text = line["text"]
-        width = font.getlength(text)
-        if width > image.width:
-            raise ValueError(f"{plan['id']}: text exceeds canvas width with this font")
-        draw.text(((image.width - width) // 2, y), text, font=font, fill="black")
-        y += max(int(line["font_size"] * 1.5), 20)
-    image.save(destination)
 
 
 def text_image(text: str, language: str, font_path: Path):
@@ -105,27 +86,13 @@ def text_image(text: str, language: str, font_path: Path):
     return image
 
 
-def render_miqa(plan: dict, root: Path, font_path: Path, destination: Path) -> None:
-    from PIL import Image
+def render_miqa(*args, **kwargs):
+    """Compatibility wrapper for the task compositor."""
+    from .tasks.miqa import render_miqa as render
+    return render(*args, **kwargs)
 
-    images = []
-    for block in plan["blocks"]:
-        if block["type"] == "text":
-            image = text_image(block["text"], plan["language"], font_path)
-        else:
-            with Image.open(resolve_asset(root, block["path"])) as source:
-                image = source.convert("RGB")
-            if image.width > 1200:
-                image = image.resize((1200, int(1200 * image.height / image.width)))
-            if image.height > 700:
-                image = image.resize((int(700 * image.width / image.height), 700))
-        images.append(image)
-    padding = 20
-    height = sum(image.height for image in images) + 2 * padding + 10 * len(images)
-    canvas = Image.new("RGB", (1320, height), "white")
-    y = padding
-    for image in images:
-        x = canvas.width - padding - image.width if plan["language"] == "ar" else padding
-        canvas.paste(image, (x, y))
-        y += image.height + 10
-    canvas.save(destination)
+
+def render_msocr(*args, **kwargs):
+    """Compatibility wrapper for the task compositor."""
+    from .tasks.msocr import render_msocr as render
+    return render(*args, **kwargs)

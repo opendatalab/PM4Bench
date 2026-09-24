@@ -17,21 +17,59 @@ No layer contains machine-specific paths, credentials, experiment logs, or
 paper-result outputs. Dataset rows use stable identifiers and paths relative to
 the dataset snapshot root.
 
-The `vision` module separates checked text/image plans from raster rendering.
-MIQA and MSOCR consume the benchmark JSONL files directly. A manifest lock
-identifies the released text; synthesis writes plans, generated images, and
-environment/checksum reports to a separate output directory. Optional font
-downloads are pinned by source revision and checksum. Construction code does
-not sample replacement benchmark text or call translation services.
-The raster stage sizes text blocks from both line advances and actual ink
-extents so font baseline offsets cannot clip the final line.
+## Data and construction modules
+
+```text
+src/pm4bench/
+├── data/                   # four-task manifests, selection, integrity checks
+│   └── resources/          # one lock for all 40 language/task manifests
+├── vision/
+│   ├── render.py           # shared plan → render → report orchestration
+│   ├── options.py          # shared render options
+│   ├── browser.py          # offline browser/font utilities
+│   ├── raster.py           # font, glyph, and text-raster utilities
+│   ├── resources/          # pinned fonts, backgrounds, MDUR routing/styles
+│   └── tasks/              # task-specific plans and layout implementations
+│       ├── mdur.py
+│       ├── miqa.py
+│       ├── msocr.py
+│       ├── mgui.py
+│       ├── _mdur_text.py
+│       └── _mgui_browser.py
+├── qgo/                    # training-corpus synthesis, packing, and reward
+└── mgui/render.py          # compatibility facade; no separate implementation
+```
+
+`pm4bench.data` owns task/language constants, locked manifest loading, and
+record selection, independently of rendering. `pm4bench.vision.render_vision`
+and `pm4bench render-vision` expose the same pipeline for all four tasks.
+The task registry chooses a planner and backend; plans preserve published
+text and asset routing. One orchestrator owns output protection, common
+manifests, and execution reports. Browser and raster implementations remain
+separate because their layout and font behavior are different.
+
+Every output contains `plans.jsonl`, `images.jsonl`, and `report.json`; images
+use `images/{task}/{language}/`. Each image-manifest row corresponds to one
+selected benchmark record. MGUI deduplicates pages shared by multiple questions
+and checks templates/GT against the selected public records before rendering.
+Audit mode checks all tasks without optional rendering dependencies.
+
+Optional font downloads are pinned by source revision and checksum.
+Construction does not sample replacement benchmark text or call translation
+services. The raster stage accounts for actual ink extents to avoid clipping
+the final line. See [Vision synthesis](docs/VISION_SYNTHESIS.md) for the single
+user-facing construction guide and links to task-specific details.
 
 MDUR parses the public transcript and uses index-only source-image routing.
 Its offline browser renderer separates plans from reference-led style fitting;
 saved styles allow replay. Segoe/Noto is the closest tested candidate, with
 Noto-only rendering also available. Pixel identity is not a release requirement.
 
-`qgo.synthesize` samples the bundled text pool into explicit plans, renders
+## Training and release boundaries
+
+QGO synthesis is separate from benchmark construction: it samples new training
+text instead of consuming benchmark records. `qgo.synthesize` samples the
+bundled text pool into explicit plans, renders
 words, and derives targets from visible boxes. `qgo.pack` validates image/GT
 pairs and writes portable Parquet with saved split membership/order. New
 corpora never modify the canonical training data. Shared browser utilities

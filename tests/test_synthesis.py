@@ -76,7 +76,7 @@ def test_css_injection_rejected():
 
 
 def test_mdur_plan_uses_transcript_and_excludes_explanation(tmp_path, monkeypatch):
-    from pm4bench.vision import mdur
+    from pm4bench.vision.tasks import mdur
 
     assets = ['image_1.png', 'image_2.png']
     for name in assets:

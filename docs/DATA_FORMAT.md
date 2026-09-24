@@ -4,6 +4,12 @@ All benchmark manifests are UTF-8 JSONL. Every row contains
 `schema_version`, `task`, `language`, and a stable task identifier. Asset paths
 are POSIX paths relative to the dataset snapshot root.
 
+`pm4bench.data.load_manifest(root, task, language)` and `select_records(...)`
+are the shared data access layer for all four tasks. Published manifest hashes
+are checked by default. The [vision pipeline](VISION_SYNTHESIS.md) consumes
+these records with common selectors and outputs; task-specific fields below
+remain intact. This API unification does not migrate or rewrite the HF files.
+
 ## MDUR
 
 One row represents the same question in both settings. `traditional_images`

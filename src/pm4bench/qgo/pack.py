@@ -6,8 +6,8 @@ import json
 import random
 from pathlib import Path
 
+from ..data.benchmark import sha256
 from ..vision.browser import new_output, save_json
-from ..vision.inputs import sha256
 
 PROMPT = (r'<image> Please identify the text in the image and output each word in sequence, '
           r'separated by spaces, without line breaks in \boxed{}. Please follow these rules: '

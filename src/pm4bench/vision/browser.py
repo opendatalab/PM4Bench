@@ -4,8 +4,9 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from ..data.benchmark import sha256
 from ..io import resolve_asset
-from .inputs import FONTS, sha256
+from .resources import FONTS
 
 
 def new_output(output: Path, *inputs: Path) -> Path:

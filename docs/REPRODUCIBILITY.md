@@ -1,5 +1,17 @@
 # Reproducibility
 
+Toolkit 2.3 unifies the four benchmark tasks behind
+[one data/rendering interface](VISION_SYNTHESIS.md). It preserves the 2.2
+composition algorithms and adds consistent record selection, output envelopes,
+and MGUI manifest/template/GT checks. The frozen HF schemas and assets are
+unchanged. Task-specific limitations remain in the linked composition guides.
+
+The 2.3 input audit covers all 22,480 records across 40 task/language manifests,
+including MGUI question/template/GT alignment. Browser regression checks cover
+page deduplication, selected-record outputs, and legacy/unified screenshot and
+GT equality. MDUR supplied-style smoke images match the preceding toolkit;
+this checks refactor stability, not pixel identity with historical benchmark images.
+
 Toolkit 2.2 adds [MDUR synthesis](MDUR_SYNTHESIS.md) and the
 [QGO OCR-data pipeline](OCR_TRAIN_SYNTHESIS.md). MDUR aligns public transcripts
 and images while accepting small visual differences. OCR synthesis records
