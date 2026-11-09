@@ -1,6 +1,6 @@
 from pathlib import Path
 
-RECIPE = Path(__file__).parents[1] / "recipes" / "qgo" / "train_grpo.sh"
+RECIPE = Path(__file__).parents[1] / "recipes" / "train_grpo.sh"
 
 
 def test_qgo_recipe_uses_v1_training_parameters() -> None:

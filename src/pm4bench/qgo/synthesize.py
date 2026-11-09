@@ -9,6 +9,7 @@ from pathlib import Path
 
 from ..data.benchmark import sha256
 from ..io import iter_jsonl, write_jsonl
+from ..vision.assets import RESOURCE_ROOT
 from ..vision.browser import (
     font_css,
     new_output,
@@ -17,7 +18,6 @@ from ..vision.browser import (
     save_json,
     wait_for_render,
 )
-from ..vision.resources import RESOURCE_ROOT
 
 TEXT_POOL = Path(__file__).parent / 'resources/title_dict_sample.json'
 LANGUAGES = ('en', 'ar', 'cs', 'ko', 'hu', 'ru', 'sr', 'th', 'vi', 'zh')

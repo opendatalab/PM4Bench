@@ -6,7 +6,7 @@ from pathlib import Path
 
 from ..data.benchmark import sha256
 from ..io import resolve_asset
-from .resources import FONTS
+from .assets import FONTS
 
 
 def new_output(output: Path, *inputs: Path) -> Path:

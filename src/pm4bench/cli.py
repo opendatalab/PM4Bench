@@ -64,7 +64,7 @@ def build_parser() -> argparse.ArgumentParser:
     summarize = subparsers.add_parser("summarize-miqa", help="summarize existing MIQA judge JSONL")
     summarize.add_argument("--judgments", type=Path, required=True)
 
-    render = subparsers.add_parser("render-mgui", help="legacy MGUI template interface")
+    render = subparsers.add_parser("render-mgui", help="render MGUI pages from a template directory")
     render.add_argument("--templates-root", type=Path, required=True)
     render.add_argument("--output-root", type=Path, required=True)
     render.add_argument("--compare-gt", type=Path)
@@ -227,12 +227,8 @@ def main() -> None:
             comparison_mode=args.comparison_mode, bbox_tolerance=args.bbox_tolerance,
         )
     else:
-        import warnings
+        from .vision.tasks.mgui_browser import compare_gt, render_mgui
 
-        from .mgui.render import compare_gt, render_mgui
-
-        warnings.warn("Prefer render-vision --task mgui --dataset-root; render-mgui remains "
-                      "available for template-only callers.", FutureWarning, stacklevel=1)
         result = render_mgui(
             args.templates_root,
             args.output_root,

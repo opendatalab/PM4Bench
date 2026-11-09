@@ -1,86 +1,71 @@
 # Reproducibility
 
-Toolkit 2.5 publishes the ten task prompts behind the reported results, in all
-ten languages, together with the [response-format contract](PROMPTS.md) the
-metrics parse and the rule for combining each prompt with a manifest row.
-Every released string was re-verified against the frozen inference inputs,
-80,740 queries in total: five prompts match their queries byte-exactly across
-39,960 records, the two MGUI prompts match as templates across 4,000, and three
-match as a leading prefix across 36,780. `build_query` assembles the full query
-for all three composition kinds from released fields; its output is consistent
-with the released images and manifests, but is not claimed byte-identical to
-the paper's own inputs, which historical scripts assembled with different
-whitespace normalization. `--coordinate-space` is now required for
-`evaluate --task mgui`, since the released MGUI prompt asks for pixels. The
-prompt resource is schema version 2 and carries data only: markers are inlined
-per prompt and every explanatory field moved to the prompt specification.
+Pinned versions, fixed parameters and the environments the released artifacts
+were produced in.
 
-Toolkit 2.3 unifies the four benchmark tasks behind
-[one data/rendering interface](VISION_SYNTHESIS.md). It preserves the 2.2
-composition algorithms and adds consistent record selection, output envelopes,
-and MGUI manifest/template/GT checks. The frozen HF schemas and assets are
-unchanged. Task-specific limitations remain in the linked composition guides.
+## Evaluation
 
-The 2.3 input audit covers all 22,480 records across 40 task/language manifests,
-including MGUI question/template/GT alignment. Browser regression checks cover
-page deduplication, selected-record outputs, and legacy/unified screenshot and
-GT equality. MDUR supplied-style smoke images match the preceding toolkit;
-this checks refactor stability, not pixel identity with historical benchmark images.
+Deterministic metrics have no optional dependencies and no network access. The
+MSOCR implementation reproduces the published per-sample scores for all 1,000
+records, with an overall mean of 8.174 before rounding.
 
-Toolkit 2.2 adds [MDUR synthesis](MDUR_SYNTHESIS.md) and the
-[QGO OCR-data pipeline](OCR_TRAIN_SYNTHESIS.md). MDUR aligns public transcripts
-and images while accepting small visual differences. OCR synthesis records
-per-record plans, font/browser hashes, visible-word targets, and splits.
-New generated corpora are separate from unchanged published training data.
+The MIQA judge is the only model-dependent score. Historical API model versions
+cannot be recreated by a present-day endpoint, so judge numbers are comparable
+within one run of one model, not across model revisions.
 
-The 2.2 release checks all 17,300 MDUR transcript/image-routing records and
-all 20,000 OCR targets/prompts against their source records. Browser regression
-checks replay of twelve multilingual OCR samples, including image and GT
-equality. MDUR visual smoke checks cover English and Chinese, supplied-style
-replay, and the Noto-only fallback; a full pixel-identity test is not asserted.
+Response markers and prompt assembly are specified in [PROMPTS.md](PROMPTS.md).
 
-Release artifacts are versioned independently but share version `2.0.0` and a
-machine-readable inventory. Inventories record row counts, file sizes, and
-checksums for large transformed artifacts.
+## Benchmark image construction
 
-Toolkit 2.1 adds the MIQA and MSOCR construction recipes in
-[VISION_SYNTHESIS.md](VISION_SYNTHESIS.md). They read the frozen v2.0.0
-benchmark manifests, preserve the released text and image order, and record
-the font and raster-library versions. The benchmark data version is unchanged.
-Generated pixels can differ from the released images when fonts or raster
-libraries differ; published evaluation uses the released images.
+MGUI templates render at a 1280 x 800 CSS viewport with device scale 1. The
+renderer waits for browser fonts, captures `[data-qid]` element rectangles, and
+can compare every generated rectangle and visible-text field against the
+released GT with a configurable tolerance.
 
-QGO training uses 32 prompts per optimization batch and 8 rollouts per prompt,
-yielding 256 sampled trajectories per step. Prompt and response limits are
-8,192 and 4,096, respectively. The formatting reward uses a `[1000, 10000]`
-length interval, over-length scale `1200`, repetition threshold `0.6`, and
-length-reward, length-penalty, and repetition-penalty weights `0.2`, `0.8`,
-and `0.4`. Accuracy and formatting are combined with weights `0.8` and `0.2`.
-The released paper checkpoint is global step 200 and uses BF16 weights.
+| | version |
+| --- | --- |
+| canonical released images | Jinja2 3.1.6, Selenium 4.40.0, Chrome for Testing 119.0.6045.105 |
+| clean reconstruction | Jinja2 3.1.6, Playwright 1.48.0, Chromium 130.0.6723.31 |
+
+The 1,000-page structural check requires identical files, DOM targets, visible
+text, questions and metadata. Bounding boxes stay platform-font-sensitive: use
+`--comparison-mode strict` to audit geometry on a controlled image, and treat
+the released images and GT as canonical for evaluation.
+
+Two templates access dictionary keys named `copy` and `update` through Jinja
+attribute syntax, so their visible text contains a Python method representation
+with a process-specific memory address. The comparator normalizes only that
+hexadecimal address; all surrounding text and geometry remain strict.
+
+Optional font downloads are pinned by source revision and checksum. Generated
+pixels can differ from the released images when fonts or raster libraries
+differ, so published evaluation uses the released images.
+
+## QGO training
+
+| parameter | value |
+| --- | --- |
+| prompts per optimization batch | 32 |
+| rollouts per prompt | 8 (256 sampled trajectories per step) |
+| maximum prompt / response length | 8,192 / 4,096 |
+| length-reward interval | `[1000, 10000]` |
+| over-length scale | 1,200 |
+| repetition threshold | 0.6 |
+| length-reward / length-penalty / repetition-penalty weights | 0.2 / 0.8 / 0.4 |
+| accuracy / formatting weights | 0.8 / 0.2 |
+| released checkpoint | global step 200, BF16 |
 
 The training-data release preserves row order, prompt, embedded image bytes,
-reward target, ability, split, and auxiliary answer fields. Only nested image
-path strings are converted from machine-specific absolute paths to basenames.
+reward target, ability, split and auxiliary answer fields; only nested image
+paths are converted from absolute paths to basenames.
 
-MGUI templates are rendered at a 1280 x 800 CSS viewport with device scale 1.
-The renderer waits for browser fonts, captures `[data-qid]` element rectangles,
-and can compare every generated rectangle and visible-text field with the
-released reference GT using a configurable floating-point tolerance.
+Exact stochastic training replay is not promised. Recompute using these
+configurations and the public base weights.
 
-The canonical v2 images and GT were created with Jinja2 3.1.6, Selenium 4.40.0,
-and Chrome for Testing 119.0.6045.105. The clean reconstruction uses pinned
-Jinja2 3.1.6, Playwright 1.48.0, and Chromium 130.0.6723.31. Its full 1,000-page
-structural regression requires identical files, DOM targets, visible text,
-questions, and metadata. Exact bounding boxes remain platform-font-sensitive;
-use `--comparison-mode strict` to audit geometry on a controlled image, and
-treat the released images and GT as canonical for evaluation.
+## Artifact versions
 
-Two historical templates access dictionary keys named `copy` and `update`
-through Jinja attribute syntax, so their visible text contains a Python method
-representation with a process-specific memory address. The comparator
-normalizes only that hexadecimal address; all surrounding text and geometry
-remain strict.
-
-The clean MSOCR implementation is also replayed against the 1,000 QGO-8B
-paper-era per-sample score records. Release validation requires zero mismatches
-and reproduces the reported overall mean of 8.174 before rounding.
+The four released artifacts are versioned independently and share version
+`2.0.0`, with a machine-readable inventory recording row counts, file sizes and
+checksums. The manifest lock in `data/inputs.lock.json` covers all 40
+language/task files, so `load_manifest` rejects a snapshot that does not match
+the published text.

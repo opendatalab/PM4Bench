@@ -22,8 +22,8 @@ def test_multilingual_browser_replay(tmp_path):
 @pytest.mark.parametrize('limit', [1, 2])
 def test_mgui_unified_and_legacy_render_identical_pages(dataset, tmp_path, limit):
     from pm4bench.io import iter_jsonl
-    from pm4bench.mgui.render import render_mgui
     from pm4bench.vision import render_vision
+    from pm4bench.vision.tasks.mgui_browser import render_mgui
 
     legacy = tmp_path / 'legacy'
     unified = tmp_path / 'unified'

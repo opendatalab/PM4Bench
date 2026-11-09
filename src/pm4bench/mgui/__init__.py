@@ -1,1 +1,0 @@
-"""Deterministic MGUI construction utilities."""

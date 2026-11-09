@@ -1,6 +1,6 @@
 import json
 
-from pm4bench.mgui.render import compare_gt, normalize_historical_text
+from pm4bench.vision.tasks.mgui_browser import compare_gt, normalize_historical_text
 
 
 def test_normalize_historical_method_address():

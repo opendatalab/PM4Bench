@@ -8,9 +8,9 @@ from pathlib import Path
 from ..data import LANGUAGES, select_records
 from ..data.benchmark import sha256
 from ..io import resolve_asset, write_jsonl
+from .assets import FONTS
 from .browser import new_output, save_json
 from .options import RenderOptions
-from .resources import FONTS
 from .tasks import get_task
 
 

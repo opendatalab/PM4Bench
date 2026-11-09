@@ -29,8 +29,34 @@ then targets this bottleneck with OCR-centric GRPO on fully synthesized data.
 This repository contains the clean v2 evaluation, validation, construction,
 and training code for that study.
 
-The former TSV/base64 representation is retired. The v2 dataset stores each
-image once and references it from portable JSONL manifests.
+The dataset stores each image once and references it from portable JSONL
+manifests. The `legacy-v1` tag preserves the earlier TSV/base64 bundle; do not
+use it for new comparisons.
+
+## What is where
+
+```text
+src/pm4bench/
+├── metrics.py        the deterministic scores
+├── miqa.py           the MIQA LLM-as-judge
+├── task_prompts.py   the released prompts and query assembly
+├── data/             manifest loading and integrity checks
+├── vision/           benchmark image construction
+└── qgo/              QGO training-data synthesis and reward
+recipes/              the GRPO launcher
+docs/                 task and format specifications
+```
+
+| If you want to | Go to |
+| --- | --- |
+| score predictions you already have | `pm4bench evaluate`, below |
+| know what to prompt the model with | [docs/PROMPTS.md](docs/PROMPTS.md) |
+| understand the manifest fields | [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md) |
+| regenerate the benchmark images | [docs/VISION_SYNTHESIS.md](docs/VISION_SYNTHESIS.md) |
+| retrain or reproduce QGO-8B | [recipes/README.md](recipes/README.md) |
+| pin versions and environments | [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) |
+| read the module map | [ARCHITECTURE.md](ARCHITECTURE.md) |
+| see what is planned next | [ROADMAP.md](ROADMAP.md) |
 
 ## Installation
 
@@ -170,7 +196,7 @@ pm4bench render-vision \
 ```
 
 Use `--task mdur`, `msocr`, or `mgui` to select another task. MGUI uses the
-historical system font stack, so omit `--fonts-root` for that task. Add
+platform system font stack, so omit `--fonts-root` for that task. Add
 `--audit-only` to check inputs without rendering; no fonts or browser are
 needed in audit mode.
 
@@ -185,7 +211,7 @@ use the published images for comparable evaluation.
 QGO-8B is the global-step-200 BF16 GRPO checkpoint derived from
 `Qwen/Qwen3-VL-8B-Thinking`. The exact release data is provided as 19,500
 training and 500 validation rows with embedded images. See
-[recipes/qgo/README.md](recipes/qgo/README.md).
+[recipes/README.md](recipes/README.md).
 
 To generate multilingual OCR images and visible-word targets and pack training
 Parquet, follow [OCR_TRAIN_SYNTHESIS.md](docs/OCR_TRAIN_SYNTHESIS.md). Original

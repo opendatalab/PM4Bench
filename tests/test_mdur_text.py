@@ -3,7 +3,7 @@ import re
 
 import pytest
 
-from pm4bench.vision.mdur_text import parse_vision_text, visible_text
+from pm4bench.vision.tasks.mdur_text import parse_vision_text, visible_text
 
 
 def row(question='Is x < 20 true? <image 1>', options=None):

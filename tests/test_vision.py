@@ -4,8 +4,10 @@ from pathlib import Path
 
 import pytest
 
-from pm4bench.vision.inputs import load_manifest, miqa_plan, msocr_plan
+from pm4bench.data.benchmark import load_manifest
 from pm4bench.vision.render import render_vision
+from pm4bench.vision.tasks.miqa import miqa_plan
+from pm4bench.vision.tasks.msocr import msocr_plan
 
 
 def miqa_row(tmp_path, language="en"):

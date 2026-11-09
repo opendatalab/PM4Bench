@@ -9,7 +9,7 @@ from typing import Any
 
 from ..io import iter_jsonl, resolve_asset
 
-RESOURCE_ROOT = Path(__file__).parent / 'resources'
+RESOURCE_ROOT = Path(__file__).parent
 LANGUAGES = ('ar', 'cs', 'en', 'hu', 'ko', 'ru', 'sr', 'th', 'vi', 'zh')
 EXPECTED_COUNTS = {'mdur': 1730, 'miqa': 218, 'msocr': 100, 'mgui': 200}
 TASKS = tuple(EXPECTED_COUNTS)

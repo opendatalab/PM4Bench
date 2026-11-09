@@ -82,4 +82,4 @@ repacking those historical image/GT pairs, not newly sampled `ocr_*.png` files.
 Commands require fresh output directories outside inputs. Missing GT, invalid
 images, duplicate splits, and target/box inconsistencies fail explicitly.
 Project-owned code, dictionary, and backgrounds are Apache-2.0; fonts retain
-upstream licenses. Continue with [GRPO training](../recipes/qgo/README.md).
+upstream licenses. Continue with [GRPO training](../recipes/README.md).

@@ -6,7 +6,7 @@ import pytest
 from pm4bench.qgo.pack import PROMPT, load_split, pack, row_for, split_files
 from pm4bench.qgo.synthesize import LANGUAGES, make_html, sample_plan, sort_boxes, validate_plan
 from pm4bench.vision.browser import new_output
-from pm4bench.vision.mdur import safe_text, validate_style
+from pm4bench.vision.tasks.mdur import safe_text, validate_style
 
 
 def test_sampling_is_replayable_and_has_ten_languages():
@@ -95,8 +95,8 @@ def test_mdur_plan_uses_transcript_and_excludes_explanation(tmp_path, monkeypatc
 
 
 def test_bundled_training_inventory():
+    from pm4bench.data.benchmark import sha256
     from pm4bench.qgo.synthesize import TEXT_POOL, load_words
-    from pm4bench.vision.inputs import sha256
 
     assert sha256(TEXT_POOL) == '8f8e46bb0415b5fcc67a5c3343a010c3b0d97ab9ea4dafa860464e250d1fdd0c'
     assert all(load_words(TEXT_POOL).values())

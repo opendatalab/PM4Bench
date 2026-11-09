@@ -34,10 +34,11 @@ and optionally `--bbox-tolerance 0.2` for geometric checks. Unselected reference
 pages are not reported as missing. A failed comparison preserves the output
 and returns a nonzero CLI exit status.
 
-Two historical Jinja templates emit a dictionary-method representation with a
-process-specific memory address. Comparison normalizes only that address.
-The template behavior is preserved for compatibility with published GT.
+Two templates emit a dictionary-method representation containing a
+process-specific memory address. Comparison normalizes only that address, so
+the result matches the published GT.
 
-For old template-only workflows, `pm4bench render-mgui` and
-`pm4bench.mgui.render` forward to the same browser implementation. They are
-compatibility APIs, not a second independently maintained renderer.
+`pm4bench render-mgui --templates-root ...` renders from a template directory
+alone, for callers without a dataset snapshot. It uses the same browser
+implementation as `render-vision --task mgui`, but cannot perform the manifest
+alignment checks, which need the released records.

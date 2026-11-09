@@ -111,7 +111,7 @@ def test_inapplicable_options_fail_before_writing(dataset, tmp_path, task, optio
 
 
 def test_comparison_subset_and_missing_selected_reference(dataset, tmp_path):
-    from pm4bench.mgui.render import compare_gt
+    from pm4bench.vision.tasks.mgui_browser import compare_gt
 
     gt = dataset / 'metadata/mgui/gt'
     (gt / 'unselected.json').write_text('{}')
@@ -120,10 +120,3 @@ def test_comparison_subset_and_missing_selected_reference(dataset, tmp_path):
     (candidate / 'example_en.json').write_bytes((gt / 'example_en.json').read_bytes())
     assert compare_gt(candidate, gt, filenames={'example_en.json'})['passed']
     assert not compare_gt(candidate, gt, filenames={'missing.json'})['passed']
-
-
-def test_legacy_mgui_import_is_a_facade():
-    from pm4bench.mgui.render import render_mgui
-    from pm4bench.vision.tasks._mgui_browser import render_mgui as canonical
-
-    assert render_mgui is canonical

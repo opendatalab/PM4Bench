@@ -15,7 +15,7 @@ python -m pm4bench.vision.fonts --output ./fonts
 
 Use the benchmark's [v2.0.0 snapshot](https://huggingface.co/datasets/songjhPKU/PM4Bench/tree/v2.0.0).
 All tasks read `data/<task>/<language>.jsonl` through `pm4bench.data`.
-The manifest lock in `data/resources/inputs.lock.json` covers all 40 files.
+The manifest lock in `data/inputs.lock.json` covers all 40 files.
 Paths are relative to one `--dataset-root`, including MGUI template/GT metadata.
 No private source tree or translation service is required.
 
@@ -39,7 +39,7 @@ pm4bench render-vision --task miqa \
   --language en --limit 2 --output-root ./rendered-miqa
 ```
 
-For MGUI use `--task mgui` and omit `--fonts-root` to retain its historical
+For MGUI use `--task mgui` and omit `--fonts-root` so it uses the
 platform-font stack. MDUR supports the same selectors and accepts small pixel
 differences. `--browser-executable` applies to the two browser tasks.
 `--workers` and `--strict-glyphs` apply to the Pillow tasks. Unsupported
@@ -90,12 +90,12 @@ styles, or GT comparisons. A run that fails after planning leaves its evidence
 and a `failed` report; it never replaces an old run. MGUI comparison failures
 return a nonzero CLI status. Use published benchmark images for evaluation.
 
-## Compatibility and training data
+## Template-only MGUI and training data
 
-`render-mgui --templates-root ...` and `python -m pm4bench.vision.mdur` remain
-compatibility entry points. Their former image layouts/imports are retained;
-new workflows should use `render-vision`. The MGUI template-only entry point
-cannot provide the new manifest alignment checks without a dataset snapshot.
+`render-mgui --templates-root ...` renders MGUI pages from a template directory
+without a dataset snapshot. It is the one entry point that cannot perform
+manifest alignment, because those checks need the released records. Everything
+else goes through `render-vision`.
 
 QGO OCR training synthesis creates new random corpora and remains a separate
 workflow under `qgo/`; see [OCR_TRAIN_SYNTHESIS.md](OCR_TRAIN_SYNTHESIS.md).

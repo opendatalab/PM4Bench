@@ -1,93 +1,99 @@
 # Architecture
 
-PM4Bench v2 separates four ownership layers:
+PM4Bench is released as four independent artifacts:
 
-1. **GitHub toolkit** — schemas, validators, deterministic metrics, optional
-   judge integration, construction code, and the QGO reward and training
-   recipe.
+1. **Toolkit** (this repository) — schemas, validators, deterministic metrics,
+   the MIQA judge adapter, benchmark image construction, and the QGO reward and
+   training recipe.
 2. **Benchmark dataset** — immutable JSONL manifests plus deduplicated assets.
 3. **QGO training dataset** — portable Parquet shards with embedded images.
 4. **QGO model** — a standalone BF16 Transformers checkpoint.
 
-The static [project page](https://little-bird-vodka.github.io/PM4Bench/) is a
-presentation layer over these canonical resources and the public arXiv record;
-it does not duplicate released data, weights, or executable code.
+Dataset rows use stable identifiers and paths relative to the snapshot root. No
+artifact contains machine-specific paths, credentials or experiment logs.
 
-No layer contains machine-specific paths, credentials, experiment logs, or
-paper-result outputs. Dataset rows use stable identifiers and paths relative to
-the dataset snapshot root.
-
-## Data and construction modules
+## Repository layout
 
 ```text
 src/pm4bench/
-├── data/                   # four-task manifests, selection, integrity checks
-│   └── resources/          # one lock for all 40 language/task manifests
-├── vision/
+├── cli.py                  # every `pm4bench` subcommand
+├── data/                   # manifest loading, record selection, integrity
+│   ├── benchmark.py
+│   └── inputs.lock.json    # one lock for all 40 language/task manifests
+├── metrics.py              # the deterministic scoring functions
+├── miqa.py                 # MIQA LLM-as-judge client and aggregation
+├── io.py                   # JSONL, prediction loading, asset resolution
+├── task_prompts.py         # released prompts and query assembly
+├── prompts/                # the prompt resource and the MIQA judge rubric
+├── vision/                 # benchmark image construction
 │   ├── render.py           # shared plan → render → report orchestration
-│   ├── options.py          # shared render options
-│   ├── browser.py          # offline browser/font utilities
-│   ├── raster.py           # font, glyph, and text-raster utilities
-│   ├── resources/          # pinned fonts, backgrounds, MDUR routing/styles
-│   └── tasks/              # task-specific plans and layout implementations
-│       ├── mdur.py
-│       ├── miqa.py
-│       ├── msocr.py
-│       ├── mgui.py
-│       ├── _mdur_text.py
-│       └── _mgui_browser.py
-├── qgo/                    # training-corpus synthesis, packing, and reward
-├── task_prompts.py         # released prompt access and query assembly
-├── prompts/                # released task prompts and the MIQA judge rubric
-└── mgui/render.py          # compatibility facade; no separate implementation
+│   ├── options.py          # render options shared by the backends
+│   ├── browser.py          # offline browser and font loading
+│   ├── raster.py           # font, glyph and text-raster utilities
+│   ├── assets.py           # resource root and per-language font files
+│   ├── fonts.py            # pinned font download
+│   ├── resources/          # fonts lock, backgrounds, MDUR routing, CSS
+│   └── tasks/              # one planner and layout per task
+│       ├── mdur.py         #   browser backend
+│       ├── mdur_text.py    #   transcript parser
+│       ├── mgui.py         #   manifest-driven planner
+│       ├── mgui_browser.py #   template renderer and GT comparator
+│       ├── miqa.py         #   raster backend
+│       └── msocr.py        #   raster backend
+└── qgo/                    # training-corpus synthesis, packing and reward
+recipes/                    # the GRPO launcher and its parameter record
+tests/                      # unit, fixture and browser-replay tests
+docs/                       # task and format specifications
 ```
 
-The toolkit ships no inference code. `pm4bench.task_prompts` publishes the
-prompts and response-marker contracts the metrics parse, and `build_query`
-combines a prompt with a manifest row into the full text input; producing
-predictions is left to the caller. Specified in
+## Evaluation
+
+`pm4bench.data` owns task and language constants, locked manifest loading and
+record selection, independently of rendering. `metrics.py` holds one function
+per score; `cli.py` dispatches `evaluate --task` to them. MIQA is the only task
+that needs a model: `miqa.py` drives a resumable OpenAI-compatible judge, and
+the endpoint and credentials always come from the caller.
+
+The toolkit ships no inference code. `task_prompts.py` publishes the prompts
+the metrics expect and `build_query` combines a prompt with a manifest row into
+the full text input; producing predictions is left to the caller. See
 [docs/PROMPTS.md](docs/PROMPTS.md).
 
-`pm4bench.data` owns task/language constants, locked manifest loading, and
-record selection, independently of rendering. `pm4bench.vision.render_vision`
-and `pm4bench render-vision` expose the same pipeline for all four tasks.
-The task registry chooses a planner and backend; plans preserve published
-text and asset routing. One orchestrator owns output protection, common
-manifests, and execution reports. Browser and raster implementations remain
-separate because their layout and font behavior are different.
+## Construction
 
-Every output contains `plans.jsonl`, `images.jsonl`, and `report.json`; images
-use `images/{task}/{language}/`. Each image-manifest row corresponds to one
-selected benchmark record. MGUI deduplicates pages shared by multiple questions
-and checks templates/GT against the selected public records before rendering.
-Audit mode checks all tasks without optional rendering dependencies.
+`vision.render_vision` and `pm4bench render-vision` expose one pipeline for all
+four tasks. A task registry chooses the planner and backend; plans preserve
+published text and asset routing. One orchestrator owns output protection,
+common manifests and execution reports. Browser and raster backends stay
+separate because their layout and font behavior differ.
 
-Optional font downloads are pinned by source revision and checksum.
-Construction does not sample replacement benchmark text or call translation
-services. The raster stage accounts for actual ink extents to avoid clipping
-the final line. See [Vision synthesis](docs/VISION_SYNTHESIS.md) for the single
-user-facing construction guide and links to task-specific details.
+Every output contains `plans.jsonl`, `images.jsonl` and `report.json`, with
+images under `images/{task}/{language}/`. Each image-manifest row corresponds to
+one selected benchmark record. MGUI deduplicates pages shared by several
+questions and checks templates and GT against the selected records before
+rendering. Audit mode checks all tasks without the optional rendering
+dependencies. `render-mgui` renders from a template directory alone, which is
+the one path that cannot perform manifest alignment.
 
-MDUR parses the public transcript and uses index-only source-image routing.
-Its offline browser renderer separates plans from reference-led style fitting;
-saved styles allow replay. Segoe/Noto is the closest tested candidate, with
-Noto-only rendering also available. Pixel identity is not a release requirement.
+Font downloads are pinned by source revision and checksum. Construction never
+samples replacement benchmark text or calls translation services. The raster
+stage accounts for actual ink extents so the final line is not clipped. MDUR
+parses the public transcript, routes source images by index, and separates
+plans from reference-led style fitting so saved styles can be replayed; Segoe
+with Noto fallback is the closest tested profile and Noto-only also works.
+Generated images are not pixel-identical to the released ones — evaluate
+against the published images. See
+[docs/VISION_SYNTHESIS.md](docs/VISION_SYNTHESIS.md).
 
-## Training and release boundaries
+## Training
 
 QGO synthesis is separate from benchmark construction: it samples new training
-text instead of consuming benchmark records. `qgo.synthesize` samples the
-bundled text pool into explicit plans, renders
-words, and derives targets from visible boxes. `qgo.pack` validates image/GT
-pairs and writes portable Parquet with saved split membership/order. New
-corpora never modify the canonical training data. Shared browser utilities
-handle font loading, offline operation, and output protection.
+text instead of consuming benchmark records. `qgo.synthesize` turns the bundled
+text pool into explicit plans, renders words and derives targets from visible
+boxes. `qgo.pack` validates image/GT pairs and writes portable Parquet with
+saved split membership and order. Generated corpora never modify the released
+training data.
 
-The QGO launcher keeps model, data, output, and reward locations external while
-fixing the public training parameters. Its reward module implements the same
-accuracy, length, and repetition terms used for QGO-8B.
-
-The release pipeline builds immutable candidate generations on H1. A candidate
-is activated only after count, schema, path, secret, checksum, and smoke-load
-validation. Uploads originate from H1; the source experiment tree remains
-read-only.
+The launcher in `recipes/` keeps model, data, output and reward locations
+external while fixing the published training parameters. `qgo.reward`
+implements the accuracy, length and repetition terms used for QGO-8B.

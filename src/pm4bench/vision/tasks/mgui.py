@@ -7,7 +7,7 @@ from pathlib import Path
 
 from ...data.benchmark import sha256, text_digest
 from ...io import resolve_asset
-from ._mgui_browser import compare_gt, normalize_historical_text, render_mgui
+from .mgui_browser import compare_gt, normalize_historical_text, render_mgui
 
 
 def mgui_plan(row: dict, root: Path) -> dict:

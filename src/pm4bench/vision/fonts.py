@@ -8,7 +8,7 @@ import urllib.request
 from pathlib import Path
 
 from ..data.benchmark import sha256
-from .resources import RESOURCE_ROOT
+from .assets import RESOURCE_ROOT
 
 
 def download_fonts(output: Path) -> None:

@@ -11,9 +11,9 @@ from pathlib import Path
 
 from ...data.benchmark import image_map, sha256, text_digest
 from ...io import iter_jsonl, resolve_asset, write_jsonl
+from ..assets import FONTS, RESOURCE_ROOT
 from ..browser import font_css, offline_page, open_browser, wait_for_render
-from ..resources import FONTS, RESOURCE_ROOT
-from ._mdur_text import parse_vision_text
+from .mdur_text import parse_vision_text
 
 SHADOWS = {'none': 'none', 'red': '0px 0px 2px red',
            'blue': '2px 2px 2px blue', 'green': '4px 4px 4px green'}
