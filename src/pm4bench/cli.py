@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+from . import __version__
 from .data import EXPECTED_COUNTS, LANGUAGES, TASKS
 from .io import iter_jsonl, load_predictions, record_key, resolve_asset
 from .metrics import (
@@ -23,6 +24,7 @@ from .task_prompts import describe_prompts, prompt_ids, prompt_text
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="pm4bench")
+    parser.add_argument("--version", action="version", version=f"pm4bench {__version__}")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     validate = subparsers.add_parser("validate", help="validate a PM4Bench dataset snapshot")

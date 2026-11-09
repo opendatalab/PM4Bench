@@ -66,6 +66,8 @@ cd PM4Bench
 python -m pip install -e .
 ```
 
+Run `pm4bench --version` to confirm the release.
+
 Install optional dependencies only when needed:
 
 ```bash

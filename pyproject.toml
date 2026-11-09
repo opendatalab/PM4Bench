@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pm4bench"
-version = "3.2.0"
+version = "3.2.1"
 description = "Evaluation and reproducibility toolkit for PM4Bench and QGO-8B"
 readme = "README.md"
 requires-python = ">=3.10"
