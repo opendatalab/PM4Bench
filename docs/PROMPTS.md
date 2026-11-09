@@ -134,12 +134,11 @@ pm4bench evaluate --task mgui --manifest data/mgui/en.jsonl \
 ```
 
 Choose the value your model actually emits. Qwen3-VL returns coordinates on a
-1000x1000 grid whatever the instruction asks for; use
-`--coordinate-space normalized-1000` for it. Coordinate conventions changed
-across Qwen-VL generations, so check what your checkpoint emits. The other
-models in the reported comparison (GLM, Gemini, Doubao, Llama) were scored on
-the same grid. GUI screenshots are 1280x800, which is the resolution normalized
-coordinates are scaled back to.
+1000x1000 grid whatever the instruction asks for; GLM, Gemini, Doubao and
+Llama behave the same way. Other models generally return raw pixels. Use
+`--coordinate-space normalized-1000` for the 1000x1000 models and
+`--coordinate-space pixel` for the rest. GUI screenshots are 1280x800, which
+is the resolution normalized coordinates are scaled back to.
 
 ## Metric behavior worth knowing
 
