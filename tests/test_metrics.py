@@ -6,7 +6,6 @@ from pm4bench.metrics import (
     extract_coords,
     mdur_correct,
     mgui_text_correct,
-    miqa_ocr_correct,
     msocr_score,
     normalized_edit_similarity,
     point_in_bbox,
@@ -40,9 +39,7 @@ def test_gui_coordinates() -> None:
     assert point_in_bbox(pixels, {"x": 600, "y": 350, "width": 100, "height": 100})
 
 
-def test_ocr_diagnostics() -> None:
-    rendered = "Header:\nTarget instruction\nFooter"
-    assert miqa_ocr_correct("prefix Target instruction suffix", rendered)
+def test_mgui_text_identification() -> None:
     assert mgui_text_correct("<Start of Answer>⭐ Sign up<End of Answer>", "Sign up")
 
 

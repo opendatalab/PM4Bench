@@ -12,30 +12,7 @@
     "zh"
   ],
   "prompts": {
-    "mdur-ocr-vision": {
-      "answer_markers": [
-        "\"question\"",
-        "\"options\""
-      ],
-      "composition": "standalone",
-      "probe": "ocr",
-      "scored_by": "evaluate --task mdur-ocr",
-      "setting": "vision",
-      "task": "mdur",
-      "text": {
-        "ar": "## وصف المهمة： أنت نظام OCR ذكي مسؤول عن استخراج أسئلة الامتحان والخيارات من الصورة المعطاة. تحتوي الصورة على سؤال واحد فقط، وعدد الخيارات غير محدد. يرجى إكمال المهمة وفقًا للمتطلبات التالية： 1. استخراج المحتوى： * السؤال：نص السؤال الوحيد في الصورة. * الخيارات：نص جميع الخيارات في الصورة، قد يكون عدد الخيارات 2 أو 3 أو 4 أو أكثر. 2. تنسيق الإخراج： * استخدم تنسيق JSON لإخراج النتيجة. * اتبع المخطط التالي بدقة： { \"question\": \"نص السؤال\", \"options\": [ \"الخيار A\", \"الخيار B\", \"الخيار C\", ... ] } * تأكد من دقة أسماء الحقول وتجنب الأخطاء الإملائية. * يجب ترتيب الخيارات حسب الترتيب الذي تظهر به في الصورة. 3. ملاحظات： * استخراج محتوى النص فقط، دون تضمين أي صور أو جداول أو عناصر غير نصية أخرى. * تأكد من صحة العلاقة بين السؤال والخيارات دون خلط. * تجنب تضمين أي معلومات أو تعليقات إضافية. ## مثال： ### لنفترض أن محتوى الصورة كالتالي： 1. أي مما يلي ليس لغة برمجة؟ A. Python B. HTML C. Java D. CSS ### الإخراج الصحيح： { \"question\": \"أي مما يلي ليس لغة برمجة؟\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "cs": "## Popis úkolu: Jste inteligentní OCR systém odpovědný za extrakci zkouškových otázek a možností z daného obrázku. Obrázek obsahuje pouze jednu otázku, počet možností není pevně stanoven. Prosím, dokončete úkol podle následujících požadavků: 1. Extrahovaný obsah: * Otázka: Jediný text otázky na obrázku. * Možnosti: Veškerý text možností na obrázku, počet možností může být 2, 3, 4 nebo více. 2. Formát výstupu： * Výsledek vyexportujte ve formátu JSON. * Přísně dodržujte následující schéma: { \"question\": \"Text otázky\", \"options\": [ \"Možnost A\", \"Možnost B\", \"Možnost C\", ... ] } * Zajistěte přesné názvy polí bez pravopisných chyb. * Možnosti by měly být seřazeny v pořadí, v jakém se vyskytují na obrázku. 3. Poznámky： * Extrahujte pouze textový obsah, bez jakýchkoli obrázků, grafů nebo jiných netextových prvků. * Zajistěte přesnou spojení mezi otázkou a možnostmi bez záměny. * Vyhněte se zahrnování jakýchkoli dodatečných informací nebo poznámek. ## Příklad： ### Předpokládejme, že obsah obrázku je následující： 1. Která z následujících možností není programovací jazyk? A. Python B. HTML C. Java D. CSS ### Správný výstup： { \"question\": \"Která z následujících možností není programovací jazyk?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "en": "## Task Description: You are an intelligent OCR system responsible for extracting exam questions and options from a given image. The image contains only one question, and the number of options is variable. Please complete the task according to the following requirements: 1. Extracted Content： * Question: The single question text in the image. * Options: All option texts in the image; the number of options may be 2, 3, 4, or more. 2. Output Format： * Output the result in JSON format. * Strictly follow the following schema: { \"question\": \"Question text\", \"options\": [ \"Option A\", \"Option B\", \"Option C\", ... ] } * Ensure that the field names are accurate and free of spelling errors. * The options should be arranged in the order they appear in the image. 3. Notes： * Extract only the text content, excluding any images, charts, or other non-text elements. * Ensure the association between the question and options is accurate without confusion. * Avoid including any additional information or comments. ## Example： ### Suppose the image content is as follows： 1. Which of the following is not a programming language? A. Python B. HTML C. Java D. CSS ### Correct Output： { \"question\": \"Which of the following is not a programming language?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "hu": "## Task Description: You are an intelligent OCR system responsible for extracting exam questions and options from a given image. The image contains only one question, and the number of options is variable. Please complete the task according to the following requirements: 1. Extracted Content： * Question: The single question text in the image. * Options: All option texts in the image; the number of options may be 2, 3, 4, or more. 2. Output Format： * Output the result in JSON format. * Strictly follow the following schema: { \"question\": \"Question text\", \"options\": [ \"Option A\", \"Option B\", \"Option C\", ... ] } * Ensure that the field names are accurate and free of spelling errors. * The options should be arranged in the order they appear in the image. 3. Notes： * Extract only the text content, excluding any images, charts, or other non-text elements. * Ensure the association between the question and options is accurate without confusion. * Avoid including any additional information or comments. ## Example： ### Suppose the image content is as follows： 1. Which of the following is not a programming language? A. Python B. HTML C. Java D. CSS ### Correct Output： { \"question\": \"Which of the following is not a programming language?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "ko": "## 작업 설명： 당신은 주어진 이미지에서 시험 문제와 선택지를 추출하는 지능형 OCR 시스템입니다. 이미지에는 하나의 문제만 포함되어 있으며, 선택지의 개수는 정해져 있지 않습니다. 다음 요구 사항에 따라 작업을 완료하십시오： 1. 추출 내용： * 문제：이미지 내 유일한 문제 텍스트. * 선택지：이미지 내 모든 선택지 텍스트, 선택지의 개수는 2개, 3개, 4개 또는 그 이상일 수 있습니다. 2. 출력 형식： * 결과를 JSON 형식으로 출력하십시오. * 다음 스키마를 엄격히 준수하십시오： { \"question\": \"문제 텍스트\", \"options\": [ \"선택지 A\", \"선택지 B\", \"선택지 C\", ... ] } * 필드 이름이 정확하고 철자 오류가 없도록 하십시오. * 선택지는 이미지에 나타나는 순서대로 배열되어야 합니다. 3. 주의 사항： * 텍스트 내용만 추출하고, 이미지, 차트 또는 기타 비텍스트 요소는 포함하지 마십시오. * 문제와 선택지 간의 연관성이 정확하게 유지되도록 혼동하지 마십시오. * 추가 정보나 주석을 포함하지 마십시오. ## 예시： ### 이미지 내용이 다음과 같다고 가정합니다： 1. 다음 중 프로그래밍 언어가 아닌 것은 무엇입니까？ A. Python B. HTML C. Java D. CSS ### 올바른 출력： { \"question\": \"다음 중 프로그래밍 언어가 아닌 것은 무엇입니까？\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "ru": "## Описание задачи： Вы — интеллектуальная система OCR, отвечающая за извлечение экзаменационных вопросов и вариантов ответов из заданного изображения. Изображение содержит только один вопрос, количество вариантов ответов не фиксировано. Пожалуйста, выполните задачу в соответствии со следующими требованиями： 1. Извлекаемое содержимое： * Вопрос：Единственный текст вопроса на изображении. * Варианты：Все тексты вариантов на изображении, количество вариантов может быть 2, 3, 4 или больше. 2. Формат вывода： * Выведите результат в формате JSON. * Строго следуйте следующей схеме： { \"question\": \"Текст вопроса\", \"options\": [ \"Вариант A\", \"Вариант B\", \"Вариант C\", ... ] } * Убедитесь, что названия полей точны и без орфографических ошибок. * Варианты должны быть расположены в порядке их появления на изображении. 3. Примечания： * Извлекайте только текстовое содержимое, без включения любых изображений, графиков или других нетекстовых элементов. * Обеспечьте точную связь между вопросом и вариантами без путаницы. * Избегайте включения любой дополнительной информации или комментариев. ## Пример： ### Предположим, что содержимое изображения следующее： 1. Какой из следующих вариантов не является языком программирования？ A. Python B. HTML C. Java D. CSS ### Правильный вывод： { \"question\": \"Какой из следующих вариантов не является языком программирования？\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "sr": "## Opis zadatka: Vi ste inteligentan OCR sistem odgovoran za ekstrakciju ispitnih pitanja i opcija iz datog slike. Slika sadrži samo jedno pitanje, a broj opcija nije fiksiran. Molimo vas da izvršite zadatak prema sledećim zahtevima: 1. Ekstrahovani sadržaj： * Pitanje：Jedini tekst pitanja na slici. * Opcije：Sav tekst opcija na slici; broj opcija može biti 2, 3, 4 ili više. 2. Format izlaza： * Rezultat izbacite u JSON formatu. * Strogo se pridržavajte sledeće šeme: { \"question\": \"Tekst pitanja\", \"options\": [ \"Opcija A\", \"Opcija B\", \"Opcija C\", ... ] } * Osigurajte tačnost naziva polja i izbegavajte pravopisne greške. * Opcije treba da budu raspoređene redosledom kojim se pojavljuju na slici. 3. Napomene： * Ekstrahujte samo tekstualni sadržaj, isključujući bilo koje slike, grafikone ili druge netekstualne elemente. * Osigurajte tačnu povezanost između pitanja i opcija bez zabune. * Izbegavajte uključivanje bilo kakvih dodatnih informacija ili komentara. ## Primer： ### Pretpostavimo da sadržaj slike izgleda ovako： 1. Koja od sledećih opcija nije programski jezik? A. Python B. HTML C. Java D. CSS ### Tačan izlaz： { \"question\": \"Koja od sledećih opcija nije programski jezik?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "th": "## รายละเอียดงาน: คุณคือระบบ OCR อัจฉริยะที่รับผิดชอบในการสกัดคำถามสอบและตัวเลือกจากภาพที่กำหนด ภาพประกอบด้วยคำถามเดียวเท่านั้น และจำนวนตัวเลือกไม่แน่นอน กรุณาทำตามข้อกำหนดต่อไปนี้เพื่อดำเนินงานให้เสร็จสิ้น： 1. เนื้อหาที่สกัด： * คำถาม：ข้อความคำถามเดียวในภาพ * ตัวเลือก：ข้อความตัวเลือกทั้งหมดในภาพ จำนวนตัวเลือกอาจเป็น 2, 3, 4 หรือมากกว่า 2. รูปแบบการส่งออก： * ส่งออกผลลัพธ์ในรูปแบบ JSON * ปฏิบัติตามสคีมาด้านล่างอย่างเคร่งครัด： { \"question\": \"ข้อความคำถาม\", \"options\": [ \"ตัวเลือก A\", \"ตัวเลือก B\", \"ตัวเลือก C\", ... ] } * ตรวจสอบให้แน่ใจว่าชื่อฟิลด์ถูกต้องและไม่มีการสะกดผิด * ตัวเลือกควรเรียงตามลำดับที่ปรากฏในภาพ 3. หมายเหตุ： * สกัดเฉพาะเนื้อหาข้อความ ไม่รวมถึงภาพ แผนภูมิ หรือองค์ประกอบที่ไม่ใช่ข้อความอื่นใด * ตรวจสอบให้แน่ใจว่าความสัมพันธ์ระหว่างคำถามและตัวเลือกถูกต้องโดยไม่มีความสับสน * หลีกเลี่ยงการใส่ข้อมูลหรือคำอธิบายเพิ่มเติมใดๆ ## ตัวอย่าง： ### สมมุติว่าข้อความในภาพเป็นดังนี้： 1. ข้อใดต่อไปนี้ไม่ใช่ภาษาโปรแกรม? A. Python B. HTML C. Java D. CSS ### ผลลัพธ์ที่ถูกต้อง： { \"question\": \"ข้อใดต่อไปนี้ไม่ใช่ภาษาโปรแกรม?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "vi": "## Mô tả nhiệm vụ: Bạn là một hệ thống OCR thông minh chịu trách nhiệm trích xuất câu hỏi và các lựa chọn từ hình ảnh được cung cấp. Hình ảnh chỉ chứa một câu hỏi duy nhất và số lượng lựa chọn không cố định. Vui lòng hoàn thành nhiệm vụ theo các yêu cầu sau: 1. Nội dung trích xuất： * Câu hỏi：Văn bản câu hỏi duy nhất trong hình ảnh. * Các lựa chọn：Tất cả các văn bản lựa chọn trong hình ảnh; số lượng lựa chọn có thể là 2, 3, 4 hoặc nhiều hơn. 2. Định dạng đầu ra： * Xuất kết quả dưới định dạng JSON. * Tuân thủ nghiêm ngặt sơ đồ sau: { \"question\": \"Văn bản câu hỏi\", \"options\": [ \"Lựa chọn A\", \"Lựa chọn B\", \"Lựa chọn C\", ... ] } * Đảm bảo tên trường chính xác và tránh sai chính tả. * Các lựa chọn nên được sắp xếp theo thứ tự xuất hiện trong hình ảnh. 3. Lưu ý： * Chỉ trích xuất nội dung văn bản, không bao gồm bất kỳ hình ảnh, biểu đồ hoặc yếu tố phi văn bản nào khác. * Đảm bảo mối liên hệ giữa câu hỏi và các lựa chọn là chính xác mà không bị nhầm lẫn. * Tránh bao gồm bất kỳ thông tin hoặc chú thích bổ sung nào. ## Ví dụ： ### Giả sử nội dung hình ảnh như sau： 1. Điều nào sau đây không phải là ngôn ngữ lập trình? A. Python B. HTML C. Java D. CSS ### Đầu ra đúng： { \"question\": \"Điều nào sau đây không phải là ngôn ngữ lập trình?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
-        "zh": "## 任务描述： 您是一个智能OCR系统，负责从给定的图片中提取考试题目和选项。图片中仅包含一个题目，选项数量不定。请按照以下要求完成任务： 1. 提取内容： * 题目：图片中的唯一题目文本。 * 选项：图片中的所有选项文本，选项数量可能为2个、3个、4个或更多。 2. 输出格式： * 使用JSON格式输出结果。 * 严格遵循以下schema： { \"question\": \"题目文本\", \"options\": [ \"选项A\", \"选项B\", \"选项C\", ... ] } * 确保字段名称准确无误，避免拼写错误。 * 选项应按图片中出现的顺序排列。 3. 注意事项： * 仅提取文本内容，不包含任何图片、图表或其他非文本元素。 * 确保题目和选项之间的关联准确，无混淆。 * 避免包含任何额外的信息或注释。 ## 示例： ### 假设图片内容如下： 1. 以下哪项不是编程语言？ A. Python B. HTML C. Java D. CSS ### 正确输出： { \"question\": \"以下哪项不是编程语言？\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }"
-      }
-    },
-    "mdur-vqa-traditional": {
+    "mdur-traditional": {
       "answer_markers": [
         "<X>"
       ],
@@ -86,7 +63,6 @@
         "template": "{prompt}{separator}{stem}\n\n{options}\n\n{answer_prefix}"
       },
       "composition": "prefix",
-      "probe": "vqa",
       "scored_by": "evaluate --task mdur",
       "setting": "traditional",
       "task": "mdur",
@@ -103,12 +79,11 @@
         "zh": "请你阅读下面的问题，并从中选择正确选项，逐步思考后作答。正确选项只有一个，请你在最后一行输出正确选项的字母，并将其包裹在尖括号中，如: <X>。问题:"
       }
     },
-    "mdur-vqa-vision": {
+    "mdur-vision": {
       "answer_markers": [
         "<X>"
       ],
       "composition": "standalone",
-      "probe": "vqa",
       "scored_by": "evaluate --task mdur",
       "setting": "vision",
       "task": "mdur",
@@ -125,7 +100,7 @@
         "zh": "请你阅读图片内容和其中的选择题，并从中选择正确选项，逐步思考后作答。正确选项只有一个，请你在最后一行输出正确选项的字母，并将其包裹在尖括号中，如: <X>"
       }
     },
-    "mdur-vqa-vision-reference-text": {
+    "mdur-vision-reference-text": {
       "answer_markers": [
         "<X>"
       ],
@@ -176,7 +151,6 @@
         "template": "{prompt}{separator}{stem}\n\n{options}\n\n{answer_prefix}"
       },
       "composition": "prefix",
-      "probe": "vqa",
       "scored_by": "evaluate --task mdur",
       "setting": "vision_reference_text",
       "task": "mdur",
@@ -193,37 +167,13 @@
         "zh": "请你阅读图片内容和其中的选择题，并从中选择正确选项。正确选项只有一个，请你只输出正确选项的字母，并将其包裹在尖括号中，如: <X> 为帮助你回答问题，以下是图片内题目信息的文字部分："
       }
     },
-    "mgui-ocr-screenshot": {
-      "answer_markers": [
-        "<Start of Answer>",
-        "<End of Answer>"
-      ],
-      "composition": "format_template",
-      "probe": "ocr",
-      "scored_by": "evaluate --task mgui-text",
-      "setting": "screenshot",
-      "task": "mgui",
-      "text": {
-        "ar": "أنت تنظر إلى لقطة شاشة لواجهة مستخدم. للإجراء التالي، حدد عنصر الواجهة المستهدف وأخرج محتواه النصي الظاهر (النص المطبوع فعليًا داخل هذا العنصر). تجاهل أي رموز تعبيرية (emoji) أو أيقونات زخرفية وأخرج الجزء النصي فقط. ضع النص بين <Start of Answer> و <End of Answer>. يجب أن يكون تنسيق الإجابة النهائية كما يلي: <Start of Answer>النص المستهدف<End of Answer>. الإجراء: {question}",
-        "cs": "Díváte se na snímek obrazovky GUI. Pro následující akci identifikujte cílový prvek uživatelského rozhraní a vypište jeho viditelný textový obsah (přesný text vytištěný uvnitř tohoto prvku). Ignorujte jakékoli emotikony nebo dekorativní ikony — vypište pouze textovou část. Umístěte text mezi <Start of Answer> a <End of Answer>. Konečný formát odpovědi by měl vypadat takto: <Start of Answer>cílový text<End of Answer>. Akce: {question}",
-        "en": "You are looking at a GUI screenshot. For the following action, identify the target UI element and output its visible text content (the exact text printed inside that element). Ignore any emoji or decorative icon — output only the textual part. Place the text between <Start of Answer> and <End of Answer>. The final response format should be as follows: <Start of Answer>the target text<End of Answer>. Action: {question}",
-        "hu": "Egy GUI képernyőképet lát. Az alábbi művelethez azonosítsa a célzott felületi elemet, és adja meg annak látható szöveges tartalmát (az elem belsejében ténylegesen megjelenő szöveget). Hagyja figyelmen kívül az emojikat és a díszítő ikonokat — csak a szöveges részt adja meg. Helyezze a szöveget a <Start of Answer> és a <End of Answer> közé. A végső válaszformátumnak így kell kinéznie: <Start of Answer>a cél szövege<End of Answer>. Művelet: {question}",
-        "ko": "GUI 스크린샷을 보고 있습니다. 다음 작업에 대해 대상 UI 요소를 식별하고 그 안에 표시된 텍스트 내용(해당 요소 내부에 실제로 인쇄된 텍스트)을 출력하세요. 이모지나 장식용 아이콘은 무시하고 텍스트 부분만 출력하세요. 텍스트를 <Start of Answer>와 <End of Answer> 사이에 넣으세요. 최종 답변 형식은 다음과 같아야 합니다: <Start of Answer>대상 텍스트<End of Answer>. 작업: {question}",
-        "ru": "Вы смотрите на скриншот графического интерфейса. Для следующего действия определите целевой элемент интерфейса и выведите его видимое текстовое содержимое (точный текст, напечатанный внутри этого элемента). Игнорируйте любые эмодзи и декоративные иконки — выводите только текстовую часть. Поместите текст между <Start of Answer> и <End of Answer>. Окончательный формат ответа должен выглядеть так: <Start of Answer>целевой текст<End of Answer>. Действие: {question}",
-        "sr": "Gledate snimak ekrana GUI-ja. Za sledeću radnju identifikujte ciljni element interfejsa i ispišite njegov vidljivi tekstualni sadržaj (tačan tekst koji je odštampan unutar tog elementa). Zanemarite sve emojije i dekorativne ikone — ispišite samo tekstualni deo. Postavite tekst između <Start of Answer> i <End of Answer>. Konačni format odgovora treba da izgleda ovako: <Start of Answer>ciljni tekst<End of Answer>. Radnja: {question}",
-        "th": "คุณกำลังดูภาพหน้าจอ GUI สำหรับงานต่อไปนี้ โปรดระบุองค์ประกอบ UI เป้าหมายและแสดงเนื้อหาข้อความที่มองเห็นได้ (ข้อความที่พิมพ์อยู่จริงภายในองค์ประกอบนั้น) โปรดละเว้นอิโมจิหรือไอคอนตกแต่งทั้งหมด แสดงเฉพาะส่วนข้อความ วางข้อความระหว่าง <Start of Answer> และ <End of Answer> รูปแบบการตอบกลับสุดท้ายควรเป็นดังนี้: <Start of Answer>ข้อความเป้าหมาย<End of Answer> งาน: {question}",
-        "vi": "Bạn đang xem ảnh chụp màn hình GUI. Với thao tác sau, hãy xác định phần tử giao diện mục tiêu và xuất ra nội dung văn bản hiển thị của nó (văn bản thực sự được in bên trong phần tử đó). Bỏ qua mọi biểu tượng cảm xúc hoặc biểu tượng trang trí — chỉ xuất phần văn bản. Đặt văn bản giữa <Start of Answer> và <End of Answer>. Định dạng phản hồi cuối cùng phải như sau: <Start of Answer>văn bản mục tiêu<End of Answer>. Thao tác: {question}",
-        "zh": "你正在查看一张 GUI 截图。请根据下面的操作要求找到正确的界面元素，并输出该元素中显示的文字内容（按钮或元素上实际印刷的文字）。请忽略所有 emoji 和装饰图标，只输出文字部分。请把文字放在 <Start of Answer> 和 <End of Answer> 之间，最终回答格式应如下：<Start of Answer>目标文字<End of Answer>。操作：{question}"
-      }
-    },
-    "mgui-vqa-screenshot": {
+    "mgui-click": {
       "answer_markers": [
         "<Start of Answer>",
         "<End of Answer>",
         "[x, y]"
       ],
       "composition": "format_template",
-      "probe": "vqa",
       "scored_by": "evaluate --task mgui",
       "setting": "screenshot",
       "task": "mgui",
@@ -240,30 +190,29 @@
         "zh": "你正在查看一张 GUI 截图。请根据下面的操作要求找到正确的界面元素，并以像素坐标 [x, y] 的形式返回点击位置（图像左上角为 [0, 0]）。请把坐标放在 <Start of Answer> 和 <End of Answer> 之间，最终回答格式应如下：<Start of Answer>[x, y]<End of Answer>。操作：{question}"
       }
     },
-    "miqa-ocr-vision": {
+    "mgui-text": {
       "answer_markers": [
-        "<start>",
-        "<end>"
+        "<Start of Answer>",
+        "<End of Answer>"
       ],
-      "composition": "standalone",
-      "probe": "ocr",
-      "scored_by": "evaluate --task miqa-ocr",
-      "setting": "vision",
-      "task": "miqa",
+      "composition": "format_template",
+      "scored_by": "evaluate --task mgui-text",
+      "setting": "screenshot",
+      "task": "mgui",
       "text": {
-        "ar": "بالنظر إلى صورة، يرجى إخراج النص الموجود فيها في نهاية الناتج. ضع النص بين علامتي <start> و <end>.",
-        "cs": "Vzhledem k obrázku prosím na konci výstupu uveďte text z obrázku. Umístěte text mezi značky <start> a <end>.",
-        "en": "Given an image, please output the text in the image at the end of your output. Please place the text in the image between <start> and <end> marks.",
-        "hu": "Adott kép esetén kérjük, a kimenet végén adja meg a képen található szöveget. Helyezze a szöveget a <start> és <end> jelzők közé.",
-        "ko": "주어진 이미지에 대해 출력의 끝에 이미지 속 텍스트를 표시하십시오. 텍스트를 <start>와 <end> 표시 사이에 넣어주세요.",
-        "ru": "Для данного изображения выведите текст в конце вашего ответа. Разместите текст изображения между метками <start> и <end>.",
-        "sr": "За дату слику, на крају излаза прикажите текст са слике. Поставите текст између ознака <start> и <end>.",
-        "th": "เมื่อได้รับภาพ โปรดแสดงข้อความในภาพที่ท้ายผลลัพธ์ของคุณ โดยวางข้อความระหว่างเครื่องหมาย <start> และ <end>",
-        "vi": "Cho một hình ảnh, vui lòng xuất văn bản trong hình ảnh ở cuối đầu ra. Đặt văn bản giữa các dấu <start> và <end>.",
-        "zh": "给定一张图像，请在输出末尾提取图像中的文本，并将其放置在 <start> 和 <end> 标记之间。"
+        "ar": "أنت تنظر إلى لقطة شاشة لواجهة مستخدم. للإجراء التالي، حدد عنصر الواجهة المستهدف وأخرج محتواه النصي الظاهر (النص المطبوع فعليًا داخل هذا العنصر). تجاهل أي رموز تعبيرية (emoji) أو أيقونات زخرفية وأخرج الجزء النصي فقط. ضع النص بين <Start of Answer> و <End of Answer>. يجب أن يكون تنسيق الإجابة النهائية كما يلي: <Start of Answer>النص المستهدف<End of Answer>. الإجراء: {question}",
+        "cs": "Díváte se na snímek obrazovky GUI. Pro následující akci identifikujte cílový prvek uživatelského rozhraní a vypište jeho viditelný textový obsah (přesný text vytištěný uvnitř tohoto prvku). Ignorujte jakékoli emotikony nebo dekorativní ikony — vypište pouze textovou část. Umístěte text mezi <Start of Answer> a <End of Answer>. Konečný formát odpovědi by měl vypadat takto: <Start of Answer>cílový text<End of Answer>. Akce: {question}",
+        "en": "You are looking at a GUI screenshot. For the following action, identify the target UI element and output its visible text content (the exact text printed inside that element). Ignore any emoji or decorative icon — output only the textual part. Place the text between <Start of Answer> and <End of Answer>. The final response format should be as follows: <Start of Answer>the target text<End of Answer>. Action: {question}",
+        "hu": "Egy GUI képernyőképet lát. Az alábbi művelethez azonosítsa a célzott felületi elemet, és adja meg annak látható szöveges tartalmát (az elem belsejében ténylegesen megjelenő szöveget). Hagyja figyelmen kívül az emojikat és a díszítő ikonokat — csak a szöveges részt adja meg. Helyezze a szöveget a <Start of Answer> és a <End of Answer> közé. A végső válaszformátumnak így kell kinéznie: <Start of Answer>a cél szövege<End of Answer>. Művelet: {question}",
+        "ko": "GUI 스크린샷을 보고 있습니다. 다음 작업에 대해 대상 UI 요소를 식별하고 그 안에 표시된 텍스트 내용(해당 요소 내부에 실제로 인쇄된 텍스트)을 출력하세요. 이모지나 장식용 아이콘은 무시하고 텍스트 부분만 출력하세요. 텍스트를 <Start of Answer>와 <End of Answer> 사이에 넣으세요. 최종 답변 형식은 다음과 같아야 합니다: <Start of Answer>대상 텍스트<End of Answer>. 작업: {question}",
+        "ru": "Вы смотрите на скриншот графического интерфейса. Для следующего действия определите целевой элемент интерфейса и выведите его видимое текстовое содержимое (точный текст, напечатанный внутри этого элемента). Игнорируйте любые эмодзи и декоративные иконки — выводите только текстовую часть. Поместите текст между <Start of Answer> и <End of Answer>. Окончательный формат ответа должен выглядеть так: <Start of Answer>целевой текст<End of Answer>. Действие: {question}",
+        "sr": "Gledate snimak ekrana GUI-ja. Za sledeću radnju identifikujte ciljni element interfejsa i ispišite njegov vidljivi tekstualni sadržaj (tačan tekst koji je odštampan unutar tog elementa). Zanemarite sve emojije i dekorativne ikone — ispišite samo tekstualni deo. Postavite tekst između <Start of Answer> i <End of Answer>. Konačni format odgovora treba da izgleda ovako: <Start of Answer>ciljni tekst<End of Answer>. Radnja: {question}",
+        "th": "คุณกำลังดูภาพหน้าจอ GUI สำหรับงานต่อไปนี้ โปรดระบุองค์ประกอบ UI เป้าหมายและแสดงเนื้อหาข้อความที่มองเห็นได้ (ข้อความที่พิมพ์อยู่จริงภายในองค์ประกอบนั้น) โปรดละเว้นอิโมจิหรือไอคอนตกแต่งทั้งหมด แสดงเฉพาะส่วนข้อความ วางข้อความระหว่าง <Start of Answer> และ <End of Answer> รูปแบบการตอบกลับสุดท้ายควรเป็นดังนี้: <Start of Answer>ข้อความเป้าหมาย<End of Answer> งาน: {question}",
+        "vi": "Bạn đang xem ảnh chụp màn hình GUI. Với thao tác sau, hãy xác định phần tử giao diện mục tiêu và xuất ra nội dung văn bản hiển thị của nó (văn bản thực sự được in bên trong phần tử đó). Bỏ qua mọi biểu tượng cảm xúc hoặc biểu tượng trang trí — chỉ xuất phần văn bản. Đặt văn bản giữa <Start of Answer> và <End of Answer>. Định dạng phản hồi cuối cùng phải như sau: <Start of Answer>văn bản mục tiêu<End of Answer>. Thao tác: {question}",
+        "zh": "你正在查看一张 GUI 截图。请根据下面的操作要求找到正确的界面元素，并输出该元素中显示的文字内容（按钮或元素上实际印刷的文字）。请忽略所有 emoji 和装饰图标，只输出文字部分。请把文字放在 <Start of Answer> 和 <End of Answer> 之间，最终回答格式应如下：<Start of Answer>目标文字<End of Answer>。操作：{question}"
       }
     },
-    "miqa-vqa-traditional": {
+    "miqa-traditional": {
       "answer_markers": [
         "<Start of Answer>",
         "<End of Answer>"
@@ -274,7 +223,6 @@
         "template": "{prompt}{body}"
       },
       "composition": "prefix",
-      "probe": "vqa",
       "scored_by": "judge-miqa",
       "setting": "traditional",
       "task": "miqa",
@@ -291,13 +239,12 @@
         "zh": "请你逐步思考，回答下面的问题，并把答案放在<Start of Answer>和<End of Answer>之间，最终回答格式应该如下: <Start of Answer>这是你的回答<End of Answer>。问题: "
       }
     },
-    "miqa-vqa-vision": {
+    "miqa-vision": {
       "answer_markers": [
         "<Start of Answer>",
         "<End of Answer>"
       ],
       "composition": "standalone",
-      "probe": "vqa",
       "scored_by": "judge-miqa",
       "setting": "vision",
       "task": "miqa",
@@ -314,13 +261,12 @@
         "zh": "请你逐步思考，回答图片当中的问题，并把答案放在<Start of Answer>和<End of Answer>之间，最终回答格式应该如下: <Start of Answer>这是你的回答<End of Answer>。"
       }
     },
-    "msocr-ocr-vision": {
+    "msocr-vision": {
       "answer_markers": [
         "<start>",
         "<end>"
       ],
       "composition": "standalone",
-      "probe": "ocr",
       "scored_by": "evaluate --task msocr",
       "setting": "vision",
       "task": "msocr",

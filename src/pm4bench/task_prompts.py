@@ -87,7 +87,7 @@ def build_query(prompt_id: str, record: dict[str, Any],
 
 
 def describe_prompts(*, prompt_id: str | None = None, task: str | None = None,
-                     probe: str | None = None, language: str | None = None,
+                     language: str | None = None,
                      include_text: bool = False) -> dict[str, Any]:
     resource = load_task_prompts()
     selected = {}
@@ -95,8 +95,6 @@ def describe_prompts(*, prompt_id: str | None = None, task: str | None = None,
         if prompt_id and identifier != prompt_id:
             continue
         if task and entry["task"] != task:
-            continue
-        if probe and entry["probe"] != probe:
             continue
         described = {key: value for key, value in entry.items() if key != "text"}
         if include_text:

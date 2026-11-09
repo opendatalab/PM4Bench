@@ -56,7 +56,6 @@ docs/                 task and format specifications
 | retrain or reproduce QGO-8B | [recipes/README.md](recipes/README.md) |
 | pin versions and environments | [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) |
 | read the module map | [ARCHITECTURE.md](ARCHITECTURE.md) |
-| see what is planned next | [ROADMAP.md](ROADMAP.md) |
 
 ## Installation
 
@@ -100,7 +99,7 @@ pm4bench validate --dataset-root /path/to/PM4Bench-snapshot
 ## Query the models under evaluation
 
 The toolkit ships no inference code — you call your own models — but it does
-ship the ten prompts used to produce the published results, in all ten
+ship the eight prompts used to produce the published results, in all ten
 languages, and the rule for combining each one with a benchmark row. Use them:
 the metrics parse specific response markers, and a mismatched prompt is not an
 error, it silently scores low.
@@ -110,7 +109,7 @@ from pm4bench.data import load_manifest
 from pm4bench.task_prompts import build_query
 
 records, _digest = load_manifest("/path/to/PM4Bench-snapshot", "mdur", "en")
-query = build_query("mdur-vqa-traditional", records[0])
+query = build_query("mdur-traditional", records[0])
 # -> instruction + question stem + "(A). ..." options + "Your answer:"
 ```
 
@@ -123,8 +122,8 @@ reply to `response` and keep the row's `id`.
 To inspect a prompt without writing code:
 
 ```bash
-pm4bench prompts                                              # the ten released prompts
-pm4bench prompts --id mgui-vqa-screenshot --language en --raw  # one exact string
+pm4bench prompts                                        # the eight released prompts
+pm4bench prompts --id mgui-click --language en --raw     # one exact string
 ```
 
 [docs/PROMPTS.md](docs/PROMPTS.md) specifies every response marker, which
@@ -155,12 +154,10 @@ paper's six-dimension LLM-as-judge protocol; the judge endpoint and model are
 always supplied by the user and no provider-specific URL or credential is
 stored in this repository.
 
-The deterministic evaluator also exposes the paper's OCR diagnostics and the
-MGUI text-identification sanity check:
+MGUI also has a text-identification control, scored against the target
+element's visible text:
 
 ```bash
-pm4bench evaluate --task mdur-ocr --manifest data/mdur/en.jsonl --predictions predictions.jsonl
-pm4bench evaluate --task miqa-ocr --manifest data/miqa/en.jsonl --predictions predictions.jsonl
 pm4bench evaluate --task mgui-text --manifest data/mgui/en.jsonl --predictions predictions.jsonl
 ```
 

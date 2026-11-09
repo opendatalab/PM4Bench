@@ -13,7 +13,8 @@ The MIQA judge is the only model-dependent score. Historical API model versions
 cannot be recreated by a present-day endpoint, so judge numbers are comparable
 within one run of one model, not across model revisions.
 
-Response markers and prompt assembly are specified in [PROMPTS.md](PROMPTS.md).
+The eight released prompts, their response markers and the assembly rule are
+specified in [PROMPTS.md](PROMPTS.md).
 
 ## Benchmark image construction
 

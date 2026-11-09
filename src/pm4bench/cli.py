@@ -13,10 +13,8 @@ from .metrics import (
     mdur_correct,
     mean,
     mgui_text_correct,
-    miqa_ocr_correct,
     msocr_score,
     normalize_mgui_text,
-    ocr_contains,
     point_in_bbox,
 )
 from .miqa import OpenAICompatibleChat, aggregate_scores, judge_manifest
@@ -33,7 +31,7 @@ def build_parser() -> argparse.ArgumentParser:
     evaluate = subparsers.add_parser("evaluate", help="run a deterministic task metric")
     evaluate.add_argument(
         "--task",
-        choices=("mdur", "mdur-ocr", "miqa-ocr", "msocr", "mgui", "mgui-text"),
+        choices=("mdur", "msocr", "mgui", "mgui-text"),
         required=True,
     )
     evaluate.add_argument("--manifest", type=Path, required=True)
@@ -46,7 +44,6 @@ def build_parser() -> argparse.ArgumentParser:
     prompts = subparsers.add_parser("prompts", help="show the released task prompts")
     prompts.add_argument("--id", dest="prompt_id", choices=prompt_ids())
     prompts.add_argument("--task", choices=TASKS)
-    prompts.add_argument("--probe", choices=("ocr", "vqa"))
     prompts.add_argument("--language", choices=LANGUAGES)
     prompts.add_argument("--raw", action="store_true",
                          help="print one prompt string instead of JSON")
@@ -144,10 +141,6 @@ def evaluate_task(args: argparse.Namespace) -> dict[str, Any]:
         response = str(prediction.get("response", ""))
         if args.task == "mdur":
             score = float(mdur_correct(response, gold["answer_key"]))
-        elif args.task == "mdur-ocr":
-            score = float(ocr_contains(response, gold["question"]))
-        elif args.task == "miqa-ocr":
-            score = float(miqa_ocr_correct(response, gold["rendered_text"]))
         elif args.task == "msocr":
             score = msocr_score(response, gold["lines"])
         elif args.task == "mgui":
@@ -161,7 +154,7 @@ def evaluate_task(args: argparse.Namespace) -> dict[str, Any]:
         else:
             score = float(mgui_text_correct(response, gold["target_text"]))
         scores.append(score)
-    percentage_tasks = {"mdur", "mdur-ocr", "miqa-ocr", "mgui", "mgui-text"}
+    percentage_tasks = {"mdur", "mgui", "mgui-text"}
     scale = 100.0 if args.task in percentage_tasks else 1.0
     return {
         "task": args.task,
@@ -189,8 +182,7 @@ def main() -> None:
             print(prompt_text(args.prompt_id, args.language))
             return
         result = describe_prompts(
-            prompt_id=args.prompt_id, task=args.task, probe=args.probe,
-            language=args.language,
+            prompt_id=args.prompt_id, task=args.task, language=args.language,
             include_text=bool(args.prompt_id or args.language),
         )
     elif args.command == "summarize-miqa":

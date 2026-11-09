@@ -38,24 +38,7 @@ def mdur_correct(response: str, answer_key: str) -> bool:
     return extract_answer_letter(response) == answer_key.strip().upper()
 
 
-def ocr_contains(response: str, reference: str) -> bool:
-    normalized_reference = normalize_text(reference)
-    return bool(normalized_reference) and normalized_reference in normalize_text(response)
 
-
-def miqa_ocr_reference(rendered_text: str) -> str:
-    """Extract the instruction substring used by the paper's MIQA OCR probe."""
-    last_colon_newline = rendered_text.rfind(":\n")
-    last_newline = rendered_text.rfind("\n")
-    if last_colon_newline == -1 or last_newline <= last_colon_newline:
-        return ""
-    return rendered_text[last_colon_newline + 2 : last_newline].strip()
-
-
-def miqa_ocr_correct(response: str, rendered_text: str) -> bool:
-    prediction = normalize_text(response.replace("\n", " "))
-    reference = normalize_text(miqa_ocr_reference(rendered_text))
-    return len(prediction) > 10 and bool(reference) and reference in prediction
 
 
 def levenshtein_distance(left: str, right: str) -> int:

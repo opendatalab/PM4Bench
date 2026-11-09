@@ -10,8 +10,8 @@ from pm4bench.metrics import (
     extract_answer_letter,
     extract_answer_text,
     extract_coords,
+    mgui_text_correct,
     msocr_score,
-    ocr_contains,
 )
 from pm4bench.task_prompts import (
     RESOURCE,
@@ -24,29 +24,26 @@ from pm4bench.task_prompts import (
 )
 
 RELEASED = (
-    "mdur-ocr-vision",
-    "mdur-vqa-traditional",
-    "mdur-vqa-vision",
-    "mdur-vqa-vision-reference-text",
-    "mgui-ocr-screenshot",
-    "mgui-vqa-screenshot",
-    "miqa-ocr-vision",
-    "miqa-vqa-traditional",
-    "miqa-vqa-vision",
-    "msocr-ocr-vision",
+    "mdur-traditional",
+    "mdur-vision",
+    "mdur-vision-reference-text",
+    "mgui-click",
+    "mgui-text",
+    "miqa-traditional",
+    "miqa-vision",
+    "msocr-vision",
 )
-TEMPLATES = ("mgui-vqa-screenshot", "mgui-ocr-screenshot")
-PREFIXES = ("mdur-vqa-traditional", "mdur-vqa-vision-reference-text",
-            "miqa-vqa-traditional")
+TEMPLATES = ("mgui-click", "mgui-text")
+PREFIXES = ("mdur-traditional", "mdur-vision-reference-text", "miqa-traditional")
 
 # A documented response for every marker set, kept here rather than in the
 # published resource so the resource stays free of explanatory material.
 EXAMPLE_RESPONSES = {
-    "mdur-vqa-vision": "Weighing the options...\n<C>",
-    "msocr-ocr-vision": "<start>Spaniards Marrakesh<end>",
-    "miqa-vqa-vision": "<Start of Answer>One way<End of Answer>",
-    "mgui-vqa-screenshot": "<Start of Answer>[318, 312]<End of Answer>",
-    "mdur-ocr-vision": '{"question": "Which is not a language?", "options": ["HTML"]}',
+    "mdur-vision": "Weighing the options...\n<C>",
+    "msocr-vision": "<start>Spaniards Marrakesh<end>",
+    "miqa-vision": "<Start of Answer>One way<End of Answer>",
+    "mgui-click": "<Start of Answer>[318, 312]<End of Answer>",
+    "mgui-text": "<Start of Answer>One way<End of Answer>",
 }
 
 
@@ -58,7 +55,7 @@ def test_schema_is_version_two_and_carries_only_data() -> None:
     resource = load_task_prompts()
     assert resource["schema_version"] == 2
     assert set(resource) == {"schema_version", "languages", "prompts"}
-    allowed = {"task", "probe", "setting", "composition", "answer_markers",
+    allowed = {"task", "setting", "composition", "answer_markers",
                "scored_by", "assembly", "text"}
     for prompt_id in RELEASED:
         assert set(prompt_entry(prompt_id)) <= allowed, prompt_id
@@ -75,8 +72,8 @@ def test_every_prompt_covers_every_language() -> None:
 
 def test_trailing_whitespace_is_preserved() -> None:
     """These exact endings are load-bearing for query assembly."""
-    assert prompt_text("miqa-vqa-traditional", "en").endswith("Question: ")
-    assert prompt_text("mdur-vqa-traditional", "en").endswith("Question:")
+    assert prompt_text("miqa-traditional", "en").endswith("Question: ")
+    assert prompt_text("mdur-traditional", "en").endswith("Question:")
 
 
 def test_answer_markers_appear_in_every_language() -> None:
@@ -101,10 +98,11 @@ def test_composition_discipline() -> None:
         assert ("assembly" in entry) == (entry["composition"] == "prefix")
 
 
-def test_mdur_ocr_prompt_is_not_a_format_template() -> None:
-    """The JSON schema it asks for contains literal braces."""
-    with pytest.raises(KeyError):
-        prompt_text("mdur-ocr-vision", "en").format(question="Q")
+def test_mdur_vision_prompt_is_not_a_format_template() -> None:
+    """Only the MGUI prompts are templates."""
+    for prompt_id in RELEASED:
+        if prompt_id not in TEMPLATES:
+            assert "{question}" not in prompt_text(prompt_id, "en"), prompt_id
 
 
 def test_prefix_prompts_carry_a_complete_assembly_rule() -> None:
@@ -120,50 +118,50 @@ def test_prefix_prompts_carry_a_complete_assembly_rule() -> None:
             assert rule["image_token"]["to"] == "<image>"
         else:
             assert rule["image_token"] == "<image>"
-    assert prompt_entry("mdur-vqa-traditional")["assembly"]["separator"] == " "
-    assert prompt_entry("mdur-vqa-vision-reference-text")["assembly"]["separator"] == ""
+    assert prompt_entry("mdur-traditional")["assembly"]["separator"] == " "
+    assert prompt_entry("mdur-vision-reference-text")["assembly"]["separator"] == ""
 
 
 def test_build_query_assembles_each_composition() -> None:
     mdur = {"language": "en", "rendered_text":
             "Question: Which one?<image 1>\nOptions:\n(A)  first\n(B)  <image 2>",
             "options": ["first", ""], "question": "Which one?"}
-    built = build_query("mdur-vqa-traditional", mdur)
-    assert built.startswith(prompt_text("mdur-vqa-traditional", "en") + " ")
+    built = build_query("mdur-traditional", mdur)
+    assert built.startswith(prompt_text("mdur-traditional", "en") + " ")
     assert "Which one?<image>" in built
     # relabeled, and the image-only option survives via rendered_text
     assert "(A). first\n(B). <image>" in built
     assert built.endswith("\n\nYour answer:")
     assert "<image 1>" not in built and "<image 2>" not in built
 
-    assert build_query("mdur-vqa-vision-reference-text", mdur).startswith(
-        prompt_text("mdur-vqa-vision-reference-text", "en") + "Which one?")
+    assert build_query("mdur-vision-reference-text", mdur).startswith(
+        prompt_text("mdur-vision-reference-text", "en") + "Which one?")
 
     miqa = {"language": "en", "rendered_text": "Image 1:\nImage 2:\nCompare them.\n"}
-    assert build_query("miqa-vqa-traditional", miqa).endswith(
+    assert build_query("miqa-traditional", miqa).endswith(
         "Image 1: <image>\nImage 2: <image>\nCompare them.")
 
-    assert build_query("mdur-vqa-vision", mdur) == prompt_text("mdur-vqa-vision", "en")
+    assert build_query("mdur-vision", mdur) == prompt_text("mdur-vision", "en")
 
     mgui = {"language": "en", "question": "Switch the trip type."}
-    assert build_query("mgui-vqa-screenshot", mgui).endswith("Switch the trip type.")
+    assert build_query("mgui-click", mgui).endswith("Switch the trip type.")
 
 
 def test_build_query_rejects_an_unusable_record() -> None:
     with pytest.raises(ValueError):
-        build_query("mdur-vqa-traditional", {"rendered_text": "x"})
+        build_query("mdur-traditional", {"rendered_text": "x"})
     with pytest.raises(ValueError):
-        build_query("mdur-vqa-traditional", {"language": "en", "rendered_text": "no labels"})
+        build_query("mdur-traditional", {"language": "en", "rendered_text": "no labels"})
 
 
 def test_example_responses_parse_as_documented() -> None:
     """The contract that stops a metric change from silently lowering scores."""
-    assert extract_answer_letter(EXAMPLE_RESPONSES["mdur-vqa-vision"]) == "C"
-    assert extract_answer_text(EXAMPLE_RESPONSES["miqa-vqa-vision"]) == "One way"
-    assert extract_coords(EXAMPLE_RESPONSES["mgui-vqa-screenshot"]) == (318.0, 312.0)
-    assert msocr_score(EXAMPLE_RESPONSES["msocr-ocr-vision"],
+    assert extract_answer_letter(EXAMPLE_RESPONSES["mdur-vision"]) == "C"
+    assert extract_answer_text(EXAMPLE_RESPONSES["miqa-vision"]) == "One way"
+    assert extract_coords(EXAMPLE_RESPONSES["mgui-click"]) == (318.0, 312.0)
+    assert msocr_score(EXAMPLE_RESPONSES["msocr-vision"],
                        [{"font_size": 40, "text": "Spaniards Marrakesh"}]) == 40.0
-    assert ocr_contains(EXAMPLE_RESPONSES["mdur-ocr-vision"], "Which is not a language?")
+    assert mgui_text_correct(EXAMPLE_RESPONSES["mgui-text"], "One way")
 
 
 def test_scored_by_matches_the_live_cli() -> None:
@@ -201,8 +199,8 @@ def test_describe_prompts_filters_and_elides_text() -> None:
     index = describe_prompts()
     assert set(index["prompts"]) == set(RELEASED)
     assert all("text" not in entry for entry in index["prompts"].values())
-    single = describe_prompts(prompt_id="mdur-vqa-vision", language="en", include_text=True)
-    assert set(single["prompts"]["mdur-vqa-vision"]["text"]) == {"en"}
+    single = describe_prompts(prompt_id="mdur-vision", language="en", include_text=True)
+    assert set(single["prompts"]["mdur-vision"]["text"]) == {"en"}
     assert set(describe_prompts(task="mgui")["prompts"]) == set(TEMPLATES)
     with pytest.raises(ValueError):
         describe_prompts(prompt_id="nope")
