@@ -139,6 +139,10 @@ Predictions are JSONL records containing the manifest `id` (or legacy
 {"id": "a01_search_en_1", "response": "(318, 312)"}
 ```
 
+Every manifest record must have a prediction. If any is missing, `evaluate`
+reports the missing identifiers and exits non-zero rather than scoring the gaps
+as wrong — a score over partial predictions reads like a real result.
+
 ```bash
 pm4bench evaluate \
   --task mgui \

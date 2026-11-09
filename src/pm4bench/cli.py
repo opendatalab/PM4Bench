@@ -136,7 +136,6 @@ def evaluate_task(args: argparse.Namespace) -> dict[str, Any]:
             prediction = predictions.get(str(gold["index"]))
         if prediction is None:
             missing.append(key)
-            scores.append(0.0)
             continue
         response = str(prediction.get("response", ""))
         if args.task == "mdur":
@@ -154,13 +153,24 @@ def evaluate_task(args: argparse.Namespace) -> dict[str, Any]:
         else:
             score = float(mgui_text_correct(response, gold["target_text"]))
         scores.append(score)
+    if missing:
+        # No score is reported: one computed over partial predictions reads as a
+        # real result.
+        return {
+            "task": args.task,
+            "status": "failed",
+            "reason": "predictions are missing for some manifest records",
+            "scored": len(scores),
+            "skipped": skipped,
+            "missing_predictions": len(missing),
+            "missing_ids": missing[:20],
+        }
     percentage_tasks = {"mdur", "mgui", "mgui-text"}
     scale = 100.0 if args.task in percentage_tasks else 1.0
     return {
         "task": args.task,
         "records": len(scores),
         "skipped": skipped,
-        "missing_predictions": len(missing),
         "score": mean(scores) * scale,
     }
 

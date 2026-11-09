@@ -52,5 +52,10 @@ Predictions are JSONL with `id` or `index` plus `response`. Additional fields
 such as `reasoning`, latency, and model metadata are ignored by deterministic
 metrics and may be retained by callers.
 
+Predictions must cover every record in the manifest. `evaluate` fails with the
+missing identifiers rather than scoring absent predictions as wrong. The
+exception is `mgui-text`, which skips targets with no visible text and reports
+them as `skipped`.
+
 The response markers each metric parses, and the released prompts that produce
 them, are specified in [PROMPTS.md](PROMPTS.md).

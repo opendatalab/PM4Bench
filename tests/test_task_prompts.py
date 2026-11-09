@@ -206,6 +206,36 @@ def test_describe_prompts_filters_and_elides_text() -> None:
         describe_prompts(prompt_id="nope")
 
 
+def test_incomplete_predictions_fail_instead_of_scoring_zeros(tmp_path) -> None:
+    """A score over partial predictions would read as a real result."""
+    import argparse
+
+    from pm4bench.cli import evaluate_task
+    from pm4bench.io import write_jsonl
+
+    manifest = tmp_path / "m.jsonl"
+    write_jsonl(manifest, [
+        {"id": "a", "task": "mdur", "language": "en", "answer_key": "A"},
+        {"id": "b", "task": "mdur", "language": "en", "answer_key": "B"},
+    ])
+    predictions = tmp_path / "p.jsonl"
+    write_jsonl(predictions, [{"id": "a", "response": "<A>"}])
+
+    args = argparse.Namespace(task="mdur", manifest=manifest, predictions=predictions,
+                              coordinate_space=None)
+    result = evaluate_task(args)
+    assert result["status"] == "failed"
+    assert result["missing_predictions"] == 1
+    assert result["missing_ids"] == ["b"]
+    assert "score" not in result
+
+    write_jsonl(predictions, [{"id": "a", "response": "<A>"}, {"id": "b", "response": "<B>"}])
+    complete = evaluate_task(args)
+    assert "status" not in complete
+    assert complete["score"] == 100.0
+    assert complete["records"] == 2
+
+
 def test_mgui_evaluation_requires_an_explicit_coordinate_space(monkeypatch) -> None:
     arguments = ["evaluate", "--task", "mgui", "--manifest", "m", "--predictions", "p"]
     assert build_parser().parse_args(arguments).coordinate_space is None
