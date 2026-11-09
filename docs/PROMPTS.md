@@ -6,10 +6,9 @@ of the prompts that produce them, and of how to combine a prompt with a
 benchmark row. Without a matching prompt the metrics do not fail — they
 silently score low.
 
-Ten prompts are released, each in all ten languages, exactly as used for the
-reported results. They ship as one JSON resource,
-`src/pm4bench/prompts/task_prompts.json`, which holds data only; everything
-explanatory lives on this page.
+Ten prompts are released, each in all ten languages — the ones used to produce
+the published results. They ship as one JSON resource,
+`src/pm4bench/prompts/task_prompts.json`.
 
 ## Reading the resource
 
@@ -69,11 +68,10 @@ A response that satisfies each marker set looks like:
 | ... plus `[x, y]` | `<Start of Answer>[318, 312]<End of Answer>` |
 | `"question"` `"options"` | `{"question": "Which is not a language?", "options": ["HTML"]}` |
 
-`mdur-vqa-vision-reference-text` is a control condition, not a pipeline result.
-It supplies the vision image together with the reference question and options,
-isolating the OCR bottleneck: it is the upper bound a model would reach if it
-read the rendered page perfectly. It does not consume OCR output, and the
-released benchmark has no separate manifest for it.
+`mdur-vqa-vision-reference-text` is a control condition: it supplies the vision
+image together with the reference question and options as text, so it measures
+the upper bound a model would reach if it read the rendered page perfectly. The
+benchmark has no separate manifest for it — use the `mdur` rows.
 
 ## Building a query
 
@@ -116,10 +114,9 @@ Both MDUR prompts use
   `"\n{options_label}:\n"`, then `<image N>` rewritten to `<image>` per
   `image_token`. Both label maps cover all ten languages.
 - `options` — the option block that follows `"{options_label}:\n"` in
-  `rendered_text`, each line relabeled from `(A)  text` to `option_line`.
-  **Not the `options` array:** image-only options appear as markers in
-  `rendered_text` but as empty strings in the array, so the array loses them
-  silently.
+  `rendered_text`, each line relabeled from `(A)  text` to `option_line`. Read
+  it from `rendered_text`, **not** the `options` array: the array stores
+  image-only options as empty strings.
 - `answer_prefix` — the localized closing line, e.g. `Your answer:` /
   `你的回答：`.
 - `separator` — a space for `mdur-vqa-traditional`, empty for
@@ -130,58 +127,35 @@ of `rendered_text` that ends in a colon, one per entry in
 `traditional_images`. Its prompt text already ends with the localized
 `Question: `, so `separator` is empty.
 
-### What is and is not claimed
-
-The query `build_query` returns is consistent with the released images and
-manifests, which is what you need to evaluate the published benchmark. It is
-not claimed byte-identical to the inputs used for the paper's own runs: those
-were assembled by historical scripts, and whitespace normalization plus
-translation-revision differences affect a minority of non-English rows. Scores
-computed this way are self-consistent and comparable across models; treat
-small deviations from the published tables as expected.
-
-Every released string was re-verified against the frozen paper-era inference
-inputs, 80,740 queries across the ten languages: the five `standalone` prompts
-matched byte-exactly over 39,960 records, the two MGUI templates over 4,000,
-and the three `prefix` prompts matched as a leading prefix over 36,780.
-
 ## MGUI coordinate space
 
-`mgui-vqa-screenshot` asks for **pixel** coordinates. `evaluate --task mgui`
-therefore requires `--coordinate-space` to be stated explicitly; it has no
-default, because a default that disagrees with the released prompt would
-silently rescale predictions.
+`mgui-vqa-screenshot` asks for **pixel** coordinates, and
+`evaluate --task mgui` requires `--coordinate-space` explicitly — it has no
+default, because the wrong value silently rescales every prediction.
 
 ```bash
 pm4bench evaluate --task mgui --manifest data/mgui/en.jsonl \
   --predictions predictions.jsonl --coordinate-space pixel
 ```
 
-The paper-era evaluation did not use one global setting. Model families that
-emit coordinates on a 1000x1000 normalized grid regardless of the instruction
-were rescaled per family — `qwen`, `glm`, `gemini`, `doubao` and `llama` were
-mapped to `(1000, 1000)`; `gpt` was deliberately left unmapped pending a
-reviewed rerun; every other model was read as raw pixels. GUI screenshots are
-1280x800. Reproducing a published number requires matching that per-model
-choice, which one flag value cannot express.
+Choose the value your model actually emits. Several families — Qwen, GLM,
+Gemini, Doubao, Llama — return coordinates on a 1000x1000 grid whatever the
+instruction asks for; use `--coordinate-space normalized-1000` for those. GUI
+screenshots are 1280x800, which is the resolution normalized coordinates are
+scaled back to.
 
-## Parsing hazards
-
-These are properties of the current metrics, documented so they are not
-mistaken for bugs introduced by a caller.
+## Metric behavior worth knowing
 
 - `mdur_correct` delegates to `extract_answer_letter`, which has no explicit
-  `<([A-J])>` branch. `<X>` is parsed only by the trailing bare-letter
-  fallback, which takes the **last** match in
-  the response. A response that mentions another option letter after its final
-  answer is scored wrong without any warning. Tracked in
-  [ROADMAP.md](../ROADMAP.md).
+  `<([A-J])>` branch. `<X>` is parsed by the trailing bare-letter fallback,
+  which takes the **last** match in the response — a response that mentions
+  another option letter after its final answer is scored wrong silently.
 - `evaluate --task mdur-ocr` scores with `ocr_contains(response, question)`.
   The JSON structure the prompt requests is advisory: malformed JSON is not
   penalized and the `options` array is never checked.
 - `evaluate --task miqa-ocr` compares against the instruction substring of
   `rendered_text` and requires a prediction longer than ten characters. It does
-  not strip `<start>`/`<end>`; only `msocr_score` does. Both metrics test
-  containment, so the wrapper is harmless either way.
+  not strip `<start>`/`<end>`; only `msocr_score` does. Both test containment,
+  so the wrapper is harmless either way.
 - `evaluate --task mgui-text` skips targets whose text is empty after
   decorative-symbol removal and reports them as `skipped`.

@@ -74,10 +74,10 @@ pm4bench validate --dataset-root /path/to/PM4Bench-snapshot
 ## Query the models under evaluation
 
 The toolkit ships no inference code — you call your own models — but it does
-ship the prompts used for the reported results, in all ten languages, plus the
-rule for combining each one with a benchmark row. Use them: the metrics parse
-specific response markers, and a mismatched prompt is not an error, it silently
-scores low.
+ship the ten prompts used to produce the published results, in all ten
+languages, and the rule for combining each one with a benchmark row. Use them:
+the metrics parse specific response markers, and a mismatched prompt is not an
+error, it silently scores low.
 
 ```python
 from pm4bench.data import load_manifest
@@ -101,9 +101,8 @@ pm4bench prompts                                              # the ten released
 pm4bench prompts --id mgui-vqa-screenshot --language en --raw  # one exact string
 ```
 
-Which prompt pairs with which metric, every response marker, the `assembly`
-rule, and the known parsing hazards are specified in
-[docs/PROMPTS.md](docs/PROMPTS.md).
+[docs/PROMPTS.md](docs/PROMPTS.md) specifies every response marker, which
+metric reads it, the `assembly` rule, and the metric behaviors worth knowing.
 
 ## Evaluate rule-based tasks
 
