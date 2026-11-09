@@ -21,7 +21,6 @@ from pm4bench.task_prompts import (
     prompt_entry,
     prompt_ids,
     prompt_text,
-    response_format,
 )
 
 RELEASED = (
@@ -37,10 +36,32 @@ RELEASED = (
     "msocr-ocr-vision",
 )
 TEMPLATES = ("mgui-vqa-screenshot", "mgui-ocr-screenshot")
+PREFIXES = ("mdur-vqa-traditional", "mdur-vqa-vision-reference-text",
+            "miqa-vqa-traditional")
+
+# A documented response for every marker set, kept here rather than in the
+# published resource so the resource stays free of explanatory material.
+EXAMPLE_RESPONSES = {
+    "mdur-vqa-vision": "Weighing the options...\n<C>",
+    "msocr-ocr-vision": "<start>Spaniards Marrakesh<end>",
+    "miqa-vqa-vision": "<Start of Answer>One way<End of Answer>",
+    "mgui-vqa-screenshot": "<Start of Answer>[318, 312]<End of Answer>",
+    "mdur-ocr-vision": '{"question": "Which is not a language?", "options": ["HTML"]}',
+}
 
 
 def test_released_prompt_ids_are_frozen() -> None:
     assert prompt_ids() == RELEASED
+
+
+def test_schema_is_version_two_and_carries_only_data() -> None:
+    resource = load_task_prompts()
+    assert resource["schema_version"] == 2
+    assert set(resource) == {"schema_version", "languages", "prompts"}
+    allowed = {"task", "probe", "setting", "composition", "answer_markers",
+               "scored_by", "assembly", "text"}
+    for prompt_id in RELEASED:
+        assert set(prompt_entry(prompt_id)) <= allowed, prompt_id
 
 
 def test_every_prompt_covers_every_language() -> None:
@@ -53,18 +74,18 @@ def test_every_prompt_covers_every_language() -> None:
 
 
 def test_trailing_whitespace_is_preserved() -> None:
-    """These exact endings are load-bearing for paper-era query assembly."""
+    """These exact endings are load-bearing for query assembly."""
     assert prompt_text("miqa-vqa-traditional", "en").endswith("Question: ")
     assert prompt_text("mdur-vqa-traditional", "en").endswith("Question:")
 
 
-def test_response_markers_appear_in_every_language() -> None:
+def test_answer_markers_appear_in_every_language() -> None:
     for prompt_id in RELEASED:
-        literals = response_format(prompt_id)["prompt_literals"]
-        assert literals, prompt_id
-        for literal in literals:
+        markers = prompt_entry(prompt_id)["answer_markers"]
+        assert markers, prompt_id
+        for marker in markers:
             for language, value in prompt_entry(prompt_id)["text"].items():
-                assert literal in value, (prompt_id, language, literal)
+                assert marker in value, (prompt_id, language, marker)
 
 
 def test_composition_discipline() -> None:
@@ -77,6 +98,7 @@ def test_composition_discipline() -> None:
             else:
                 assert "{question}" not in value
         assert (prompt_id in TEMPLATES) == (entry["composition"] == "format_template")
+        assert ("assembly" in entry) == (entry["composition"] == "prefix")
 
 
 def test_mdur_ocr_prompt_is_not_a_format_template() -> None:
@@ -86,28 +108,20 @@ def test_mdur_ocr_prompt_is_not_a_format_template() -> None:
 
 
 def test_prefix_prompts_carry_a_complete_assembly_rule() -> None:
-    prefixes = {identifier for identifier in RELEASED
-                if prompt_entry(identifier)["composition"] == "prefix"}
-    assert prefixes == {"mdur-vqa-traditional", "mdur-vqa-vision-reference-text",
-                        "miqa-vqa-traditional"}
-    for prompt_id in prefixes:
+    assert {p for p in RELEASED if prompt_entry(p)["composition"] == "prefix"} == set(PREFIXES)
+    for prompt_id in PREFIXES:
         rule = prompt_entry(prompt_id)["assembly"]
-        assert rule["source_field"] == "rendered_text"
+        assert "{prompt}" in rule["template"]
         assert "separator" in rule
         if prompt_entry(prompt_id)["task"] == "mdur":
             for key in ("question_label", "options_label", "answer_prefix"):
                 assert set(rule[key]) == set(LANGUAGES), (prompt_id, key)
             assert rule["option_line"] == "({letter}). {option}"
+            assert rule["image_token"]["to"] == "<image>"
         else:
-            assert rule["image_placeholder"] == "<image>"
+            assert rule["image_token"] == "<image>"
     assert prompt_entry("mdur-vqa-traditional")["assembly"]["separator"] == " "
     assert prompt_entry("mdur-vqa-vision-reference-text")["assembly"]["separator"] == ""
-
-
-def test_assembly_is_only_present_where_it_applies() -> None:
-    for prompt_id in RELEASED:
-        entry = prompt_entry(prompt_id)
-        assert ("assembly" in entry) == (entry["composition"] == "prefix"), prompt_id
 
 
 def test_build_query_assembles_each_composition() -> None:
@@ -122,16 +136,14 @@ def test_build_query_assembles_each_composition() -> None:
     assert built.endswith("\n\nYour answer:")
     assert "<image 1>" not in built and "<image 2>" not in built
 
-    # vision_reference_text uses no separator
     assert build_query("mdur-vqa-vision-reference-text", mdur).startswith(
         prompt_text("mdur-vqa-vision-reference-text", "en") + "Which one?")
 
     miqa = {"language": "en", "rendered_text": "Image 1:\nImage 2:\nCompare them.\n"}
-    built = build_query("miqa-vqa-traditional", miqa)
-    assert built.endswith("Image 1: <image>\nImage 2: <image>\nCompare them.")
+    assert build_query("miqa-vqa-traditional", miqa).endswith(
+        "Image 1: <image>\nImage 2: <image>\nCompare them.")
 
-    standalone = build_query("mdur-vqa-vision", mdur)
-    assert standalone == prompt_text("mdur-vqa-vision", "en")
+    assert build_query("mdur-vqa-vision", mdur) == prompt_text("mdur-vqa-vision", "en")
 
     mgui = {"language": "en", "question": "Switch the trip type."}
     assert build_query("mgui-vqa-screenshot", mgui).endswith("Switch the trip type.")
@@ -146,40 +158,31 @@ def test_build_query_rejects_an_unusable_record() -> None:
 
 def test_example_responses_parse_as_documented() -> None:
     """The contract that stops a metric change from silently lowering scores."""
-    formats = load_task_prompts()["response_formats"]
-    assert extract_answer_letter(formats["option_letter_in_angles"]["example_response"]) == "C"
-    assert extract_answer_text(formats["answer_tag"]["example_response"]) == "One way"
-    assert extract_coords(formats["answer_tag_pixel_xy"]["example_response"]) == (318.0, 312.0)
-    assert msocr_score(formats["lowercase_start_end"]["example_response"],
+    assert extract_answer_letter(EXAMPLE_RESPONSES["mdur-vqa-vision"]) == "C"
+    assert extract_answer_text(EXAMPLE_RESPONSES["miqa-vqa-vision"]) == "One way"
+    assert extract_coords(EXAMPLE_RESPONSES["mgui-vqa-screenshot"]) == (318.0, 312.0)
+    assert msocr_score(EXAMPLE_RESPONSES["msocr-ocr-vision"],
                        [{"font_size": 40, "text": "Spaniards Marrakesh"}]) == 40.0
-    assert ocr_contains(formats["mdur_ocr_json"]["example_response"],
-                        "Which is not a language?")
+    assert ocr_contains(EXAMPLE_RESPONSES["mdur-ocr-vision"], "Which is not a language?")
 
 
-def test_evaluate_with_matches_the_live_cli() -> None:
+def test_scored_by_matches_the_live_cli() -> None:
     parser = build_parser()
     for prompt_id in RELEASED:
-        target = prompt_entry(prompt_id)["evaluate_with"]
-        if target["command"] != "evaluate":
-            assert target["command"] == "judge-miqa"
+        scored_by = prompt_entry(prompt_id)["scored_by"]
+        if scored_by == "judge-miqa":
             continue
-        parsed = parser.parse_args(["evaluate", "--task", target["task"],
+        assert scored_by.startswith("evaluate --task "), prompt_id
+        task = scored_by.rsplit(" ", 1)[1]
+        parsed = parser.parse_args(["evaluate", "--task", task,
                                     "--manifest", "m", "--predictions", "p"])
-        assert parsed.task == target["task"], prompt_id
+        assert parsed.task == task, prompt_id
 
 
 def test_resource_is_canonically_serialized() -> None:
     expected = json.dumps(load_task_prompts(), ensure_ascii=False, indent=2,
                           sort_keys=True) + "\n"
     assert RESOURCE.read_text(encoding="utf-8") == expected
-
-
-def test_published_fields_are_whitelisted() -> None:
-    """Keeps internal source paths and legacy axes out of the public resource."""
-    allowed = {"task", "probe", "setting", "evaluate_with", "composition",
-               "response_format", "assembly", "verification", "digest", "text"}
-    for prompt_id in RELEASED:
-        assert set(prompt_entry(prompt_id)) <= allowed, prompt_id
 
 
 def test_documentation_lists_every_prompt_and_marker() -> None:
@@ -189,9 +192,9 @@ def test_documentation_lists_every_prompt_and_marker() -> None:
     content = page.read_text(encoding="utf-8")
     for prompt_id in RELEASED:
         assert prompt_id in content, prompt_id
-    for detail in load_task_prompts()["response_formats"].values():
-        for literal in detail["prompt_literals"]:
-            assert literal in content, literal
+    for entry in load_task_prompts()["prompts"].values():
+        for marker in entry["answer_markers"]:
+            assert marker in content, marker
 
 
 def test_describe_prompts_filters_and_elides_text() -> None:

@@ -1,4 +1,4 @@
-"""Access to the released task prompts and their response-format contracts."""
+"""Access to the released task prompts and their assembly rules."""
 from __future__ import annotations
 
 import json
@@ -27,11 +27,6 @@ def prompt_entry(prompt_id: str) -> dict[str, Any]:
     return prompts[prompt_id]
 
 
-def response_format(prompt_id: str) -> dict[str, Any]:
-    entry = prompt_entry(prompt_id)
-    return load_task_prompts()["response_formats"][entry["response_format"]]
-
-
 def prompt_text(prompt_id: str, language: str) -> str:
     text = prompt_entry(prompt_id)["text"]
     if language not in text:
@@ -42,19 +37,19 @@ def prompt_text(prompt_id: str, language: str) -> str:
 def _mdur_body(record: dict[str, Any], language: str, rule: dict[str, Any]) -> str:
     rendered = record["rendered_text"]
     head = f"{rule['question_label'][language]}: "
-    separator = f"\n{rule['options_label'][language]}:\n"
-    if not rendered.startswith(head) or separator not in rendered:
+    boundary = f"\n{rule['options_label'][language]}:\n"
+    if not rendered.startswith(head) or boundary not in rendered:
         raise ValueError("rendered_text does not have the expected MDUR layout")
-    stem, _, block = rendered.partition(separator)
+    stem, _, block = rendered.partition(boundary)
     stem = stem[len(head):]
     options = "\n".join(
         f"({match.group(1)}). {match.group(2)}" if (match := OPTION_LINE_RE.match(line)) else line
         for line in block.rstrip("\n").split("\n")
     )
     body = f"{stem}\n\n{options}\n\n{rule['answer_prefix'][language]}"
-    rewrite = rule["image_token_rewrite"]
-    for index in range(1, rewrite["n_max"] + 1):
-        body = body.replace(rewrite["from"].replace("N", str(index)), rewrite["to"])
+    token = rule["image_token"]
+    for index in range(1, token["n_max"] + 1):
+        body = body.replace(token["from"].replace("N", str(index)), token["to"])
     return body
 
 
@@ -63,7 +58,7 @@ def _miqa_body(record: dict[str, Any], rule: dict[str, Any]) -> str:
     for line in record["rendered_text"].split("\n"):
         stripped = line.strip()
         if stripped and stripped[-1] in ":：":
-            lines.append(f"{stripped} {rule['image_placeholder']}")
+            lines.append(f"{stripped} {rule['image_token']}")
         else:
             lines.append(line)
     return "\n".join(lines).rstrip("\n")
@@ -104,8 +99,6 @@ def describe_prompts(*, prompt_id: str | None = None, task: str | None = None,
         if probe and entry["probe"] != probe:
             continue
         described = {key: value for key, value in entry.items() if key != "text"}
-        described["response_format_detail"] = resource["response_formats"][
-            entry["response_format"]]
         if include_text:
             described["text"] = ({language: prompt_text(identifier, language)}
                                  if language else dict(entry["text"]))

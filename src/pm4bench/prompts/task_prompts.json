@@ -13,14 +13,13 @@
   ],
   "prompts": {
     "mdur-ocr-vision": {
+      "answer_markers": [
+        "\"question\"",
+        "\"options\""
+      ],
       "composition": "standalone",
-      "digest": "c3db6690acc2db5568518868fc13fbf58879ef20b29097406e579a32cf1e80be",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "mdur-ocr"
-      },
       "probe": "ocr",
-      "response_format": "mdur_ocr_json",
+      "scored_by": "evaluate --task mdur-ocr",
       "setting": "vision",
       "task": "mdur",
       "text": {
@@ -34,13 +33,12 @@
         "th": "## รายละเอียดงาน: คุณคือระบบ OCR อัจฉริยะที่รับผิดชอบในการสกัดคำถามสอบและตัวเลือกจากภาพที่กำหนด ภาพประกอบด้วยคำถามเดียวเท่านั้น และจำนวนตัวเลือกไม่แน่นอน กรุณาทำตามข้อกำหนดต่อไปนี้เพื่อดำเนินงานให้เสร็จสิ้น： 1. เนื้อหาที่สกัด： * คำถาม：ข้อความคำถามเดียวในภาพ * ตัวเลือก：ข้อความตัวเลือกทั้งหมดในภาพ จำนวนตัวเลือกอาจเป็น 2, 3, 4 หรือมากกว่า 2. รูปแบบการส่งออก： * ส่งออกผลลัพธ์ในรูปแบบ JSON * ปฏิบัติตามสคีมาด้านล่างอย่างเคร่งครัด： { \"question\": \"ข้อความคำถาม\", \"options\": [ \"ตัวเลือก A\", \"ตัวเลือก B\", \"ตัวเลือก C\", ... ] } * ตรวจสอบให้แน่ใจว่าชื่อฟิลด์ถูกต้องและไม่มีการสะกดผิด * ตัวเลือกควรเรียงตามลำดับที่ปรากฏในภาพ 3. หมายเหตุ： * สกัดเฉพาะเนื้อหาข้อความ ไม่รวมถึงภาพ แผนภูมิ หรือองค์ประกอบที่ไม่ใช่ข้อความอื่นใด * ตรวจสอบให้แน่ใจว่าความสัมพันธ์ระหว่างคำถามและตัวเลือกถูกต้องโดยไม่มีความสับสน * หลีกเลี่ยงการใส่ข้อมูลหรือคำอธิบายเพิ่มเติมใดๆ ## ตัวอย่าง： ### สมมุติว่าข้อความในภาพเป็นดังนี้： 1. ข้อใดต่อไปนี้ไม่ใช่ภาษาโปรแกรม? A. Python B. HTML C. Java D. CSS ### ผลลัพธ์ที่ถูกต้อง： { \"question\": \"ข้อใดต่อไปนี้ไม่ใช่ภาษาโปรแกรม?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
         "vi": "## Mô tả nhiệm vụ: Bạn là một hệ thống OCR thông minh chịu trách nhiệm trích xuất câu hỏi và các lựa chọn từ hình ảnh được cung cấp. Hình ảnh chỉ chứa một câu hỏi duy nhất và số lượng lựa chọn không cố định. Vui lòng hoàn thành nhiệm vụ theo các yêu cầu sau: 1. Nội dung trích xuất： * Câu hỏi：Văn bản câu hỏi duy nhất trong hình ảnh. * Các lựa chọn：Tất cả các văn bản lựa chọn trong hình ảnh; số lượng lựa chọn có thể là 2, 3, 4 hoặc nhiều hơn. 2. Định dạng đầu ra： * Xuất kết quả dưới định dạng JSON. * Tuân thủ nghiêm ngặt sơ đồ sau: { \"question\": \"Văn bản câu hỏi\", \"options\": [ \"Lựa chọn A\", \"Lựa chọn B\", \"Lựa chọn C\", ... ] } * Đảm bảo tên trường chính xác và tránh sai chính tả. * Các lựa chọn nên được sắp xếp theo thứ tự xuất hiện trong hình ảnh. 3. Lưu ý： * Chỉ trích xuất nội dung văn bản, không bao gồm bất kỳ hình ảnh, biểu đồ hoặc yếu tố phi văn bản nào khác. * Đảm bảo mối liên hệ giữa câu hỏi và các lựa chọn là chính xác mà không bị nhầm lẫn. * Tránh bao gồm bất kỳ thông tin hoặc chú thích bổ sung nào. ## Ví dụ： ### Giả sử nội dung hình ảnh như sau： 1. Điều nào sau đây không phải là ngôn ngữ lập trình? A. Python B. HTML C. Java D. CSS ### Đầu ra đúng： { \"question\": \"Điều nào sau đây không phải là ngôn ngữ lập trình?\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }",
         "zh": "## 任务描述： 您是一个智能OCR系统，负责从给定的图片中提取考试题目和选项。图片中仅包含一个题目，选项数量不定。请按照以下要求完成任务： 1. 提取内容： * 题目：图片中的唯一题目文本。 * 选项：图片中的所有选项文本，选项数量可能为2个、3个、4个或更多。 2. 输出格式： * 使用JSON格式输出结果。 * 严格遵循以下schema： { \"question\": \"题目文本\", \"options\": [ \"选项A\", \"选项B\", \"选项C\", ... ] } * 确保字段名称准确无误，避免拼写错误。 * 选项应按图片中出现的顺序排列。 3. 注意事项： * 仅提取文本内容，不包含任何图片、图表或其他非文本元素。 * 确保题目和选项之间的关联准确，无混淆。 * 避免包含任何额外的信息或注释。 ## 示例： ### 假设图片内容如下： 1. 以下哪项不是编程语言？ A. Python B. HTML C. Java D. CSS ### 正确输出： { \"question\": \"以下哪项不是编程语言？\", \"options\": [ \"Python\", \"HTML\", \"Java\", \"CSS\" ] }"
-      },
-      "verification": {
-        "match_kind": "exact",
-        "records": 17300
       }
     },
     "mdur-vqa-traditional": {
+      "answer_markers": [
+        "<X>"
+      ],
       "assembly": {
         "answer_prefix": {
           "ar": "إجابتك:",
@@ -54,14 +52,12 @@
           "vi": "Câu trả lời của bạn:",
           "zh": "你的回答："
         },
-        "image_token_rewrite": {
+        "image_token": {
           "from": "<image N>",
           "n_max": 14,
           "to": "<image>"
         },
-        "note": "Options come from rendered_text, not the options array: image-only options appear as markers there and as empty strings in the array.",
         "option_line": "({letter}). {option}",
-        "option_source_rule": "the option block after \"<options_label>:\\n\", relabeled",
         "options_label": {
           "ar": "خيارات",
           "cs": "Možnosti",
@@ -74,15 +70,6 @@
           "vi": "Tùy chọn",
           "zh": "选项"
         },
-        "order": [
-          "prompt",
-          "separator",
-          "stem",
-          "blank_line",
-          "options",
-          "blank_line",
-          "answer_prefix"
-        ],
         "question_label": {
           "ar": "سؤال",
           "cs": "otázka",
@@ -96,17 +83,11 @@
           "zh": "题目"
         },
         "separator": " ",
-        "source_field": "rendered_text",
-        "stem_rule": "text between \"<question_label>: \" and \"\\n<options_label>:\\n\""
+        "template": "{prompt}{separator}{stem}\n\n{options}\n\n{answer_prefix}"
       },
       "composition": "prefix",
-      "digest": "06e5c5c37fda50e1a15714f7244036bf5378c5435d4cffaa90e5bc6fcd62c52e",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "mdur"
-      },
       "probe": "vqa",
-      "response_format": "option_letter_in_angles",
+      "scored_by": "evaluate --task mdur",
       "setting": "traditional",
       "task": "mdur",
       "text": {
@@ -120,21 +101,15 @@
         "th": "กรุณาอ่านคำถามด้านล่างนี้และเลือกตัวเลือกที่ถูกต้องหลังจากคิดอย่างรอบคอบ ตัวเลือกที่ถูกต้องมีเพียงหนึ่งเดียว กรุณาแสดงตัวอักษรของตัวเลือกที่ถูกต้องในบรรทัดสุดท้าย โดยห่อหุ้มในวงเล็บมุม เช่น: <X>. คำถาม:",
         "vi": "Xin vui lòng đọc câu hỏi dưới đây và chọn phương án đúng sau khi suy nghĩ kỹ lưỡng. Chỉ có một phương án đúng. Vui lòng xuất ra chữ cái của phương án đúng ở dòng cuối cùng, và bao quanh nó trong dấu ngoặc nhọn, ví dụ: <X>. Câu hỏi:",
         "zh": "请你阅读下面的问题，并从中选择正确选项，逐步思考后作答。正确选项只有一个，请你在最后一行输出正确选项的字母，并将其包裹在尖括号中，如: <X>。问题:"
-      },
-      "verification": {
-        "match_kind": "prefix",
-        "records": 17300
       }
     },
     "mdur-vqa-vision": {
+      "answer_markers": [
+        "<X>"
+      ],
       "composition": "standalone",
-      "digest": "436a7efe4952e2ed9e7ff42bb138f241fe65ed016c39e2aae1101db6de232509",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "mdur"
-      },
       "probe": "vqa",
-      "response_format": "option_letter_in_angles",
+      "scored_by": "evaluate --task mdur",
       "setting": "vision",
       "task": "mdur",
       "text": {
@@ -148,13 +123,12 @@
         "th": "กรุณาอ่านเนื้อหาภาพและคำถามแบบเลือกตอบ จากนั้นเลือกตัวเลือกที่ถูกต้องหลังจากคิดอย่างรอบคอบ ตัวเลือกที่ถูกต้องมีเพียงหนึ่งเดียว กรุณาแสดงตัวอักษรของตัวเลือกที่ถูกต้องในบรรทัดสุดท้าย โดยห่อหุ้มในวงเล็บมุม เช่น: <X>",
         "vi": "Xin vui lòng đọc nội dung hình ảnh và câu hỏi trắc nghiệm, sau đó lựa chọn phương án đúng sau khi suy nghĩ kỹ lưỡng. Chỉ có một phương án đúng. Vui lòng xuất ra chữ cái của phương án đúng ở dòng cuối cùng, và bao quanh nó trong dấu ngoặc nhọn, ví dụ: <X>.",
         "zh": "请你阅读图片内容和其中的选择题，并从中选择正确选项，逐步思考后作答。正确选项只有一个，请你在最后一行输出正确选项的字母，并将其包裹在尖括号中，如: <X>"
-      },
-      "verification": {
-        "match_kind": "exact",
-        "records": 17300
       }
     },
     "mdur-vqa-vision-reference-text": {
+      "answer_markers": [
+        "<X>"
+      ],
       "assembly": {
         "answer_prefix": {
           "ar": "إجابتك:",
@@ -168,14 +142,12 @@
           "vi": "Câu trả lời của bạn:",
           "zh": "你的回答："
         },
-        "image_token_rewrite": {
+        "image_token": {
           "from": "<image N>",
           "n_max": 14,
           "to": "<image>"
         },
-        "note": "Options come from rendered_text, not the options array: image-only options appear as markers there and as empty strings in the array.",
         "option_line": "({letter}). {option}",
-        "option_source_rule": "the option block after \"<options_label>:\\n\", relabeled",
         "options_label": {
           "ar": "خيارات",
           "cs": "Možnosti",
@@ -188,15 +160,6 @@
           "vi": "Tùy chọn",
           "zh": "选项"
         },
-        "order": [
-          "prompt",
-          "separator",
-          "stem",
-          "blank_line",
-          "options",
-          "blank_line",
-          "answer_prefix"
-        ],
         "question_label": {
           "ar": "سؤال",
           "cs": "otázka",
@@ -210,17 +173,11 @@
           "zh": "题目"
         },
         "separator": "",
-        "source_field": "rendered_text",
-        "stem_rule": "text between \"<question_label>: \" and \"\\n<options_label>:\\n\""
+        "template": "{prompt}{separator}{stem}\n\n{options}\n\n{answer_prefix}"
       },
       "composition": "prefix",
-      "digest": "feb1bd6667ee95c72ec600a4d020c49fcaa7592883bb7a960102f3e182050d65",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "mdur"
-      },
       "probe": "vqa",
-      "response_format": "option_letter_in_angles",
+      "scored_by": "evaluate --task mdur",
       "setting": "vision_reference_text",
       "task": "mdur",
       "text": {
@@ -234,21 +191,16 @@
         "th": "กรุณาอ่านเนื้อหาภาพและคำถามแบบเลือกตอบ จากนั้นเลือกตัวเลือกที่ถูกต้อง ตัวเลือกที่ถูกต้องมีเพียงหนึ่งเดียว กรุณาแสดงตัวอักษรของตัวเลือกที่ถูกต้องและห่อหุ้มในวงเล็บมุม เช่น: <X>. เพื่อช่วยให้คุณตอบคำถามได้ ข้อมูลส่วนที่เป็นข้อความของคำถามภายในภาพมีดังนี้:",
         "vi": "Vui lòng đọc nội dung hình ảnh và câu hỏi trắc nghiệm, rồi chọn phương án đúng. Chỉ có một phương án đúng duy nhất. Vui lòng chỉ xuất ra chữ cái của phương án đúng, đặt trong dấu ngoặc nhọn, ví dụ: <X>. Để giúp bạn trả lời, dưới đây là phần chữ của thông tin câu hỏi trong ảnh:",
         "zh": "请你阅读图片内容和其中的选择题，并从中选择正确选项。正确选项只有一个，请你只输出正确选项的字母，并将其包裹在尖括号中，如: <X> 为帮助你回答问题，以下是图片内题目信息的文字部分："
-      },
-      "verification": {
-        "match_kind": "prefix",
-        "records": 17300
       }
     },
     "mgui-ocr-screenshot": {
+      "answer_markers": [
+        "<Start of Answer>",
+        "<End of Answer>"
+      ],
       "composition": "format_template",
-      "digest": "8dd2a60c4bfb5513a7cc7965eae77dd82eea690299bfc54ca28b0bef20fbaa55",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "mgui-text"
-      },
       "probe": "ocr",
-      "response_format": "answer_tag",
+      "scored_by": "evaluate --task mgui-text",
       "setting": "screenshot",
       "task": "mgui",
       "text": {
@@ -262,21 +214,17 @@
         "th": "คุณกำลังดูภาพหน้าจอ GUI สำหรับงานต่อไปนี้ โปรดระบุองค์ประกอบ UI เป้าหมายและแสดงเนื้อหาข้อความที่มองเห็นได้ (ข้อความที่พิมพ์อยู่จริงภายในองค์ประกอบนั้น) โปรดละเว้นอิโมจิหรือไอคอนตกแต่งทั้งหมด แสดงเฉพาะส่วนข้อความ วางข้อความระหว่าง <Start of Answer> และ <End of Answer> รูปแบบการตอบกลับสุดท้ายควรเป็นดังนี้: <Start of Answer>ข้อความเป้าหมาย<End of Answer> งาน: {question}",
         "vi": "Bạn đang xem ảnh chụp màn hình GUI. Với thao tác sau, hãy xác định phần tử giao diện mục tiêu và xuất ra nội dung văn bản hiển thị của nó (văn bản thực sự được in bên trong phần tử đó). Bỏ qua mọi biểu tượng cảm xúc hoặc biểu tượng trang trí — chỉ xuất phần văn bản. Đặt văn bản giữa <Start of Answer> và <End of Answer>. Định dạng phản hồi cuối cùng phải như sau: <Start of Answer>văn bản mục tiêu<End of Answer>. Thao tác: {question}",
         "zh": "你正在查看一张 GUI 截图。请根据下面的操作要求找到正确的界面元素，并输出该元素中显示的文字内容（按钮或元素上实际印刷的文字）。请忽略所有 emoji 和装饰图标，只输出文字部分。请把文字放在 <Start of Answer> 和 <End of Answer> 之间，最终回答格式应如下：<Start of Answer>目标文字<End of Answer>。操作：{question}"
-      },
-      "verification": {
-        "match_kind": "template",
-        "records": 2000
       }
     },
     "mgui-vqa-screenshot": {
+      "answer_markers": [
+        "<Start of Answer>",
+        "<End of Answer>",
+        "[x, y]"
+      ],
       "composition": "format_template",
-      "digest": "f33d96407fb8a1c8c802bc4d61d83c95069bd3ef2b066b27e8bba5a89850fd12",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "mgui"
-      },
       "probe": "vqa",
-      "response_format": "answer_tag_pixel_xy",
+      "scored_by": "evaluate --task mgui",
       "setting": "screenshot",
       "task": "mgui",
       "text": {
@@ -290,21 +238,16 @@
         "th": "คุณกำลังดูภาพหน้าจอ GUI โปรดทำงานต่อไปนี้โดยระบุองค์ประกอบ UI ที่ถูกต้อง และส่งคืนพิกัดการคลิกเป็นค่าพิกเซล [x, y] (มุมซ้ายบนของภาพคือ [0, 0]) วางพิกัดระหว่าง <Start of Answer> และ <End of Answer> รูปแบบการตอบกลับสุดท้ายควรเป็นดังนี้: <Start of Answer>[x, y]<End of Answer> งาน: {question}",
         "vi": "Bạn đang xem ảnh chụp màn hình GUI. Hãy hoàn thành thao tác sau bằng cách xác định đúng phần tử giao diện và trả về tọa độ nhấp chuột của nó dưới dạng giá trị pixel [x, y] (góc trên bên trái của ảnh là [0, 0]). Đặt tọa độ giữa <Start of Answer> và <End of Answer>. Định dạng phản hồi cuối cùng phải như sau: <Start of Answer>[x, y]<End of Answer>. Thao tác: {question}",
         "zh": "你正在查看一张 GUI 截图。请根据下面的操作要求找到正确的界面元素，并以像素坐标 [x, y] 的形式返回点击位置（图像左上角为 [0, 0]）。请把坐标放在 <Start of Answer> 和 <End of Answer> 之间，最终回答格式应如下：<Start of Answer>[x, y]<End of Answer>。操作：{question}"
-      },
-      "verification": {
-        "match_kind": "template",
-        "records": 2000
       }
     },
     "miqa-ocr-vision": {
+      "answer_markers": [
+        "<start>",
+        "<end>"
+      ],
       "composition": "standalone",
-      "digest": "24e13a8e39fe92e31ddeac263feb7184044edc6765c45e9773cfe4d247bf0a92",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "miqa-ocr"
-      },
       "probe": "ocr",
-      "response_format": "lowercase_start_end",
+      "scored_by": "evaluate --task miqa-ocr",
       "setting": "vision",
       "task": "miqa",
       "text": {
@@ -318,31 +261,21 @@
         "th": "เมื่อได้รับภาพ โปรดแสดงข้อความในภาพที่ท้ายผลลัพธ์ของคุณ โดยวางข้อความระหว่างเครื่องหมาย <start> และ <end>",
         "vi": "Cho một hình ảnh, vui lòng xuất văn bản trong hình ảnh ở cuối đầu ra. Đặt văn bản giữa các dấu <start> và <end>.",
         "zh": "给定一张图像，请在输出末尾提取图像中的文本，并将其放置在 <start> 和 <end> 标记之间。"
-      },
-      "verification": {
-        "match_kind": "exact",
-        "records": 2180
       }
     },
     "miqa-vqa-traditional": {
+      "answer_markers": [
+        "<Start of Answer>",
+        "<End of Answer>"
+      ],
       "assembly": {
-        "image_placeholder": "<image>",
-        "note": "One placeholder per entry in traditional_images, in listed order.",
-        "order": [
-          "prompt",
-          "body"
-        ],
-        "placeholder_rule": "append \" <image>\" to every line ending in a colon",
+        "image_token": "<image>",
         "separator": "",
-        "source_field": "rendered_text"
+        "template": "{prompt}{body}"
       },
       "composition": "prefix",
-      "digest": "41e1c8ec6f3de2d984926df449b929dbc40a132c59e44aec9eafb3f4f8a766da",
-      "evaluate_with": {
-        "command": "judge-miqa"
-      },
       "probe": "vqa",
-      "response_format": "answer_tag",
+      "scored_by": "judge-miqa",
       "setting": "traditional",
       "task": "miqa",
       "text": {
@@ -356,20 +289,16 @@
         "th": "โปรดคิดทีละขั้นตอนและตอบคำถามในภาพ โดยวางคำตอบของคุณระหว่าง <Start of Answer> และ <End of Answer> รูปแบบคำตอบสุดท้ายควรเป็นดังนี้: <Start of Answer>นี่คือคำตอบของคุณ<End of Answer>. คำถาม: ",
         "vi": "Hãy suy nghĩ từng bước và trả lời câu hỏi trong hình. Đặt câu trả lời của bạn giữa <Start of Answer> và <End of Answer>. Định dạng câu trả lời cuối cùng phải như sau: <Start of Answer>Đây là câu trả lời của bạn<End of Answer>. Câu hỏi: ",
         "zh": "请你逐步思考，回答下面的问题，并把答案放在<Start of Answer>和<End of Answer>之间，最终回答格式应该如下: <Start of Answer>这是你的回答<End of Answer>。问题: "
-      },
-      "verification": {
-        "match_kind": "prefix",
-        "records": 2180
       }
     },
     "miqa-vqa-vision": {
+      "answer_markers": [
+        "<Start of Answer>",
+        "<End of Answer>"
+      ],
       "composition": "standalone",
-      "digest": "da748e1841446c0982a5dbecc52fb5e7b6834302604f5b10a81b3f869e9a3781",
-      "evaluate_with": {
-        "command": "judge-miqa"
-      },
       "probe": "vqa",
-      "response_format": "answer_tag",
+      "scored_by": "judge-miqa",
       "setting": "vision",
       "task": "miqa",
       "text": {
@@ -383,21 +312,16 @@
         "th": "โปรดคิดทีละขั้นตอนและตอบคำถามในภาพ โดยวางคำตอบของคุณระหว่าง <Start of Answer> และ <End of Answer> รูปแบบคำตอบสุดท้ายควรเป็นดังนี้: <Start of Answer>นี่คือคำตอบของคุณ<End of Answer>.",
         "vi": "Hãy suy nghĩ từng bước và trả lời câu hỏi trong hình. Đặt câu trả lời của bạn giữa <Start of Answer> và <End of Answer>. Định dạng câu trả lời cuối cùng phải như sau: <Start of Answer>Đây là câu trả lời của bạn<End of Answer>.",
         "zh": "请你逐步思考，回答图片当中的问题，并把答案放在<Start of Answer>和<End of Answer>之间，最终回答格式应该如下: <Start of Answer>这是你的回答<End of Answer>。"
-      },
-      "verification": {
-        "match_kind": "exact",
-        "records": 2180
       }
     },
     "msocr-ocr-vision": {
+      "answer_markers": [
+        "<start>",
+        "<end>"
+      ],
       "composition": "standalone",
-      "digest": "6bcc8c45d97d67ee5e64e19c4770a0efb117f211431f0daaffde837cfa411692",
-      "evaluate_with": {
-        "command": "evaluate",
-        "task": "msocr"
-      },
       "probe": "ocr",
-      "response_format": "lowercase_start_end",
+      "scored_by": "evaluate --task msocr",
       "setting": "vision",
       "task": "msocr",
       "text": {
@@ -411,60 +335,8 @@
         "th": "ภาพประกอบด้วยข้อความ 20 บรรทัด โปรดจดจำและแสดงข้อความในภาพจากบนลงล่างและซ้ายไปขวา แยกเนื้อหาของแต่ละบรรทัดด้วยการขึ้นบรรทัดใหม่ ควรแสดงข้อความในภาพที่ท้ายคำตอบ โดยวางไว้ระหว่างเครื่องหมาย <start> และ <end>",
         "vi": "Hình ảnh chứa 20 dòng văn bản. Vui lòng nhận dạng và xuất văn bản trong hình ảnh từ trên xuống dưới và từ trái sang phải, phân tách nội dung mỗi dòng bằng dấu ngắt dòng. Bạn nên xuất văn bản trong hình ảnh ở cuối phản hồi và đặt giữa các dấu <start> và <end>.",
         "zh": "图像包含20行文本。请按从上到下、从左到右的顺序识别并输出图像中的文本，每行内容用换行符分隔。请在响应末尾提取图像中的文本，并将其放置在 <start> 和 <end> 标记之间。"
-      },
-      "verification": {
-        "match_kind": "exact",
-        "records": 1000
       }
     }
   },
-  "response_formats": {
-    "answer_tag": {
-      "description": "Free-form answer wrapped in title-case answer tags.",
-      "example_response": "<Start of Answer>One way<End of Answer>",
-      "parsed_by": "pm4bench.metrics.extract_answer_text",
-      "prompt_literals": [
-        "<Start of Answer>",
-        "<End of Answer>"
-      ]
-    },
-    "answer_tag_pixel_xy": {
-      "coordinate_space": "pixel",
-      "description": "Click coordinates as pixel values wrapped in answer tags.",
-      "example_response": "<Start of Answer>[318, 312]<End of Answer>",
-      "parsed_by": "pm4bench.metrics.extract_coords",
-      "prompt_literals": [
-        "<Start of Answer>",
-        "<End of Answer>",
-        "[x, y]"
-      ]
-    },
-    "lowercase_start_end": {
-      "description": "Recognized text wrapped in lowercase start/end markers.",
-      "example_response": "<start>Spaniards Marrakesh<end>",
-      "parsed_by": "pm4bench.metrics.msocr_score",
-      "prompt_literals": [
-        "<start>",
-        "<end>"
-      ]
-    },
-    "mdur_ocr_json": {
-      "description": "A JSON object carrying the transcribed question and options.",
-      "example_response": "{\"question\": \"Which is not a language?\", \"options\": [\"HTML\"]}",
-      "parsed_by": "pm4bench.metrics.ocr_contains",
-      "prompt_literals": [
-        "\"question\"",
-        "\"options\""
-      ]
-    },
-    "option_letter_in_angles": {
-      "description": "The option letter, in angle brackets, on the final line.",
-      "example_response": "Weighing the options...\n<C>",
-      "parsed_by": "pm4bench.metrics.extract_answer_letter",
-      "prompt_literals": [
-        "<X>"
-      ]
-    }
-  },
-  "schema_version": 1
+  "schema_version": 2
 }

@@ -1,67 +1,79 @@
 # Task prompts and response formats
 
 The deterministic metrics in `pm4bench.metrics` parse specific markers out of a
-model response. This page is the authoritative specification of those markers
-and of the prompts that produce them. Without a matching prompt the metrics do
-not fail — they silently score low.
+model response. This page is the authoritative specification of those markers,
+of the prompts that produce them, and of how to combine a prompt with a
+benchmark row. Without a matching prompt the metrics do not fail — they
+silently score low.
 
 Ten prompts are released, each in all ten languages, exactly as used for the
-reported results. They ship as a package resource and are read with
-`pm4bench prompts`:
+reported results. They ship as one JSON resource,
+`src/pm4bench/prompts/task_prompts.json`, which holds data only; everything
+explanatory lives on this page.
 
-```bash
-pm4bench prompts                                             # index, no prompt text
-pm4bench prompts --task mdur --probe vqa                     # filter
-pm4bench prompts --id mdur-vqa-vision                        # one prompt, ten languages
-pm4bench prompts --id mdur-vqa-vision --language en --raw    # the bare string
+## Reading the resource
+
+```jsonc
+{
+  "schema_version": 2,
+  "languages": ["ar", "cs", "en", "hu", "ko", "ru", "sr", "th", "vi", "zh"],
+  "prompts": {
+    "msocr-ocr-vision": {
+      "task": "msocr",                      // mdur | miqa | msocr | mgui
+      "probe": "ocr",                       // ocr transcribes, vqa answers
+      "setting": "vision",                  // how the input is presented
+      "composition": "standalone",          // how to turn this into a query
+      "answer_markers": ["<start>", "<end>"],   // literals the prompt demands
+      "scored_by": "evaluate --task msocr", // the command that scores it
+      "text": { "ar": "...", "en": "...", ... }  // the prompt, ten languages
+    }
+  }
+}
 ```
 
-`pm4bench.task_prompts` exposes the same data to Python callers through
-`prompt_text(prompt_id, language)`, `prompt_entry`, `response_format` and
-`describe_prompts`.
+Only `prefix` prompts carry an extra `assembly` object; nothing else is
+optional. If you just want a prompt string, read `text`. If you are writing an
+evaluation harness, read `composition` first.
 
 ## Vocabulary
 
-- **probe** — what the model is asked to do: `ocr` transcribes the text in the
-  image; `vqa` answers the question.
-- **setting** — how the input is presented. `traditional` supplies the question
-  text and the source images separately. `vision` renders everything into one
-  image. `vision_reference_text` is the `vision` image plus the reference
-  question and options as text. `screenshot` is MGUI's single GUI capture.
+- **probe** — `ocr` transcribes the text in the image; `vqa` answers the
+  question.
+- **setting** — `traditional` supplies the question text and the source images
+  separately. `vision` renders everything into one image.
+  `vision_reference_text` is the `vision` image plus the reference question and
+  options as text. `screenshot` is MGUI's single GUI capture.
 
 ## Released prompts
 
-| `prompt_id` | probe | setting | response format | scored by |
+| `prompt_id` | probe | setting | `answer_markers` | parsed by |
 | --- | --- | --- | --- | --- |
-| `mdur-ocr-vision` | ocr | vision | `mdur_ocr_json` | `evaluate --task mdur-ocr` |
-| `mdur-vqa-vision` | vqa | vision | `option_letter_in_angles` | `evaluate --task mdur` |
-| `mdur-vqa-traditional` | vqa | traditional | `option_letter_in_angles` | `evaluate --task mdur` |
-| `mdur-vqa-vision-reference-text` | vqa | vision_reference_text | `option_letter_in_angles` | `evaluate --task mdur` |
-| `miqa-ocr-vision` | ocr | vision | `lowercase_start_end` | `evaluate --task miqa-ocr` |
-| `miqa-vqa-vision` | vqa | vision | `answer_tag` | `judge-miqa` |
-| `miqa-vqa-traditional` | vqa | traditional | `answer_tag` | `judge-miqa` |
-| `msocr-ocr-vision` | ocr | vision | `lowercase_start_end` | `evaluate --task msocr` |
-| `mgui-vqa-screenshot` | vqa | screenshot | `answer_tag_pixel_xy` | `evaluate --task mgui` |
-| `mgui-ocr-screenshot` | ocr | screenshot | `answer_tag` | `evaluate --task mgui-text` |
+| `mdur-ocr-vision` | ocr | vision | `"question"` `"options"` | `metrics.ocr_contains` |
+| `mdur-vqa-vision` | vqa | vision | `<X>` | `metrics.mdur_correct` |
+| `mdur-vqa-traditional` | vqa | traditional | `<X>` | `metrics.mdur_correct` |
+| `mdur-vqa-vision-reference-text` | vqa | vision_reference_text | `<X>` | `metrics.mdur_correct` |
+| `miqa-ocr-vision` | ocr | vision | `<start>` `<end>` | `metrics.miqa_ocr_correct` |
+| `miqa-vqa-vision` | vqa | vision | `<Start of Answer>` `<End of Answer>` | the MIQA judge |
+| `miqa-vqa-traditional` | vqa | traditional | `<Start of Answer>` `<End of Answer>` | the MIQA judge |
+| `msocr-ocr-vision` | ocr | vision | `<start>` `<end>` | `metrics.msocr_score` |
+| `mgui-vqa-screenshot` | vqa | screenshot | `<Start of Answer>` `<End of Answer>` `[x, y]` | `metrics.extract_coords` + `point_in_bbox` |
+| `mgui-ocr-screenshot` | ocr | screenshot | `<Start of Answer>` `<End of Answer>` | `metrics.mgui_text_correct` |
+
+A response that satisfies each marker set looks like:
+
+| markers | example response |
+| --- | --- |
+| `<X>` | `Weighing the options...` / newline / `<C>` |
+| `<start>` `<end>` | `<start>Spaniards Marrakesh<end>` |
+| `<Start of Answer>` `<End of Answer>` | `<Start of Answer>One way<End of Answer>` |
+| ... plus `[x, y]` | `<Start of Answer>[318, 312]<End of Answer>` |
+| `"question"` `"options"` | `{"question": "Which is not a language?", "options": ["HTML"]}` |
 
 `mdur-vqa-vision-reference-text` is a control condition, not a pipeline result.
 It supplies the vision image together with the reference question and options,
 isolating the OCR bottleneck: it is the upper bound a model would reach if it
 read the rendered page perfectly. It does not consume OCR output, and the
 released benchmark has no separate manifest for it.
-
-## Response markers
-
-Every marker below is an ASCII literal and appears verbatim in all ten
-languages. The parsing functions are the authority; these are their inputs.
-
-| response format | markers | parsed by |
-| --- | --- | --- |
-| `option_letter_in_angles` | `<X>` | `metrics.extract_answer_letter` |
-| `lowercase_start_end` | `<start>` `<end>` | `metrics.msocr_score` |
-| `answer_tag` | `<Start of Answer>` `<End of Answer>` | `metrics.extract_answer_text` |
-| `answer_tag_pixel_xy` | `<Start of Answer>` `<End of Answer>` `[x, y]` | `metrics.extract_coords` |
-| `mdur_ocr_json` | `"question"` `"options"` | `metrics.ocr_contains` |
 
 ## Building a query
 
@@ -81,43 +93,42 @@ The returned string is the full text input. Images are **not** embedded: attach
 `traditional_images` (or `vision_image` / `image`) separately in your client,
 in the order the manifest lists them. `<image>` marks where each one belongs.
 
-`composition` records which rule applies, and getting it wrong is the most
-likely cause of a silently wrong score:
-
-| composition | prompts | rule |
+| `composition` | prompts | rule |
 | --- | --- | --- |
-| `standalone` | 5 | use the string verbatim; the question is inside the image |
+| `standalone` | 5 | use `text` verbatim; the question is inside the image |
 | `format_template` | 2 (MGUI) | substitute the manifest `question` into `{question}` |
-| `prefix` | 3 | concatenate the body built per the entry's `assembly` block |
+| `prefix` | 3 | append a body built per the entry's `assembly` object |
 
 **Do not call `.format()` on every prompt.** `mdur-ocr-vision` asks for a JSON
 object, so its text contains literal `{` and `}` in all ten languages and
 `str.format` raises `KeyError`. Only `format_template` prompts are templates.
 
-### The `assembly` block
+### The `assembly` object
 
-The three `prefix` prompts carry a machine-readable `assembly` rule, so you can
-reimplement it in another language if needed. Both MDUR prompts use:
+The three `prefix` prompts carry their rule as data, so you can reimplement it
+in another language. `template` shows the order; the remaining fields supply
+the pieces.
 
-```
-prompt + separator + stem + "\n\n" + options + "\n\n" + answer_prefix[language]
-```
+Both MDUR prompts use
+`{prompt}{separator}{stem}\n\n{options}\n\n{answer_prefix}`:
 
-- `stem` is `rendered_text` between `"<question_label>: "` and
-  `"\n<options_label>:\n"`, with `<image N>` rewritten to `<image>`. The
-  localized label pairs are in the block.
-- `options` come from the option block of `rendered_text`, relabeled from
-  `(A)  text` to `(A). text`. **Not from the `options` array** — image-only
-  options appear as markers in `rendered_text` but as empty strings in the
-  array, so the array silently loses them.
-- `answer_prefix` is the localized closing line, e.g. `Your answer:` /
+- `stem` — `rendered_text` between `"{question_label}: "` and
+  `"\n{options_label}:\n"`, then `<image N>` rewritten to `<image>` per
+  `image_token`. Both label maps cover all ten languages.
+- `options` — the option block that follows `"{options_label}:\n"` in
+  `rendered_text`, each line relabeled from `(A)  text` to `option_line`.
+  **Not the `options` array:** image-only options appear as markers in
+  `rendered_text` but as empty strings in the array, so the array loses them
+  silently.
+- `answer_prefix` — the localized closing line, e.g. `Your answer:` /
   `你的回答：`.
-- `separator` is a space for `mdur-vqa-traditional` and empty for
+- `separator` — a space for `mdur-vqa-traditional`, empty for
   `mdur-vqa-vision-reference-text`.
 
-`miqa-vqa-traditional` is simpler: append `" <image>"` to every line of
-`rendered_text` that ends in a colon, then concatenate onto the prompt, whose
-text already ends with the localized `Question: `.
+`miqa-vqa-traditional` uses `{prompt}{body}`: append `" <image>"` to every line
+of `rendered_text` that ends in a colon, one per entry in
+`traditional_images`. Its prompt text already ends with the localized
+`Question: `, so `separator` is empty.
 
 ### What is and is not claimed
 
@@ -126,11 +137,13 @@ manifests, which is what you need to evaluate the published benchmark. It is
 not claimed byte-identical to the inputs used for the paper's own runs: those
 were assembled by historical scripts, and whitespace normalization plus
 translation-revision differences affect a minority of non-English rows. Scores
-computed this way are self-consistent and comparable across models; treat small
-deviations from the published tables as expected.
+computed this way are self-consistent and comparable across models; treat
+small deviations from the published tables as expected.
 
-The five `standalone` prompts and the two MGUI templates carry no such caveat —
-each matched its corresponding frozen query exactly across all ten languages.
+Every released string was re-verified against the frozen paper-era inference
+inputs, 80,740 queries across the ten languages: the five `standalone` prompts
+matched byte-exactly over 39,960 records, the two MGUI templates over 4,000,
+and the three `prefix` prompts matched as a leading prefix over 36,780.
 
 ## MGUI coordinate space
 
@@ -157,8 +170,9 @@ choice, which one flag value cannot express.
 These are properties of the current metrics, documented so they are not
 mistaken for bugs introduced by a caller.
 
-- `extract_answer_letter` has no explicit `<([A-J])>` branch. `<X>` is parsed
-  only by the trailing bare-letter fallback, which takes the **last** match in
+- `mdur_correct` delegates to `extract_answer_letter`, which has no explicit
+  `<([A-J])>` branch. `<X>` is parsed only by the trailing bare-letter
+  fallback, which takes the **last** match in
   the response. A response that mentions another option letter after its final
   answer is scored wrong without any warning. Tracked in
   [ROADMAP.md](../ROADMAP.md).
@@ -171,9 +185,3 @@ mistaken for bugs introduced by a caller.
   containment, so the wrapper is harmless either way.
 - `evaluate --task mgui-text` skips targets whose text is empty after
   decorative-symbol removal and reports them as `skipped`.
-
-## Verification
-
-Each entry records the match kind against the frozen paper-era inference inputs
-and the number of records checked. Totals are in
-[REPRODUCIBILITY.md](REPRODUCIBILITY.md).

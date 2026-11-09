@@ -1,6 +1,6 @@
 # Reproducibility
 
-Toolkit 2.4 publishes the ten task prompts behind the reported results, in all
+Toolkit 2.5 publishes the ten task prompts behind the reported results, in all
 ten languages, together with the [response-format contract](PROMPTS.md) the
 metrics parse and the rule for combining each prompt with a manifest row.
 Every released string was re-verified against the frozen inference inputs,
@@ -11,7 +11,9 @@ for all three composition kinds from released fields; its output is consistent
 with the released images and manifests, but is not claimed byte-identical to
 the paper's own inputs, which historical scripts assembled with different
 whitespace normalization. `--coordinate-space` is now required for
-`evaluate --task mgui`, since the released MGUI prompt asks for pixels.
+`evaluate --task mgui`, since the released MGUI prompt asks for pixels. The
+prompt resource is schema version 2 and carries data only: markers are inlined
+per prompt and every explanatory field moved to the prompt specification.
 
 Toolkit 2.3 unifies the four benchmark tasks behind
 [one data/rendering interface](VISION_SYNTHESIS.md). It preserves the 2.2
