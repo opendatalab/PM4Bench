@@ -4,6 +4,7 @@
 
 **PM<sup>4</sup>Bench · QGO-8B**
 
+[![ACL Anthology](https://img.shields.io/badge/ACL-2026.emnlp--main.666-ED1C24.svg)](https://aclanthology.org/2026.emnlp-main.666/)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.18484v3-B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.18484v3)
 [![Project Page](https://img.shields.io/badge/Project-Page-145C73.svg?logo=githubpages&logoColor=white)](https://little-bird-vodka.github.io/PM4Bench/)
 [![Benchmark](https://img.shields.io/badge/Hugging_Face-Benchmark-FFD21E.svg)](https://huggingface.co/datasets/songjhPKU/PM4Bench)
@@ -13,7 +14,7 @@
 </div>
 
 > [!IMPORTANT]
-> **PM4Bench has been accepted to the EMNLP 2026 Main Conference.** The revised manuscript is available as [arXiv v3](https://arxiv.org/abs/2503.18484v3).
+> **PM4Bench appears in the EMNLP 2026 Main Conference proceedings.** Read it in the [ACL Anthology](https://aclanthology.org/2026.emnlp-main.666/) ([PDF](https://aclanthology.org/2026.emnlp-main.666.pdf)) or as [arXiv v3](https://arxiv.org/abs/2503.18484v3).
 
 PM4Bench is a strictly parallel multilingual vision-language benchmark over
 10 languages and four tasks:
@@ -241,13 +242,32 @@ private model outputs.
 ## Cite Us
 
 ```bibtex
-@misc{gao2026benchmarkingboostingmultilingualcapabilities,
-      title={Benchmarking and Boosting Multilingual Capabilities of LVLMs via OCR-Centric Reinforcement Learning},
-      author={Junyuan Gao and Jiahe Song and Jiang Wu and Runchuan Zhu and Guanlin Shen and Shasha Wang and Xingjian Wei and Haote Yang and Weijia Li and Bin Wang and Lijun Wu and Conghui He},
-      year={2026},
-      eprint={2503.18484},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.18484v3},
+@inproceedings{gao-etal-2026-benchmarking-boosting,
+    title = "Benchmarking and Boosting Multilingual Capabilities of {LVLM}s via {OCR}-Centric Reinforcement Learning",
+    author = "Gao, Junyuan  and
+      Song, Jiahe  and
+      Wu, Jiang  and
+      Zhu, Runchuan  and
+      Shenguanlin  and
+      Wang, Shasha  and
+      Wei, Xingjian  and
+      Yang, Haote  and
+      Li, Weijia  and
+      Wang, Bin  and
+      Wu, Lijun  and
+      He, Conghui",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Junyi Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.666/",
+    doi = "10.18653/2026.emnlp-main.666",
+    pages = "15335--15365",
+    ISBN = "979-8-89176-459-0"
 }
 ```
