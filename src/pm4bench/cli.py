@@ -20,6 +20,7 @@ from .metrics import (
     point_in_bbox,
 )
 from .miqa import OpenAICompatibleChat, aggregate_scores, judge_manifest
+from .task_prompts import describe_prompts, prompt_ids, prompt_text
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -38,8 +39,17 @@ def build_parser() -> argparse.ArgumentParser:
     evaluate.add_argument("--manifest", type=Path, required=True)
     evaluate.add_argument("--predictions", type=Path, required=True)
     evaluate.add_argument(
-        "--coordinate-space", choices=("pixel", "normalized-1000"), default="normalized-1000"
+        "--coordinate-space", choices=("pixel", "normalized-1000"), default=None,
+        help="required for --task mgui; the released MGUI prompt asks for pixels",
     )
+
+    prompts = subparsers.add_parser("prompts", help="show the released task prompts")
+    prompts.add_argument("--id", dest="prompt_id", choices=prompt_ids())
+    prompts.add_argument("--task", choices=TASKS)
+    prompts.add_argument("--probe", choices=("ocr", "vqa"))
+    prompts.add_argument("--language", choices=LANGUAGES)
+    prompts.add_argument("--raw", action="store_true",
+                         help="print one prompt string instead of JSON")
 
     judge = subparsers.add_parser("judge-miqa", help="run resumable MIQA LLM-as-judge")
     judge.add_argument("--manifest", type=Path, required=True)
@@ -163,11 +173,26 @@ def evaluate_task(args: argparse.Namespace) -> dict[str, Any]:
 
 
 def main() -> None:
-    args = build_parser().parse_args()
+    parser = build_parser()
+    args = parser.parse_args()
     if args.command == "validate":
         result = validate_snapshot(args.dataset_root)
     elif args.command == "evaluate":
+        if args.task == "mgui" and args.coordinate_space is None:
+            parser.error("--coordinate-space is required for --task mgui; the released "
+                         "MGUI prompt asks for pixel coordinates (see docs/PROMPTS.md)")
         result = evaluate_task(args)
+    elif args.command == "prompts":
+        if args.raw:
+            if not (args.prompt_id and args.language):
+                parser.error("--raw requires --id and --language")
+            print(prompt_text(args.prompt_id, args.language))
+            return
+        result = describe_prompts(
+            prompt_id=args.prompt_id, task=args.task, probe=args.probe,
+            language=args.language,
+            include_text=bool(args.prompt_id or args.language),
+        )
     elif args.command == "summarize-miqa":
         rows = list(iter_jsonl(args.judgments))
         result = {"processed": len(rows), "score": aggregate_scores(rows)}

@@ -27,6 +27,8 @@
 - [x] Publish MDUR synthesis with public-transcript alignment and reference-led style fitting.
 - [x] Publish QGO OCR image/GT generation and portable Parquet packing.
 - [x] Include original OCR text/background inputs and the published train/validation split.
+- [x] Publish the evaluated task prompts and the response-format contract each metric parses.
+- Add an explicit option-letter parsing branch for MDUR and validate it against the paper-era per-sample records.
 - Add a prediction-format converter for common inference frameworks.
 - Add resumable evaluation reports without coupling them to paper figures.
 - Publish explicit compatibility tests for later Transformers/veRL releases.

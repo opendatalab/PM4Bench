@@ -80,13 +80,24 @@ Predictions are JSONL records containing the manifest `id` (or legacy
 {"id": "a01_search_en_1", "response": "(318, 312)"}
 ```
 
+The prompts used for the reported results, and the response markers each metric
+parses, are released and specified in [docs/PROMPTS.md](docs/PROMPTS.md). A
+mismatched prompt is not an error — it silently scores low.
+
+```bash
+pm4bench prompts --id mgui-vqa-screenshot --language en --raw
+```
+
 ```bash
 pm4bench evaluate \
   --task mgui \
   --manifest /path/to/data/mgui/en.jsonl \
   --predictions predictions/mgui_en.jsonl \
-  --coordinate-space normalized-1000
+  --coordinate-space pixel
 ```
+
+`--coordinate-space` has no default and is required for `--task mgui`, because
+the released MGUI prompt asks for pixel coordinates.
 
 MDUR, MSOCR, and MGUI use deterministic local metrics. MIQA follows the
 paper's six-dimension LLM-as-judge protocol; the judge endpoint and model are

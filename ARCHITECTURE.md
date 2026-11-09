@@ -37,8 +37,14 @@ src/pm4bench/
 │       ├── _mdur_text.py
 │       └── _mgui_browser.py
 ├── qgo/                    # training-corpus synthesis, packing, and reward
+├── task_prompts.py         # released prompt access and response-format lookup
+├── prompts/                # released task prompts and the MIQA judge rubric
 └── mgui/render.py          # compatibility facade; no separate implementation
 ```
+
+The toolkit ships no inference code. `pm4bench.task_prompts` publishes the
+prompts and response-marker contracts the metrics parse, specified in
+[docs/PROMPTS.md](docs/PROMPTS.md); producing predictions is left to the caller.
 
 `pm4bench.data` owns task/language constants, locked manifest loading, and
 record selection, independently of rendering. `pm4bench.vision.render_vision`

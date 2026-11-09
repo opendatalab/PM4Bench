@@ -51,3 +51,6 @@ text after decorative-symbol removal.
 Predictions are JSONL with `id` or `index` plus `response`. Additional fields
 such as `reasoning`, latency, and model metadata are ignored by deterministic
 metrics and may be retained by callers.
+
+The response markers each metric parses, and the released prompts that produce
+them, are specified in [PROMPTS.md](PROMPTS.md).
