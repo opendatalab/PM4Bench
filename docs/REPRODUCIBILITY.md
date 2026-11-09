@@ -2,15 +2,16 @@
 
 Toolkit 2.4 publishes the ten task prompts behind the reported results, in all
 ten languages, together with the [response-format contract](PROMPTS.md) the
-metrics parse. Every released string was re-verified against the frozen
-inference inputs, 80,740 queries in total: five prompts match their queries
-byte-exactly across 39,960 records, the two MGUI prompts match as templates
-across 4,000, and three match as a leading prefix across 36,780. The suffix
-those three carried at run time is not reconstructable from the released
-manifest fields (8,477/17,300, 8,477/17,300 and 1,917/2,180), so only the
-instruction prefix is published and no assembly rule is claimed.
-`--coordinate-space` is now required for `evaluate --task mgui`, since the
-released MGUI prompt asks for pixels.
+metrics parse and the rule for combining each prompt with a manifest row.
+Every released string was re-verified against the frozen inference inputs,
+80,740 queries in total: five prompts match their queries byte-exactly across
+39,960 records, the two MGUI prompts match as templates across 4,000, and three
+match as a leading prefix across 36,780. `build_query` assembles the full query
+for all three composition kinds from released fields; its output is consistent
+with the released images and manifests, but is not claimed byte-identical to
+the paper's own inputs, which historical scripts assembled with different
+whitespace normalization. `--coordinate-space` is now required for
+`evaluate --task mgui`, since the released MGUI prompt asks for pixels.
 
 Toolkit 2.3 unifies the four benchmark tasks behind
 [one data/rendering interface](VISION_SYNTHESIS.md). It preserves the 2.2

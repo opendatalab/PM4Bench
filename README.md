@@ -71,6 +71,40 @@ See [DATA_FORMAT.md](docs/DATA_FORMAT.md) for schemas and asset resolution.
 pm4bench validate --dataset-root /path/to/PM4Bench-snapshot
 ```
 
+## Query the models under evaluation
+
+The toolkit ships no inference code — you call your own models — but it does
+ship the prompts used for the reported results, in all ten languages, plus the
+rule for combining each one with a benchmark row. Use them: the metrics parse
+specific response markers, and a mismatched prompt is not an error, it silently
+scores low.
+
+```python
+from pm4bench.data import load_manifest
+from pm4bench.task_prompts import build_query
+
+records, _digest = load_manifest("/path/to/PM4Bench-snapshot", "mdur", "en")
+query = build_query("mdur-vqa-traditional", records[0])
+# -> instruction + question stem + "(A). ..." options + "Your answer:"
+```
+
+`build_query` returns the full text input. Attach the row's images separately
+in your client — `traditional_images` for the `traditional` setting,
+`vision_image` for `vision`, `image` for MSOCR and MGUI — in the order the
+manifest lists them; `<image>` marks where each belongs. Write your model's
+reply to `response` and keep the row's `id`.
+
+To inspect a prompt without writing code:
+
+```bash
+pm4bench prompts                                              # the ten released prompts
+pm4bench prompts --id mgui-vqa-screenshot --language en --raw  # one exact string
+```
+
+Which prompt pairs with which metric, every response marker, the `assembly`
+rule, and the known parsing hazards are specified in
+[docs/PROMPTS.md](docs/PROMPTS.md).
+
 ## Evaluate rule-based tasks
 
 Predictions are JSONL records containing the manifest `id` (or legacy
@@ -78,14 +112,6 @@ Predictions are JSONL records containing the manifest `id` (or legacy
 
 ```json
 {"id": "a01_search_en_1", "response": "(318, 312)"}
-```
-
-The prompts used for the reported results, and the response markers each metric
-parses, are released and specified in [docs/PROMPTS.md](docs/PROMPTS.md). A
-mismatched prompt is not an error — it silently scores low.
-
-```bash
-pm4bench prompts --id mgui-vqa-screenshot --language en --raw
 ```
 
 ```bash

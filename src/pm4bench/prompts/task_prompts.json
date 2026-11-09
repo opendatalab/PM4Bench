@@ -41,6 +41,64 @@
       }
     },
     "mdur-vqa-traditional": {
+      "assembly": {
+        "answer_prefix": {
+          "ar": "إجابتك:",
+          "cs": "Tvá odpověď:",
+          "en": "Your answer:",
+          "hu": "A válaszod:",
+          "ko": "당신의 답변:",
+          "ru": "Ваш ответ:",
+          "sr": "Ваш одговор:",
+          "th": "คำตอบของคุณ:",
+          "vi": "Câu trả lời của bạn:",
+          "zh": "你的回答："
+        },
+        "image_token_rewrite": {
+          "from": "<image N>",
+          "n_max": 14,
+          "to": "<image>"
+        },
+        "note": "Options come from rendered_text, not the options array: image-only options appear as markers there and as empty strings in the array.",
+        "option_line": "({letter}). {option}",
+        "option_source_rule": "the option block after \"<options_label>:\\n\", relabeled",
+        "options_label": {
+          "ar": "خيارات",
+          "cs": "Možnosti",
+          "en": "Options",
+          "hu": "Opciók",
+          "ko": "옵션",
+          "ru": "Параметры",
+          "sr": "Опције",
+          "th": "ตัวเลือก",
+          "vi": "Tùy chọn",
+          "zh": "选项"
+        },
+        "order": [
+          "prompt",
+          "separator",
+          "stem",
+          "blank_line",
+          "options",
+          "blank_line",
+          "answer_prefix"
+        ],
+        "question_label": {
+          "ar": "سؤال",
+          "cs": "otázka",
+          "en": "Question",
+          "hu": "kérdés",
+          "ko": "질문",
+          "ru": "Вопрос",
+          "sr": "питање",
+          "th": "คำถาม",
+          "vi": "câu hỏi",
+          "zh": "题目"
+        },
+        "separator": " ",
+        "source_field": "rendered_text",
+        "stem_rule": "text between \"<question_label>: \" and \"\\n<options_label>:\\n\""
+      },
       "composition": "prefix",
       "digest": "06e5c5c37fda50e1a15714f7244036bf5378c5435d4cffaa90e5bc6fcd62c52e",
       "evaluate_with": {
@@ -48,16 +106,6 @@
         "task": "mdur"
       },
       "probe": "vqa",
-      "reproducibility": {
-        "blocking_causes": [
-          "released options arrays omit option-level <image> markers",
-          "whitespace adjacent to image markers is not preserved"
-        ],
-        "reconstructable_from_released_fields": false,
-        "reconstructed_records": 8477,
-        "suffix_source": "historical build script, not a released field",
-        "total_records": 17300
-      },
       "response_format": "option_letter_in_angles",
       "setting": "traditional",
       "task": "mdur",
@@ -107,6 +155,64 @@
       }
     },
     "mdur-vqa-vision-reference-text": {
+      "assembly": {
+        "answer_prefix": {
+          "ar": "إجابتك:",
+          "cs": "Tvá odpověď:",
+          "en": "Your answer:",
+          "hu": "A válaszod:",
+          "ko": "당신의 답변:",
+          "ru": "Ваш ответ:",
+          "sr": "Ваш одговор:",
+          "th": "คำตอบของคุณ:",
+          "vi": "Câu trả lời của bạn:",
+          "zh": "你的回答："
+        },
+        "image_token_rewrite": {
+          "from": "<image N>",
+          "n_max": 14,
+          "to": "<image>"
+        },
+        "note": "Options come from rendered_text, not the options array: image-only options appear as markers there and as empty strings in the array.",
+        "option_line": "({letter}). {option}",
+        "option_source_rule": "the option block after \"<options_label>:\\n\", relabeled",
+        "options_label": {
+          "ar": "خيارات",
+          "cs": "Možnosti",
+          "en": "Options",
+          "hu": "Opciók",
+          "ko": "옵션",
+          "ru": "Параметры",
+          "sr": "Опције",
+          "th": "ตัวเลือก",
+          "vi": "Tùy chọn",
+          "zh": "选项"
+        },
+        "order": [
+          "prompt",
+          "separator",
+          "stem",
+          "blank_line",
+          "options",
+          "blank_line",
+          "answer_prefix"
+        ],
+        "question_label": {
+          "ar": "سؤال",
+          "cs": "otázka",
+          "en": "Question",
+          "hu": "kérdés",
+          "ko": "질문",
+          "ru": "Вопрос",
+          "sr": "питање",
+          "th": "คำถาม",
+          "vi": "câu hỏi",
+          "zh": "题目"
+        },
+        "separator": "",
+        "source_field": "rendered_text",
+        "stem_rule": "text between \"<question_label>: \" and \"\\n<options_label>:\\n\""
+      },
       "composition": "prefix",
       "digest": "feb1bd6667ee95c72ec600a4d020c49fcaa7592883bb7a960102f3e182050d65",
       "evaluate_with": {
@@ -114,16 +220,6 @@
         "task": "mdur"
       },
       "probe": "vqa",
-      "reproducibility": {
-        "blocking_causes": [
-          "released options arrays omit option-level <image> markers",
-          "whitespace adjacent to image markers is not preserved"
-        ],
-        "reconstructable_from_released_fields": false,
-        "reconstructed_records": 8477,
-        "suffix_source": "historical build script, not a released field",
-        "total_records": 17300
-      },
       "response_format": "option_letter_in_angles",
       "setting": "vision_reference_text",
       "task": "mdur",
@@ -229,22 +325,23 @@
       }
     },
     "miqa-vqa-traditional": {
+      "assembly": {
+        "image_placeholder": "<image>",
+        "note": "One placeholder per entry in traditional_images, in listed order.",
+        "order": [
+          "prompt",
+          "body"
+        ],
+        "placeholder_rule": "append \" <image>\" to every line ending in a colon",
+        "separator": "",
+        "source_field": "rendered_text"
+      },
       "composition": "prefix",
       "digest": "41e1c8ec6f3de2d984926df449b929dbc40a132c59e44aec9eafb3f4f8a766da",
       "evaluate_with": {
         "command": "judge-miqa"
       },
       "probe": "vqa",
-      "reproducibility": {
-        "blocking_causes": [
-          "released options arrays omit option-level <image> markers",
-          "whitespace adjacent to image markers is not preserved"
-        ],
-        "reconstructable_from_released_fields": false,
-        "reconstructed_records": 1917,
-        "suffix_source": "historical build script, not a released field",
-        "total_records": 2180
-      },
       "response_format": "answer_tag",
       "setting": "traditional",
       "task": "miqa",

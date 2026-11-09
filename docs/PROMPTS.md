@@ -63,44 +63,74 @@ languages. The parsing functions are the authority; these are their inputs.
 | `answer_tag_pixel_xy` | `<Start of Answer>` `<End of Answer>` `[x, y]` | `metrics.extract_coords` |
 | `mdur_ocr_json` | `"question"` `"options"` | `metrics.ocr_contains` |
 
-## Composition
+## Building a query
 
-`composition` says how to turn a released string into a query. Getting this
-wrong is the most likely cause of a wrong score.
+A prompt on its own is not a query. Except for the five `standalone` prompts,
+it has to be combined with a row from the benchmark manifest. `build_query`
+does this for all three composition kinds:
 
-- `standalone` — use the string verbatim. The image is attached separately.
-- `format_template` — the string contains `{question}`; substitute the
-  manifest's `question` field. Both MGUI prompts are templates.
-- `prefix` — the string is only the leading instruction; the paper-era query
-  appended more text. See the reproducibility limit below.
+```python
+from pm4bench.data import load_manifest
+from pm4bench.task_prompts import build_query
 
-**Do not call `.format()` on every prompt.** `mdur-ocr-vision` contains a
-literal JSON schema, so its text has `{` and `}` in all ten languages and
+records, _digest = load_manifest("/path/to/PM4Bench-snapshot", "mdur", "en")
+query = build_query("mdur-vqa-traditional", records[0])
+```
+
+The returned string is the full text input. Images are **not** embedded: attach
+`traditional_images` (or `vision_image` / `image`) separately in your client,
+in the order the manifest lists them. `<image>` marks where each one belongs.
+
+`composition` records which rule applies, and getting it wrong is the most
+likely cause of a silently wrong score:
+
+| composition | prompts | rule |
+| --- | --- | --- |
+| `standalone` | 5 | use the string verbatim; the question is inside the image |
+| `format_template` | 2 (MGUI) | substitute the manifest `question` into `{question}` |
+| `prefix` | 3 | concatenate the body built per the entry's `assembly` block |
+
+**Do not call `.format()` on every prompt.** `mdur-ocr-vision` asks for a JSON
+object, so its text contains literal `{` and `}` in all ten languages and
 `str.format` raises `KeyError`. Only `format_template` prompts are templates.
 
-## Reproducibility limit on the three `prefix` prompts
+### The `assembly` block
 
-For `mdur-vqa-traditional`, `mdur-vqa-vision-reference-text` and
-`miqa-vqa-traditional`, the released string is the instruction prefix only. The
-text that followed it was assembled by historical build scripts from fields
-that the published benchmark does not preserve, so **the exact paper-era query
-cannot be reconstructed from the released data.** Measured against the frozen
-inference inputs, rebuilding the suffix from released manifest fields reproduces
+The three `prefix` prompts carry a machine-readable `assembly` rule, so you can
+reimplement it in another language if needed. Both MDUR prompts use:
 
-| `prompt_id` | reconstructed | total |
-| --- | --- | --- |
-| `mdur-vqa-traditional` | 8,477 | 17,300 |
-| `mdur-vqa-vision-reference-text` | 8,477 | 17,300 |
-| `miqa-vqa-traditional` | 1,917 | 2,180 |
+```
+prompt + separator + stem + "\n\n" + options + "\n\n" + answer_prefix[language]
+```
 
-Two causes are confirmed: released `options` arrays omit the option-level
-`<image>` markers that the paper-era query carried, and whitespace adjacent to
-image markers is not preserved. No assembly rule is published, because a rule
-that is right for half the corpus would mislead rather than help. The
-per-prompt `reproducibility` block in the resource records this machine-readably.
+- `stem` is `rendered_text` between `"<question_label>: "` and
+  `"\n<options_label>:\n"`, with `<image N>` rewritten to `<image>`. The
+  localized label pairs are in the block.
+- `options` come from the option block of `rendered_text`, relabeled from
+  `(A)  text` to `(A). text`. **Not from the `options` array** — image-only
+  options appear as markers in `rendered_text` but as empty strings in the
+  array, so the array silently loses them.
+- `answer_prefix` is the localized closing line, e.g. `Your answer:` /
+  `你的回答：`.
+- `separator` is a space for `mdur-vqa-traditional` and empty for
+  `mdur-vqa-vision-reference-text`.
 
-The seven other prompts are byte-exact or template-exact: each one matched
-every corresponding frozen query across all ten languages.
+`miqa-vqa-traditional` is simpler: append `" <image>"` to every line of
+`rendered_text` that ends in a colon, then concatenate onto the prompt, whose
+text already ends with the localized `Question: `.
+
+### What is and is not claimed
+
+The query `build_query` returns is consistent with the released images and
+manifests, which is what you need to evaluate the published benchmark. It is
+not claimed byte-identical to the inputs used for the paper's own runs: those
+were assembled by historical scripts, and whitespace normalization plus
+translation-revision differences affect a minority of non-English rows. Scores
+computed this way are self-consistent and comparable across models; treat small
+deviations from the published tables as expected.
+
+The five `standalone` prompts and the two MGUI templates carry no such caveat —
+each matched its corresponding frozen query exactly across all ten languages.
 
 ## MGUI coordinate space
 

@@ -15,6 +15,7 @@ from pm4bench.metrics import (
 )
 from pm4bench.task_prompts import (
     RESOURCE,
+    build_query,
     describe_prompts,
     load_task_prompts,
     prompt_entry,
@@ -84,16 +85,63 @@ def test_mdur_ocr_prompt_is_not_a_format_template() -> None:
         prompt_text("mdur-ocr-vision", "en").format(question="Q")
 
 
-def test_prefix_prompts_declare_their_reproducibility_limit() -> None:
+def test_prefix_prompts_carry_a_complete_assembly_rule() -> None:
     prefixes = {identifier for identifier in RELEASED
                 if prompt_entry(identifier)["composition"] == "prefix"}
     assert prefixes == {"mdur-vqa-traditional", "mdur-vqa-vision-reference-text",
                         "miqa-vqa-traditional"}
     for prompt_id in prefixes:
-        limit = prompt_entry(prompt_id)["reproducibility"]
-        assert limit["reconstructable_from_released_fields"] is False
-        assert 0 < limit["reconstructed_records"] < limit["total_records"]
-        assert limit["blocking_causes"]
+        rule = prompt_entry(prompt_id)["assembly"]
+        assert rule["source_field"] == "rendered_text"
+        assert "separator" in rule
+        if prompt_entry(prompt_id)["task"] == "mdur":
+            for key in ("question_label", "options_label", "answer_prefix"):
+                assert set(rule[key]) == set(LANGUAGES), (prompt_id, key)
+            assert rule["option_line"] == "({letter}). {option}"
+        else:
+            assert rule["image_placeholder"] == "<image>"
+    assert prompt_entry("mdur-vqa-traditional")["assembly"]["separator"] == " "
+    assert prompt_entry("mdur-vqa-vision-reference-text")["assembly"]["separator"] == ""
+
+
+def test_assembly_is_only_present_where_it_applies() -> None:
+    for prompt_id in RELEASED:
+        entry = prompt_entry(prompt_id)
+        assert ("assembly" in entry) == (entry["composition"] == "prefix"), prompt_id
+
+
+def test_build_query_assembles_each_composition() -> None:
+    mdur = {"language": "en", "rendered_text":
+            "Question: Which one?<image 1>\nOptions:\n(A)  first\n(B)  <image 2>",
+            "options": ["first", ""], "question": "Which one?"}
+    built = build_query("mdur-vqa-traditional", mdur)
+    assert built.startswith(prompt_text("mdur-vqa-traditional", "en") + " ")
+    assert "Which one?<image>" in built
+    # relabeled, and the image-only option survives via rendered_text
+    assert "(A). first\n(B). <image>" in built
+    assert built.endswith("\n\nYour answer:")
+    assert "<image 1>" not in built and "<image 2>" not in built
+
+    # vision_reference_text uses no separator
+    assert build_query("mdur-vqa-vision-reference-text", mdur).startswith(
+        prompt_text("mdur-vqa-vision-reference-text", "en") + "Which one?")
+
+    miqa = {"language": "en", "rendered_text": "Image 1:\nImage 2:\nCompare them.\n"}
+    built = build_query("miqa-vqa-traditional", miqa)
+    assert built.endswith("Image 1: <image>\nImage 2: <image>\nCompare them.")
+
+    standalone = build_query("mdur-vqa-vision", mdur)
+    assert standalone == prompt_text("mdur-vqa-vision", "en")
+
+    mgui = {"language": "en", "question": "Switch the trip type."}
+    assert build_query("mgui-vqa-screenshot", mgui).endswith("Switch the trip type.")
+
+
+def test_build_query_rejects_an_unusable_record() -> None:
+    with pytest.raises(ValueError):
+        build_query("mdur-vqa-traditional", {"rendered_text": "x"})
+    with pytest.raises(ValueError):
+        build_query("mdur-vqa-traditional", {"language": "en", "rendered_text": "no labels"})
 
 
 def test_example_responses_parse_as_documented() -> None:
@@ -129,7 +177,7 @@ def test_resource_is_canonically_serialized() -> None:
 def test_published_fields_are_whitelisted() -> None:
     """Keeps internal source paths and legacy axes out of the public resource."""
     allowed = {"task", "probe", "setting", "evaluate_with", "composition",
-               "response_format", "reproducibility", "verification", "digest", "text"}
+               "response_format", "assembly", "verification", "digest", "text"}
     for prompt_id in RELEASED:
         assert set(prompt_entry(prompt_id)) <= allowed, prompt_id
 
