@@ -91,6 +91,13 @@ PM4Bench/
     └── mgui/{gt,templates}/...
 ```
 
+Download the snapshot from the [Hugging Face dataset](https://huggingface.co/datasets/songjhPKU/PM4Bench); the tree above is its root. The code repository does not contain the manifests or images.
+
+```bash
+pip install -U huggingface_hub
+hf download songjhPKU/PM4Bench --repo-type dataset --local-dir PM4Bench-snapshot
+```
+
 See [DATA_FORMAT.md](docs/DATA_FORMAT.md) for schemas and asset resolution.
 
 ## Validate a snapshot
