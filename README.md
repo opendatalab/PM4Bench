@@ -109,8 +109,9 @@ pm4bench validate --dataset-root /path/to/PM4Bench-snapshot
 ## Query the models under evaluation
 
 The toolkit ships no inference code — you call your own models — but it does
-ship the eight prompts used to produce the published results, in all ten
-languages, and the rule for combining each one with a benchmark row. Use them:
+ship the eight prompt definitions used to produce the published results, one per
+task and input setting, each in all ten languages, and the rule for combining
+each one with a benchmark row. Use them:
 the metrics parse specific response markers, and a mismatched prompt is not an
 error, it silently scores low.
 
